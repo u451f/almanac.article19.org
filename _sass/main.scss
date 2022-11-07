@@ -1,52 +1,11 @@
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/assets/css/fonts/Inter-Regular.woff2?v=3.11") format("woff2"),
-       url("/assets/css/fonts/Inter-Regular.woff?v=3.11") format("woff");
+  font-family: 'Georama';
+  src: url("/assets/css/fonts/Georama-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/assets/css/fonts/Inter-Italic.woff2?v=3.11") format("woff2"),
-       url("/assets/css/fonts/Inter-Italic.woff?v=3.11") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("/assets/css/fonts/Inter-SemiBold.woff2?v=3.11") format("woff2"),
-       url("/assets/css/fonts/Inter-SemiBold.woff?v=3.11") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("/assets/css/fonts/Inter-Bold.woff2?v=3.11") format("woff2"),
-       url("/assets/css/fonts/Inter-Bold.woff?v=3.11") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url("/assets/css/fonts/Inter-BoldItalic.woff2?v=3.11") format("woff2"),
-       url("/assets/css/fonts/Inter-BoldItalic.woff?v=3.11") format("woff");
-}
-
-@font-face {
-    font-family: 'caveatbold';
-    src: url('/assets/css/fonts/Caveat-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Mono';
+  src: url("/assets/css/fonts/RedHatMono-VariableFont_wght.ttf") format("truetype");
 }
 
 * {
@@ -59,9 +18,10 @@ html {
 }
 
 body {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 150%;
-    font-family: "Inter", sans-serif;
+    font-family: "Mono", monospace;
+    font-variation-settings: "wght" 500;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -69,7 +29,8 @@ body {
     font-variant: common-ligatures tabular-nums;
     font-optical-sizing: auto;
     overflow-x: hidden;
-    color: #111;
+    color: #fff;
+    background: darkblue;
     max-width: 1400px;
     margin: auto;
 }
@@ -80,17 +41,15 @@ pre {
 
 a {
     outline: none;
-    color: #111;
+    color: #fff;
     transition: 0.5s ease-in-out;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #111;
 }
 
 #footer, #primary-menu {
-    background: #fff;
     padding: 1.25em 6vw;
     font-size: 13px;
     font-weight: 500;
@@ -145,17 +104,26 @@ a:hover {
     margin-bottom: 1.5em;
 }
 
-h1 {
+#site-title {
+    font-family: "Georama";
+    font-variation-settings: "wght" 100, "wdth" 100;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    word-spacing: 80px;
+    letter-spacing: 0.06em;
+    line-height: 1.2em;
     margin-bottom: 1em;
-    font-size: 1.7em;
-    line-height: 1.4em;
-    display: inline-block;
 }
 
-h1.page-title, .project-title {
-    font-size: 1.7em;
-    margin-bottom: 1.4em;
-    color: #111;
+#site-title a {
+    text-decoration: none;
+    width: min-intrinsic;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    display: table-caption;
+    display: -ms-grid;
+    -ms-grid-columns: min-content;
 }
 
 h2.title {
@@ -237,7 +205,6 @@ input[type=submit] {
 }
 
 /*************************************
-  Content Homepage
   ***********************************/
 
 .section {
@@ -250,24 +217,28 @@ input[type=submit] {
 }
 
 /*************************************
-  Posts
+Images
+ ***********************************/
+
+.img-logo {
+
+}
+
+.img-logo:hover {
+
+}
+
+.img-org {
+
+}
+
+.img-wg {
+
+}
+
+/*************************************
+ Media queries
   ***********************************/
-.project-full-view.post {
-    max-width: 750px;
-    margin: auto;
-}
-
-.post.post-excerpt {
-    margin-bottom: 2em;
-}
-
-.project-info {
-    padding: 0 6vw;
-}
-
-.mobile .project-legend {
-    padding: 0 6vw;
-}
 
 @media all and (min-width: 641px) {
 }
