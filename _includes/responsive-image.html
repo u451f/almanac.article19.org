@@ -1,0 +1,9 @@
+{% capture srcset %}
+{% for i in resized %}
+/{{ i.path }} {{ i.width }}w
+{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+{% endcapture %}
+<figure>
+    <img src="/{{ path }}" alt="{{ alt }}" title="{{ title }}" srcset="{{ srcset | strip_newlines }}" sizes="(min-width: 1400px) 1400px, 100vw" class="{{ class }}" loading="lazy">
+</figure>

@@ -1,0 +1,36 @@
+collections:
+ orgs:
+      output: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+title: "Internet Standards Almanac"
+description: ""
+url: https://almanac.article19.org
+author: "ARTICLE 19"
+twitter_username: "Article19"
+title_image: "/assets/resized/ulrike-uhlig-HTIRW_Mockup-1400x980.jpg"
+lang: "en"
+sass:
+      style: compressed
+responsive_image:
+  template: _includes/responsive-image.html
+  default_quality: 90
+  sizes:
+    - width: 640
+    - width: 768
+    - width: 1280
+    - width: 1400
+  # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size and win friends
+  # at Google PageSpeed.
+  strip: true
+  base_path: assets
+  save_to_source: true
+plugins:
+    - jekyll-feed
+feed:
+    path: atom.xml
+    posts_limit: 15
+    collections:

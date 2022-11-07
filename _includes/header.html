@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
+    {% feed_meta %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+    {% seo %}
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="@{{ site.author }}">
+    <meta name="twitter:title"   content="{{ page.title }}">
+{% if page.project_excerpt %}
+    <meta name="twitter:description" content="{{ page.project_excerpt }}">
+{% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.featured-img %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}/{{ page.featured-img }}">
+{% else %}
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="{{ site.url }}/{{ site.title_image }}">
+{% endif %}
+<!-- end of Twitter cards -->
+</head>
+<body class="desktop {{ page.menu-category }} {% if page.path contains '_posts' %} blog{% endif %}">
+    {% include navigation.html %}

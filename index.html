@@ -1,0 +1,15 @@
+---
+layout: home
+title: "Internet Standards Almanac"
+---
+<div class="section">
+    <div class="section-content">
+        <h1 class="project-title title-emphasized"></h1>
+        <div id="project-list">
+            {% assign projects = site.orgs %}
+            {% for org in orgs reversed limit:2 %}
+                {% include org_loop.html %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
