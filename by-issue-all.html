@@ -1,0 +1,14 @@
+---
+layout: default
+title: "All issues"
+---
+<div class="section" id="post-list">
+    <div class="section-content">
+        {% for tag in site.tags %}
+            <h2>{{ tag[0] }}</h2>
+            {% for post in tag[1] %}
+                {% include post_loop.html %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
