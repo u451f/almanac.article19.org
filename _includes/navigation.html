@@ -5,7 +5,17 @@
     <li {% if page.url == item.link %}class="current-item"{% endif %}
         {% if item.link contains page.menu-category %}class="current-item"{% endif %}
         >
-        <a href="{{ item.link }}">{{ item.name }}</a></li>
+        {% if item.subfolderitems %}
+            <span>{{ item.name }}</span>
+            <ul>
+                {% for entry in item.subfolderitems %}
+                <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+        <a href="{{ item.link }}">{{ item.name }}</a>
+        {% endif %}
+    </li>
   {% endfor %}
   </ul>
 </nav>
