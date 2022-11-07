@@ -1,14 +1,12 @@
 <div class="org">
-    <!-- is the featured image the org logo? -->
-    {% if org.featured-img %}
-        {% assign path = org.featured-img %}
-        {% assign alt = org.featured-img-alt %}
-            {% responsive_image_block %}
-                path: {{ path }}
-                alt: {{ alt }}
-            {% endresponsive_image_block %}
-    {% endif %}
     <div class="org-description">
         <h2 class="title"><a class="permalink" href="{{org.url}}">{{ org.title }}</a></h2>
+        <!-- organization village image -->
+        {% if org.featured-img %}
+            {{ org.featured-img }}
+        {% endif %}
+        {% if org.logo %}
+            {{ org.logo }}
+        {% endif %}
     </div>
 </div>
