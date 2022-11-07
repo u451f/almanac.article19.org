@@ -1,5 +1,22 @@
 {% include header.html %}
-   <div id="content">
-       {{ content }}
+   <div class="section" id="group">
+        <div class="section-content">
+            <div class="org">
+                {% if page.logo %}
+                    {{ page.logo }}
+                {% endif %}
+
+                {{ content }}
+            </div>
+        </div>
    </div>
+   <div class="section" id="orgs-list">
+        <div class="section-content">
+            → All groups in this organization
+            {% assign groups = site.groups | where: 'org', page.ref %}
+            {% for group in groups %}
+                {% include group_loop.html %}
+            {% endfor %}
+        </div>
+    </div>
 {% include footer.html %}

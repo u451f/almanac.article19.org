@@ -1,5 +1,18 @@
 {% include header.html %}
-   <div id="content">
-       {{ content }}
+   <div class="section" id="group">
+        <div class="section-content">
+            {{ content }}
+        </div>
    </div>
+   <div class="section" id="orgs-list">
+        <div class="section-content">
+            → Other groups in the same organization
+            {% assign groups = site.groups | where: 'org', page.org %}
+            {% for group in groups %}
+                {% if group.title != page.title %}
+                    {% include group_loop.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
 {% include footer.html %}
