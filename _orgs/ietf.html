@@ -6,23 +6,11 @@ featured-img: assets/images/orgs/ietf.svg
 title: "Internet Engineering Task Force (IETF)"
 excerpt: "This is an excerpt text"
 ---
-<div class="org">
-    {% if page.logo %}
-        {{ page.logo }}
-    {% endif %}
-    <h1 class="org-title">Internet Engineering Task Force (IETF)</h1>
-    <div class="org-description">
-        text text
-    </div>
-    <div class="org-links">
-        links links
-    </div>
-    Below all the WGs in this organization
+
+<h1 class="org-title">Internet Engineering Task Force (IETF)</h1>
+<div class="org-description">
+    text text
 </div>
-<div id="orgs-list">
-    {% assign groups = site.groups | where: 'org', page.ref %}
-    {% for group in groups %}
-    lol
-        {% include group_loop.html %}
-    {% endfor %}
+<div class="org-links">
+    links links
 </div>
