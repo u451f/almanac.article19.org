@@ -1,8 +1,9 @@
 collections:
- groups:
-      output: true
- orgs:
-      output: true
+  orgs:
+    output: true
+  posts:
+    output: true
+    permalink: /group/:title
 defaults:
   - scope:
       path: ""
