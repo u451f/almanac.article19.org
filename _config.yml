@@ -1,4 +1,6 @@
 collections:
+ groups:
+      output: true
  orgs:
       output: true
 defaults:
