@@ -8,6 +8,11 @@
   src: url("/assets/css/fonts/RedHatMono-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'MonoItalic';
+  src: url("/assets/css/fonts/RedHatMono-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +52,11 @@ a {
 }
 
 a:hover {
+}
+
+i, em {
+    font-family: "MonoItalic", monospace;
+    font-variation-settings: "wght" 500;
 }
 
 #footer, #primary-menu {
@@ -221,6 +231,7 @@ Images
  ***********************************/
 
 .img-logo {
+    width: 140px;
 
 }
 
