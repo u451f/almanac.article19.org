@@ -1,0 +1,10 @@
+<div class="group">
+    <!-- is the featured image the org logo? -->
+    <div class="group-description">
+        <h2 class="title"><a class="permalink" href="{{group.url}}">{{ group.title }}</a></h2>
+        <!-- organization village image -->
+        {% if group.featured-img %}
+            {{ group.featured-img }}
+        {% endif %}
+    </div>
+</div>
