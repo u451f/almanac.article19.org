@@ -3,7 +3,7 @@
         <div class="section-content">
             <div class="org">
                 {% if page.logo %}
-                    {{ page.logo }}
+                    <img class="logo" src="{{ site.url }}/{{ page.logo }}" alt="{{page.title}} logo" />
                 {% endif %}
 
                 {{ content }}
