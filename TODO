@@ -1,28 +1,18 @@
-_config:
-    change twitter image to ART19 logo or aperçu of this website!
+- [] _config: change twitter image to ART19 logo or aperçu of this website!
+- [] adjust menu navigation on large screens
+- [] home: create village SVGs for home
+- [] home: order of orgs on home
+- [] home: excerpts with little triangle background
+- [] imgs: arrows for link background
+- [] imgs: ART 19 logo to footer
+- [] imgs: group images
+- [] imgs: create org images (villages)
+- [] imgs: check why the photos are not sharp
+- [] imgs: check why the colors look weird on the Debian computer/office screen?
+- [] backgrounds: have different backgrounds per template, based on body class
+- [] background: add little background shadows here and there
+- [] reading order: on group and maybe also on org page: have the logo first on mobile, do it va JS like on my website
+- [] structure: create relevant issue pages
+- [] structure: link tag pages properly in the templates
+- [] content: texts
 
-adjust menu navigation on large screens
-
-order of orgs on home
-
-arrows for links
-
-css images
-
-animate cloud
-
-on group and maybe also on org page: have the logo first on mobile, do it va JS like on my website
-
-ART 19 logo to footer
-
-excerpts with little triangle background
-
-background images
-
-group images
-
-org images (villages)
-
-texts
-
-create relevant issue pages
