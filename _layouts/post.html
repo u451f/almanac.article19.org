@@ -1,12 +1,12 @@
 {% include header.html %}
 <div id="content">
    <div class="section">
-        <div class="section-content grid group">
+        <div class="section-content grid">
             <div id="main-text">
             {{ content }}
             </div>
             {% if page.featured-img %}
-                <img class="logo" src="{{ site.url }}/{{ post.featured-img }}" alt="{{post.featured-img}} logo" />
+                <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
             {% endif %}
             <p class="all-groups">→ Other groups in the same organization</p>
         </div>
