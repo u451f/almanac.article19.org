@@ -18,7 +18,7 @@
 }
 
 html {
-    background: #fff;
+    background: #12bb9d;
 }
 
 body {
@@ -88,25 +88,18 @@ i, em {
   Menu
   ***********************************/
 
-.menu-action {
-    position: absolute;
-    top: var(--space);
-    right: var(--space);
-    font-variation-settings: "wght" 500;
-    text-transform: uppercase;
-}
-
 #primary-menu {
     background: var(--bg);
     position: fixed;
     top: 0;
-    left: 0;
     width: 100vw;
     height: 100vh;
     padding: 2vh var(--space);
     box-sizing: border-box;
     z-index: 3;
     overflow: hidden;
+    transition: right 1s ease-in-out;
+    right: -100vw;
 }
 
 #primary-menu li {
@@ -121,6 +114,15 @@ i, em {
 #primary-menu .main-menu {
     overflow-y: auto;
     height: 70%;
+}
+
+.main-menu {
+    -ms-overflow-style: none;  /* Hide scrollbar IE10+ */
+    scrollbar-width: none;  /* Hide scrollbar Firefox */
+
+}
+.main-menu::-webkit-scrollbar {
+    display: none; /* Hide scrollbar webkit */
 }
 
 .menu ul {
@@ -156,6 +158,53 @@ i, em {
 .menu li a:hover,
 .menu .current-item a {
     text-decoration: underline;
+}
+
+/*************************************
+ Menu animaton
+ ************************************/
+
+.mobile-menu-toggle {
+    z-index: 11;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 13;
+    position: absolute;
+    top: var(--space);
+    right: var(--space);
+}
+
+.toggler {
+    font-variation-settings: "wght" 500;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 4;
+}
+
+.mobile-menu-toggle input {
+    position: absolute;
+    z-index: 5;
+    width: 40px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    opacity: 0;
+}
+
+/* activation */
+.mobile-menu-toggle input:checked ~ #primary-menu {
+    right: 0;
+}
+
+.mobile-menu-toggle input:checked ~ .toggler.menu-action::before {
+    content: "Close";
+    display: block;
+}
+
+.mobile-menu-toggle input:checked ~ .toggler.menu-action span {
+    display: none;
 }
 
 /*************************************
