@@ -395,6 +395,7 @@ input[type=submit] {
     border: 1px solid var(--light);
     font-variation-settings: "wght" 500;
     display: none;
+    text-align: center;
 }
 
 #org-list .org:hover .excerpt {
