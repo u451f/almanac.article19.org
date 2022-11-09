@@ -213,14 +213,13 @@ input[type=submit] {
     background: var(--bg);
     position: fixed;
     top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     padding: var(--vspace) var(--hspace);
     box-sizing: border-box;
     z-index: 3;
     overflow: hidden;
-    transition: right 1s ease-in-out;
-    right: -100vw;
 }
 
 #primary-menu li {
@@ -314,8 +313,14 @@ input[type=submit] {
 }
 
 /* activation */
+
+#primary-menu {
+    transition: top .5s ease-in-out;
+    top: -100vh;
+}
+
 .mobile-menu-toggle input:checked ~ #primary-menu {
-    right: 0;
+    top: 0;
 }
 
 .mobile-menu-toggle input:checked ~ .toggler.menu-action::before {
@@ -410,7 +415,7 @@ input[type=submit] {
  Org page
   ***********************************/
 
-.grid .logo {
+.org .grid .logo {
     background: url(images/circle.svg) center center no-repeat;
     background-size: cover;
     width: 12vw;
@@ -434,7 +439,11 @@ input[type=submit] {
  WG page
   ***********************************/
 
-.wg-links {
+.post .logo {
+    width: 100%;
+}
+
+.post .wg-links {
     margin-top: 2em;
 }
 
@@ -457,6 +466,7 @@ input[type=submit] {
 
     #header {
         position: absolute;
+        padding-right: 0;
     }
 
     .grid {
@@ -468,8 +478,14 @@ input[type=submit] {
         grid-column-start: 2;
         grid-column-end: 4;
     }
-    .grid .logo {
+
+    .org .grid .logo {
         margin-top: -6vh;
+    }
+
+    .post .grid .logo {
+        grid-column-start: 4;
+        grid-column-end: 6;
     }
 
     /* homepage */
@@ -506,7 +522,7 @@ input[type=submit] {
     position: absolute;
     top: 50px;
     right: 0;
-    z-index: 10;
+    z-index: 3;
     transition: all 1s ease-in-out;
     animation: move ease-in-out 15s -2s infinite alternate;
 }
