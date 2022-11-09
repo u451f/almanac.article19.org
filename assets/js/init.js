@@ -27,8 +27,8 @@ $(function($){
         $('body').addClass('safari');
     }
 
-    // link posts and projects more easily
-    $('.blog .post, #project-list .project').click(function() {
+    // easy click on orgs and groups from list
+    $('.org, .post').click(function() {
         let href = $(this).find('.permalink').attr('href');
         if(href !== undefined) {
             window.location.href = href;

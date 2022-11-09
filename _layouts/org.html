@@ -1,22 +1,23 @@
 {% include header.html %}
-   <div class="section" id="post">
-        <div class="section-content">
-            <div class="org">
-                {% if page.logo %}
-                    <img class="logo" src="{{ site.url }}/{{ page.logo }}" alt="{{page.title}} logo" />
-                {% endif %}
-
+<div id="content">
+    <div class="section" id="post">
+        <div class="section-content grid org">
+            <div id="main-text">
                 {{ content }}
             </div>
+            {% if page.logo %}
+                <img class="logo" src="{{ site.url }}/{{ page.logo }}" alt="{{page.title}} logo" />
+            {% endif %}
+            <p class="all-groups">→ All groups in this organization</p>
         </div>
-   </div>
-   <div class="section" id="post-list">
-        <div class="section-content">
-            → All groups in this organization
+    </div>
+    <div class="section" id="post-list">
+        <div class="section-content grid">
             {% assign orgposts = site.posts | where: 'org', page.org %}
             {% for post in orgposts %}
                 {% include post_loop.html %}
-            {% endfor %}
-        </div>
+             {% endfor %}
+         </div>
     </div>
+</div>
 {% include footer.html %}

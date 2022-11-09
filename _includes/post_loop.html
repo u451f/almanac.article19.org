@@ -1,8 +1,8 @@
 <div class="post">
     <div class="post-description">
-        <h2 class="post-title"><a class="permalink" href="{{post.url}}">{{ post.title }}</a></h2>
         {% if post.featured-img %}
             <img class="img-wg" src="{{ site.url}}/{{ post.featured-img }}" alt="{{ post.title }} representation">
         {% endif %}
+        <h2 class="post-title"><a class="permalink" href="{{post.url}}">{{ post.title }}</a></h2>
     </div>
 </div>

@@ -1,12 +1,18 @@
 {% include header.html %}
-   <div class="section" id="post">
-        <div class="section-content">
+<div id="content">
+   <div class="section">
+        <div class="section-content grid group">
+            <div id="main-text">
             {{ content }}
+            </div>
+            {% if page.featured-img %}
+                <img class="logo" src="{{ site.url }}/{{ post.featured-img }}" alt="{{post.featured-img}} logo" />
+            {% endif %}
+            <p class="all-groups">→ Other groups in the same organization</p>
         </div>
    </div>
-   <div class="section" id="orgs-list">
-        <div class="section-content">
-            → Other groups in the same organization
+   <div class="section" id="post-list">
+        <div class="section-content grid">
             {% assign posts = site.posts | where: 'org', page.org %}
             {% for post in posts %}
                 {% if post.title != page.title %}
@@ -15,4 +21,5 @@
             {% endfor %}
         </div>
     </div>
+</div>
 {% include footer.html %}

@@ -1,16 +1,22 @@
 {% include header.html %}
-    <div id="content">
-        <div class="section" id="post-list">
-            <div class="section-content">
-                {% for tag in site.tags %}
-                    {% if tag[0] == page.ref %}
-                        <h2 class="">{{ page.title }}</h2>
-                        {% for post in tag[1] %}
-                            {% include post_loop.html %}
-                        {% endfor %}
-                    {% endif %}
-                {% endfor %}
+<div id="content">
+    <div class="section">
+        <div class="section-content grid">
+            <div id="main-text">
+                <h2 class="title">{{ page.title }}</h2>
             </div>
         </div>
-   </div>
+    </div>
+    <div class="section" id="post-list">
+        <div class="section-content grid">
+            {% for tag in site.tags %}
+                {% if tag[0] == page.ref %}
+                    {% for post in tag[1] %}
+                        {% include post_loop.html %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
 {% include footer.html %}
