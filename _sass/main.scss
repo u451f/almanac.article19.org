@@ -1,16 +1,15 @@
-@font-face {
-  font-family: 'Georama';
-  src: url("/assets/css/fonts/Georama-VariableFont_wdth,wght.ttf") format("truetype");
-}
+@charset "UTF-8";
 
 @font-face {
-  font-family: 'Mono';
-  src: url("/assets/css/fonts/RedHatMono-VariableFont_wght.ttf") format("truetype");
+  font-family: 'SpaceGrotesk';
+  src: url("/assets/css/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: 'MonoItalic';
-  src: url("/assets/css/fonts/RedHatMono-Italic-VariableFont_wght.ttf") format("truetype");
+:root {
+  --light: #fff;
+  --bg: #00478f;
+  --space: 6vw;
+  --basefontsize: 16px;
 }
 
 * {
@@ -23,10 +22,10 @@ html {
 }
 
 body {
-    font-size: 16px;
+    font-size: var(--basefontsize);
     line-height: 150%;
-    font-family: "Mono", monospace;
-    font-variation-settings: "wght" 500;
+    font-family: "SpaceGrotesk", sans-serif;
+    font-variation-settings: "wght" 400;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -35,7 +34,7 @@ body {
     font-optical-sizing: auto;
     overflow-x: hidden;
     color: #fff;
-    background: darkblue;
+    background: var(--bg);
     max-width: 1400px;
     margin: auto;
 }
@@ -46,30 +45,42 @@ pre {
 
 a {
     outline: none;
-    color: #fff;
+    color: var(--light);
     transition: 0.5s ease-in-out;
     text-decoration: underline;
 }
 
 a:hover {
+    text-decoration: none;
+}
+
+a[href^="http"] {
+    background: url("external-link.png") no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+}
+
+a[href^="https://almanac.article19.org"],
+a[href^="https://localhost"] {
+    background: none;
+    padding-right: 0;
+}
+
+a.glossary {
+    text-decoration: none;
+    border-bottom: 1px dotted;
 }
 
 i, em {
-    font-family: "MonoItalic", monospace;
-    font-variation-settings: "wght" 500;
+    /* FIXME */
 }
 
-#footer, #primary-menu {
-    padding: 1.25em 6vw;
-    font-size: 13px;
-    font-weight: 500;
+#header {
+    padding: 2vh var(--space);
 }
 
 #footer {
     margin-top: 5em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    clear: both;
 }
 
 
@@ -77,13 +88,39 @@ i, em {
   Menu
   ***********************************/
 
+.menu-action {
+    position: absolute;
+    top: var(--space);
+    right: var(--space);
+    font-variation-settings: "wght" 500;
+    text-transform: uppercase;
+}
+
 #primary-menu {
-    /*position: fixed;*/
+    background: var(--bg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 2vh var(--space);
+    box-sizing: border-box;
     z-index: 3;
+    overflow: hidden;
 }
 
 #primary-menu li {
-    display: inline-block;
+    display: block;
+}
+
+#primary-menu #site-title {
+    height: 30%;
+    margin: 0;
+}
+
+#primary-menu .main-menu {
+    overflow-y: auto;
+    height: 70%;
 }
 
 .menu ul {
@@ -91,17 +128,34 @@ i, em {
    margin: 0;
 }
 
-.menu a {
-    text-decoration: none;
+.menu li ul {
+    margin-left: var(--space);
+    display: none;
+}
+
+.menu li {
     text-transform: uppercase;
-    color: #111;
-    padding: 0.4em 0.5em 0.3em;
+    font-size: calc(var(--basefontsize) * 2);
+        line-height: 1.5em;
+}
+
+.menu li span {
+    display: block;
+}
+
+.menu li li {
+    text-transform: none;
+    font-size: calc(var(--basefontsize)*1.2);
+    margin-bottom: calc(var(--space)/3);
+}
+
+.menu li a {
+    text-decoration: none;
 }
 
 .menu li a:hover,
 .menu .current-item a {
-    background: #111;
-    color: #fff;
+    text-decoration: underline;
 }
 
 /*************************************
@@ -114,18 +168,20 @@ i, em {
     margin-bottom: 1.5em;
 }
 
-#site-title {
-    font-family: "Georama";
-    font-variation-settings: "wght" 100, "wdth" 100;
+.site-title, .title, #primary-menu {
+    font-variation-settings: "wght" 300;
     text-transform: uppercase;
-    font-size: 2.5em;
-    word-spacing: 80px;
     letter-spacing: 0.06em;
+}
+
+.site-title {
+    font-size: 2.5em;
     line-height: 1.2em;
+    word-spacing: 80px;
     margin-bottom: 1em;
 }
 
-#site-title a {
+.site-title a {
     text-decoration: none;
     width: min-intrinsic;
     width: -webkit-min-content;
@@ -223,7 +279,7 @@ input[type=submit] {
 
 .section-content {
     margin: 0 auto 3em;
-    padding: 0 6vw;
+    padding: 0 var(--space);
 }
 
 /*************************************

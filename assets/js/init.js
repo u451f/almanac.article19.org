@@ -19,29 +19,6 @@ Copyright (C) 2019-2022 Ulrike Uhlig
 */
 
 $(function($){
-    // detect browser lang and redirect homepage to relevant translation if we're on english home
-    // but do we want to force this automatically really?
-    let current_path = window.location.pathname;
-
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const language = urlParams.get('l')
-
-    if(current_path == "/") {
-        /*
-        if (/^fr\b/.test(navigator.language) && typeof language !== 'undefined') {
-            window.location.replace("/")
-        }
-        // only for testing purposes
-        if (/^en\b/.test(navigator.language) && typeof language !== 'undefined') {
-            window.location.replace("/")
-        }
-        */
-        if (/^de\b/.test(navigator.language) && typeof language !== 'undefined') {
-            window.location.replace("/de")
-        }
-    }
-
     // helper function for mobile layout
     if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         $('body').addClass('mobile').removeClass('desktop');
@@ -49,16 +26,6 @@ $(function($){
     if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
         $('body').addClass('safari');
     }
-
-    // antispam
-    $('a.mail').each(function() {
-        e = this.rel.replace('///','@');
-        this.href = 'mailto:' + e;
-        $(this).html(e);
-    });
-
-    // mobile text below images
-    $("body.mobile .project-legend").appendTo('.project-images');
 
     // link posts and projects more easily
     $('.blog .post, #project-list .project').click(function() {
@@ -68,23 +35,10 @@ $(function($){
         }
     });
 
-    // back button
-    let backnavhref = $('.main-menu .current-item a').attr('href');
-    if(backnavhref !== undefined) {
-        $('#back-button').attr('href', backnavhref);
-    }
-});
+    $('.main-menu li').click(function() {
+        if($(this).children("ul").length) {
+            $(this).children("ul").slideToggle(500);
+        }
+    });
 
-/*
-// inititalize swiper
-var swiper = new Swiper('.swiper-container', {
-    pagination: '.swiper-pagination',
-    paginationClickable: true,
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    spaceBetween: 0,
-    autoplay: false,
-    autoplayDisableOnInteraction: true,
-    loop: true
 });
-*/
