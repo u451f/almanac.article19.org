@@ -1,18 +1,21 @@
 <div class="org" id="org-{{ org.org }}">
     <div class="description">
-        <h2 class="title"><a class="permalink" href="{{org.url}}">{{ org.title }}</a></h2>
-        {% if org.featured-img %}
-            <img class="img-org" src="{{ site.url }}/{{ org.featured-img }}" alt="{{ org.title }} working groups"/>
-        {% endif %}
+    {% if org.featured-img %}
+        <img class="img-org" src="{{ site.url }}/{{ org.featured-img }}" alt="{{ org.title }} working groups"/>
+    {% endif %}
 
 {% comment %}
-        {% if org.logo %}
-            <img class="img-logo" src="{{ site.url }}/{{ org.logo }}" alt="{{ org.title }} logo"/>
-        {% endif %}
+    {% if org.logo %}
+        <img class="img-logo" src="{{ site.url }}/{{ org.logo }}" alt="{{ org.title }} logo"/>
+    {% endif %}
 {% endcomment %}
 
-        {% if org.excerpt %}
-        <p class="excerpt">{{ org.excerpt }}</p>
-        {% endif %}
+    {% if org.excerpt %}
+        <div class="excerpt">
+            <h2 class="title"><a class="permalink" href="{{org.url}}">{{ org.title }}</a></h2>
+            <p>{{ org.excerpt }}</p>
+        </div>
+    {% endif %}
+
     </div>
 </div>
