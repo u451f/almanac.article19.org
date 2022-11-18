@@ -28,8 +28,8 @@ $(function($){
     }
 
     // easy click on orgs and groups from list
-    $('.org, .post').click(function() {
-        let href = $(this).find('.permalink').attr('href');
+    $('#org-list .org, #post-list .post').click(function() {
+        let href = $(this).children().find('.permalink').attr('href');
         if(href !== undefined) {
             window.location.href = href;
         }
