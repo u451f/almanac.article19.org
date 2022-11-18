@@ -435,16 +435,18 @@ input[type=submit] {
     margin-top: 2em;
 }
 
+.links {
+    margin-top: 2em;
+    margin-left: 0;
+    list-style: none;
+}
+
 /*************************************
  WG page
   ***********************************/
 
 .post .logo {
     width: 100%;
-}
-
-.post .wg-links {
-    margin-top: 2em;
 }
 
 /*************************************
@@ -455,6 +457,14 @@ input[type=submit] {
 }
 
 @media all and (min-width: 841px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0.5em;
+    }
+    #breadcrumbs, #main-text, .all-groups {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -471,7 +481,6 @@ input[type=submit] {
 
     .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 0.5em;
     }
 
     #breadcrumbs, #main-text, .all-groups {
