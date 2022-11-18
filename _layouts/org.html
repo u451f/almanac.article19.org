@@ -5,15 +5,15 @@
             <div id="main-text">
                 {{ content }}
             </div>
-            {% if page.logo %}
-                <img class="logo" src="{{ site.url }}/{{ page.logo }}" alt="{{page.title}} logo" />
-            {% endif %}
+        {% if page.logo %}
+            <img class="logo" src="{{ site.url }}/{{ page.logo }}" alt="{{page.title}} logo" />
+        {% endif %}
             <p class="all-groups">→ All groups in this organization</p>
         </div>
     </div>
     <div class="section" id="post-list">
         <div class="section-content grid">
-            {% assign orgposts = site.posts | where: 'org', page.org %}
+            {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
             {% for post in orgposts %}
                 {% include post_loop.html %}
              {% endfor %}
