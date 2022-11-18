@@ -13,7 +13,7 @@
     </div>
     <div class="section" id="post-list">
         <div class="section-content grid">
-            {% assign posts = site.posts | where: 'org', page.org %}
+            {% assign posts = site.posts | where: 'org', page.org | reverse %}
             {% for post in posts %}
                 {% if post.title != page.title %}
                     {% include post_loop.html %}
