@@ -33,7 +33,7 @@ body {
     font-kerning: normal;
     font-variant: common-ligatures tabular-nums;
     font-optical-sizing: auto;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     color: #fff;
     min-height: 100vh;
 }
@@ -386,14 +386,29 @@ input[type=submit] {
 
 #org-list .org {
     cursor: pointer;
+    position: relative;
+    margin-bottom: 4em;
 }
 
 #org-list .org a {
     text-decoration: none;
 }
 
+#org-list .org .permalink {
+    display: none;
+}
+
 #org-list .org .description {
     position: relative;
+}
+
+#org-list .org .img-logo {
+    width: 33%;
+    height: auto;
+    max-height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 #org-list .org .excerpt {
@@ -427,6 +442,7 @@ input[type=submit] {
 
 #post-list .post {
     cursor: pointer;
+    text-align: center;
 }
 
 #post-list .post a {
@@ -449,6 +465,8 @@ input[type=submit] {
 
 .post .logo {
     width: 100%;
+    max-height: 50vh;
+    margin-top: -4vh;
 }
 
 /*************************************
@@ -461,7 +479,10 @@ input[type=submit] {
 @media all and (min-width: 841px) {
     .grid {
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 0.5em;
+        grid-column-gap: 4em;
+    }
+    #post-list .post:nth-child(even) {
+        margin-top: 4em;
     }
     #breadcrumbs, #main-text, .all-groups {
         grid-column-start: 1;
@@ -485,6 +506,26 @@ input[type=submit] {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+   .ogrid {
+        display: grid;
+        grid-template-columns: 40vw 1fr;
+        grid-column-gap: 2vw;
+        grid-row-gap: 4vh;
+    }
+
+    .ogrid .org:nth-child(even) {
+        margin-top: 10em;
+    }
+
+    .ogrid #org-ietf {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .ogrid #org-ieee {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
     #breadcrumbs, #main-text, .all-groups {
         grid-column-start: 2;
         grid-column-end: 4;
@@ -502,17 +543,6 @@ input[type=submit] {
     /* homepage */
     #intro img {
         margin-top: 100px;
-    }
-
-    #org-ietf {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    #org-irtf {
-        grid-column-start: 4;
-        grid-column-end: 6;
-
     }
 }
 
@@ -536,6 +566,7 @@ input[type=submit] {
     z-index: 3;
     transition: all 1s ease-in-out;
     animation: move ease-in-out 15s -2s infinite alternate;
+display: none;
 }
 
 @keyframes move {
