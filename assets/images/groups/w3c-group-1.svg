@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="86.374062mm"
+   height="61.67984mm"
+   viewBox="0 0 86.374061 61.679839"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="hut-oval1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.1122418"
+     inkscape:cx="127.23947"
+     inkscape:cy="97.036162"
+     inkscape:window-width="1694"
+     inkscape:window-height="1208"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <sodipodi:guide
+       position="-184.1084,213.9809"
+       orientation="1,0"
+       id="guide2923"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="18.811347,158.22115"
+       orientation="0,-1"
+       id="guide8011"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="278.83216,263.32632"
+       orientation="0,-1"
+       id="guide11504"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="255.23526,253.74717"
+       orientation="-0.00080638876,-0.99999967"
+       id="guide13038"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="244.94539,297.80654"
+       orientation="0,-1"
+       id="guide13636"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="377.40417,309.59313"
+       orientation="0,-1"
+       id="guide13711"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect10491"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-178.76916,-246.85037)">
+    <path
+       id="rect6790"
+       style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 215.23588,291.28131 h -5.09541 v 5.6663 h -4.13569 v 5.6663 h -4.43068 v 5.6663 h 40.76409 v -5.6663 h -4.43118 v -5.6663 h -4.1352 v -5.6663 h -5.0954 c -7.35705,-0.1202 -4.72115,0.0276 -13.44053,0 z"
+       sodipodi:nodetypes="ccccccccccccccc" />
+    <ellipse
+       style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.7"
+       id="path48976"
+       cx="223.10382"
+       cy="270.78607"
+       rx="28.777155"
+       ry="11.731896" />
+    <path
+       id="path17284"
+       style="fill:#ff778a;fill-opacity:1;stroke-width:0.470277;stroke-linecap:round;stroke-linejoin:round"
+       d="m 221.95619,246.85037 c -23.85149,0 -43.18703,11.81832 -43.18703,26.39684 0,14.57851 19.84559,20.10575 43.69707,20.10575 23.8515,0 42.67699,-5.52724 42.67699,-20.10575 0,-14.57852 -19.33554,-26.39684 -43.18703,-26.39684 z m -21.92425,17.16226 h 6.71639 v 6.12107 h -6.71639 z m 7.39645,0 h 6.71587 v 6.12107 h -6.71587 z m 7.39593,0 h 6.71639 v 6.12107 h -6.71639 z m 7.4626,0 h 6.71587 v 6.12107 h -6.71587 z m 7.39593,0 h 6.71587 v 6.12107 h -6.71587 z m 7.39645,0 h 6.71587 v 6.12107 h -6.71587 z m -36.96209,6.69727 h 6.71587 v 6.12055 h -6.71587 z m 7.39593,0 h 6.71639 v 6.12055 h -6.71639 z m 7.39645,0 h 6.71587 v 6.12055 h -6.71587 z m 7.46208,0 h 6.71587 v 6.12055 h -6.71587 z m 7.39644,0 h 6.71587 v 6.12055 h -6.71587 z m 7.39594,0 h 6.71586 v 6.12055 h -6.71586 z" />
+    <g
+       id="g17652"
+       style="fill:#ffffff"
+       transform="translate(-0.21253396)" />
+  </g>
+</svg>

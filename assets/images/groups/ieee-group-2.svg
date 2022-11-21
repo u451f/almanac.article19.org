@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30.218403mm"
+   height="70.203537mm"
+   viewBox="0 0 30.218401 70.203538"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="hut-mush2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#12bb9d"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="40.835417"
+     inkscape:cy="104.47503"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g13050"
+     showguides="true"
+     inkscape:lockguides="false">
+    <sodipodi:guide
+       position="-331.71994,-40.794996"
+       orientation="1,0"
+       id="guide2923"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-128.80018,-96.554745"
+       orientation="0,-1"
+       id="guide8011"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="24.403178,-19.073505"
+       orientation="0,-1"
+       id="guide40740"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect46975"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect40534"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect40530"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect40526"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect40522"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-326.38071,5.8658958)">
+    <g
+       id="g13050"
+       transform="translate(-91.299271,20.018488)">
+      <g
+         id="g65534"
+         transform="translate(1.0306998)">
+        <g
+           id="g49278-7-9"
+           transform="matrix(0.1175987,0,0,0.82446896,379.83641,1.095215)"
+           style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.839542;stroke-dasharray:none;stroke-opacity:1">
+          <rect
+             style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.839542;stroke-dasharray:none;stroke-opacity:1"
+             id="rect45972-5-6"
+             width="10.849457"
+             height="44.317707"
+             x="421.48883"
+             y="8.1086931" />
+        </g>
+        <g
+           id="g49278-7-9-9"
+           transform="matrix(0.1175987,0,0,0.82446896,381.55399,1.095215)"
+           style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.839542;stroke-dasharray:none;stroke-opacity:1">
+          <rect
+             style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.839542;stroke-dasharray:none;stroke-opacity:1"
+             id="rect45972-5-6-3"
+             width="10.849457"
+             height="44.317707"
+             x="421.48883"
+             y="8.1086931" />
+        </g>
+        <g
+           id="g49278-7-9-2"
+           transform="matrix(0.1175987,0,0,0.82446896,383.27157,1.095215)"
+           style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.839542;stroke-dasharray:none;stroke-opacity:1">
+          <rect
+             style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.839542;stroke-dasharray:none;stroke-opacity:1"
+             id="rect45972-5-6-32"
+             width="10.849457"
+             height="44.317707"
+             x="421.48883"
+             y="8.1086931" />
+        </g>
+      </g>
+      <ellipse
+         style="fill:#ff778a;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+         id="path58153-6"
+         cx="432.78918"
+         cy="1.6306124"
+         rx="14.759201"
+         ry="6.9482493" />
+      <circle
+         style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+         id="path58153"
+         cx="432.78918"
+         cy="-10.775183"
+         r="14.759201" />
+      <circle
+         style="fill:#ffa6b2;fill-opacity:1;stroke:none;stroke-width:0.409859;stroke-dasharray:none;stroke-opacity:1"
+         id="path58153-4"
+         cx="421.78986"
+         cy="-11.963872"
+         r="1.7565384" />
+      <circle
+         style="fill:#ffa6b2;fill-opacity:1;stroke:none;stroke-width:0.409859;stroke-dasharray:none;stroke-opacity:1"
+         id="path58153-4-5"
+         cx="425.43121"
+         cy="-8.7995815"
+         r="1.7565384" />
+      <circle
+         style="fill:#ffa6b2;fill-opacity:1;stroke:none;stroke-width:0.409859;stroke-dasharray:none;stroke-opacity:1"
+         id="path58153-4-5-2"
+         cx="429.82782"
+         cy="-6.4609728"
+         r="1.7565384" />
+    </g>
+  </g>
+</svg>
