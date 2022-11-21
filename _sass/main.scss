@@ -220,6 +220,7 @@ input[type=submit] {
     box-sizing: border-box;
     z-index: 3;
     overflow: hidden;
+    text-transform: uppercase;
 }
 
 #primary-menu li {
@@ -338,13 +339,13 @@ input[type=submit] {
 
 .site-title, .title, #primary-menu {
     font-variation-settings: "wght" 300;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
 }
 
 .site-title {
     font-size: 2.5em;
     line-height: 1.2em;
+    text-transform: uppercase;
     word-spacing: 80px;
     /*margin-bottom: 1em;*/
 }
@@ -363,6 +364,7 @@ input[type=submit] {
 .title {
     font-size: 1.7em;
     line-height: 1.2em;
+    margin-bottom: 0.5em;
 }
 
 .post-title {
