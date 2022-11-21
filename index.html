@@ -13,9 +13,11 @@ breadcrumbs: false
     </div>
 </div>
 <div class="section" id="org-list">
-    <div class="section-content grid">
+    <div class="section-content">
+        <div class="ogrid">
         {% for org in site.orgs %}
             {% include org_loop.html %}
         {% endfor %}
+        </div>
     </div>
 </div>
