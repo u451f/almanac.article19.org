@@ -34,6 +34,9 @@ $(function($){
             window.location.href = href;
         }
     });
+    
+    // mobile: logo above text
+    $(".mobile #post .org .logo").prependTo('.mobile #post .org #main-text .org-description').addClass('logo-moved');
 
     $('.main-menu li').click(function() {
         if($(this).children("ul").length) {
