@@ -7,7 +7,7 @@
 
 :root {
   --light: #fff;
-  --bg: #00478f;
+  --bg: hsl(214deg, 100%, 31%);
   --hspace: 6vw;
   --vspace: 4vh;
   --basefontsize: 16px;
@@ -36,6 +36,7 @@ body {
     /*overflow-x: hidden;*/
     color: #fff;
     min-height: 100vh;
+    shape-rendering: crispedges;
 }
 
 /************************************
@@ -43,10 +44,9 @@ body {
  ***********************************/
 
 body {
-    background: url(images/layer2.svg), url(images/layer1.svg);
+    background: url(backgrounds/layer2.svg), url(backgrounds/layer1.svg);
     background-position: left 550px, left 520px;
     background-repeat: no-repeat, no-repeat;
-    background-size: contain, contain;
 }
 
 .mobile #intro {
@@ -55,6 +55,30 @@ body {
 
 #post-list, #org-list {
     background-color: #12bb9d;
+}
+
+#org-list #org-3gpp::after,
+#org-list #org-atis::after {
+    content: " ";
+    display: inline-block;
+}
+
+#org-list #org-3gpp::after {
+    content: url(backgrounds/layer5.svg);
+    margin-left: calc(var(--hspace)*-1);
+    position: absolute;
+}
+
+#org-list #org-atis::before {
+    content: url(../images/decorative/tree-leaf.svg);
+    position: absolute;
+}
+
+#org-list #org-ieee::before {
+    content: url(../images/decorative/animal-crane.svg);
+    position: absolute;
+    right: 0;
+    top: 5em;
 }
 
 pre {
@@ -173,7 +197,7 @@ input[type=submit] {
 #footer {
     /*padding: 2.5em var(--hspace);*/
     min-height: 120px;
-    background: #12bb9d url(images/layer4.svg) no-repeat right center;
+    background: #12bb9d url(backgrounds/layer4.svg) no-repeat right center;
     background-size: contain;
     text-align: right;
 }
@@ -187,6 +211,7 @@ input[type=submit] {
 
 .grid {
     display: grid;
+    grid-row-gap: 3em;
 }
 
 /*************************************
@@ -234,7 +259,8 @@ input[type=submit] {
 
 #primary-menu .main-menu {
     overflow-y: auto;
-    height: 70%;
+    height: 65%;
+    margin-top: 5%;
 }
 
 .main-menu {
@@ -290,14 +316,14 @@ input[type=submit] {
     -webkit-user-select: none;
     user-select: none;
     position: fixed;
-    top: var(--vspace);
+    top: calc(var(--vspace)+33px);
     right: var(--hspace);
     z-index: 5;
 }
 
 .toggler {
     font-variation-settings: "wght" 500;
-    font-size: calc(var(--basefontsize)*2);
+    font-size: calc(var(--basefontsize)*1.5);
     text-transform: uppercase;
     position: relative;
     z-index: 4;
@@ -423,9 +449,9 @@ input[type=submit] {
 #org-list .org:hover .excerpt {
     display: block;
     position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 60%;
+    box-sizing: border-box;
+    width: 90%;
+    left: 5%;
 }
 
 /*************************************
@@ -435,9 +461,14 @@ input[type=submit] {
 .org .grid .logo {
     background: url(images/circle.svg) center center no-repeat;
     background-size: cover;
-    width: 12vw;
-    height: 12vw;
+    width: 200px;
+    height: 200px;
     padding: 1vw;
+    margin: auto;
+}
+.org .grid .logo {
+    /*width: 12vw;*/
+    /*height: 12vw;*/
 }
 
 #post-list .post {
@@ -473,25 +504,38 @@ input[type=submit] {
  Media queries
   ***********************************/
 
-@media all and (min-width: 641px) {
+@media all and (max-width: 840px) {
+    #header ~ .section .section-content {
+            padding-bottom: 0;
+    }
 }
 
 @media all and (min-width: 841px) {
+    body {
+        background-size: contain, contain;
+    }
+    .menu li li {
+        margin-bottom: 0.4em;
+    }
     .grid {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 4em;
-    }
-    #post-list .post:nth-child(even) {
-        margin-top: 4em;
+        grid-row-gap: 2em;
     }
     #breadcrumbs, #main-text, .all-groups {
         grid-column-start: 1;
         grid-column-end: 2;
     }
+    #org-list .org:hover .excerpt {
+        width: 60%;
+        left: 20%;
+    }
+    #post-list .post:nth-child(even) {
+        margin-top: 4em;
+    }
 }
 
 @media all and (min-width: 1200px) {
-    /* Backgrounds */
     body {
         background-position: left 225px, left 190px;
         background-size: contain, contain;
@@ -581,5 +625,4 @@ display: none;
         opacity: 0.3;
     }
 }
-
 
