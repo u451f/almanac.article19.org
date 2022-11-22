@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="263.88632mm"
-   height="218.72707mm"
-   viewBox="0 0 263.88632 218.72707"
+   width="262.38699mm"
+   height="166.51793mm"
+   viewBox="0 0 262.38699 166.51793"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="village-itu-r.svg"
+   sodipodi:docname="itu-r.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,43 +25,43 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.90206372"
-     inkscape:cx="445.64479"
-     inkscape:cy="520.47321"
+     inkscape:cx="442.31909"
+     inkscape:cy="431.78768"
      inkscape:window-width="2560"
-     inkscape:window-height="855"
-     inkscape:window-x="2194"
-     inkscape:window-y="563"
-     inkscape:window-maximized="0"
+     inkscape:window-height="1395"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
-       position="-363.49153,296.81822"
+       position="-364.25263,245.439"
        orientation="1,0"
        id="guide2923"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-160.57177,241.05847"
+       position="-161.33287,189.67925"
        orientation="0,-1"
        id="guide8011"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="99.44904,346.16365"
+       position="98.687931,294.78443"
        orientation="0,-1"
        id="guide11504"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="75.852137,336.5845"
+       position="75.091029,285.20528"
        orientation="-0.00080638876,-0.99999967"
        id="guide13038"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="65.562267,380.64387"
+       position="64.801159,329.26465"
        orientation="0,-1"
        id="guide13636"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="198.02104,392.43046"
+       position="197.25993,341.05124"
        orientation="0,-1"
        id="guide13711"
        inkscape:locked="false" />
@@ -70,20 +70,20 @@
      id="defs2">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 109.36353 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="263.88632 : 109.36353 : 1"
-       inkscape:persp3d-origin="131.94316 : 72.909023 : 1"
+       inkscape:vp_x="0 : 57.154392 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_z="263.88632 : 57.154392 : 1"
+       inkscape:persp3d-origin="131.94316 : 20.699886 : 1"
        id="perspective9050" />
   </defs>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-358.15228,-172.64045)">
+     transform="translate(-358.91339,-173.47037)">
     <g
        id="g8783"
-       transform="translate(392.9839,212.24085)">
+       transform="translate(319.65667,172.35083)">
       <rect
          style="fill:#ff778a;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
          id="rect26731-2"
@@ -147,7 +147,7 @@
     </g>
     <g
        id="g8855"
-       transform="matrix(1.1659041,0,0,1.1659041,482.19743,269.82231)">
+       transform="matrix(1.1659041,0,0,1.1659041,412.0966,229.34567)">
       <ellipse
          style="fill:#ff778a;fill-opacity:1;stroke:none;stroke-width:0.282788;stroke-opacity:1"
          id="path17948-1-5"
@@ -166,7 +166,7 @@
     </g>
     <g
        id="g8901"
-       transform="matrix(0.66906953,0,0,0.66906953,512.12012,193.61838)">
+       transform="matrix(0.66906953,0,0,0.66906953,429.70031,163.99417)">
       <g
          id="g20118"
          transform="translate(0.52916667)">

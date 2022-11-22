@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="263.88632mm"
-   height="218.72707mm"
-   viewBox="0 0 263.88632 218.72707"
+   width="117.18436mm"
+   height="76.506714mm"
+   viewBox="0 0 117.18436 76.506715"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="village-atis.svg"
+   sodipodi:docname="atis.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.90206372"
-     inkscape:cx="445.64479"
-     inkscape:cy="165.73109"
+     inkscape:cx="19.39996"
+     inkscape:cy="293.21654"
      inkscape:window-width="2560"
      inkscape:window-height="855"
      inkscape:window-x="2194"
@@ -36,32 +36,32 @@
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
-       position="-363.49153,296.81822"
+       position="-496.8301,163.25228"
        orientation="1,0"
        id="guide2923"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-160.57177,241.05847"
+       position="-293.91034,107.49253"
        orientation="0,-1"
        id="guide8011"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="99.44904,346.16365"
+       position="-33.889534,212.59771"
        orientation="0,-1"
        id="guide11504"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="75.852137,336.5845"
+       position="-57.486437,203.01856"
        orientation="-0.00080638876,-0.99999967"
        id="guide13038"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="65.562267,380.64387"
+       position="-67.776306,247.07793"
        orientation="0,-1"
        id="guide13636"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="198.02104,392.43046"
+       position="64.682465,258.86452"
        orientation="0,-1"
        id="guide13711"
        inkscape:locked="false" />
@@ -70,17 +70,17 @@
      id="defs2">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 109.36353 : 1"
+       inkscape:vp_x="0 : -32.856821 : 1"
        inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="263.88632 : 109.36353 : 1"
-       inkscape:persp3d-origin="131.94316 : 72.909023 : 1"
+       inkscape:vp_z="263.88631 : -32.856821 : 1"
+       inkscape:persp3d-origin="131.94316 : -69.311328 : 1"
        id="perspective9050" />
   </defs>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-358.15228,-172.64045)">
+     transform="translate(-491.49085,-181.29487)">
     <g
        id="g9971"
        style="stroke-width:0.1;stroke-dasharray:none"

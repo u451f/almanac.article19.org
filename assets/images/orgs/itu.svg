@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="263.88632mm"
-   height="218.72707mm"
-   viewBox="0 0 263.88632 218.72707"
+   width="262.98474mm"
+   height="204.99809mm"
+   viewBox="0 0 262.98474 204.9981"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="village-itu-t.svg"
+   sodipodi:docname="itu.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.90206372"
-     inkscape:cx="445.64479"
-     inkscape:cy="519.36464"
+     inkscape:cx="701.72426"
+     inkscape:cy="277.69657"
      inkscape:window-width="2560"
      inkscape:window-height="1395"
      inkscape:window-x="0"
@@ -36,32 +36,32 @@
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
-       position="-363.49153,296.81822"
+       position="-365.12147,284.50579"
        orientation="1,0"
        id="guide2923"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-160.57177,241.05847"
+       position="-162.20171,228.74604"
        orientation="0,-1"
        id="guide8011"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="99.44904,346.16365"
+       position="97.819105,333.85122"
        orientation="0,-1"
        id="guide11504"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="75.852137,336.5845"
+       position="74.222202,324.27207"
        orientation="-0.00080638876,-0.99999967"
        id="guide13038"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="65.562267,380.64387"
+       position="63.932332,368.33144"
        orientation="0,-1"
        id="guide13636"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="198.02104,392.43046"
+       position="196.39111,380.11803"
        orientation="0,-1"
        id="guide13711"
        inkscape:locked="false" />
@@ -72,10 +72,10 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-358.15228,-172.64045)">
+     transform="translate(-359.78222,-174.05699)">
     <g
        id="g7459"
-       transform="matrix(1.0866766,0,0,1.0866766,424.82775,254.61216)">
+       transform="matrix(1.0866766,0,0,1.0866766,342.40794,149.31426)">
       <g
          id="g38958"
          transform="translate(0,10.583333)">
@@ -152,7 +152,7 @@
     </g>
     <g
        id="g7554"
-       transform="matrix(0.76680573,0,0,0.76680573,333.72876,149.93992)">
+       transform="matrix(1.2429288,0,0,1.2429288,413.67426,208.55368)">
       <rect
          style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.7"
          id="rect34538-85"
@@ -230,7 +230,7 @@
     </g>
     <g
        id="g7650"
-       transform="matrix(0.85102942,0,0,0.85102942,412.73933,168.16757)">
+       transform="matrix(0.90724473,0,0,0.90724473,475.75059,160.39722)">
       <g
          id="g33547">
         <g
@@ -329,7 +329,7 @@
     </g>
     <g
        id="g8112"
-       transform="translate(333.81022,226.72253)">
+       transform="matrix(1.3455877,0,0,1.3455877,307.46904,251.43415)">
       <g
          id="g26780"
          transform="matrix(1.1254593,0,0,0.99766314,-6.4147101,-1.55452)">
