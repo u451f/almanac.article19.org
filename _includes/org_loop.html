@@ -10,8 +10,13 @@
 
         {% if org.excerpt %}
             <div class="excerpt">
-                <a class="permalink" href="{{org.url}}">{{ org.title }}</a>
-                <p>{{ org.excerpt }}</p>
+                <div>
+                    <a class="permalink" href="{{org.url}}">{{ org.title }}</a>
+                    {% if org.logo %}
+                        <img class="img-logo-clone" src="{{ site.url }}/{{ org.logo }}" alt="{{ org.title }} logo"/>
+                    {% endif %}
+                    <p>{{ org.excerpt }}</p>
+                </div>
             </div>
         {% endif %}
     </div>
