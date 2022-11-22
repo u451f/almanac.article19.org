@@ -639,7 +639,6 @@ input[type=submit] {
         margin-top: -20%;
     }
 
-
     .grid {
         grid-template-columns: 2fr 1fr;
         grid-row-gap: 2em;
@@ -688,6 +687,10 @@ input[type=submit] {
         top: auto;
         left: auto;
         width: auto;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     #post-list .grid {
