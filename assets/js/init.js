@@ -37,6 +37,7 @@ $(function($){
     
     // mobile: logo above text
     $(".mobile #post .org .logo").prependTo('.mobile #post .org #main-text .org-description').addClass('logo-moved');
+    $(".mobile.post .logo").appendTo('.mobile.post #main-text .wg-description').addClass('logo-moved');
 
     $('.main-menu li').click(function() {
         if($(this).children("ul").length) {
