@@ -462,15 +462,27 @@ input[type=submit] {
 .org .grid .logo {
     background: url(images/circle.svg) center center no-repeat;
     background-size: cover;
-    width: 200px;
-    height: 200px;
-    padding: 1vw;
+    width: 180px;
+    height: 180px;
+    padding: 40px;
     margin: auto;
 }
 
 .org .grid .logo-moved {
     display: block;
     margin-bottom: 1em;
+}
+
+.links {
+    margin-top: 2em;
+    margin-left: 0;
+    list-style: none;
+}
+
+.all-groups {
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-variation-settings: "wght" 600;
 }
 
 #post-list .grid {
@@ -486,18 +498,6 @@ input[type=submit] {
     text-decoration: none;
 }
 
-.all-groups {
-    margin-top: 2em;
-    text-transform: uppercase;
-    font-variation-settings: "wght" 600;
-}
-
-.links {
-    margin-top: 2em;
-    margin-left: 0;
-    list-style: none;
-}
-
 /*************************************
  WG page
  ***********************************/
@@ -509,7 +509,7 @@ input[type=submit] {
   Animation
 ***********************************/
 
-#main-text img, #intro img {
+#main-text img, #intro img, #breadcrumbs {
     position: relative;
     z-index: 5;
 }
@@ -579,6 +579,9 @@ input[type=submit] {
     }
     #post-list .post:nth-child(even) {
         margin-top: 4em;
+    }
+    .org .grid .logo {
+        margin-top: -6vw;
     }
     .post .logo {
         width: 100%;
