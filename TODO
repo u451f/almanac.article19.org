@@ -1,17 +1,23 @@
 - [] backgrounds: have different backgrounds per template, based on body class
-- [] background: add little background shadows here and there
+- [] background: add shadows on the org images?
+- [] background: add more backgrounds
+- [] background: cut them to ~100px height #intro
 - [] background test backgrounds on MediaPad T5, and smartphone
+- [] have the org logos in the middle after all
 - [] imgs: group images → still miss 2 images for IEEE
 - [] img: 3GPP logo color missing
-- [] imgs: add animals and plants
-- [] imgs: check why the photos are not sharp
+- [] imgs: add more animals and plants
+- [] css: adjust logo size in the excerpt
+- [] css: don't hover the tree
 - [] home: order of orgs on home
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
-- [] structure: group post not accessible in production https://almanac.article19.org/group/ieee-802-LAN-MAN-standards-committee
 - [] structure: create relevant issue pages
 - [] structure: link tag pages properly in the templates
 - [] content: texts
+- [] content: shorter descriptionstexts
+- [] imgs: check why the photos are not sharp
 - [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
+- [x] structure: group post not accessible in production https://almanac.article19.org/group/ieee-802-LAN-MAN-standards-committee
 - [x] lege organisationen an
 - [x] lege gruppen an
 - [x] reading order: on group and maybe also on org page: have the logo first on mobile, do it va JS like on my website
