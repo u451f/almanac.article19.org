@@ -1,0 +1,10 @@
+AuthType Basic
+AuthName "restricted access"
+AuthUserFile /domains/almanac.article19.org/.htpasswd
+require valid-user
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^almanac\.article19\.org [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^.]*[^./])$ /$1.html [R=301,L]
