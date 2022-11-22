@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.1596518mm"
+   height="2.4449937mm"
+   viewBox="0 0 5.1596518 2.4449938"
+   version="1.1"
+   id="svg15148"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="arrow-box.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15150"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="19.845994"
+     inkscape:cx="17.081533"
+     inkscape:cy="20.029231"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="4.6115314,-8.8803488"
+       orientation="0,-1"
+       id="guide15606"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs15145">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect15217"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.3622604,1.5683818)">
+    <path
+       id="rect23397"
+       style="fill:#44444d;fill-opacity:1;stroke:none;stroke-width:4.05933;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7.9421048,0.87661194 2.5798072,-2.43869374 -0.0067,-0.0063 H 5.3689604 l -0.0067,0.0063 z" />
+  </g>
+</svg>

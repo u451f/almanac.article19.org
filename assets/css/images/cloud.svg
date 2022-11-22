@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="156.29745mm"
+   height="105.70011mm"
+   viewBox="0 0 156.29745 105.70011"
+   version="1.1"
+   id="svg4963"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="clouds.svg"
+   inkscape:export-filename="../../cloud1.svg"
+   inkscape:export-xdpi="70.677307"
+   inkscape:export-ydpi="70.677307"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4965"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.763461"
+     inkscape:cx="233.14878"
+     inkscape:cy="507.55703"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6684" />
+  <defs
+     id="defs4960" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.74976,-14.03564)">
+    <g
+       id="g5043">
+      <g
+         id="g6684"
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(-120.6021,180.21003)">
+        <path
+           id="path5028-8"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round"
+           d="m 247.61537,-166.17439 a 32.922985,32.922985 0 0 0 -31.98411,25.17315 23.739206,23.739206 0 0 0 -9.42939,-1.95389 23.739206,23.739206 0 0 0 -23.68124,22.18314 28.937572,28.937572 0 0 0 -0.23151,-0.003 28.937572,28.937572 0 0 0 -28.93726,28.937256 28.937572,28.937572 0 0 0 28.93726,28.937762 28.937572,28.937572 0 0 0 24.35872,-13.35163 29.457409,29.457409 0 0 0 26.0656,15.77732 29.457409,29.457409 0 0 0 23.69467,-11.99047 30.670362,30.670362 0 0 0 22.57072,9.91101 30.670362,30.670362 0 0 0 30.67048,-30.669952 30.670362,30.670362 0 0 0 -30.48135,-30.667906 32.922985,32.922985 0 0 0 1.37046,-9.35963 32.922985,32.922985 0 0 0 -32.92305,-32.92306 z" />
+      </g>
+    </g>
+  </g>
+</svg>

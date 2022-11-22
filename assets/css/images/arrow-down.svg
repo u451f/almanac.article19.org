@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.1883078mm"
+   height="5.8358326mm"
+   viewBox="0 0 5.1883078 5.8358327"
+   version="1.1"
+   id="svg15148"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="arrow-down.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15150"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="28.066474"
+     inkscape:cx="17.137885"
+     inkscape:cy="12.060653"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="4.6199459,-5.5095776"
+       orientation="0,-1"
+       id="guide15606"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs15145">
+    <marker
+       style="overflow:visible"
+       id="Arrow4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow4"
+       markerWidth="4"
+       markerHeight="4"
+       viewBox="0 0 5 6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path1741" />
+    </marker>
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect15217"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00522388"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <marker
+       style="overflow:visible"
+       id="Arrow4-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow4"
+       markerWidth="4"
+       markerHeight="4"
+       viewBox="0 0 5 6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path1741-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow4-3-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow4"
+       markerWidth="4"
+       markerHeight="4"
+       viewBox="0 0 5 6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="strokeWidth">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path1741-4-4" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.3538457,1.5884498)">
+    <path
+       style="fill:#4d4d4d;stroke:#ffffff;stroke-width:0.998528;stroke-dasharray:none;marker-end:url(#Arrow4)"
+       d="m 4.1761789,9.7446234 5.3294908,0.020416"
+       id="path15612" />
+    <path
+       style="fill:#4d4d4d;stroke:#ffffff;stroke-width:0.998528;stroke-dasharray:none;marker-end:url(#Arrow4-3)"
+       d="M 13.102407,13.120634 13.081987,7.7911423"
+       id="path15612-7" />
+    <path
+       style="fill:#4d4d4d;stroke:#ffffff;stroke-width:0.998528;stroke-dasharray:none;marker-end:url(#Arrow4-3-1)"
+       d="M 18.76312,12.904432 18.7427,7.5749406"
+       id="path15612-7-4" />
+    <g
+       id="g22975"
+       transform="rotate(90,8.1268019,1.4035288)">
+      <rect
+         style="fill:#ffffff;stroke:none;stroke-width:0.748935;stroke-dasharray:none"
+         id="rect22698"
+         width="4.7157183"
+         height="1"
+         x="5.1348233"
+         y="1.0823311" />
+      <g
+         id="g22969">
+        <path
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+           d="m 7.8263623,-0.6297755 2.8165667,2.377948"
+           id="path22921" />
+        <path
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+           d="M 8.1969712,3.8518346 10.59039,1.0484022"
+           id="path22921-4" />
+      </g>
+    </g>
+  </g>
+</svg>
