@@ -8,6 +8,7 @@
 :root {
   --light: #fff;
   --bg: hsl(214deg, 100%, 31%);
+  --green: #12bb9d;
   --hspace: 6vw;
   --vspace: 4vh;
   --basefontsize: 16px;
@@ -19,7 +20,7 @@
 }
 
 html {
-    background-color: var(--bg);
+    background-color: var(--green);
 }
 
 body {
@@ -44,13 +45,20 @@ body {
  ***********************************/
 
 body {
-    background: url(backgrounds/layer2.svg), url(backgrounds/layer1.svg);
-    background-position: left 550px, left 520px;
-    background-repeat: no-repeat, no-repeat;
+    /*background: linear-gradient(180deg, var(--bg) 21%, transparent 20%);*/
+    background: var(--bg);
 }
 
-.mobile #intro {
-    background: linear-gradient(0deg, #12bb9d 21%, transparent 20%);
+#intro, #post {
+    background: url(backgrounds/layer2.svg), url(backgrounds/layer1.svg);
+    background-position: left bottom, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    /*background-size: contain, contain;*/
+}
+
+#intro {
+    padding-bottom: 0;
+    min-height: 300px;
 }
 
 #post-list, #org-list {
@@ -182,6 +190,10 @@ input[type=submit] {
 
 #header {
     padding: var(--vspace) var(--hspace) 0;
+}
+
+#header ~ .section .section-content {
+    /*padding: 0;*/
 }
 
 #content {
@@ -554,7 +566,7 @@ input[type=submit] {
     height: 150px;
     display: block;
     position: absolute;
-    top: 20vh;
+    top: 5vh;
     left: 0;
     z-index: 1;
     transition: all 1s ease-in-out;
@@ -584,10 +596,6 @@ input[type=submit] {
 }
 
 @media all and (min-width: 841px) {
-    body {
-        background-size: contain, contain;
-        background-position: left 200px, left 220px;
-    }
     .menu li li {
         margin-bottom: 0.4em;
     }
@@ -673,11 +681,6 @@ input[type=submit] {
 }
 
 @media all and (min-width: 1200px) {
-    body {
-        background-position: left 225px, left 190px;
-        background-size: contain, contain;
-    }
-
     #header {
         position: absolute;
     }
