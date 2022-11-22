@@ -1,24 +1,25 @@
-- [x] lege organisationen an
-- [x] lege gruppen an
-- [] imgs: create org images (villages)
-- [] home: add org village SVGs to homepage
-- [] imgs: arrows for link background
-- [x] imgs: ART 19 logo to footer
-- [] imgs: add animals and plants
-- [] imgs: group images → still miss 2 images for IEEE
-- [] imgs: check why the photos are not sharp
-- [x] imgs: check why the colors look weird on the Debian computer/office screen → AMOLED vs LED
-- [] home: excerpts with little triangle background
-- [] home: order of orgs on home
-- [] _config: change twitter image to ART19 logo or aperçu of this website!
-- [x] css: adjust menu navigation on large screens
-- [x] css: adjust menu button placement
 - [] backgrounds: have different backgrounds per template, based on body class
 - [] background: add little background shadows here and there
 - [] background test backgrounds on MediaPad T5, and smartphone
-- [x] reading order: on group and maybe also on org page: have the logo first on mobile, do it va JS like on my website
-- [] content: texts
+- [] imgs: group images → still miss 2 images for IEEE
+- [] img: 3GPP logo color missing
+- [] imgs: add animals and plants
+- [] imgs: check why the photos are not sharp
+- [] home: order of orgs on home
+- [] _config: change twitter image to ART19 logo or aperçu of this website!
+- [] structure: group post not accessible in production https://almanac.article19.org/group/ieee-802-LAN-MAN-standards-committee
 - [] structure: create relevant issue pages
 - [] structure: link tag pages properly in the templates
+- [] content: texts
 - [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
-- [] structure: group post not accessible in production https://almanac.article19.org/group/ieee-802-LAN-MAN-standards-committee
+- [x] lege organisationen an
+- [x] lege gruppen an
+- [x] reading order: on group and maybe also on org page: have the logo first on mobile, do it va JS like on my website
+- [x] css: adjust menu navigation on large screens
+- [x] css: adjust menu button placement
+- [x] imgs: check why the colors look weird on the Debian computer/office screen → AMOLED vs LED
+- [x] home: excerpts with little triangle background
+- [x] imgs: create org images (villages)
+- [x] home: add org village SVGs to homepage
+- [x] imgs: arrows for link background
+- [x] imgs: ART 19 logo to footer
