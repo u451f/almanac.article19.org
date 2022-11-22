@@ -211,7 +211,6 @@ input[type=submit] {
 
 .grid {
     display: grid;
-    grid-row-gap: 3em;
 }
 
 /*************************************
@@ -466,9 +465,14 @@ input[type=submit] {
     padding: 1vw;
     margin: auto;
 }
-.org .grid .logo {
-    /*width: 12vw;*/
-    /*height: 12vw;*/
+
+.org .grid .logo-moved {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#post-list .grid {
+    grid-row-gap: 3em;
 }
 
 #post-list .post {
@@ -607,10 +611,9 @@ input[type=submit] {
     position: absolute;
     top: 50px;
     right: 0;
-    z-index: 3;
+    z-index: 1;
     transition: all 1s ease-in-out;
     animation: move ease-in-out 15s -2s infinite alternate;
-display: none;
 }
 
 @keyframes move {
