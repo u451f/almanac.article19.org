@@ -8,13 +8,14 @@
         {% if page.logo-color %}
             <img class="logo" src="{{ site.url }}/{{ page.logo-color }}" alt="{{page.title}} logo" />
         {% endif %}
+
         {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
         {% assign total = 0 %}
         {% for post in orgposts %}
             {% assign total = total | plus: 1 %}
         {% endfor %}
         {% if total > 1 %}
-            <p class="all-groups">All groups in this organization</p>
+            <p class="all-groups">All groups in this organisation</p>
         {% endif %}
         </div>
     </div>
