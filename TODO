@@ -1,16 +1,14 @@
 TODO
 ====
-- [] background: add more background schnipsel to unterseiten
-- [] background test backgrounds on tag pages and contributor pages
-- [] imgs: 3GPP logo color missing
-- [] imgs: group images → still miss 2 images for IEEE
-- [] imgs: add more animals and plants to unterseiten
-- [] home: order of orgs on home
-- [] _config: change twitter image to ART19 logo or aperçu of this website!
-- [] structure: create relevant issue pages
+
+- [] css: adjust logo size in the excerpt, w3c
 - [] structure: link tag pages properly in the templates
 - [] content: texts
+- [] structure: create relevant issue pages
 - [] imgs: check why the photos are not sharp
+- [] _config: change twitter image to ART19 logo or aperçu of this website!
+- [] home: order of orgs on home
+- [] imgs: add more animals and plants to unterseiten
 
 MAYBE
 =====
@@ -20,8 +18,13 @@ MAYBE
 DONE
 ====
 
+- [x] css: move the all groups link somewhere
+- [x] css: adjust logo size in the moon/org
+- [x] imgs: 3GPP logo color missing
+- [x] background: add more background schnipsel to unterseiten
+- [x] background test backgrounds on tag pages and contributor pages
+- [x] imgs: group images → still miss 2 images for IEEE
 - [x] css: don't hover the tree
-- [x] css: adjust logo size in the excerpt
 - [x] content: shorter descriptiontexts
 - [x] backgrounds: have different backgrounds per template, based on body class
 - [x] background: add shadows on the org images?
