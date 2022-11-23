@@ -11,7 +11,7 @@
         {% if org.excerpt %}
             <div class="excerpt">
                 <div>
-                    <a class="permalink" href="{{org.url}}">{{ org.title }}</a>
+                    <a class="permalink" href="{{site.url}}{{org.url}}">{{ org.title }}</a>
                     {% if org.logo %}
                         <img class="img-logo-clone" src="{{ site.url }}/{{ org.logo }}" alt="{{ org.title }} logo"/>
                     {% endif %}
