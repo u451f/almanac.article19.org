@@ -1,22 +1,32 @@
-- [] backgrounds: have different backgrounds per template, based on body class
-- [] background: add shadows on the org images?
-- [] background: add more backgrounds
-- [] background: cut them to ~100px height #intro
-- [] background test backgrounds on MediaPad T5, and smartphone
-- [] have the org logos in the middle after all
+TODO
+====
+- [] background: add more background schnipsel to unterseiten
+- [] background test backgrounds on tag pages and contributor pages
+- [] imgs: 3GPP logo color missing
 - [] imgs: group images → still miss 2 images for IEEE
-- [] img: 3GPP logo color missing
-- [] imgs: add more animals and plants
-- [] css: adjust logo size in the excerpt
-- [] css: don't hover the tree
+- [] imgs: add more animals and plants to unterseiten
 - [] home: order of orgs on home
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
 - [] structure: create relevant issue pages
 - [] structure: link tag pages properly in the templates
 - [] content: texts
-- [] content: shorter descriptionstexts
 - [] imgs: check why the photos are not sharp
+
+MAYBE
+=====
+
 - [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
+
+DONE
+====
+
+- [x] css: don't hover the tree
+- [x] css: adjust logo size in the excerpt
+- [x] content: shorter descriptiontexts
+- [x] backgrounds: have different backgrounds per template, based on body class
+- [x] background: add shadows on the org images?
+- [x] background: cut them to ~100px height #intro
+- [x] have the org logos in the middle after all
 - [x] structure: group post not accessible in production https://almanac.article19.org/group/ieee-802-LAN-MAN-standards-committee
 - [x] lege organisationen an
 - [x] lege gruppen an

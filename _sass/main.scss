@@ -93,6 +93,7 @@ body {
 }
 
 #org-list #org-atis::before {
+    cursor: auto;
     content: url(../images/decorative/tree-leaves.svg);
     display: block;
     margin: auto;
@@ -100,10 +101,12 @@ body {
 }
 
 #org-list #org-ieee::before {
+    cursor: auto;
     content: url(../images/decorative/tree.svg);
 }
 
 #org-list #org-itu-t::before {
+    cursor: auto;
     content: url(../images/decorative/tree-monstera.svg);
     display: block;
     margin: auto;
@@ -504,7 +507,7 @@ input[type=submit] {
     top: 0%;
 }
 
-#org-list .org:hover .excerpt {
+#org-list .org .description:hover .excerpt {
     opacity: 1;
 }
 
