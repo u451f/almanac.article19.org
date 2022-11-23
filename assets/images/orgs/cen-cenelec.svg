@@ -32,7 +32,7 @@
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g2767"
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
@@ -83,12 +83,12 @@
          rx="31.148659"
          ry="9.9745703" />
       <ellipse
-         style="opacity:0.2;fill:#333333;stroke-width:4.44863"
+         style="opacity:0.2;fill:#333333;stroke-width:4.12417"
          id="path2763"
-         cx="434.22943"
-         cy="270.24268"
-         rx="52.32275"
-         ry="14.524374" />
+         cx="428.08371"
+         cy="269.09616"
+         rx="48.822899"
+         ry="13.377851" />
     </g>
     <g
        id="g2506"
@@ -120,7 +120,7 @@
     <g
        id="g2554"
        style="stroke-width:0.1;stroke-dasharray:none"
-       transform="matrix(1.3910154,0,0,1.3910154,309.41685,79.554692)">
+       transform="matrix(1.3910154,0,0,1.3910154,306.24183,76.908857)">
       <ellipse
          style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          id="path7480-4-8"
