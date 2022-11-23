@@ -48,7 +48,7 @@ body {
     background-image: url(backgrounds/layer0repeatable.svg);
     background-position: left top;
     background-repeat: repeat-x;
-    background: linear-gradient(0deg, rgba(11,187,156,1) 5%,  rgba(184,134,201,1) 25%, rgba(0,51,160,1) 40%);
+    background: linear-gradient(0deg, rgba(11,187,156,1) 10%,  rgba(184,134,201,1) 25%, rgba(0,51,160,1) 40%);
 
     min-height: 100vh;
 }
@@ -139,6 +139,13 @@ body {
     content: url(../images/decorative/animal-fox.svg);
     display: block;
     text-align: center;
+}
+
+@media all and (min-width: 841px) {
+    #contributors #intro::after,
+    #methodology #intro::after {
+        grid-column-start: 2;
+    }
 }
 
 .tag #intro::after {
