@@ -14,7 +14,7 @@
         {% for post in orgposts %}
             {% assign total = total | plus: 1 %}
         {% endfor %}
-        {% if total > 1 %}
+        {% if total > 0 %}
             <p class="all-groups">All groups in this organisation</p>
         {% endif %}
         </div>
