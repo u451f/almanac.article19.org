@@ -50,15 +50,18 @@ body {
 }
 
 #intro, #post {
-    background: url(backgrounds/layer2.svg), url(backgrounds/layer1.svg);
+    background-image: url(backgrounds/layer2repeatable.svg), url(backgrounds/layer1repeatable.svg);
     background-position: left bottom, left bottom;
-    background-repeat: no-repeat, no-repeat;
-    /*background-size: contain, contain;*/
+    background-repeat: repeat-x, repeat-x;
+}
+
+.org #post, .post #intro {
+    background-image: url(backgrounds/layer6repeatable.svg), url(backgrounds/layer1repeatableshort.svg);
+    margin-bottom: -1px;
 }
 
 #intro {
     padding-bottom: 0;
-    min-height: 300px;
 }
 
 #post-list, #org-list {
@@ -71,8 +74,26 @@ body {
     position: absolute;
 }
 
+#org-list #org-irtf::after {
+    content: url(backgrounds/layer3.svg);
+    margin-left: calc(var(--hspace)*-1);
+    position: absolute;
+}
+
+#org-list #org-ietf::after {
+    content: url(backgrounds/layer4.svg);
+    margin-right: calc(var(--hspace)*-1);
+    position: absolute;
+}
+
+#org-list #org-iso::after {
+    content: url(backgrounds/layer7.svg);
+    right: calc(var(--hspace)*-1);
+    position: absolute;
+}
+
 #org-list #org-atis::before {
-    content: url(../images/decorative/tree-leaf.svg);
+    content: url(../images/decorative/tree-leaves.svg);
     display: block;
     margin: auto;
     text-align: center;
@@ -80,6 +101,17 @@ body {
 
 #org-list #org-ieee::before {
     content: url(../images/decorative/tree.svg);
+}
+
+#org-list #org-itu-t::before {
+    content: url(../images/decorative/tree-monstera.svg);
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.all-groups::after {
+    content: url(../images/decorative/animal-nacktmull.svg);
 }
 
 pre {
@@ -201,11 +233,11 @@ input[type=submit] {
 }
 
 #footer {
-    /*padding: 2.5em var(--hspace);*/
     min-height: 120px;
-    background: #12bb9d url(backgrounds/layer4.svg) no-repeat right center;
+    background: #12bb9d url(backgrounds/layer4.svg) no-repeat right top;
     background-size: contain;
     text-align: right;
+    border-bottom: 30px solid #12bb9d;
 }
 
 #footer a {
@@ -444,6 +476,7 @@ input[type=submit] {
     position: relative;
 }
 
+/*
 #org-list .org .img-logo {
     width: 33%;
     height: auto;
@@ -452,6 +485,7 @@ input[type=submit] {
     bottom: 0;
     right: 0;
 }
+*/
 
 .mobile #org-list .org .excerpt {
     display: none;
@@ -527,6 +561,10 @@ input[type=submit] {
     background-position: 0 6px;
     background-size: 12px 12px;
     padding-left: 18px;
+}
+
+#post-list {
+    padding-top: 1em;
 }
 
 #post-list .grid {
@@ -623,7 +661,7 @@ input[type=submit] {
         width: 30%;
     }
     .ogrid .org#org-atis {
-        margin-top: -20%;
+        margin-top: -10%;
     }
     .ogrid .org#org-3gpp {
         margin-top: -2%;
@@ -638,10 +676,7 @@ input[type=submit] {
         width: 50%;
     }
     .ogrid .org#org-iso {
-        margin-top: -7%;
-    }
-    .ogrid .org#org-itu-t {
-        padding-top: 5%;
+        margin-top: -4%;
     }
     .ogrid .org#org-w3c {
         margin-top: -20%;
@@ -652,8 +687,8 @@ input[type=submit] {
         grid-row-gap: 2em;
     }
 
-    /* align the single group logo*/
-    .post #content > .section > .section-content > .grid {
+    /* align the single group image */
+    .post #content > .section:first-child .grid .logo {
         align-items: flex-end;
         justify-content: center;
         align-content: flex-end;
@@ -675,7 +710,7 @@ input[type=submit] {
 
     .post .logo {
         width: 100%;
-        max-height: 50vh;
+        max-height: 350px;
         margin-top: -4vh;
     }
 }
@@ -700,7 +735,7 @@ input[type=submit] {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    #breadcrumbs, #main-text, .all-groups {
+    #breadcrumbs, #main-text /*, .all-groups */ {
         grid-column-start: 2;
         grid-column-end: 4;
     }
@@ -719,7 +754,7 @@ input[type=submit] {
     }
 
     /* homepage */
-    #intro img {
+    .default #intro img {
         margin-top: 100px;
     }
 }
