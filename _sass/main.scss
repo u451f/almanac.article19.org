@@ -1,17 +1,22 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'SpaceGrotesk';
-  src: url("/assets/css/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url("/assets/css/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url("/assets/css/fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
 }
 
 :root {
   --light: #fff;
-  --bg: #0033a0;
-  --green: #12bb9d;
+  --bg: #142864;
+  --green: #00940A;
+  --gold: #F1A827;
   --hspace: 6vw;
   --vspace: 4vh;
-  --basefontsize: 16px;
+  --basefontsize: 17px;
 }
 
 * {
@@ -25,8 +30,8 @@ html {
 
 body {
     font-size: var(--basefontsize);
-    line-height: 150%;
-    font-family: "SpaceGrotesk", sans-serif;
+    line-height: 145%;
+    font-family: "Roboto", sans-serif;
     font-variation-settings: "wght" 400;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -34,10 +39,16 @@ body {
     font-kerning: normal;
     font-variant: common-ligatures tabular-nums;
     font-optical-sizing: auto;
+    letter-spacing: 0.01em;
     overflow-x: hidden;
     color: #fff;
     min-height: 100vh;
     shape-rendering: crispedges;
+}
+
+b {
+    font-variation-settings: "wght" 500;
+    letter-spacing: 0.03em;
 }
 
 /************************************
@@ -301,7 +312,6 @@ input[type=submit] {
 #breadcrumbs {
     padding-top: var(--vspace);
     margin-bottom: .5em;
-    font-variation-settings: "wght" 600;
 }
 
 #breadcrumbs .crumb {
@@ -311,12 +321,20 @@ input[type=submit] {
     background-position: 0 6px;
     background-size: 12px 12px;
     padding-left: 18px;
+    margin-bottom: 0.3em;
 }
 
 #breadcrumbs .crumb:first-child {
     background-image: url("images/arrow-up.svg");
 }
 
+#breadcrumbs .crumb a {
+    text-decoration: none;
+}
+
+#breadcrumbs .crumb a:hover {
+    text-decoration: underline;
+}
 /*************************************
   Nav: Menu
   ***********************************/
@@ -451,14 +469,12 @@ input[type=submit] {
   Content
   ***********************************/
 
-.site-title, .title, #primary-menu {
-    font-variation-settings: "wght" 300;
-    letter-spacing: 0.06em;
-}
 
 .site-title {
-    font-size: 2.5em;
-    line-height: 1.2em;
+    font-variation-settings: "wght" 100;
+    letter-spacing: 0.15em;
+    font-size: 2.2em;
+    line-height: 120%;
     text-transform: uppercase;
     word-spacing: 80px;
     /*margin-bottom: 1em;*/
@@ -476,13 +492,17 @@ input[type=submit] {
 }
 
 .title {
-    font-size: 1.7em;
-    line-height: 1.2em;
+    font-family: RobotoSlab;
+    font-variation-settings: "wght" 300;
+    letter-spacing: 0.06em;
+    font-size: 1.5em;
+    line-height: 135%;
     margin-bottom: 0.5em;
 }
 
 .post-title {
-    font-variation-settings: "wght" 300;
+    font-variation-settings: "wght" 200;
+    letter-spacing: 0.05em;
     background: var(--bg);
     padding: 0.2em;
     font-size: 1em;
@@ -595,15 +615,19 @@ input[type=submit] {
 }
 
 .links {
-    margin-top: 2em;
-    margin-left: 0;
+    margin: 1em 0 3em 0;
     list-style: none;
 }
 
+.links b {
+    font-family: RobotoSlab;
+    font-variation-settings: "wght" 300;
+    letter-spacing: 0.08em;
+}
+
 .all-groups {
-    margin-top: 2em;
-    text-transform: uppercase;
-    font-variation-settings: "wght" 600;
+    /*text-transform: uppercase;*/
+    /*font-variation-settings: "wght" 600;*/
     background-image: url("images/arrow-down.svg");
     background-repeat: no-repeat;
     background-position: 0 6px;
