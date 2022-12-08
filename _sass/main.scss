@@ -4,6 +4,7 @@
   font-family: 'Roboto';
   src: url("/assets/css/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("truetype");
 }
+
 @font-face {
   font-family: 'RobotoSlab';
   src: url("/assets/css/fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
@@ -132,23 +133,6 @@ body {
     content: url(../images/decorative/tree-monstera.svg);
     display: block;
     margin: auto;
-    text-align: center;
-}
-
-#post-list::before {
-    content: url(../images/decorative/animal-nacktmull.svg);
-    margin-left: var(--hspace);
-}
-
-#contributors #intro::after {
-    content: url(../images/decorative/animal-crane.svg);
-    display: block;
-    text-align: center;
-}
-
-#methodology #intro::after {
-    content: url(../images/decorative/animal-fox.svg);
-    display: block;
     text-align: center;
 }
 
