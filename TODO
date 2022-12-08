@@ -1,27 +1,24 @@
 TODO
 ====
 
-- [] Apache: fix redirections
-- [] css: adjust logo size in the excerpt, w3c
-- [] css: have background shadows for group?
+- [] Use new colors for layered backgrounds, try white and grey instead
+- [] Use new colors for group and orgs → maybe black and white after all
+- [] Use Catnip images → create SVG?
+- [] Draw all the logos bc of copyright issues
+- [] images/css: have background shadows for groups?
+- [] images: tree, make the stem darker and the tree smaller
+- [] home: order of orgs on home as described in the email
+- [] integrate the header, breadcrumbs and logo into a grid? or do a flex layout?
+- [] Apache: fix redirections for groups and leave them to be in https
+- [] sometimes the cloud disturbs clicking on the site header
 - [] structure: link tag pages properly in the templates
 - [] content: texts
-- [] sometimes the cloud disturbs clicking on the site header
 - [] structure: create relevant issue pages
-- [] imgs: check why the photos are not sharp
-- [] imgs: shadow below catnip looking png
-- [] tag layout show the mallory only when we talk about certain issues
 - [] single group page on mobile, the icon floats in the air and there is a proble with alignment
 - [] single group page on mobile, the all groups link should be wide as the page
 - [] org page: can the text be on blue background?
-- [] tree: make the stem darker and the tree smaller
-- [] itu icon: looks weird in the circle, not in the middle
-- [] w3c color logo should not have a white background
-- [] footer background color a bit too dark
 - [] maybe have the org logo on the group page somewhere
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
-- [] home: order of orgs on home
-- [] integrate the header, breadcrumbs and logo into a grid? or do a flex layout?
 
 MAYBE
 =====
@@ -58,3 +55,10 @@ DONE
 - [x] home: add org village SVGs to homepage
 - [x] imgs: arrows for link background
 - [x] imgs: ART 19 logo to footer
+- [] w3c color logo should not have a white background
+- [] itu icon: looks weird in the circle on org page it's not in the middle
+- [] tag layout show the mallory only when we talk about certain issues
+- [] css: adjust logo size in the excerpt, w3c
+- [] imgs: check why the photos are not sharp
+- [] imgs: shadow below catnip looking png
+- [] footer background color a bit too dark
