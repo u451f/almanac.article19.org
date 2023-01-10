@@ -1,0 +1,18 @@
+{% include header.html %}
+<div class="section" id="content">
+    <div class="section-content grid" id="intro">
+    {% include site-header.html %}
+    {% include breadcrumbs.html %}
+    {{ content }}
+    </div>
+</div>
+<div class="section" id="org-list">
+    <div class="section-content">
+        <div class="ogrid">
+        {% for org in site.orgs %}
+            {% include org_loop.html %}
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% include footer.html %}
