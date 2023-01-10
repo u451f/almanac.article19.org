@@ -10,11 +10,32 @@
   src: url("/assets/css/fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'NotoSansELight';
+  src: url("/assets/css/fonts/NotoSans-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'NotoSansRegular';
+  src: url("/assets/css/fonts/NotoSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'NotoSansItalic';
+  src: url("/assets/css/fonts/NotoSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'NotoSansSemiBold';
+  src: url("/assets/css/fonts/NotoSans-SemiBold.ttf") format("truetype");
+}
+
+
 :root {
-  --light: #fff;
-  --bg: #142864;
-  --green: #00940A;
-  --gold: #F1A827;
+  --bg: #fff;
+  --primary: #da291c;
+  --secondary: #101820;
+  --tertiary: #c8c8c8;
   --hspace: 6vw;
   --vspace: 4vh;
   --basefontsize: 17px;
@@ -26,13 +47,13 @@
 }
 
 html {
-    background-color: var(--green);
+    background-color: var(--tertiary);
 }
 
 body {
     font-size: var(--basefontsize);
     line-height: 145%;
-    font-family: "Roboto", sans-serif;
+    font-family: "NotoSansRegular", "Roboto", sans-serif;
     font-variation-settings: "wght" 400;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -40,16 +61,21 @@ body {
     font-kerning: normal;
     font-variant: common-ligatures tabular-nums;
     font-optical-sizing: auto;
-    letter-spacing: 0.01em;
     overflow-x: hidden;
-    color: #fff;
+    color: var(--secondary);
     min-height: 100vh;
     shape-rendering: crispedges;
+    text-rendering: optimizeLegibility;
 }
 
-b {
-    font-variation-settings: "wght" 500;
+b, strong {
+    font-family: "NotoSansSemiBold", sans-serif;
+    font-variation-settings: "wght" 600;
     letter-spacing: 0.03em;
+}
+
+i, em {
+    font-family: "NotoSansItalic", sans-serif;
 }
 
 /************************************
@@ -60,17 +86,11 @@ body {
     background-image: url(backgrounds/layer0repeatable.svg);
     background-position: left top;
     background-repeat: repeat-x;
-    background: linear-gradient(0deg, rgba(11,187,156,1) 10%,  rgba(184,134,201,1) 25%, rgba(0,51,160,1) 40%);
+    /*background: linear-gradient(0deg, rgba(11,187,156,1) 10%,  rgba(184,134,201,1) 25%, rgba(0,51,160,1) 40%);*/
 
     min-height: 100vh;
+    background: var(--bg) url(backgrounds/structure1.svg) repeat-x top left;
 }
-/*  FIXME: Maybe do that
-#intro .section-content {
-    background-image: url(backgrounds/layer0repeatable.svg);
-    background-position: left bottom;
-    background-repeat: repeat-x;
-}
-*/
 
 #intro, #post {
     background-image: url(backgrounds/layer2repeatable.svg), url(backgrounds/layer1repeatable.svg);
@@ -78,17 +98,17 @@ body {
     background-repeat: repeat-x, repeat-x;
 }
 
+.home #intro {
+    padding-bottom: 180px;
+}
+
 .org #post, .post #intro {
     background-image: url(backgrounds/layer6repeatable.svg), url(backgrounds/layer1repeatableshort.svg);
     margin-bottom: -1px;
 }
 
-#intro {
-    padding-bottom: 0;
-}
-
 #post-list, #org-list {
-    background-color: #12bb9d;
+    background: var(--tertiary) url(backgrounds/structure2.svg);
 }
 
 #org-list #org-3gpp::after {
@@ -148,13 +168,14 @@ body {
     display: block;
     text-align: center;
 }
+
 pre {
     overflow: auto;
 }
 
 a {
     outline: none;
-    color: var(--light);
+    color: var(--secondary);
     transition: 0.5s ease-in-out;
     text-decoration: underline;
 }
@@ -230,8 +251,8 @@ input[type=email] {
     font-size: 1rem;
     background: rgb(17,17,17);
     border: none;
-    border-bottom: 1px solid rgb(127,127,131);
-    color: #fff;
+    border-bottom: 1px solid var(--primary);
+    color: var(--secondary);
     width: 100%;
     display: block;
     padding: 0.5em 0;
@@ -254,16 +275,8 @@ input[type=submit] {
   Structure
   ***********************************/
 
-#header {
-    padding: var(--vspace) var(--hspace) 0;
-}
-
-#header ~ .section .section-content {
-    /*padding: 0;*/
-}
-
 #content {
-    padding-top: var(--vspace);
+    padding-top: 75px;
 }
 
 #footer {
@@ -294,8 +307,7 @@ input[type=submit] {
   ***********************************/
 
 #breadcrumbs {
-    padding-top: var(--vspace);
-    margin-bottom: .5em;
+    margin-bottom: 3em;
 }
 
 #breadcrumbs .crumb {
@@ -405,8 +417,7 @@ input[type=submit] {
     -webkit-user-select: none;
     user-select: none;
     position: fixed;
-    top: calc(var(--vspace)+33px); /* FIXME brave cannot deal with this*/
-    top: 5vh;
+    top: 75px;
     right: var(--hspace);
     z-index: 5;
 }
@@ -455,13 +466,13 @@ input[type=submit] {
 
 
 .site-title {
+    font-family: "NotoSansELight";
     font-variation-settings: "wght" 100;
-    letter-spacing: 0.15em;
-    font-size: 2.2em;
+    letter-spacing: 0.05em;
+    font-size: 2.5em;
     line-height: 120%;
     text-transform: uppercase;
     word-spacing: 80px;
-    /*margin-bottom: 1em;*/
 }
 
 .site-title a {
@@ -473,23 +484,36 @@ input[type=submit] {
     display: table-caption;
     display: -ms-grid;
     -ms-grid-columns: min-content;
+    color: var(--primary);
 }
 
 .title {
-    font-family: RobotoSlab;
+    display: inline;
+    font-family: "NotoSansSemiBold", "RobotoSlab";
     font-variation-settings: "wght" 300;
+    background: var(--secondary);
+    box-shadow: 0.3em 0 0 var(--secondary), -0.3em 0 0 var(--secondary);
+    color: var(--bg);
     letter-spacing: 0.06em;
     font-size: 1.5em;
     line-height: 135%;
-    margin-bottom: 0.5em;
+    padding: 0.2em 0em;
+}
+
+.title::after {
+    content: " ";
+    clear: both;
+    display: block;
+    margin-bottom: 0.75em;
 }
 
 .post-title {
-    font-variation-settings: "wght" 200;
+    font-size: 0.9em;
+    font-family: 'NotoSansELight';
+    /*font-variation-settings: "wght" 200;*/
     letter-spacing: 0.05em;
     background: var(--bg);
     padding: 0.2em;
-    font-size: 1em;
     text-align: center;
     margin-top: 1em;
 }
@@ -497,10 +521,6 @@ input[type=submit] {
 /*************************************
  Home page
   ***********************************/
-
-#intro img {
-    margin: auto;
-}
 
 #org-list .org {
     cursor: pointer;
@@ -553,7 +573,8 @@ input[type=submit] {
 }
 
 #org-list .org .excerpt div {
-    background: #444;
+    background: var(--primary);
+    color: var(--bg);
     margin-bottom: 18px;
     padding: 1em;
     overflow: hidden;
@@ -604,9 +625,9 @@ input[type=submit] {
 }
 
 .links b {
-    font-family: RobotoSlab;
-    font-variation-settings: "wght" 300;
-    letter-spacing: 0.08em;
+    /*font-family: "RobotoSlab";*/
+    /*font-variation-settings: "wght" 300;*/
+    /*letter-spacing: 0.08em;*/
 }
 
 .all-groups {
@@ -683,12 +704,6 @@ input[type=submit] {
  Media queries
   ***********************************/
 
-@media all and (max-width: 840px) {
-    #header ~ .section .section-content {
-        padding-bottom: 0;
-    }
-}
-
 @media all and (min-width: 841px) {
     .menu li li {
         margin-bottom: 0.4em;
@@ -740,18 +755,21 @@ input[type=submit] {
 
     .grid {
         grid-template-columns: 2fr 1fr;
-        /*grid-row-gap: 2em;*/
     }
 
     /* align the single group image */
-    /*.post #content > .section:first-child .grid .logo,*/
-    .default #intro .grid {
-        align-items: flex-end;
+    #intro.grid {
+        align-items: flex-start;
         justify-content: center;
         align-content: flex-end;
         flex-direction: row;
     }
-    
+
+    /* align the single group image */
+    #intro.grid img {
+        align-self: end;
+    }
+
     .post #content > .section:first-child .grid .logo {
          grid-row-start: 2;
     }
@@ -773,10 +791,6 @@ input[type=submit] {
 }
 
 @media all and (min-width: 1200px) {
-    #header {
-        position: absolute;
-    }
-
     #breadcrumbs {
         position: relative;
         top: auto;
@@ -801,19 +815,11 @@ input[type=submit] {
         top: 10%;
     }
 
-    .org .grid .logo {
-        margin-top: -6vh;
-    }
-
     .post .grid .logo {
         grid-column-start: 4;
         grid-column-end: 6;
     }
 
-    /* homepage */
-    .default #intro img {
-        /*margin-top: 100px;*/
-    }
 }
 
 @media all and (min-width: 1600px) {
