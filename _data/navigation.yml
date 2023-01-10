@@ -3,21 +3,25 @@
 - name: By Organisation
   subfolderitems:
   - name: 3GPP
-    link: /orgs/3gpp.html
+    link: /orgs/8_3gpp.html
   - name: ATIS
-    link: /orgs/atis.html
+    link: /orgs/9_atis.html
   - name: CEN/CENELEC
-    link: /orgs/cen-cenelec.html
+    link: /orgs/9_cen-cenelec.html
   - name: IEEE
-    link: /orgs/ieee.html
+    link: /orgs/4_ieee.html
   - name: IETF
-    link: /orgs/ietf.html
+    link: /orgs/2_ietf.html
   - name: IRTF
-    link: /orgs/irtf.html
-  - name: ITU
-    link: /orgs/itu.html
+    link: /orgs/3_irtf.html
+  - name: ISO
+    link: /orgs/5_iso.html
+  - name: ITU-R
+    link: /orgs/7_itu-r.html
+  - name: ITU-T
+    link: /orgs/6_itu-t.html
   - name: W3C
-    link: /orgs/w3c.html
+    link: /orgs/1_w3c.html
 - name: By issue
   subfolderitems:
   - name: Censorship circumvention
