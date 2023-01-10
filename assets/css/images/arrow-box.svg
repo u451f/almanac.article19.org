@@ -26,10 +26,10 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="19.845994"
-     inkscape:cx="17.081533"
-     inkscape:cy="20.029231"
-     inkscape:window-width="2560"
-     inkscape:window-height="1395"
+     inkscape:cx="16.879981"
+     inkscape:cy="11.967151"
+     inkscape:window-width="1920"
+     inkscape:window-height="1035"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
@@ -61,7 +61,7 @@
      transform="translate(-5.3622604,1.5683818)">
     <path
        id="rect23397"
-       style="fill:#44444d;fill-opacity:1;stroke:none;stroke-width:4.05933;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#b22117;fill-opacity:1;stroke:none;stroke-width:4.05933;stroke-dasharray:none;stroke-opacity:1"
        d="m 7.9421048,0.87661194 2.5798072,-2.43869374 -0.0067,-0.0063 H 5.3689604 l -0.0067,0.0063 z" />
   </g>
 </svg>

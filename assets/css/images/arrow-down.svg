@@ -26,14 +26,14 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="28.066474"
-     inkscape:cx="17.137885"
-     inkscape:cy="12.060653"
-     inkscape:window-width="2560"
-     inkscape:window-height="1395"
+     inkscape:cx="14.18062"
+     inkscape:cy="12.096283"
+     inkscape:window-width="1920"
+     inkscape:window-height="1035"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="g22969">
     <sodipodi:guide
        position="4.6199459,-5.5095776"
        orientation="0,-1"
@@ -132,7 +132,7 @@
        id="g22975"
        transform="rotate(90,8.1268019,1.4035288)">
       <rect
-         style="fill:#ffffff;stroke:none;stroke-width:0.748935;stroke-dasharray:none"
+         style="fill:#101820;stroke:none;stroke-width:0.748935;stroke-dasharray:none;fill-opacity:1"
          id="rect22698"
          width="4.7157183"
          height="1"
@@ -141,11 +141,11 @@
       <g
          id="g22969">
         <path
-           style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#101820;stroke:#101820;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
            d="m 7.8263623,-0.6297755 2.8165667,2.377948"
            id="path22921" />
         <path
-           style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#101820;stroke:#101820;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
            d="M 8.1969712,3.8518346 10.59039,1.0484022"
            id="path22921-4" />
       </g>

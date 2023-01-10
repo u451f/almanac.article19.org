@@ -8,7 +8,7 @@
    version="1.1"
    id="svg4963"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="clouds.svg"
+   sodipodi:docname="cloud.svg"
    inkscape:export-filename="../../cloud1.svg"
    inkscape:export-xdpi="70.677307"
    inkscape:export-ydpi="70.677307"
@@ -28,10 +28,10 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.763461"
-     inkscape:cx="233.14878"
-     inkscape:cy="507.55703"
-     inkscape:window-width="2560"
-     inkscape:window-height="1395"
+     inkscape:cx="227.90948"
+     inkscape:cy="297.9851"
+     inkscape:window-width="1920"
+     inkscape:window-height="1035"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
@@ -51,7 +51,7 @@
          transform="translate(-120.6021,180.21003)">
         <path
            id="path5028-8"
-           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round"
+           style="fill:#00acd8;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round"
            d="m 247.61537,-166.17439 a 32.922985,32.922985 0 0 0 -31.98411,25.17315 23.739206,23.739206 0 0 0 -9.42939,-1.95389 23.739206,23.739206 0 0 0 -23.68124,22.18314 28.937572,28.937572 0 0 0 -0.23151,-0.003 28.937572,28.937572 0 0 0 -28.93726,28.937256 28.937572,28.937572 0 0 0 28.93726,28.937762 28.937572,28.937572 0 0 0 24.35872,-13.35163 29.457409,29.457409 0 0 0 26.0656,15.77732 29.457409,29.457409 0 0 0 23.69467,-11.99047 30.670362,30.670362 0 0 0 22.57072,9.91101 30.670362,30.670362 0 0 0 30.67048,-30.669952 30.670362,30.670362 0 0 0 -30.48135,-30.667906 32.922985,32.922985 0 0 0 1.37046,-9.35963 32.922985,32.922985 0 0 0 -32.92305,-32.92306 z" />
       </g>
     </g>

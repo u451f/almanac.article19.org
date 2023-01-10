@@ -26,10 +26,10 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.3864167"
-     inkscape:cx="94.488189"
-     inkscape:cy="94.848831"
-     inkscape:window-width="1440"
-     inkscape:window-height="855"
+     inkscape:cx="34.621626"
+     inkscape:cy="96.291396"
+     inkscape:window-width="1920"
+     inkscape:window-height="1035"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
@@ -40,11 +40,11 @@
        inkscape:collect="always"
        id="linearGradient6055">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#00acd8;stop-opacity:0.50289017;"
          offset="0"
          id="stop6051" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:0.78750002;"
+         style="stop-color:#00acd8;stop-opacity:0.24855492;"
          offset="1"
          id="stop6053" />
     </linearGradient>
