@@ -26,19 +26,3 @@
 <!-- end of Twitter cards -->
 </head>
 <body class="desktop {{ page.layout }}">
-    <div id="header">
-        <h1 class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></h1>
-    </div>
-
-    {% if page.breadcrumbs != false %}
-    <div class="section">
-        <div class="section-content grid">
-            <div id="breadcrumbs">
-                <span class="crumb"><a rel="nofollow" href="{{ site.url }}">All organisations</a></span>
-                {% if page.org-full-name %}
-                <span class="crumb"><a rel="nofollow" href="{{ site.url }}/orgs/{{ page.org }}.html">{{ page.org-full-name }}</a></span>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
