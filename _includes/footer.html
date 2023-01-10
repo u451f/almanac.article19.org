@@ -1,6 +1,9 @@
     <div id="footer">
         <a href="https://article19.org" target="_blank"><img src="{{ site.url }}/assets/images/logo/article19.svg" alt="Logo ARTICLE 19"></a>
         <span class="cloud"><!-- animated cloud --></span>
+        {% if page.url == "/" %}
+        <span class="cloud cloud2"><!-- second animated cloud --></span>
+        {% endif %}
     </div>
     {% include navigation.html %}
     <script src="{{ site.url }}/assets/js/jquery-3.4.1.min.js"></script>
