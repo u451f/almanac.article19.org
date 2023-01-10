@@ -1,32 +1,32 @@
 {% include header.html %}
-<div id="content">
-    <div class="section">
-        <div class="section-content grid" id="intro">
-            <div id="main-text">
-                {{ content }}
-            </div>
-        {% if page.featured-img %}
-            <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
-        {% endif %}
-        {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
-        {% assign total = 0 %}
-        {% for post in orgposts %}
-            {% assign total = total | plus: 1 %}
-        {% endfor %}
-        {% if total > 1 %}
-            <p class="all-groups"><a href="#post-list">Other groups in this organisation</a></p>
-        {% endif %}
+<div class="section" id="content">
+    <div class="section-content grid" id="intro">
+        {% include site-header.html %}
+        <div id="main-text">
+            {% include breadcrumbs.html %}
+            {{ content }}
         </div>
+    {% if page.featured-img %}
+        <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
+    {% endif %}
+    {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
+    {% assign total = 0 %}
+    {% for post in orgposts %}
+        {% assign total = total | plus: 1 %}
+    {% endfor %}
+    {% if total > 1 %}
+        <p class="all-groups"><a href="#post-list">Other groups in this organisation</a></p>
+    {% endif %}
     </div>
-    <div class="section" id="post-list">
-        <div class="section-content grid">
-            {% assign posts = site.posts | where: 'org', page.org | reverse %}
-            {% for post in posts %}
-                {% if post.title != page.title %}
-                    {% include post_loop.html %}
-                {% endif %}
-            {% endfor %}
-        </div>
+</div>
+<div class="section" id="post-list">
+    <div class="section-content grid">
+        {% assign posts = site.posts | where: 'org', page.org | reverse %}
+        {% for post in posts %}
+            {% if post.title != page.title %}
+                {% include post_loop.html %}
+            {% endif %}
+        {% endfor %}
     </div>
 </div>
 {% include footer.html %}
