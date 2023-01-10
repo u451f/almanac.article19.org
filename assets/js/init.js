@@ -35,14 +35,27 @@ $(function($){
         }
     });
 
-    // mobile: logo above text
+    // mobile: move logo above text
     $(".mobile #post .org .logo").prependTo('.mobile #post .org #main-text .org-description').addClass('logo-moved');
     $(".mobile.post .logo").appendTo('.mobile.post #main-text .wg-description').addClass('logo-moved');
 
+    // animate submenus
     $('.main-menu li').click(function() {
         if($(this).children("ul").length) {
             $(this).children("ul").slideToggle(500);
         }
+    });
+
+    // animate scroll to all groups in org
+    $('a[href^="#"]').on('click',function(e) {
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+        });
     });
 
 });
