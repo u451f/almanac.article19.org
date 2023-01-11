@@ -165,12 +165,6 @@ body {
     position: absolute;
 }
 
-.desktop #post-list .post:nth-child(8)::after {
-    content: url(backgrounds/layer4.svg);
-    position: absolute;
-    right: 0;
-}
-
 
 @media all and (min-width: 841px) {
     #contributors #intro::after,
@@ -192,7 +186,6 @@ pre {
 a {
     outline: none;
     color: var(--secondary);
-    transition: 0.5s ease-in-out;
     text-decoration: underline;
 }
 
@@ -457,7 +450,6 @@ input[type=submit] {
     opacity: 1;
 }
 
-
 .toggler {
     font-size: calc(var(--basefontsize)*1.5);
     text-transform: uppercase;
@@ -543,15 +535,17 @@ input[type=submit] {
 
 .post-title {
     font-size: 0.9em;
-    font-family: 'NotoSansELight';
+    font-family: 'NotoSansRegular';
+    font-weight: normal;
+    text-transform: capitalize;
     letter-spacing: 0.05em;
     background: var(--bg);
-    padding: 0.2em;
+    padding: 0.2em 0.4em;
     text-align: center;
     margin-top: 1em;
 }
 
-#intro img, #post-list .img-wg {
+.home #intro img, #post-list .img-wg {
     background: url(images/shadow.svg) bottom center no-repeat;
     padding-bottom: 25px;
     background-size: contain;
@@ -895,22 +889,18 @@ input[type=submit] {
     #post-list .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    .desktop #post-list .post:nth-child(4)::after,
-    .desktop #post-list .post:nth-child(8)::after {
+    .post .wg-info, .org .org-description {
+        min-height: 350px;
+    }
+
+    .desktop #post-list .post:nth-child(4)::after {
         content: "";
         margin: 0;
         position: relative;
     }
-    .desktop #post-list .post:nth-child(5)::after {
+    #post-list .post:nth-child(5)::after {
         content: url(backgrounds/layer7.svg);
-        margin-left: calc(var(--hspace)*-1);
         position: absolute;
-    }
-
-    .desktop #post-list .post:nth-child(10)::after {
-        content: url(backgrounds/layer4.svg);
-        position: absolute;
-        right: 0;
     }
 
 }
