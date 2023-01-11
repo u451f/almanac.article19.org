@@ -12,6 +12,26 @@
     <div class="section-content grid">
         {% for tag in site.tags %}
             {% if tag[0] == page.ref %}
+                {% if page.ref == "censorship" %}
+                <img src="{{ site.url}}/assets/images/catnip-mallory/alice-censorship.svg" alt="Alice on a censored connection" width="250" />
+                {% endif %}
+
+                {% if page.ref == "encryption" %}
+                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-laptop.svg" alt="Catnip with laptop" width="170" />
+                {% endif %}
+
+                {% if page.ref == "dns" %}
+                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-laptop-back.svg" alt="Catnip with laptop from the back" width="170" />
+                {% endif %}
+
+                {% if page.ref == "surveillance" %}
+                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-inspecting-packet.svg" alt="Catnip inspecting packet" width="170" />
+                {% endif %}
+
+                {% if page.ref == "networks" or page.ref == "5G" %}
+                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-reading.svg" alt="Catnip reading" width="170" />
+                {% endif %}
+
                 {% for post in tag[1] %}
                     {% include post_loop.html %}
                 {% endfor %}
