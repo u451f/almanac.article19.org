@@ -217,10 +217,6 @@ a.glossary {
     border-bottom: 1px dotted;
 }
 
-i, em {
-    /* FIXME */
-}
-
 img {
     max-width: 100%;
     /*background: url(/assets/images/loader.gif) no-repeat center center;*/
@@ -297,7 +293,7 @@ input[type=submit] {
 #footer {
     text-align: right;
     background-image: url(backgrounds/layer8repeatable.svg);
-    background-position: left -1px;
+    background-position: left -2px;
     background-repeat: repeat-x;
     background-size: contain;
 }
