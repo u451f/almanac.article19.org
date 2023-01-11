@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("/assets/css/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'RobotoSlab';
-  src: url("/assets/css/fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
-}
-
-@font-face {
   font-family: 'NotoSansELight';
   src: url("/assets/css/fonts/NotoSans-ExtraLight.ttf") format("truetype");
 }
@@ -53,8 +43,7 @@ html {
 body {
     font-size: var(--basefontsize);
     line-height: 145%;
-    font-family: "NotoSansRegular", "Roboto", sans-serif;
-    font-variation-settings: "wght" 400;
+    font-family: "NotoSansRegular", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -70,7 +59,6 @@ body {
 
 b, strong {
     font-family: "NotoSansSemiBold", sans-serif;
-    font-variation-settings: "wght" 600;
     letter-spacing: 0.03em;
 }
 
@@ -474,7 +462,6 @@ input[type=submit] {
 
 
 .toggler {
-    font-variation-settings: "wght" 500;
     font-size: calc(var(--basefontsize)*1.5);
     text-transform: uppercase;
     position: relative;
@@ -518,7 +505,6 @@ input[type=submit] {
 
 .site-title {
     font-family: "NotoSansELight";
-    font-variation-settings: "wght" 100;
     letter-spacing: 0.05em;
     font-size: 2.5em;
     line-height: 120%;
@@ -541,8 +527,7 @@ input[type=submit] {
 
 .title {
     display: inline;
-    font-family: "NotoSansSemiBold", "RobotoSlab";
-    font-variation-settings: "wght" 300;
+    font-family: "NotoSansSemiBold";
     background: var(--secondary);
     box-shadow: 0.2em 0 0 var(--secondary), -0.2em 0 0 var(--secondary);
     color: var(--bg);
@@ -562,7 +547,6 @@ input[type=submit] {
 .post-title {
     font-size: 0.9em;
     font-family: 'NotoSansELight';
-    /*font-variation-settings: "wght" 200;*/
     letter-spacing: 0.05em;
     background: var(--bg);
     padding: 0.2em;
@@ -626,7 +610,6 @@ input[type=submit] {
 #org-list .org .excerpt {
     background: url(images/arrow-box.svg) no-repeat bottom center;
     background-size: 35px 20px;
-    font-variation-settings: "wght" 500;
     transition: 0.5s ease-in-out;
     opacity: 0;
     box-sizing: border-box;
@@ -697,8 +680,6 @@ input[type=submit] {
 }
 
 .all-groups {
-    /*text-transform: uppercase;*/
-    /*font-variation-settings: "wght" 600;*/
     background-image: url("images/arrow-down.svg");
     background-repeat: no-repeat;
     background-position: 0 6px;
