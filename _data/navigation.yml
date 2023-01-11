@@ -26,6 +26,12 @@
   subfolderitems:
   - name: Censorship circumvention
     link: /by-issue-censorship.html
+  - name: Encryption
+    link: /by-issue-encryption.html
+  - name: DNS
+    link: /by-issue-dns.html
+  - name: Surveillance
+    link: /by-issue-surveillance.html
 - name: By layer
   subfolderitems:
   - name: Social layer
