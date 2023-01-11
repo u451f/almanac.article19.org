@@ -2,7 +2,32 @@
     <div id="breadcrumbs">
         <span class="crumb"><a rel="nofollow" href="{{ site.url }}">All organisations</a></span>
         {% if page.org-full-name %}
-        <span class="crumb"><a rel="nofollow" href="{{ site.url }}/orgs/{{ page.org }}.html">{{ page.org-full-name }}</a></span>
+            {% assign org = page.org %}
+            {% case org %}
+            {% when '3gpp' %}
+                {% assign link = "8_3gpp" %}
+            {% when 'atis' %}
+                {% assign link = "9_atis" %}
+            {% when 'cen-cenelec' %}
+                {% assign link = "9_cen-cenelec" %}
+            {% when 'ieee' %}
+                {% assign link = "4_ieee" %}
+            {% when 'ietf' %}
+                {% assign link = "2_ietf" %}
+            {% when 'irtf' %}
+                {% assign link = "3_irtf" %}
+            {% when 'iso' %}
+                {% assign link = "5_iso" %}
+            {% when 'itu-t' %}
+                {% assign link = "6_itu-t" %}
+            {% when 'itu-r' %}
+                {% assign link = "7_itu-r" %}
+            {% when 'w3c' %}
+                {% assign link = "1_w3c" %}
+            {% else %}
+                {% assign link = page.org %}
+            {% endcase %}
+        <span class="crumb"><a rel="nofollow" href="{{ site.url }}/orgs/{{ link }}.html">{{ page.org-full-name }}</a></span>
         {% endif %}
     </div>
 {% endif %}
