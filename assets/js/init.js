@@ -52,11 +52,7 @@ $(function($){
             window.location.href = href;
         }
     });
-
-    // mobile: move logo above text
-    $(".mobile #post .org .logo").prependTo('.mobile #post .org #main-text .org-description').addClass('logo-moved');
-    $(".mobile.post .logo").appendTo('.mobile.post #main-text .wg-description').addClass('logo-moved');
-
+    
     // animate submenus
     $('.main-menu li').click(function() {
         if($(this).children("ul").length) {
