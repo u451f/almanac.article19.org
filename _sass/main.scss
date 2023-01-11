@@ -86,7 +86,6 @@ body {
     background-image: url(backgrounds/layer0repeatable.svg);
     background-position: left top;
     background-repeat: repeat-x;
-    /*background: linear-gradient(0deg, rgba(11,187,156,1) 10%,  rgba(184,134,201,1) 25%, rgba(0,51,160,1) 40%);*/
 
     min-height: 100vh;
     background: var(--bg) url(backgrounds/structure1.svg) repeat-x top left;
@@ -99,11 +98,16 @@ body {
 }
 
 .home #intro {
-    padding-bottom: 180px;
+    padding-bottom: 130px;
 }
 
-.org #post, .post #intro {
+.post #intro {
     background-image: url(backgrounds/layer6repeatable.svg), url(backgrounds/layer1repeatableshort.svg);
+    margin-bottom: -1px;
+}
+
+.org #post {
+    background-image: url(backgrounds/layer6repeatable-old.svg), url(backgrounds/layer1repeatableshort.svg);
     margin-bottom: -1px;
 }
 
@@ -165,6 +169,19 @@ body {
     margin: auto;
     text-align: center;
 }
+
+.desktop #post-list .post:nth-child(4)::after {
+    content: url(backgrounds/layer7.svg);
+    margin-left: calc(var(--hspace)*-1);
+    position: absolute;
+}
+
+.desktop #post-list .post:nth-child(8)::after {
+    content: url(backgrounds/layer4.svg);
+    position: absolute;
+    right: 0;
+}
+
 
 @media all and (min-width: 841px) {
     #contributors #intro::after,
@@ -406,8 +423,8 @@ input[type=submit] {
 
 .menu li {
     text-transform: uppercase;
-    font-size: calc(var(--basefontsize) * 2);
-        line-height: 1.5em;
+    font-size: calc(var(--basefontsize) * 1.8);
+    line-height: 1.5em;
 }
 
 .menu li span {
@@ -553,6 +570,17 @@ input[type=submit] {
     margin-top: 1em;
 }
 
+#intro img, #post-list .img-wg {
+    background: url(images/shadow.svg) bottom center no-repeat;
+    padding-bottom: 25px;
+    background-size: contain;
+}
+
+.home #intro img {
+    padding-bottom: 5px;
+    background-position: bottom right;
+}
+
 /*************************************
  Home page
   ***********************************/
@@ -668,12 +696,6 @@ input[type=submit] {
     list-style: none;
 }
 
-.links b {
-    /*font-family: "RobotoSlab";*/
-    /*font-variation-settings: "wght" 300;*/
-    /*letter-spacing: 0.08em;*/
-}
-
 .all-groups {
     /*text-transform: uppercase;*/
     /*font-variation-settings: "wght" 600;*/
@@ -682,6 +704,10 @@ input[type=submit] {
     background-position: 0 6px;
     background-size: 12px 12px;
     padding-left: 18px;
+}
+
+.mobile .all-groups {
+    margin-top: 3em;
 }
 
 #post-list {
@@ -730,7 +756,7 @@ input[type=submit] {
     height: 150px;
     display: block;
     position: absolute;
-    top: 25vh;
+    top: 32vh;
     left: -150px;
     z-index: 1;
     transition: all 1s ease-in-out;
@@ -762,6 +788,9 @@ input[type=submit] {
   ***********************************/
 
 @media all and (min-width: 841px) {
+    .cloud {
+        top: 25vh;
+    }
     .menu li li {
         margin-bottom: 0.4em;
     }
