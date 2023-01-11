@@ -83,10 +83,11 @@ body {
     background-image: url(backgrounds/layer2repeatable.svg), url(backgrounds/layer1repeatable.svg);
     background-position: left bottom, left bottom;
     background-repeat: repeat-x, repeat-x;
+    padding-bottom: 0;
 }
 
 .home #intro {
-    padding-bottom: 130px;
+    padding-bottom: 20px;
 }
 
 .post #intro {
@@ -561,6 +562,10 @@ input[type=submit] {
     background-position: bottom right;
 }
 
+#intro img {
+    margin: auto;
+}
+
 /*************************************
  Home page
   ***********************************/
@@ -681,10 +686,8 @@ input[type=submit] {
     background-position: 0 6px;
     background-size: 12px 12px;
     padding-left: 18px;
-}
-
-.mobile .all-groups {
     margin-top: 3em;
+    margin-bottom: 2em;
 }
 
 #post-list {
@@ -772,6 +775,14 @@ input[type=submit] {
         margin-bottom: 0.4em;
     }
 
+    #intro, #post {
+        padding-bottom: 0;
+    }
+
+    .home #intro {
+        padding-bottom: 130px;
+    }
+
    .ogrid {
         display: flex;
         flex-wrap: wrap;
@@ -811,7 +822,11 @@ input[type=submit] {
 
     .grid {
         grid-template-columns: 1fr 2fr 1fr;
-        grid-gap: 35px;
+        grid-column-gap: 35px;
+    }
+
+    .all-groups {
+        margin-top: 1em;
     }
 
     #breadcrumbs .crumb {
@@ -819,18 +834,9 @@ input[type=submit] {
     }
 
     /* align the single group image */
-    /*
-    #intro.grid {
-        align-items: flex-start;
-        justify-content: center;
-        align-content: flex-end;
-        flex-direction: row;
-    }
-    */
-
-    /* align the single group image */
     #intro.grid img {
         align-self: end;
+        margin: unset;
     }
 
     .post #content > .section:first-child .grid .logo {
@@ -889,4 +895,22 @@ input[type=submit] {
     #post-list .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+    .desktop #post-list .post:nth-child(4)::after,
+    .desktop #post-list .post:nth-child(8)::after {
+        content: "";
+        margin: 0;
+        position: relative;
+    }
+    .desktop #post-list .post:nth-child(5)::after {
+        content: url(backgrounds/layer7.svg);
+        margin-left: calc(var(--hspace)*-1);
+        position: absolute;
+    }
+
+    .desktop #post-list .post:nth-child(10)::after {
+        content: url(backgrounds/layer4.svg);
+        position: absolute;
+        right: 0;
+    }
+
 }
