@@ -71,4 +71,9 @@ $(function($){
                 window.location.hash = target;
         });
     });
+
+    // don't click on decorations
+    $('#org-list .org::before, #org-list .org::after').click(function(e) {
+        e.preventDefault();
+    });
 });
