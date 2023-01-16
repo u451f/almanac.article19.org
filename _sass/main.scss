@@ -591,18 +591,18 @@ input[type=submit] {
 }
 
 #org-list .org .excerpt {
-    font-variation-settings: "wght" 500;
     opacity: 0;
     box-sizing: border-box;
-    position: fixed;
-    width: 40vw;
-    left: 5vh;
-    top: 5vh;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 30%;
     z-index: 3;
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.7));
 }
 
 #org-list .org .description:hover .excerpt {
-    animation: fade linear 10s;
+    animation: fade linear 5s;
 }
 
 #org-list .org .description img, #post-list .post img {
@@ -615,8 +615,8 @@ input[type=submit] {
 }
 
 #org-list .org .excerpt div {
-    background: var(--quaternary);
-    color: var(--bg);
+    background: var(--bg);
+    color: var(--secondary);
     padding: 1em;
     display: flex;
 }
@@ -894,10 +894,6 @@ display: none;
     #breadcrumbs, #main-text, .all-groups, #primary-menu .main-menu {
         grid-column-start: 2;
         grid-column-end: 4;
-    }
-
-    #org-list .org .excerpt {
-        top: 10%;
     }
 
     .post .grid .logo {
