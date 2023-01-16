@@ -32,18 +32,6 @@
     link: /by-issue-dns.html
   - name: Surveillance
     link: /by-issue-surveillance.html
-- name: By layer
-  subfolderitems:
-  - name: Social layer
-    link: /by-layer-social.html
-  - name: Content layer
-    link: /by-layer-content.html
-  - name: Application layer
-    link: /by-layer-application.html
-  - name: Logical layer
-    link: /by-layer-logical.html
-  - name: Infrastructural layer
-    link: /by-layer-infrastructural.html
 - name: Methodology
   link: /methodology.html
 - name: Contributors
