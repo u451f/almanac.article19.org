@@ -13,9 +13,10 @@
 
 :root {
   --bg: #fff;
-  --primary: #da291c;
-  --secondary: #101820;
-  --tertiary: #c8c8c8;
+  --primary: #da291c; /* red */
+  --secondary: #101820; /* blackish */
+  --tertiary: #c8c8c8; /* grey */
+  --quaternary: #691B32; /* berry */
   --hspace: 6vw;
   --vspace: 4vh;
   --basefontsize: 17px;
@@ -50,7 +51,7 @@ body {
 
 b, strong {
     font-variation-settings: "wght" 500;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.07em;
 }
 
 /************************************
@@ -333,7 +334,8 @@ input[type=submit] {
 
 #primary-menu {
     background: rgb(218,41,28);
-    background: linear-gradient(165deg, rgba(218,41,28,1) 0%, rgba(218,41,28,1) 61%, rgba(252,137,2,1) 61%, rgba(255,145,0,1) 100%);
+    background: linear-gradient(155deg, rgba(218,41,28,1) 0%, rgba(218,41,28,1) 30%, rgba(105,27,50,1) 30%, rgba(105,27,50,1) 70%, rgba(254,143,1,1) 70%, rgba(255,145,0,1) 100%);
+
     position: fixed;
     top: 0;
     left: 0;
@@ -589,28 +591,33 @@ input[type=submit] {
 }
 
 #org-list .org .excerpt {
-    background: url(images/arrow-box.svg) no-repeat bottom center;
-    background-size: 35px 20px;
     font-variation-settings: "wght" 500;
-    transition: 0.5s ease-in-out;
     opacity: 0;
     box-sizing: border-box;
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    top: 0%;
+    position: fixed;
+    width: 40vw;
+    left: 5vh;
+    top: 5vh;
+    z-index: 3;
 }
 
 #org-list .org .description:hover .excerpt {
-    opacity: 1;
+    animation: fade linear 10s;
+}
+
+#org-list .org .description img, #post-list .post img {
+    transition: all .5s linear;
+}
+
+#org-list .org .description:hover img,
+#post-list .post:hover img {
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.7));
 }
 
 #org-list .org .excerpt div {
-    background: var(--primary);
+    background: var(--quaternary);
     color: var(--bg);
-    margin-bottom: 18px;
     padding: 1em;
-    overflow: hidden;
     display: flex;
 }
 
@@ -618,11 +625,12 @@ input[type=submit] {
     float: left;
     width: 30%;
     margin-right: 5%;
+display: none;
 }
 
 #org-list .org .excerpt div p {
-    float: left;
-    width: 65%;
+    /*float: left;*/
+    /*width: 65%;*/
     overflow: hidden;
 }
 
@@ -704,6 +712,10 @@ input[type=submit] {
     margin-top: 1.5em;
 }
 
+.post .logo {
+    filter: drop-shadow(0px 0px 6px #fff);
+}
+
 /*************************************
   Animation
 ***********************************/
@@ -748,6 +760,21 @@ input[type=submit] {
     100% {
         transform: translate(100vw, 0);
         opacity: 0.5;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
