@@ -101,7 +101,6 @@ body {
 }
 
 #org-list #org-irtf::before {
-    cursor: auto;
     content: url(images/tree.svg);
 }
 
@@ -119,7 +118,6 @@ body {
     transform: rotate(180deg);
 }
 #org-list #org-itu-t::before {
-    cursor: auto;
     content: url(images/tree-monstera.svg);
     display: block;
     margin: auto;
@@ -138,9 +136,7 @@ body {
     transform: rotate(180deg);
 }
 
-
 #org-list #org-atis::before {
-    cursor: auto;
     content: url(images/tree-leaves.svg);
     display: block;
     margin: auto;
@@ -571,7 +567,7 @@ input[type=submit] {
 
 #org-list .org::before,
 #org-list .org:after {
-    cursor: unset;
+    cursor: default;
 }
 
 #org-list .org a {
@@ -809,8 +805,15 @@ display: none;
         width: 45%;
     }
 
-    .ogrid .org#org-3gpp, .ogrid .org#org-atis, .ogrid .org#org-cen-cenelec {
+    .ogrid .org#org-3gpp, .ogrid .org#org-atis, .ogrid .org#org-cen-cenelec, .ogrid .org#org-etsi {
         width: 30%;
+    }
+    .ogrid .org#org-atis {
+        margin-left: -8%;
+    }
+    .ogrid .org#org-cen-cenelec {
+        margin-left: 70%;
+        margin-top: -15%;
     }
     .ogrid .org#org-w3c {
         width: 35%;
