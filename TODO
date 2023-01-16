@@ -1,24 +1,18 @@
 TODO
 ====
 
-- [] Use new colors for layered backgrounds, try white and grey instead
-- [] Use new colors for group and orgs → maybe black and white after all
-- [] Use Catnip images → create SVG?
-- [] Draw all the logos bc of copyright issues
-- [] images/css: have background shadows for groups?
-- [] images: tree, make the stem darker and the tree smaller
-- [] home: order of orgs on home as described in the email
-- [] integrate the header, breadcrumbs and logo into a grid? or do a flex layout?
 - [] Apache: fix redirections for groups and leave them to be in https
-- [] sometimes the cloud disturbs clicking on the site header
-- [] structure: link tag pages properly in the templates
+- [] single group page on mobile, the all groups link should be wide as the page
+- [] Draw all or some of the logos bc of copyright issues
+- [] Use new colors for group and orgs
+- [] Better menu background color
 - [] content: texts
 - [] structure: create relevant issue pages
-- [] single group page on mobile, the icon floats in the air and there is a proble with alignment
-- [] single group page on mobile, the all groups link should be wide as the page
-- [] org page: can the text be on blue background?
+- [] structure: link tag pages properly in the templates
 - [] maybe have the org logo on the group page somewhere
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
+- [] maybe add something on the bottom left on the homepage, it looks so empty
+- [] maybe imagine another nice gimmick
 
 MAYBE
 =====
@@ -28,6 +22,15 @@ MAYBE
 DONE
 ====
 
+- [x] Use new colors for layered backgrounds, try white and grey instead
+- [x] Use Catnip images → create SVG?
+- [x] images/css: have background shadows for groups?
+- [x] images: tree, make the stem darker and the tree smaller
+- [x] home: order of orgs on home as described in the email
+- [x] integrate the header, breadcrumbs and logo into a grid? or do a flex layout?
+- [x] sometimes the cloud disturbs clicking on the site header
+- [x] single group page on mobile, the icon floats in the air and there is a proble with alignment
+- [x] org page: can the text be on blue background?
 - [x] imgs: add more animals and plants to unterseiten
 - [x] contributor page: remove catnip looking
 - [x] metho page: keep for or mallory, not both
