@@ -109,6 +109,7 @@ body {
     margin-left: calc(var(--hspace)*-1);
     position: absolute;
     transform: rotate(180deg);
+    left: -8%;
 }
 
 #org-list #org-ietf::after {
@@ -425,7 +426,7 @@ input[type=submit] {
     -webkit-user-select: none;
     user-select: none;
     position: fixed;
-    top: 75px;
+    top: 80px;
     right: var(--hspace);
     z-index: 5;
 }
@@ -443,9 +444,9 @@ input[type=submit] {
 }
 
 .toggler {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
-    font-variation-settings: "wght" 400;
+    font-variation-settings: "wght" 200;
     font-size: calc(var(--basefontsize)*1.5);
     text-transform: uppercase;
     position: relative;
@@ -489,13 +490,17 @@ input[type=submit] {
 
 .site-title {
     font-family: "Roboto", sans-serif;
-    font-variation-settings: "wght" 100;
+    font-variation-settings: "wght" 200;
     letter-spacing: 0.1em;
     font-size: 2.3em;
     line-height: 120%;
     text-transform: uppercase;
     word-spacing: 80px;
     margin-bottom: 1em;
+}
+
+.desktop .site-title {
+    font-variation-settings: "wght" 100;
 }
 
 .site-title a {
@@ -514,19 +519,23 @@ input[type=submit] {
     display: inline;
     font-variation-settings: "wght" 200;
     background: var(--secondary);
-    box-shadow: 0.2em 0 0 var(--secondary), -0.2em 0 0 var(--secondary);
     color: var(--bg);
     letter-spacing: 0.07em;
     font-size: 1.5em;
     line-height: 135%;
-    padding: 0.2em 0em;
+    padding: 0.2em 0;
+}
+
+.desktop .title {
+    box-shadow: 0.2em 0 0 var(--secondary), -0.2em 0 0 var(--secondary);
 }
 
 .title::after {
     content: " ";
     clear: both;
-    display: block;
+    display: inline-flex;
     margin-bottom: 0.75em;
+    background: none;
 }
 
 .post-title {
@@ -602,7 +611,7 @@ input[type=submit] {
 }
 
 #org-list .org .description img, #post-list .post img {
-    transition: all .5s linear;
+    transition: filter .5s linear;
 }
 
 #org-list .org .description:hover img,
@@ -824,8 +833,9 @@ display: none;
         padding-top: 5%;
     }
     .ogrid .org#org-irtf {
-        width: 70%;
+        width: 90%;
         margin-top: -30%;
+        margin-left: 7%;
     }
     .ogrid .org#org-ieee {
         width: 90%;
@@ -906,6 +916,14 @@ display: none;
 
 }
 
+@media all and (min-width: 1400px) {
+    /* FIXME adjust this when we have the real text */
+    #intro.grid img {
+        position: absolute;
+        right: 18vw;
+        top: 300px;
+    }
+}
 @media all and (min-width: 1600px) {
     #post-list .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -922,6 +940,12 @@ display: none;
     #post-list .post:nth-child(5)::after {
         content: url(backgrounds/layer7.svg);
         position: absolute;
+    }
+    .ogrid .org#org-irtf {
+        margin-top: 0;
+    }
+    #org-list .org .excerpt {
+        max-width: 450px;
     }
 
 }
