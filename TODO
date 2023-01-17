@@ -1,17 +1,17 @@
 TODO
 ====
 
-- [] Apache: fix redirections for groups and leave them to be in https
-- [] single group page on mobile, the all groups link should be wide as the page
 - [] Draw all or some of the logos bc of copyright issues
 - [] Use new colors for group and orgs
 - [] Better menu background color
 - [] content: texts
 - [] structure: create relevant issue pages
 - [] structure: link tag pages properly in the templates
-- [] maybe have the org logo on the group page somewhere
+- [] Check CSS on iPhone -> don't resize
+- [] hamburger menu
+- [] menu always visible?
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
-- [] maybe add something on the bottom left on the homepage, it looks so empty
+- [] maybe have the org logo on the group page somewhere
 - [] maybe imagine another nice gimmick
 
 MAYBE
@@ -22,6 +22,8 @@ MAYBE
 DONE
 ====
 
+- [x] single group page on mobile, the all groups link should be wide as the page
+- [x] Apache: fix redirections for groups and leave them to be in https
 - [x] Use new colors for layered backgrounds, try white and grey instead
 - [x] Use Catnip images → create SVG?
 - [x] images/css: have background shadows for groups?
