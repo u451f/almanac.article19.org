@@ -98,6 +98,12 @@ body {
     left: -70%;
 }
 
+#org-list #org-ieee::after {
+    content: url(backgrounds/layer5.svg);
+    position: absolute;
+    left: -12%;
+}
+
 #org-list #org-irtf::before {
     content: url(images/tree.svg);
 }
@@ -108,13 +114,6 @@ body {
     position: absolute;
     transform: rotate(180deg);
     left: -8%;
-}
-
-#org-list #org-ietf::after {
-    content: url(backgrounds/layer5.svg);
-    right: calc(var(--hspace)*-1);
-    position: absolute;
-    transform: rotate(180deg);
 }
 #org-list #org-itu-t::before {
     content: url(images/tree-monstera.svg);
@@ -844,11 +843,12 @@ display: none;
     }
     .ogrid .org#org-ietf {
         width: 60%;
+        padding-left: 5%;
         padding-top: 5%;
     }
     .ogrid .org#org-irtf {
         width: 90%;
-        margin-top: -30%;
+        margin-top: -22%;
         margin-left: 7%;
     }
     .ogrid .org#org-ieee {
