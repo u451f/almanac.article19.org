@@ -406,9 +406,8 @@ input[type=submit] {
 .menu li li a {
     text-transform: none;
     font-size: calc(var(--basefontsize)*1.2);
-    margin-bottom: calc(var(--hspace)/3);
+    margin-bottom: calc(var(--hspace)/5);
 }
-
 
 /*************************************
  Menu animaton
@@ -804,9 +803,6 @@ display: none;
         height: auto;
         padding: 0 0 0 40%;
         box-sizing: border-box;
-    }
-    .menu li li {
-        margin-bottom: 0.4em;
     }
 
     #intro, #post {
