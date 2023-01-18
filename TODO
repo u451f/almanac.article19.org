@@ -1,13 +1,12 @@
 TODO
 ====
 
-- [] color ART19 logo needs fix
 - [] Draw all or some of the logos bc of copyright issues
-- [] layer 0 can be deleted
-- [] layer 8 has a weird line on the side
 - [] Change colors for groups
-- [] ETSI org image
+- [x] ETSI org image
 - [] ETSI group image(s)
+- [] layer 0 can be deleted, and structure 1 too
+- [] layer 8 has a weird line on the side
 - [] content: texts
 - [] structure: link tag pages properly in the templates
 - [] review placement of the excerpt hover information according to screenheight
@@ -25,6 +24,7 @@ MAYBE
 DONE
 ====
 
+- [x] color ART19 logo needs fix
 - [x] menu always visible?
 - [x] hamburger menu
 - [x] Check CSS on iPhone -> don't resize
