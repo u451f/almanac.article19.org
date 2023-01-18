@@ -8,7 +8,6 @@ TODO
 - [] layer 0 can be deleted, and structure 1 too
 - [] layer 8 has a weird line on the side
 - [] content: texts
-- [] structure: link tag pages properly in the templates
 - [] review placement of the excerpt hover information according to screenheight
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
 
@@ -24,6 +23,7 @@ MAYBE
 DONE
 ====
 
+- [x] structure: link tag pages properly in the templates
 - [x] color ART19 logo needs fix
 - [x] menu always visible?
 - [x] hamburger menu
