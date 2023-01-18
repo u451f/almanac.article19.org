@@ -1,6 +1,6 @@
 /*
 @licstart
-Copyright (C) 2019-2022 Ulrike Uhlig
+Copyright (C) 2022-2023 Ulrike Uhlig
 
     The JavaScript code in this page is free software: you can
     redistribute it and/or modify it under the terms of the GNU
@@ -18,6 +18,7 @@ Copyright (C) 2019-2022 Ulrike Uhlig
 @licend
 */
 
+/*
 // Detect scrolling
 var scrollPos = 0;
 // adding scroll event
@@ -35,6 +36,7 @@ window.addEventListener('scroll', function(){
     // saves the new position for iteration.
     scrollPos = (document.body.getBoundingClientRect()).top;
 });
+*/
 
 $(function($){
     // helper function for mobile layout
@@ -45,18 +47,23 @@ $(function($){
         $('body').addClass('safari');
     }
 
+    // animate submenus
+    $('.main-menu li').click(function() {
+        if($(this).children("ul").length) {
+            $(this).children("ul").slideToggle(500);
+        }
+    });
+
+    // homepage: don't click on decorations
+    $('#org-list .org::before, #org-list .org::after').click(function(e) {
+        e.preventDefault();
+    });
+
     // easy click on orgs and groups from list
     $('#org-list .org .description, #post-list .post').click(function() {
         let href = $(this).children().find('.permalink').attr('href');
         if(href !== undefined) {
             window.location.href = href;
-        }
-    });
-    
-    // animate submenus
-    $('.main-menu li').click(function() {
-        if($(this).children("ul").length) {
-            $(this).children("ul").slideToggle(500);
         }
     });
 
@@ -72,8 +79,17 @@ $(function($){
         });
     });
 
-    // don't click on decorations
-    $('#org-list .org::before, #org-list .org::after').click(function(e) {
-        e.preventDefault();
+    // Change menu color on dark background
+    $(window).scroll(function() {
+        if($('#main-text').length) {
+            let elem = $('#intro');
+            let bottom = elem.height() - 200; /* 200px is the height of the bg image */
+            if($(document).scrollTop() > bottom) {
+                $('body').addClass("darkbg");
+            } else {
+                $('body').removeClass("darkbg");
+            }
+        }
     });
+    $(window).scroll();
 });
