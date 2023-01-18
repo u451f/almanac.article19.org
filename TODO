@@ -2,23 +2,24 @@ TODO
 ====
 
 - [] color ART19 logo needs fix
-- [] Change colors for groups
 - [] Draw all or some of the logos bc of copyright issues
 - [] layer 0 can be deleted
 - [] layer 8 has a weird line on the side
+- [] Change colors for groups
 - [] ETSI org image
 - [] ETSI group image(s)
 - [] content: texts
 - [] structure: link tag pages properly in the templates
-- [] Have group images have more air, or a different format for mbile
-- [] Have the plant image in white?
+- [] review placement of the excerpt hover information according to screenheight
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
-- [] maybe have the org logo on the group page somewhere
-- [] maybe imagine another nice gimmick
 
 MAYBE
 =====
 
+- [] Have group images have more air, or a different format for mbile
+- [] Have the plant image in white?
+- [] maybe imagine another nice gimmick
+- [] maybe have the org logo on the group page somewhere
 - [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
 
 DONE
