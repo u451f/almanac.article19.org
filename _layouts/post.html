@@ -5,6 +5,13 @@
         <div id="main-text">
             {% include breadcrumbs.html %}
             {{ content }}
+            <ul class="links tags">
+                <li><b>Issues:</b>
+                    {% for tag in page.tags %}
+                    <a href="{{ site.url }}/by-issue-{{ tag }}.html">{{ tag  | replace: "-", " "}}</a>
+                    {% endfor %}
+                </li>
+            </ul>
         </div>
     {% if page.featured-img %}
         <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
