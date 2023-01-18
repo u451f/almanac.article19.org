@@ -667,8 +667,13 @@ display: none;
 }
 
 .links {
-    margin: 1em 0 3em 0;
+    margin: 1em 0 0 0;
     list-style: none;
+}
+
+.links.tags {
+    margin: 0 0 3em 0;
+    text-transform: capitalize;
 }
 
 .all-groups {
