@@ -1,15 +1,17 @@
 TODO
 ====
 
+- [] color ART19 logo needs fix
+- [] Change colors for groups
 - [] Draw all or some of the logos bc of copyright issues
-- [] Use new colors for group and orgs
-- [] Better menu background color
+- [] layer 0 can be deleted
+- [] layer 8 has a weird line on the side
+- [] ETSI org image
+- [] ETSI group image(s)
 - [] content: texts
-- [] structure: create relevant issue pages
 - [] structure: link tag pages properly in the templates
-- [] Check CSS on iPhone -> don't resize
-- [] hamburger menu
-- [] menu always visible?
+- [] Have group images have more air, or a different format for mbile
+- [] Have the plant image in white?
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
 - [] maybe have the org logo on the group page somewhere
 - [] maybe imagine another nice gimmick
@@ -22,6 +24,11 @@ MAYBE
 DONE
 ====
 
+- [x] menu always visible?
+- [x] hamburger menu
+- [x] Check CSS on iPhone -> don't resize
+- [x] Better menu background color
+- [x] structure: create relevant issue pages
 - [x] single group page on mobile, the all groups link should be wide as the page
 - [x] Apache: fix redirections for groups and leave them to be in https
 - [x] Use new colors for layered backgrounds, try white and grey instead
