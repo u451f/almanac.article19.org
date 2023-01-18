@@ -81,9 +81,13 @@ $(function($){
 
     // Change menu color on dark background
     $(window).scroll(function() {
-        if($('#main-text').length) {
-            let elem = $('#intro');
-            let bottom = elem.height() - 200; /* 200px is the height of the bg image */
+        if($('#content').length) {
+            let spacing = 200;
+            if($('body').hasClass('mobile')) {
+                let spacing = 100;
+            }
+            let elem = $('#content');
+            let bottom = elem.outerHeight() - spacing;
             if($(document).scrollTop() > bottom) {
                 $('body').addClass("darkbg");
             } else {
