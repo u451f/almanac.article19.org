@@ -17,8 +17,8 @@
   --secondary: #101820; /* blackish */
   --tertiary: #c8c8c8; /* grey */
   --quaternary: #691B32; /* berry */
-  --hspace: 6vw;
-  --vspace: 4vh;
+  --hspace: 4vw;
+  --vspace: 3vh;
   --basefontsize: 17px;
 }
 
@@ -59,12 +59,9 @@ b, strong {
  ***********************************/
 
 body {
-    background-image: url(backgrounds/layer0repeatable.svg);
-    background-position: left top;
-    background-repeat: repeat-x;
-
+    /*background: var(--bg) url(backgrounds/structure1.svg) repeat-x left -15px;*/
+    background: #fff;
     min-height: 100vh;
-    background: var(--bg) url(backgrounds/structure1.svg) repeat-x top left;
 }
 
 #intro, #post {
@@ -90,6 +87,7 @@ body {
 
 #post-list, #org-list {
     background: var(--tertiary) url(backgrounds/structure2.svg);
+    background: rgb(0, 148, 110) url(backgrounds/structure2.svg);
 }
 
 #org-list #org-w3c::after {
@@ -150,6 +148,10 @@ body {
     position: absolute;
 }
 
+.desktop #post-list .post:last-child::after {
+    content: "";
+    margin-left: unset;
+}
 
 @media all and (min-width: 841px) {
     #contributors #intro::after,
@@ -266,7 +268,7 @@ input[type=submit] {
   ***********************************/
 
 #content {
-    padding-top: 75px;
+    padding-top: var(--hspace);
 }
 
 #footer {
@@ -322,23 +324,21 @@ input[type=submit] {
 }
 
 #breadcrumbs, .all-groups {
-    font-family: "Roboto", sans-serif;
-    font-variation-settings: "wght" 500;
+    /*font-family: "Roboto", sans-serif;*/
+    /*font-variation-settings: "wght" 500;*/
 }
 /*************************************
   Nav: Menu
   ***********************************/
 
 #primary-menu {
-    background: rgb(218,41,28);
-    background: linear-gradient(155deg, rgba(218,41,28,1) 0%, rgba(218,41,28,1) 30%, rgba(105,27,50,1) 30%, rgba(105,27,50,1) 70%, rgba(254,143,1,1) 70%, rgba(255,145,0,1) 100%);
-
+    background: rgb(0,148,110);
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding-top: 75px;
+    padding-top: var(--hspace);
     box-sizing: border-box;
     z-index: 3;
     overflow: hidden;
@@ -361,8 +361,7 @@ input[type=submit] {
 
 #primary-menu .main-menu {
     overflow-y: auto;
-    height: calc(100vh - 75px - var(--vspace));
-    margin-top: -4px;
+    height: 60vh;
 }
 
 .main-menu {
@@ -375,11 +374,10 @@ input[type=submit] {
 }
 
 #primary-menu img {
-    align-self: end;
-    text-align: right;
-    width: 100%;
-    padding: 0 0 0 40%;
-    box-sizing: border-box;
+    position: absolute;
+    bottom: var(--vspace);
+    right: var(--vspace);
+    height: 10vh;
 }
 
 .menu ul {
@@ -388,34 +386,30 @@ input[type=submit] {
 }
 
 .menu li ul {
-    margin-left: calc(0.5*var(--hspace));
     display: none;
+    margin: 0.5em 0 0 1.5em;
 }
 
-.menu li {
+.menu li > a, .menu li > span {
     text-transform: uppercase;
-    font-size: calc(var(--basefontsize) * 1.8);
+    font-size: calc(var(--basefontsize) * 1.5);
     line-height: 1.5em;
-}
-
-.menu li span {
+    background: rgba(0,0,0,0.2);
+    margin-bottom: 0.5em;
+    padding: 0.5em;
     display: block;
+    text-decoration: none;
 }
 
-.menu li li {
+.menu li a:hover, .menu li span:hover, .menu .current-item a {
+    background: rgba(0,0,0,0.3);
+}
+.menu li li a {
     text-transform: none;
     font-size: calc(var(--basefontsize)*1.2);
     margin-bottom: calc(var(--hspace)/3);
 }
 
-.menu li a {
-    text-decoration: none;
-}
-
-.menu li a:hover,
-.menu .current-item a {
-    text-decoration: underline;
-}
 
 /*************************************
  Menu animaton
@@ -426,31 +420,22 @@ input[type=submit] {
     -webkit-user-select: none;
     user-select: none;
     position: fixed;
-    top: 80px;
+    top: calc(var(--hspace) + 5px);
     right: var(--hspace);
     z-index: 5;
 }
 
-.mobile-menu-toggle .toggler.menu-action {
-    transition: 0.5s ease-in-out;
-}
-
-.scrolling-down .mobile-menu-toggle .toggler.menu-action {
-    opacity: 0;
-}
-.mobile-menu-toggle input:checked ~ .toggler.menu-action,
-.scrolling-up .mobile-menu-toggle .toggler.menu-action {
-    opacity: 1;
-}
-
 .toggler {
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.03em;
-    font-variation-settings: "wght" 200;
-    font-size: calc(var(--basefontsize)*1.5);
-    text-transform: uppercase;
     position: relative;
     z-index: 4;
+    background: url(images/menu.svg) no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.darkbg .toggler {
+    background-image: url(images/menu-white.svg);
 }
 
 .mobile-menu-toggle input {
@@ -474,10 +459,8 @@ input[type=submit] {
     top: 0;
 }
 
-.mobile-menu-toggle input:checked ~ .toggler.menu-action::before {
-    content: "Close";
-    display: block;
-    color: #fff;
+.mobile-menu-toggle input:checked ~ .toggler.menu-action {
+    background-image: url(images/menu-close.svg);
 }
 
 .mobile-menu-toggle input:checked ~ .toggler.menu-action span {
@@ -517,7 +500,7 @@ input[type=submit] {
 
 .title {
     display: inline;
-    font-variation-settings: "wght" 200;
+    font-variation-settings: "wght" 300;
     background: var(--secondary);
     color: var(--bg);
     letter-spacing: 0.07em;
@@ -539,14 +522,17 @@ input[type=submit] {
 }
 
 .post-title {
-    font-size: 0.9em;
-    font-family: "Roboto", sans-serif;
-    font-variation-settings: "wght" 200;
-    letter-spacing: 0.05em;
-    background: var(--bg);
-    padding: 0.2em 0.4em;
+    font-size: 1em;
+    font-variation-settings: "wght" 400;
+    font-weight: normal;
+    background: rgba(0,0,0,0.2);
+    padding: 0.5em;
     text-align: center;
     margin-top: 1em;
+}
+
+.post-title a {
+    color: #fff;
 }
 
 .home #intro img, #post-list .img-wg {
@@ -601,7 +587,7 @@ input[type=submit] {
     position: absolute;
     width: 70%;
     left: 15%;
-    top: 30%;
+    bottom: 30px; /* FIXME adjust for smaller screens */
     z-index: 3;
     filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.7));
 }
@@ -611,12 +597,17 @@ input[type=submit] {
 }
 
 #org-list .org .description img, #post-list .post img {
-    transition: filter .5s linear;
+    transition: filter .3s linear;
+}
+
+.mobile #org-list .org .description img,
+.mobile #post-list .post img {
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.7));
 }
 
 #org-list .org .description:hover img,
 #post-list .post:hover img {
-    filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.7));
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.8));
 }
 
 #org-list .org .excerpt div {
@@ -634,14 +625,22 @@ display: none;
 }
 
 #org-list .org .excerpt div p {
-    /*float: left;*/
-    /*width: 65%;*/
     overflow: hidden;
 }
 
 /*************************************
  Tag and simple pages
   ***********************************/
+
+.desktop.home #main-text {
+    padding-bottom: 155px;
+}
+
+.desktop.org #main-text,
+.desktop.default #main-text,
+.desktop.tag #main-text {
+    padding-bottom: 290px;
+}
 
 .desktop.default #main-text {
     padding-top: 0.9em;
@@ -686,6 +685,7 @@ display: none;
 
 .all-groups a {
     text-decoration: none;
+    color: #fff;
 }
 
 .all-groups a:hover {
@@ -718,7 +718,7 @@ display: none;
 }
 
 .post .logo {
-    filter: drop-shadow(0px 0px 6px #fff);
+    filter: drop-shadow(0px 0px 7px rgba(255,255,255,0.7));
 }
 
 /*************************************
@@ -792,6 +792,20 @@ display: none;
     .cloud {
         top: 25vh;
     }
+    #primary-menu .main-menu {
+        height: 90vh;
+    }
+    #primary-menu img {
+        position: relative;
+        bottom: unset;
+        right: unset;
+        align-self: end;
+        text-align: right;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 40%;
+        box-sizing: border-box;
+    }
     .menu li li {
         margin-bottom: 0.4em;
     }
@@ -862,6 +876,10 @@ display: none;
         margin-left: -1em;
     }
 
+    .all-groups {
+        grid-column-start: 2;
+    }
+
     /* align the single group image */
     #intro.grid img {
         align-self: end;
@@ -874,7 +892,7 @@ display: none;
 
     #post-list .grid {
         grid-column-gap: 4em;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     #post-list .post:nth-child(even) {
@@ -916,14 +934,6 @@ display: none;
 
 }
 
-@media all and (min-width: 1400px) {
-    /* FIXME adjust this when we have the real text */
-    #intro.grid img {
-        position: absolute;
-        right: 18vw;
-        top: 300px;
-    }
-}
 @media all and (min-width: 1600px) {
     #post-list .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
