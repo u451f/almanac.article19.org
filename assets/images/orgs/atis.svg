@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.90206372"
-     inkscape:cx="117.50833"
-     inkscape:cy="299.86795"
-     inkscape:window-width="1440"
-     inkscape:window-height="855"
+     inkscape:cx="113.07405"
+     inkscape:cy="122.49689"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g22570"
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
@@ -125,7 +125,7 @@
            transform="matrix(1,0,0,-1,-6.2499993e-7,-1.2083333e-6)" />
         <path
            id="path2744-6-3-4-3"
-           style="fill:#ff425c;fill-opacity:1;stroke:#ff778a;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;stroke:#ff778a;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            d="m 120.53695,130.37338 c -2.68789,-0.025 -5.47134,0.22752 -8.25184,0.72151 v 46.92648 c 2.64735,0.49983 5.29709,0.77778 7.86357,0.80157 16.82465,0.15604 21.66465,-10.20747 21.77193,-23.58645 0.10728,-13.37896 -4.55901,-24.70707 -21.38366,-24.86311 z" />
         <path
            id="path2744-6-3-8"
@@ -159,7 +159,7 @@
          ry="14.579562" />
       <path
          id="path2744-6-3-8-2"
-         style="fill:#ff425c;fill-opacity:1;stroke:#ff778a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#d62d26;fill-opacity:1;stroke:#ff778a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 107.28472,128.68306 v 51.91208 c -18.650441,-1.52027 -39.376064,-12.80895 -39.259616,-26.3126 0.115529,-13.39587 20.700729,-24.25696 39.259616,-25.59948 z m -12.412676,12.58063 c -9.279448,0.67126 -19.572046,6.10181 -19.62981,12.79974 -0.05822,6.75183 10.304586,12.39617 19.62981,13.1563 z" />
     </g>
     <g

@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.45103186"
-     inkscape:cx="425.69055"
-     inkscape:cy="411.27915"
-     inkscape:window-width="1440"
-     inkscape:window-height="855"
+     inkscape:cx="416.822"
+     inkscape:cy="236.12523"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g8901"
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
@@ -160,7 +160,7 @@
            x="94.452263"
            y="60.905651" />
         <ellipse
-           style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.601255;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;stroke:#ffaab6;stroke-width:0.601255;stroke-opacity:1"
            id="path17948-1-5-7"
            cx="68.185837"
            cy="66.198349"
@@ -183,7 +183,7 @@
            ry="13.331507" />
         <path
            id="path17948"
-           style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-opacity:1"
            d="M 79.716552,30.350936 A 16.541286,16.37751 0 0 1 68.8552,34.390999 16.541286,16.37751 0 0 1 58.012451,30.367472 33.330002,33 0 0 0 35.524934,61.548515 33.330002,33 0 0 0 68.8552,94.548567 33.330002,33 0 0 0 102.18495,61.548515 33.330002,33 0 0 0 79.716552,30.350936 Z" />
         <path
            id="path13389-4-2"
@@ -215,7 +215,7 @@
            id="path13389"
            sodipodi:nodetypes="cccc" />
         <ellipse
-           style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-opacity:1"
            id="path17948-0"
            cx="68.855087"
            cy="61.548512"

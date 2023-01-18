@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.45103186"
-     inkscape:cx="434.5591"
-     inkscape:cy="480.01044"
-     inkscape:window-width="1440"
-     inkscape:window-height="855"
+     inkscape:zoom="0.63785537"
+     inkscape:cx="432.69997"
+     inkscape:cy="618.47876"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g7553"
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
@@ -76,33 +76,33 @@
     <g
        id="g7553">
       <ellipse
-         style="opacity:0.2;fill:#333333;stroke-width:4"
+         style="opacity:0.2;fill:#333333;stroke-width:4.07464"
          id="path7538"
-         cx="410.65457"
-         cy="280.87143"
-         rx="39.010086"
-         ry="9.092576" />
+         cx="411.16788"
+         cy="281.0914"
+         rx="39.523376"
+         ry="9.3125582" />
       <ellipse
-         style="opacity:0.2;fill:#333333;stroke-width:4"
+         style="opacity:0.2;fill:#333333;stroke-width:4.21694"
          id="path7540"
-         cx="493.66101"
-         cy="227.19591"
-         rx="28.744274"
-         ry="7.6260319" />
+         cx="493.51434"
+         cy="228.0025"
+         rx="28.890928"
+         ry="8.4326315" />
       <ellipse
-         style="opacity:0.2;fill:#333333;stroke-width:4.64758"
+         style="opacity:0.2;fill:#333333;stroke-width:4.86229"
          id="path7542"
-         cx="570.80127"
-         cy="262.09967"
-         rx="30.797436"
-         ry="7.9193411" />
+         cx="571.38788"
+         cy="262.68628"
+         rx="31.384054"
+         ry="8.5059586" />
       <ellipse
-         style="opacity:0.2;fill:#333333;stroke-width:4.44575"
+         style="opacity:0.2;fill:#333333;stroke-width:4.59481"
          id="path7544"
          cx="564.05505"
-         cy="365.93103"
+         cy="366.59097"
          rx="49.275898"
-         ry="9.6791945" />
+         ry="10.33914" />
       <ellipse
          style="opacity:0.2;fill:#333333;stroke-width:4.18492"
          id="path7546"
@@ -119,7 +119,7 @@
          transform="matrix(0.74767519,0,0,0.74767519,300.89871,65.420907)">
         <path
            id="rect6790"
-           style="fill:#ff425c;fill-opacity:1;fill-rule:nonzero;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;fill-rule:nonzero;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            d="m 249.14366,197.41752 v 5.66632 l -5.00228,-1.21608 -0.0935,6.8824 h -4.13566 v 5.66632 h -4.43074 v 5.66632 h 40.76444 v -5.66632 h -4.43126 v -5.66632 h -4.13514 c 0,0 -0.0935,-7.81784 0,-6.8824 0,-1.02898 -5.0953,1.21608 -5.0953,1.21608 v -5.66632 z"
            sodipodi:nodetypes="ccccccccccccccccc" />
         <ellipse
@@ -163,7 +163,7 @@
            ry="24.471586" />
         <path
            id="rect6790-8"
-           style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            d="m 180.52282,152.50253 v 0 h -1e-4 l -5.04316,-1.10391 -0.0522,6.84498 h -4.13569 v 5.21191 h -4.43068 v 5.2119 h 40.76409 v -5.2119 h -4.43118 v -5.21191 h -4.1352 l -0.0522,-6.89723 -5.14765,1.05166 c -6.24865,0.33279 -6.01165,0.51828 -13.33603,0.1045 z"
            sodipodi:nodetypes="ccccccccccccccccc" />
         <path
@@ -177,7 +177,7 @@
          transform="matrix(0.86784173,0,0,0.86784173,350.021,72.792261)">
         <path
            id="rect6790-3"
-           style="fill:#ff425c;fill-opacity:1;fill-rule:nonzero;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;fill-rule:nonzero;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            d="m 249.14366,197.41752 v 5.66632 l -5.00228,-1.21608 -0.0935,6.8824 h -4.13566 v 5.66632 h -4.43074 v 5.66632 h 40.76444 v -5.66632 h -4.43126 v -5.66632 h -4.13514 c 0,0 -0.0935,-7.81784 0,-6.8824 0,-1.02898 -5.0953,1.21608 -5.0953,1.21608 v -5.66632 z"
            sodipodi:nodetypes="ccccccccccccccccc" />
         <ellipse
@@ -229,7 +229,7 @@
          transform="matrix(1.3800019,0,0,1.3800019,209.45032,66.392473)">
         <path
            id="rect6790-5"
-           style="fill:#ff425c;fill-opacity:1;fill-rule:nonzero;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;fill-rule:nonzero;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            d="m 249.14366,197.41752 v 5.66632 l -5.00228,-1.21608 -0.0935,6.8824 h -4.13566 v 5.66632 h -4.43074 v 5.66632 h 40.76444 v -5.66632 h -4.43126 v -5.66632 h -4.13514 c 0,0 -0.0935,-7.81784 0,-6.8824 0,-1.02898 -5.0953,1.21608 -5.0953,1.21608 v -5.66632 z"
            sodipodi:nodetypes="ccccccccccccccccc" />
         <rect
@@ -249,7 +249,7 @@
          transform="matrix(1.6229502,0,0,1.6229502,68.295204,-109.53109)">
         <path
            id="rect6790-58"
-           style="fill:#ff425c;fill-opacity:1;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#d62d26;fill-opacity:1;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            d="m 215.23588,291.28131 h -5.09541 v 5.6663 h -4.13569 v 5.6663 h -4.43068 v 5.6663 h 40.76409 v -5.6663 h -4.43118 v -5.6663 h -4.1352 v -5.6663 h -5.0954 c -7.35705,-0.1202 -4.72115,0.0276 -13.44053,0 z"
            sodipodi:nodetypes="ccccccccccccccc" />
         <ellipse
