@@ -498,6 +498,7 @@ input[type=submit] {
 
 .title {
     display: inline;
+    text-transform: capitalize;
     font-variation-settings: "wght" 300;
     background: var(--secondary);
     color: var(--bg);
