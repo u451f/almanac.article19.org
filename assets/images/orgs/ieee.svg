@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="8.76235"
-     inkscape:cx="988.09109"
-     inkscape:cy="212.21476"
+     inkscape:zoom="0.54764688"
+     inkscape:cx="987.86284"
+     inkscape:cy="214.55431"
      inkscape:window-width="2560"
      inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g49278-9"
+     inkscape:current-layer="g8440"
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
@@ -85,8 +85,8 @@
       <ellipse
          style="opacity:0.2;fill:#333333;stroke-width:4"
          id="path8421"
-         cx="312.91278"
-         cy="382.65305"
+         cx="324.99097"
+         cy="382.16992"
          rx="26.397802"
          ry="13.785519" />
       <ellipse
@@ -545,7 +545,7 @@
       </g>
       <g
          id="g5839"
-         transform="matrix(1.969594,0,0,1.969594,-270.06383,284.03513)">
+         transform="matrix(1.969594,0,0,1.969594,-516.45892,280.65324)">
         <g
            id="g49278-7-0"
            transform="matrix(0.70126192,0,0,0.5907738,127.36997,21.317531)">
@@ -915,7 +915,7 @@
       </g>
       <g
          id="g6429"
-         transform="matrix(1.8147059,0,0,1.8147059,-472.43343,297.00376)">
+         transform="matrix(1.8147059,0,0,1.8147059,-212.9939,306.18318)">
         <g
            id="g65534"
            transform="translate(1.0306998)">

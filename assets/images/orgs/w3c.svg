@@ -79,7 +79,7 @@
          style="opacity:0.2;fill:#333333;stroke-width:4.07464"
          id="path7538"
          cx="411.16788"
-         cy="281.0914"
+         cy="277.38718"
          rx="39.523376"
          ry="9.3125582" />
       <ellipse
@@ -153,7 +153,7 @@
       <g
          id="g4118"
          style="stroke-width:0.1;stroke-dasharray:none"
-         transform="matrix(1.1041035,0,0,1.1041035,206.62059,97.732528)">
+         transform="matrix(1.1041035,0,0,1.1041035,206.62059,94.028359)">
         <ellipse
            style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            id="path6663"
@@ -246,7 +246,7 @@
       </g>
       <g
          id="g4323"
-         transform="matrix(1.6229502,0,0,1.6229502,68.295204,-109.53109)">
+         transform="matrix(1.6229502,0,0,1.6229502,68.295204,-107.94358)">
         <path
            id="rect6790-58"
            style="fill:#d62d26;fill-opacity:1;stroke:#ffaab6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"

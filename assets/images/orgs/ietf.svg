@@ -3,8 +3,8 @@
 
 <svg
    width="262.43576mm"
-   height="222.08348mm"
-   viewBox="0 0 262.43576 222.08348"
+   height="275.00018mm"
+   viewBox="0 0 262.43576 275.00018"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.430834"
-     inkscape:cx="493.41853"
-     inkscape:cy="419.68531"
+     inkscape:zoom="0.50587621"
+     inkscape:cx="494.19205"
+     inkscape:cy="621.6936"
      inkscape:window-width="2560"
      inkscape:window-height="1395"
      inkscape:window-x="0"
@@ -36,32 +36,32 @@
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
-       position="-364.05523,301.13271"
+       position="-364.05525,301.13273"
        orientation="1,0"
        id="guide2923"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-161.13548,245.37296"
+       position="-161.13549,245.37298"
        orientation="0,-1"
        id="guide8011"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="98.885329,350.47814"
+       position="98.885336,350.47816"
        orientation="0,-1"
        id="guide11504"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="75.288426,340.89899"
+       position="75.288432,340.89901"
        orientation="-0.00080638876,-0.99999967"
        id="guide13038"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="64.998556,384.95836"
+       position="64.998561,384.95839"
        orientation="0,-1"
        id="guide13636"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="197.45733,396.74495"
+       position="197.45734,396.74498"
        orientation="0,-1"
        id="guide13711"
        inkscape:locked="false" />
@@ -72,7 +72,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-358.71599,-173.59853)">
+     transform="translate(-358.71599,-120.68183)">
     <g
        id="g21036">
       <rect
@@ -96,48 +96,48 @@
          id="rect20938-2"
          width="24.346081"
          height="32.759239"
-         x="390.50986"
-         y="-154.55684"
+         x="430.39749"
+         y="-189.32231"
          transform="matrix(0.68824412,0.72547917,-0.86521915,0.50139388,0,0)" />
       <rect
          style="opacity:0.2;fill:#333333;fill-opacity:1;stroke-width:2.37613"
          id="rect20938-56"
          width="20.723682"
          height="28.348497"
-         x="396.53598"
-         y="-212.40874"
+         x="355.18658"
+         y="-237.53009"
          transform="matrix(0.68762524,0.72606578,-0.90280542,0.43004927,0,0)" />
       <rect
          style="opacity:0.2;fill:#333333;fill-opacity:1;stroke-width:2.96247"
          id="rect20938-6"
          width="24.62842"
          height="37.079014"
-         x="442.46255"
-         y="-231.46735"
+         x="388.74408"
+         y="-276.49811"
          transform="matrix(0.79166846,0.61095093,-0.94440266,0.32879113,0,0)" />
       <rect
          style="opacity:0.2;fill:#333333;fill-opacity:1;stroke-width:3.4189"
          id="rect20938-69"
          width="28.580523"
          height="42.555878"
-         x="463.99258"
-         y="-168.10181"
-         transform="matrix(0.77938557,0.6265446,-0.9400879,0.34093218,0,0)" />
+         x="423.08728"
+         y="-209.24719"
+         transform="matrix(0.77938557,0.6265446,-0.94008789,0.34093218,0,0)" />
       <rect
          style="opacity:0.2;fill:#333333;fill-opacity:1;stroke-width:2.96247"
          id="rect20938-7"
          width="24.62842"
          height="37.079014"
-         x="501.5083"
-         y="-214.85814"
+         x="459.72726"
+         y="-249.88206"
          transform="matrix(0.79166846,0.61095093,-0.94440266,0.32879113,0,0)" />
       <rect
          style="opacity:0.2;fill:#333333;fill-opacity:1;stroke-width:2.96247"
          id="rect20938-0"
          width="24.62842"
          height="37.079014"
-         x="546.10834"
-         y="-162.54306"
+         x="532.79761"
+         y="-177.57779"
          transform="matrix(0.79166846,0.61095093,-0.94440266,0.32879113,0,0)" />
       <rect
          style="opacity:0.2;fill:#333333;fill-opacity:1;stroke-width:3.7109"
@@ -157,12 +157,14 @@
          transform="matrix(0.77938557,0.6265446,-0.94008789,0.34093218,0,0)" />
     </g>
     <g
-       id="g1882">
+       id="g1882"
+       transform="translate(-10.583333)">
       <g
-         id="g1022">
+         id="g1022"
+         transform="translate(10.583333)">
         <g
            id="g5407"
-           transform="matrix(0.50363179,0,0,0.50363179,345.69157,185.97316)">
+           transform="matrix(0.50363179,0,0,0.50363179,345.69157,133.05646)">
           <circle
              style="fill:#ffaab6;fill-opacity:1;stroke:none;stroke-width:0.794668;stroke-opacity:1"
              id="path14086"
@@ -195,7 +197,7 @@
         </g>
         <g
            id="g4712"
-           transform="matrix(0.51965239,0,0,0.51965239,190.82826,209.08543)">
+           transform="matrix(0.51965239,0,0,0.51965239,178.27578,171.33631)">
           <g
              id="g13050-8-9-1"
              transform="translate(92.256889,-43.840685)">
@@ -261,7 +263,7 @@
         </g>
         <g
            id="g4636"
-           transform="matrix(0.70323508,0,0,0.70323508,218.38025,216.65091)">
+           transform="matrix(0.70323508,0,0,0.70323508,218.38025,174.31755)">
           <path
              id="rect21221"
              style="fill:#ffaab6;stroke:#ffaab6;stroke-width:0.7"
@@ -306,7 +308,7 @@
         </g>
         <g
            id="g5573"
-           transform="matrix(0.61116923,0,0,0.61116923,334.41033,216.48245)">
+           transform="matrix(0.61116923,0,0,0.61116923,334.41033,179.44076)">
           <path
              id="rect2029"
              style="fill:#ff778a;fill-opacity:1;stroke:none;stroke-width:0.86432"
@@ -354,7 +356,7 @@
         <g
            id="g5981"
            style="stroke-width:1.1;stroke-dasharray:none"
-           transform="matrix(0.73411878,0,0,0.73411878,275.15953,299.10493)">
+           transform="matrix(0.73411878,0,0,0.73411878,293.46523,275.04601)">
           <g
              id="g13050-8-9-5"
              transform="translate(-31.408729,-45.150305)"
@@ -629,7 +631,7 @@
         </g>
         <g
            id="g5462"
-           transform="matrix(0.60394657,0,0,0.60394657,138.1056,192.06966)">
+           transform="matrix(0.60394657,0,0,0.60394657,187.26947,199.91496)">
           <rect
              style="fill:#ff778a;fill-opacity:1;stroke:#ffaab6;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
              id="rect12802-53"
@@ -932,7 +934,7 @@
     </g>
     <g
        id="g20773"
-       transform="matrix(0.2196093,0,0,0.2196093,447.12555,268.47035)">
+       transform="matrix(0.2196093,0,0,0.2196093,459.67803,259.05599)">
       <path
          id="path6"
          class="cls-2"
