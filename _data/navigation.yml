@@ -44,7 +44,5 @@
     link: /by-issue-surveillance.html
 - name: Methodology
   link: /methodology.html
-- name: Contributors
-  link: /contributors.html
-- name: Imprint
-  link: /imprint.html
+- name: Acknowledgements
+  link: /acknowledgements.html
