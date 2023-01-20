@@ -35,7 +35,7 @@ body {
     font-size: var(--basefontsize);
     line-height: 150%;
     font-family: "RobotoSlab", serif;
-    font-variation-settings: "wght" 400;
+    font-variation-settings: "wght" 360;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -50,8 +50,8 @@ body {
 }
 
 b, strong {
-    font-variation-settings: "wght" 500;
-    letter-spacing: 0.07em;
+    font-weight:  normal;
+    font-variation-settings: "wght" 450;
 }
 
 img {
@@ -229,18 +229,8 @@ a {
 }
 
 .glossary {
-    text-decoration: none;
-    border-bottom: 1px dotted;
-    cursor: pointer;
-}
-
-.glossary[title]:hover:after {
-    content: attr(title);
-    position: absolute;
-    top: -100%;
-    left: 0;
-    background: var(--colour3);
-    padding: 0.5em;
+    font-style: italic;
+    cursor: help;
 }
 
 /*************************************
@@ -316,7 +306,6 @@ input[type=submit] {
 }
 
 #footer a.logo {
-    display: block;
     padding: 2em 1.5em 0 0;
 }
 
@@ -508,17 +497,14 @@ input[type=submit] {
 
 .site-title {
     font-family: "Roboto", sans-serif;
-    font-variation-settings: "wght" 200;
+    font-variation-settings: "wght" 250;
+    font-weight: normal;
     letter-spacing: 0.1em;
     font-size: 2.3em;
     line-height: 120%;
     text-transform: uppercase;
     word-spacing: 80px;
     margin-bottom: 1em;
-}
-
-.desktop .site-title {
-    font-variation-settings: "wght" 100;
 }
 
 /*.desktop #org-list:before,*/
@@ -543,11 +529,12 @@ input[type=submit] {
 }
 
 .title {
-    font-variation-settings: "wght" 500;
+    font-weight: normal;
+    font-variation-settings: "wght" 700;
     color: var(--colour3);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     font-size: calc(var(--basefontsize) * 1.5);
-    line-height: 140%;
+    line-height: 130%;
 }
 
 .title::after {
@@ -800,8 +787,21 @@ h3.title {
 }
 
 .links {
-    margin: 2em 0;
+    margin: 2em 0 0;
     list-style: none;
+    font-family: "Roboto", sans-serif;
+    line-height: 140%;
+    font-variation-settings: "wght" 400;
+}
+
+.links li:before {
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background: var(--colour3);
+    display: block;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
 }
 
 .links.tags {
