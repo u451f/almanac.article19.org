@@ -5,13 +5,20 @@
         <div id="main-text">
             {% include breadcrumbs.html %}
             {{ content }}
+
+            {% assign counttags = 0 %}
+            {% for tag in page.tags %}
+                {% assign counttags = counttags | plus: 1 %}
+            {% endfor %}
+            {% if counttags > 0  %}
             <ul class="links tags">
-                <li><b>Issues:</b>
+                <li><b>Tags:</b>
                     {% for tag in page.tags %}
                     <a href="{{ site.url }}/by-issue-{{ tag }}.html">{{ tag  | replace: "-", " "}}</a>
                     {% endfor %}
                 </li>
             </ul>
+            {% endif %}
         </div>
     {% if page.featured-img %}
         <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
