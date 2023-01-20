@@ -2,19 +2,30 @@
 layout: post
 org: ietf
 org-full-name: Internet Engineering Task Force
-tags: layer-logical tls encryption
+tags: censorship privacy
 title: "Transport Layer Security"
 excerpt: "This group aims to improve the applicability and suitability of the TLS family of protocols for use in emerging protocols and use cases."
 featured-img: assets/images/groups/ietf-group-6.svg
 ---
 <div class="wg-info">
-    <h1 class="title">Transport Layer Security</h1>
+    <h1 class="title">Transport Layer Security |&nbsp;tls</h1>
     <div class="wg-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p>This working group aims to improve the applicability and suitability
+        of the TLS family of protocols for use in emerging protocols and use
+        cases. These protocols are widely relied on to implement cryptography
+        on the web and provide secure communication over a network, including
+        in the QUIC protocol. The group is also looking to encrypt the
+        ClientHello <a
+        href="https://www.cloudflare.com/en-gb/learning/ssl/what-is-sni/"
+        class="glossary">Server Name Indication (SNI)</a>, which the client
+        uses to declare at the beginning of the TLS handshake what service
+        (such as a website) the user is requesting in order for the server to
+        decide which certificate to present. SNI, however, makes it possible
+        for censors or filters to block users from accessing sensitive
+        websites.</p>
     </div>
     <ul class="links">
-        <li><b>Working group:</b> <a href=""></a></li>
-        <li><b>Proposals:</b> <a href=""></a></li>
-        <li><b>Issues:</b> <a href="#"></a></li>
+        <li><b>Current drafts:</b> <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-esni/">TLS Encrypted Client Hello</a> aims to develop a mechanism in TLS to encrypt a ClientHello message which can potentially prevent malicious actors from reading the SNI and leaking information about a website a user is trying to connect to.</li>
+        <li><b>Working group:</b> <a href="">Transport Layer Security |&nbsp;tls</a></li>
     </ul>
 </div>

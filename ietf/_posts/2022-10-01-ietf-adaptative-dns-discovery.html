@@ -2,19 +2,29 @@
 layout: post
 org: ietf
 org-full-name: Internet Engineering Task Force
-tags: dns layer-logical encryption
+tags: censorship privacy
 title: "Adaptive DNS Discovery"
 excerpt: "This group defines mechanisms that allow a client to identify and select DNS resolvers that support encrypted protocols."
 featured-img: assets/images/groups/ietf-group-1.svg
 ---
 <div class="wg-info">
-    <h1 class="title">Adaptative DNS Discovery</h1>
+    <h1 class="title">Adaptive DNS Discovery |&nsbp;add</h1>
     <div class="wg-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p>This working group was responsible for defining the first
+        IETF-standardized encrypted DNS transport (DNS over TLS). Its current
+        focus on the link between <a href="https://smallbusiness.chron.com/domain-name-system-dns-resolvers-work-76639.html" class="glossary">DNS resolvers</a> aims to limit the amount of
+        data leakage that happens during multi-hop DNS resolution. It also
+        defines the mechanisms through which a DNS resolver’s information is
+        communicated, allowing the client to decide which DNS server to use.
+        Sending DNS messages over encrypted transports to DNS resolvers can
+        prevent malicious actors from snooping and reading the contents of DNS
+        messages, and modify DNS traffic to block responses from selective
+        queries. This can prevent internet service providers or government
+        actors from monitoring users who access sensitive websites, or from
+        blocking specific sites.</p>
     </div>
     <ul class="links">
-        <li><b>Working group:</b> <a href=""></a></li>
-        <li><b>Proposals:</b> <a href=""></a></li>
-        <li><b>Issues:</b> <a href="#">DNS</a> <a href="###">encryption</a></li>
+        <li><b>Current drafts:</b> <a href="https://datatracker.ietf.org/doc/draft-ietf-add-ddr/">Discovery of Designated Resolvers</a> aims to develop a mechanism for clients to discover the resolver’s encrypted DNS configuration in order to facilitate data packets to flow through encrypted DNS resolvers.</li>
+        <li><b>Working group:</b> <a href="https://datatracker.ietf.org/wg/add/about/">Adaptive DNS Discovery</a></li>
     </ul>
 </div>
