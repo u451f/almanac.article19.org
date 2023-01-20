@@ -2,28 +2,37 @@ TODO
 ====
 
 - [] Draw all or some of the logos bc of copyright issues
-- [] Remove logo clone
 - [] Change colors for groups
-- [x] ETSI org image
-- [] ETSI group image(s)
+- [] ETSI need to update org image
+- [] ETSI need 4 new group images
+- [] IRTF update org image, only 4 huts left
+- [] IETF update org image, 5 new huts
+- [] 3GPP new group image
+- [] 3GPP update org image, now 2 huts
+- [] in the post loop display the organisation? on hover, or as text?
+- [] make the clouds visible again?
+- [] fixed background in red?
+- [] arrow right: white / style org-link on org page
+- [] footer sans serif schrift
+- [] test on iphone
+- [] special cursor for external links?
+
 - [] layer 0 can be deleted, and structure 1 too
 - [] layer 8 has a weird line on the side
-- [] content: texts
-- [] review placement of the excerpt hover information according to screenheight
+- [] review placement of the excerpt hover information according to screenheight on home page
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
 
 MAYBE
 =====
 
-- [] Have group images have more air, or a different format for mbile
-- [] Have the plant image in white?
-- [] maybe imagine another nice gimmick
 - [] maybe have the org logo on the group page somewhere
 - [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
 
 DONE
 ====
 
+- [x] Remove logo clone
+- [x] content: texts
 - [x] structure: link tag pages properly in the templates
 - [x] color ART19 logo needs fix
 - [x] menu always visible?
