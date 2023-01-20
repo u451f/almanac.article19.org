@@ -4,7 +4,7 @@
         {% include site-header.html %}
         <div id="main-text">
             <h2 class="title">{{ page.title }}</h2>
-            <p>Below you'll find all {{ page.title }} in internet standard organizations that we have recensed and whose work might have an impact on human rights.</p>
+            <p>Below you'll find all {{ page.title }} in internet standard organizations that we know about.</p>
         </div>
     </div>
 </div>
@@ -12,25 +12,27 @@
     <div class="section-content grid">
         {% for tag in site.tags %}
             {% if tag[0] == page.ref %}
-                {% if page.ref == "censorship" %}
-                <img src="{{ site.url}}/assets/images/catnip-mallory/alice-censorship.svg" alt="Alice on a censored connection" width="250" />
-                {% endif %}
+                {% comment %}
+                    {% if page.ref == "censorship-resistance" %}
+                    <img src="{{ site.url}}/assets/images/catnip-mallory/alice-censorship.svg" alt="Alice on a censored connection" width="250" />
+                    {% endif %}
 
-                {% if page.ref == "encryption" %}
-                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-laptop.svg" alt="Catnip with laptop" width="170" />
-                {% endif %}
+                    {% if page.ref == "biometry" %}
+                    <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-laptop.svg" alt="Catnip with laptop" width="170" />
+                    {% endif %}
 
-                {% if page.ref == "dns" %}
-                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-laptop-back.svg" alt="Catnip with laptop from the back" width="170" />
-                {% endif %}
+                    {% if page.ref == "privacy" %}
+                    <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-laptop-back.svg" alt="Catnip with laptop from the back" width="170" />
+                    {% endif %}
 
-                {% if page.ref == "surveillance" %}
-                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-inspecting-packet.svg" alt="Catnip inspecting packet" width="170" />
-                {% endif %}
+                    {% if page.ref == "surveillance" %}
+                    <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-inspecting-packet.svg" alt="Catnip inspecting packet" width="170" />
+                    {% endif %}
 
-                {% if page.ref == "networks" or page.ref == "5G" %}
-                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-reading.svg" alt="Catnip reading" width="170" />
-                {% endif %}
+                    {% if page.ref == "connectivity" %}
+                    <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-reading.svg" alt="Catnip reading" width="170" />
+                    {% endif %}
+                {% endcomment %}
 
                 {% for post in tag[1] %}
                     {% include post_loop.html %}

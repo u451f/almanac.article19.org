@@ -2,18 +2,23 @@
 <div class="section" id="content">
     <div class="section-content grid" id="intro">
         {% include site-header.html %}
-        {% include breadcrumbs.html %}
         <div id="main-text">
+            {% include breadcrumbs.html %}
             <h2 class="title">{{ page.title }}</h2>
-            {{ content }}
-            <p>This is a list of all available tags and groups working on relevant issues.</p>
+            <p>
+            Below, you'll find all groups, ordered by tags. You can also access specific tags using the menu.</p>
+            <p>
+            {% for tag in site.tags %}
+                <a href="#{{ tag[0] }}">{{ tag[0] | replace: "-", " " }}</a>
+            {% endfor %}
+            </p>
         </div>
     </div>
 </div>
 <div class="section" id="post-list">
     <div class="section-content grid">
         {% for tag in site.tags %}
-        <h2 id="#{{ tag[0] }}" class="title tag-title"><a href="{{ site.url }}/by-issue-{{ tag[0] }}.html">Groups working on issues impacting {{ tag[0] }} →</a></h2>
+            <h3 id="{{ tag[0] }}" class="title tag-title"><a href="{{ site.url }}/by-issue-{{ tag[0] }}.html">Groups working on standards related to {{ tag[0] | replace: "-", " " }}</a></h3>
             {% for post in tag[1] %}
                 {% include post_loop.html %}
             {% endfor %}
