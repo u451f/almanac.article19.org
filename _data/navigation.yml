@@ -24,7 +24,7 @@
     link: /orgs/6_itu-t.html
   - name: W3C
     link: /orgs/1_w3c.html
-- name: By issue
+- name: By tag
   subfolderitems:
   - name: Biometrics
     link: /by-issue-biometrics.html
