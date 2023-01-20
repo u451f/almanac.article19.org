@@ -16,15 +16,25 @@ TODO
 - [] footer sans serif schrift
 - [] test on iphone
 - [] special cursor for external links?
+- [] review style of the boxes on the homepage
+- [] have a nicer separation line for the links li
 
 - [] layer 0 can be deleted, and structure 1 too
 - [] layer 8 has a weird line on the side
 - [] review placement of the excerpt hover information according to screenheight on home page
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
 
+
+multiplexed QUIC prev IETF-x
+path computation elm prev IRTF grp 4
+network virt prev IRTF grp 5
+privacy preserving measurem IRTD grp 6
+detnet previously IRTF grp 7
+
 MAYBE
 =====
 
+- [] have a plugin or script to test if all linked URLs exist
 - [] maybe have the org logo on the group page somewhere
 - [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
 
