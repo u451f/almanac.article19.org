@@ -10,10 +10,10 @@ defaults:
     values:
       layout: "default"
 title: "Internet Standards Almanac"
-description: ""
+description: "The Internet Standards Almanac is a guide for engaging in the standardisation of internet infrastructure. Which groups and committees are developing standards that have human rights implications? How do these standards impact human rights?"
 url: https://almanac.article19.org
 author: "ARTICLE 19"
-twitter_username: "Article19"
+twitter_username: "article19"
 title_image: "/assets/resized/ulrike-uhlig-HTIRW_Mockup-1400x980.jpg"
 lang: "en"
 sass:
