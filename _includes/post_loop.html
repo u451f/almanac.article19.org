@@ -3,6 +3,6 @@
         {% if post.featured-img %}
             <img class="img-wg" src="{{ site.url}}/{{ post.featured-img }}" alt="{{ post.title }} representation">
         {% endif %}
-        <h2 class="post-title"><a class="permalink" href="{{ site.url}}{{post.url}}">{{ post.title }}</a></h2>
+        <h2 class="post-title"><a class="permalink" href="{{ site.url}}{{post.url}}">{{ post.title }}<span> @{{ post.org | replace: "-", "&#8209;" }}</span></a></h2>
     </div>
 </div>
