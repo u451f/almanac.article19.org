@@ -288,6 +288,7 @@ input[type=submit] {
 }
 
 #footer {
+    font-family: "Roboto", sans-serif;
     text-align: right;
     background-image: url(backgrounds/layer8repeatable.svg);
     background-position: left -2px;
@@ -296,13 +297,12 @@ input[type=submit] {
 }
 
 #footer p {
+    font-size: 0.9em;
     float: left;
     text-align: left;
     margin-left: var(--hspace);
-    margin-top: calc(1.5 * var(--hspace));
+    padding-top: calc(var(--hspace));
     padding-bottom: var(--hspace);
-    font-size: 0.85em;
-    line-height: 1.3em;
 }
 
 #footer a.logo {
@@ -549,6 +549,27 @@ input[type=submit] {
     color: var(--bg);
 }
 
+.title.tag-title a {
+    padding: 0.5em;
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    transition: background .3s linear;
+}
+
+.post .post-title {
+    transition: background .3s linear;
+}
+
+.title.tag-title:hover a,
+.post:hover .post-title {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.post:hover .post-title a {
+    background: transparent;
+}
+
 h3.title {
     margin-top: 1.5em;
     margin-bottom: -0.5em;
@@ -566,6 +587,16 @@ h3.title {
 
 .post-title a {
     color: #fff;
+}
+
+.post-title span {
+    display: none;
+}
+
+.tags-all .post-title span,
+.tag .post-title span {
+    display: inline;
+    text-transform: uppercase;
 }
 
 #intro img {
@@ -738,8 +769,12 @@ h3.title {
 }
 
 .desktop.default #main-text,
-.desktop.tag #main-text {
+.desktop.tags-all #main-text {
     padding-bottom: 120px;
+}
+
+.desktop.tag #main-text {
+    padding-bottom: 200px;
 }
 
 .desktop.default #main-text {
