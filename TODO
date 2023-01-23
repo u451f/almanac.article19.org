@@ -2,22 +2,15 @@ TODO
 ====
 
 - [] Draw all or some of the logos bc of copyright issues
-- [] Rename imgs
-- [] _config: change twitter image to ART19 logo or aperçu of this website!
 - [] change style of all groups link arrow to the right in green?
+- [] have some shorter backgrounds for the tags pages
+- [] _config: change twitter image to ART19 logo or aperçu of this website!
+
 - [] update catnip.article19.org to announce the almanac
-
-
-multiplexed QUIC prev IETF-x
-path computation elm prev IRTF grp 4
-network virt prev IRTF grp 5
-privacy preserving measurem IRTD grp 6
-detnet previously IRTF grp 7
 
 MAYBE
 =====
 
-- [] sky can be darker
 - [] special cursor for external links?
 - [] have a plugin or script to test if all linked URLs exist
 - [] maybe have the org logo on the group page somewhere
@@ -27,6 +20,7 @@ MAYBE
 DONE
 ====
 
+- [x] Rename imgs
 - [x] IRTF update org image, only 4 huts left
 - [x] IETF update org image, 5 new huts
 - [x] correct ETSI placement on homepage
