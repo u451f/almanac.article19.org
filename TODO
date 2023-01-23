@@ -1,16 +1,10 @@
 TODO
 ====
 
-- [] review style of the boxes on the homepage
-- [] review placement of the excerpt hover information according to screenheight on home page
-- [] ETSI need to update org image
-- [] ETSI need 4 new group images
-- [] 3GPP new group image
-- [] 3GPP update org image, now 2 huts
 - [] IRTF update org image, only 4 huts left
 - [] IETF update org image, 5 new huts
-- [] Draw all or some of the logos bc of copyright issues
 - [] layer 8 has a weird line on the side
+- [] Draw all or some of the logos bc of copyright issues
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
 - [] change style of all groups link arrow to the right in green?
 
@@ -33,6 +27,12 @@ MAYBE
 DONE
 ====
 
+- [x] ETSI need to update org image
+- [x] ETSI need 4 new group images
+- [x] 3GPP new group image
+- [x] 3GPP update org image, now 2 huts
+- [x] review placement of the excerpt hover information according to screenheight on home page
+- [x] review style of the boxes on the homepage
 - [x] layer 0 can be deleted, and structure 1 too
 - [x] fixed background in red?
 - [x] in the post loop display the organisation? on hover, or as text?
