@@ -1,12 +1,11 @@
 TODO
 ====
 
-- [] IRTF update org image, only 4 huts left
-- [] IETF update org image, 5 new huts
-- [] layer 8 has a weird line on the side
 - [] Draw all or some of the logos bc of copyright issues
+- [] Rename imgs
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
 - [] change style of all groups link arrow to the right in green?
+- [] update catnip.article19.org to announce the almanac
 
 
 multiplexed QUIC prev IETF-x
@@ -18,6 +17,7 @@ detnet previously IRTF grp 7
 MAYBE
 =====
 
+- [] sky can be darker
 - [] special cursor for external links?
 - [] have a plugin or script to test if all linked URLs exist
 - [] maybe have the org logo on the group page somewhere
@@ -27,6 +27,10 @@ MAYBE
 DONE
 ====
 
+- [x] IRTF update org image, only 4 huts left
+- [x] IETF update org image, 5 new huts
+- [x] correct ETSI placement on homepage
+- [x] layer 8 has a weird line on the side
 - [x] ETSI need to update org image
 - [x] ETSI need 4 new group images
 - [x] 3GPP new group image
