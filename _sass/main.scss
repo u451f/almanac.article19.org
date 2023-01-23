@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("/assets/css/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("truetype");
+    font-family: 'Roboto';
+    src: url("/assets/css/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'RobotoSlab';
-  src: url("/assets/css/fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+    font-family: 'RobotoSlab';
+    src: url("/assets/css/fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
 }
 
 
 :root {
-  --bg: #fff;
-  --colourtext: #101820; /* blackish */
-  --colour1: #d62d26; /* ART19 red */
-  --colour2: rgb(0,148,110); /* ART19green */
-  --colour3: #287758; /* darkergreen */
-  --hspace: 4vw;
-  --vspace: 3vh;
-  --basefontsize: 17px;
+    --bg: #fff;
+    --colourtext: #101820; /* blackish */
+    --colour1: #d62d26; /* ART19 red */
+    --colour2: rgb(0,148,110); /* ART19green */
+    --colour3: #287758; /* darkergreen */
+    --hspace: 4vw;
+    --vspace: 3vh;
+    --basefontsize: 17px;
 }
 
 * {
@@ -91,9 +91,9 @@ body {
 }
 
 #content {
-    background: linear-gradient(180deg, #d62d2621 10%, #fff 20%);
+    background: linear-gradient(180deg, #d62d2633 10%, var(--bg) 20%);
     background-size: 100% 200%;
-    animation: sky 10s linear;
+    animation: sky 5s linear;
 }
 
 @keyframes sky {
@@ -106,7 +106,7 @@ body {
 }
 
 .acknowledgement #content {
-    background: linear-gradient(200deg, rgba(214,45,38,0.13) 15%, rgba(0,148,110,0.3) 30%, rgba(214,45,38,0.13) 50%, #fff 75%);
+    background: linear-gradient(200deg, rgba(214,45,38,0.3) 15%, rgba(0,148,110,0.3) 30%, rgba(214,45,38,0.3) 50%, var(--bg) 75%);
     background-size: 100% 200%;
     animation: aurora 25s ease-in-out infinite;
 }
@@ -162,11 +162,11 @@ body {
     left: -12%;
 }
 
-#org-list #org-irtf::before {
+#org-list #org-ietf::before {
     content: url(images/tree.svg);
 }
 
-#org-list #org-irtf::after {
+#org-list #org-ietf::after {
     content: url(backgrounds/layer7.svg);
     margin-left: calc(var(--hspace)*-1);
     position: absolute;
@@ -226,7 +226,7 @@ body {
 a {
     outline: none;
     background: var(--colour3);
-    color: #fff;
+    color: var(--bg);
     text-decoration: none;
 }
 
@@ -302,15 +302,16 @@ input[type=submit] {
     font-family: "Roboto", sans-serif;
     text-align: center;
     background-image: url(backgrounds/layer8repeatable.svg);
-    background-position: left -2px;
+    background-position: left 0;
     background-repeat: repeat-x;
-    background-size: contain;
+    /*background-size: contain;*/
     padding: 2em var(--hspace) 1em;
     overflow: hidden;
 }
 
 #footer p {
     font-size: 0.9em;
+    line-height: 1.3em;
     margin-bottom: 1em;
     float: left;
     text-align: left;
@@ -336,7 +337,7 @@ input[type=submit] {
   ***********************************/
 
 #breadcrumbs {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 #breadcrumbs .crumb {
@@ -385,7 +386,7 @@ input[type=submit] {
 }
 
 #primary-menu, #primary-menu a {
-    color: #fff;
+    color: var(--bg);
 }
 
 #primary-menu li {
@@ -520,7 +521,6 @@ input[type=submit] {
     margin-bottom: 1em;
 }
 
-/*.desktop #org-list:before,*/
 .desktop.org #post-list:before {
     content: url(images/tree-leaves.svg);
     display: block;
@@ -546,16 +546,9 @@ input[type=submit] {
     font-variation-settings: "wght" 700;
     color: var(--colour3);
     letter-spacing: 0.03em;
-    font-size: calc(var(--basefontsize) * 1.5);
+    font-size: calc(var(--basefontsize) * 1.6);
     line-height: 130%;
-}
-
-.title::after {
-    content: " ";
-    clear: both;
-    display: inline-flex;
-    margin-bottom: 1.25em;
-    background: none;
+    margin-bottom: 1em;
 }
 
 .title a {
@@ -579,13 +572,14 @@ input[type=submit] {
     background-color: rgba(0,0,0,0.4);
 }
 
-.post:hover .post-title a {
+.post-title a {
     background: transparent;
 }
 
 h3.title {
-    margin-top: 1.5em;
-    margin-bottom: -0.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-size: calc(var(--basefontsize) * 1.2);
 }
 
 .post-title {
@@ -599,7 +593,7 @@ h3.title {
 }
 
 .post-title a {
-    color: #fff;
+    color: var(--bg);
 }
 
 .post-title span {
@@ -627,12 +621,17 @@ h3.title {
     background-position: bottom right;
 }
 
+.mobile.home #intro img {
+    margin: auto;
+    display: block;
+}
+
 .bubble {
     display: block;
-    background: rgba(255,255,255,0.9);;
+    background: var(--bg);
     border-radius: 5px;
     padding: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
     position: relative;
     box-shadow: 6px 6px var(--colour2);
     text-align: center;
@@ -668,6 +667,7 @@ span.bubble:after {
 
 .home #main-text li {
     animation: float 2s ease-in-out;
+    margin-bottom: 1.2em;
 }
 
 .home #main-text li:last-child {
@@ -730,7 +730,7 @@ span.bubble:after {
     position: absolute;
     width: 70%;
     left: 15%;
-    top: 45%;
+    top: 30%;
     z-index: 3;
     filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.7));
 }
@@ -767,6 +767,10 @@ span.bubble:after {
 /*************************************
  Tag and simple pages
   ***********************************/
+
+.desktop.home #main-text {
+    padding-bottom: 140px;
+}
 
 .desktop.org #main-text,
 .desktop.post #main-text {
@@ -823,6 +827,10 @@ span.bubble:after {
     font-variation-settings: "wght" 400;
 }
 
+.links.tags {
+    margin: -1em 0 2em 0;
+}
+
 .links li:before {
     content: " ";
     width: 100%;
@@ -831,10 +839,6 @@ span.bubble:after {
     display: block;
     margin-bottom: 0.8em;
     margin-top: 0.8em;
-}
-
-.links.tags {
-    margin: -1em 0 3em 0;
 }
 
 .all-groups {
@@ -850,7 +854,7 @@ span.bubble:after {
 .all-groups a {
     text-decoration: none;
     color: var(--colour2);
-    background: #fff;
+    background: var(--bg);
     padding: 0 0.25em;
 }
 
@@ -907,7 +911,7 @@ span.bubble:after {
     height: 150px;
     display: block;
     position: absolute;
-    top: 15vh;
+    bottom: 10vh;
     left: -150px;
     z-index: 2;
     transition: all 1s ease-in-out;
@@ -969,7 +973,7 @@ span.bubble:after {
         box-sizing: border-box;
     }
     #footer {
-        padding-top: 5em;
+        padding-top: 7em;
         text-align: right;
     }
     #intro, #post {
@@ -990,7 +994,7 @@ span.bubble:after {
         width: 45%;
     }
 
-    .ogrid .org#org-3gpp, .ogrid .org#org-atis, .ogrid .org#org-cen-cenelec, .ogrid .org#org-etsi {
+    .ogrid .org#org-3gpp, .ogrid .org#org-atis, .ogrid .org#org-cen-cenelec {
         width: 30%;
     }
     .ogrid .org#org-atis {
@@ -1000,19 +1004,21 @@ span.bubble:after {
         margin-left: 70%;
         margin-top: -15%;
     }
+    .ogrid .org#org-etsi {
+        margin-top: -12%;
+        width: 33%;
+    }
     .ogrid .org#org-w3c {
-        width: 35%;
+        width: 40%;
         margin-top: -10%;
     }
-    .ogrid .org#org-ietf {
-        width: 60%;
-        padding-left: 5%;
-        /*padding-top: 5%;*/
-    }
     .ogrid .org#org-irtf {
-        width: 90%;
-        margin-top: -22%;
-        margin-left: 7%;
+        width: 45%;
+    }
+    .ogrid .org#org-ietf {
+        width: 95%;
+        padding-left: 5%;
+        margin-top: -20%;
     }
     .ogrid .org#org-ieee {
         width: 90%;
@@ -1067,6 +1073,14 @@ span.bubble:after {
         max-height: 350px;
         margin-top: -4vh;
     }
+
+    .links {
+        margin: 2em 0 3.5em;
+    }
+
+    .links.tags {
+        margin: -2em 0 3.5em 0;
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -1118,7 +1132,7 @@ span.bubble:after {
         content: url(backgrounds/layer7.svg);
         position: absolute;
     }
-    .ogrid .org#org-irtf {
+    .ogrid .org#org-ietf {
         margin-top: 0;
     }
     #org-list .org .excerpt {
