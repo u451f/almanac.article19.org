@@ -730,7 +730,7 @@ span.bubble:after {
     position: absolute;
     width: 70%;
     left: 15%;
-    bottom: 30px; /* FIXME adjust for smaller screens */
+    top: 45%;
     z-index: 3;
     filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.7));
 }
@@ -1100,6 +1100,10 @@ span.bubble:after {
 @media all and (min-width: 1600px) {
     #post-list .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #org-list .org .excerpt {
+        top: auto;
+        bottom: 10%;
     }
     .post .wg-info, .org .org-description {
         min-height: 350px;
