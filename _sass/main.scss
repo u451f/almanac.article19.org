@@ -86,29 +86,23 @@ pre {
  ***********************************/
 
 body {
-    /*background: var(--bg) url(backgrounds/structure1.svg) repeat-x left -15px;*/
     min-height: 100vh;
     background: var(--bg);
 }
 
 #content {
-    background: linear-gradient(180deg, #f8768a 30%, #fff 60%);
-    background-size: 100% 400%;
-    animation: breathe 25s linear infinite;
+    /*background: linear-gradient(180deg, #f8768a 30%, #fff 60%);*/
+    background: linear-gradient(180deg, #d62d2621 10%, #fff 20%);
+    background-size: 100% 200%;
+    animation: sky 15s linear;
 }
 
-@keyframes breathe {
+@keyframes sky {
     0% {
-        background-position: 0 100%;
-    }
-    50% {
-        background-position: 0% 65%;
-    }
-    75% {
         background-position: 0% 100%;
     }
     100% {
-        background-position: 0% 100%;
+        background-position: 0 0%;
     }
 }
 
@@ -289,24 +283,24 @@ input[type=submit] {
 
 #footer {
     font-family: "Roboto", sans-serif;
-    text-align: right;
+    text-align: center;
     background-image: url(backgrounds/layer8repeatable.svg);
     background-position: left -2px;
     background-repeat: repeat-x;
     background-size: contain;
+    padding: 2em var(--hspace) 1em;
+    overflow: hidden;
 }
 
 #footer p {
     font-size: 0.9em;
+    margin-bottom: 1em;
     float: left;
     text-align: left;
-    margin-left: var(--hspace);
-    padding-top: calc(var(--hspace));
-    padding-bottom: var(--hspace);
 }
 
 #footer a.logo {
-    padding: 2em 1.5em 0 0;
+    float: right;
 }
 
 .section-content {
@@ -412,7 +406,7 @@ input[type=submit] {
 
 .menu li ul {
     display: none;
-    margin: 0.5em 0 0 1.5em;
+    margin: 0.5em 0 0.5em 1.5em;
 }
 
 .menu li > a, .menu li > span {
@@ -773,6 +767,10 @@ h3.title {
     padding-bottom: 120px;
 }
 
+.mobile.default #main-text {
+    padding-bottom: 20px;
+}
+
 .desktop.tag #main-text {
     padding-bottom: 200px;
 }
@@ -808,7 +806,7 @@ h3.title {
 }
 
 .links {
-    margin: 2em 0 0;
+    margin: 2em 0 2em;
     list-style: none;
     font-family: "Roboto", sans-serif;
     line-height: 140%;
@@ -826,7 +824,7 @@ h3.title {
 }
 
 .links.tags {
-    margin: 0 0 3em 0;
+    margin: -1em 0 3em 0;
 }
 
 .all-groups {
@@ -841,12 +839,12 @@ h3.title {
 
 .all-groups a {
     text-decoration: none;
-    background: none;
-    color: #fff;
+    color: var(--colour2);
+    background: #fff;
+    padding: 0 0.25em;
 }
 
 .all-groups a:hover {
-    text-decoration: underline;
 }
 
 #post-list {
@@ -960,7 +958,9 @@ h3.title {
         padding: 0 0 0 40%;
         box-sizing: border-box;
     }
-
+    #footer {
+        padding-top: 5em;
+    }
     #intro, #post {
         padding-bottom: 0;
     }
