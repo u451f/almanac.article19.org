@@ -25,4 +25,4 @@
 {% endif %}
 <!-- end of Twitter cards -->
 </head>
-<body class="desktop {{ page.layout }}">
+<body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }}">
