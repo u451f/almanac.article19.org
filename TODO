@@ -2,12 +2,14 @@ TODO
 ====
 
 - [] Draw all or some of the logos bc of copyright issues
-- [] Do a final clean upload
 - [] change style of all groups link arrow to the right in green?
+- [] maybe have the org logo on the group page somewhere
+- [] improve text on tag pages
 - [] have some shorter backgrounds for the tags pages
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
-- [] maybe have the org logo on the group page somewhere
-- [x] delete logo color from front matter
+- [] delete logo color from front matter
+- [] Do a final clean upload
+
 - [] update catnip.article19.org to announce the almanac
 
 MAYBE
@@ -15,8 +17,6 @@ MAYBE
 
 - [] special cursor for external links?
 - [] have a plugin or script to test if all linked URLs exist
-- [] have a nicer separation line for the links li
-- [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
 
 DONE
 ====
