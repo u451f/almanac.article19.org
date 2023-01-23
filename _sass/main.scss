@@ -297,10 +297,12 @@ input[type=submit] {
     margin-bottom: 1em;
     float: left;
     text-align: left;
+    width: 50%;
 }
 
 #footer a.logo {
     float: right;
+    width: 50%;
 }
 
 .section-content {
@@ -960,6 +962,7 @@ h3.title {
     }
     #footer {
         padding-top: 5em;
+        text-align: right;
     }
     #intro, #post {
         padding-bottom: 0;
