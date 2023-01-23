@@ -47,6 +47,8 @@ body {
     min-height: 100vh;
     shape-rendering: crispedges;
     text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    background: var(--bg);
 }
 
 b, strong {
@@ -56,7 +58,6 @@ b, strong {
 
 img {
     max-width: 100%;
-    /*background: url(/assets/images/loader.gif) no-repeat center center;*/
 }
 
 ul {
@@ -81,14 +82,13 @@ pre {
     overflow: auto;
 }
 
+.center {
+    text-align: center;
+}
+
 /************************************
  Backgrounds
  ***********************************/
-
-body {
-    min-height: 100vh;
-    background: var(--bg);
-}
 
 #content {
     background: linear-gradient(180deg, #d62d2633 10%, var(--bg) 20%);
@@ -99,6 +99,12 @@ body {
     animation: sky 7s linear;
 }
 
+.acknowledgement #content {
+    background: linear-gradient(200deg, rgba(214,45,38,0.3) 15%, rgba(0,148,110,0.3) 30%, rgba(214,45,38,0.3) 50%, var(--bg) 75%);
+    background-size: 100% 200%;
+    animation: aurora 25s ease-in-out infinite;
+}
+
 @keyframes sky {
     0% {
         background-position: 0% 100%;
@@ -106,12 +112,6 @@ body {
     100% {
         background-position: 0 0%;
     }
-}
-
-.acknowledgement #content {
-    background: linear-gradient(200deg, rgba(214,45,38,0.3) 15%, rgba(0,148,110,0.3) 30%, rgba(214,45,38,0.3) 50%, var(--bg) 75%);
-    background-size: 100% 200%;
-    animation: aurora 25s ease-in-out infinite;
 }
 
 @keyframes aurora {
@@ -245,52 +245,6 @@ a {
 .glossary {
     font-style: italic;
     cursor: help;
-}
-
-/*************************************
-  Forms
-  ***********************************/
-
-label {
-    font-size: 1em;
-    cursor: pointer;
-}
-
-label input {
-    vertical-align: middle;
-    margin-right: 0.5em;
-}
-
-textarea:focus,
-input[type=text]:focus,
-input[type=email]:focus {
-    outline: none;
-}
-
-textarea,
-input[type=text],
-input[type=email] {
-    font-size: 1rem;
-    background: rgb(17,17,17);
-    border: none;
-    border-bottom: 1px solid var(--colour1);
-    color: var(--colourtext);
-    width: 100%;
-    display: block;
-    padding: 0.5em 0;
-    margin-bottom: 2em;
-}
-
-textarea {
-    min-height: 6em;
-}
-
-input[type=submit] {
-    background: transparent;
-    cursor: pointer;
-    display: block;
-    margin-top: 2em;
-    float: right;
 }
 
 /*************************************
@@ -649,12 +603,9 @@ span.bubble:after {
     font-size: 63px;
     width: 10px;
     height: 10px;
-    /* line-height: 30px; */
-    /* border-radius: 11px; */
     background-color: var(--colour2);
     position: absolute;
     display: block;
-    /* bottom: -30px; */
     right: 10px;
     z-index: 0;
 }
@@ -792,16 +743,12 @@ span.bubble:after {
     padding-bottom: 20px;
 }
 
-.desktop.tag #main-text {
-    padding-bottom: 200px;
-}
-
 #main-text p {
     margin-bottom: 1em;
 }
 
-#main-text {
-    /*text-shadow: 0 0 2px var(--bg);*/
+.tag #main-text img {
+    background: url(images/shadow.svg) bottom center no-repeat;
 }
 
 /*************************************
@@ -991,6 +938,10 @@ span.bubble:after {
     .home #intro {
         padding-bottom: 130px;
     }
+    .tag #intro {
+        background-position: left bottom, left 200px;
+    }
+
 
    .ogrid {
         display: flex;
