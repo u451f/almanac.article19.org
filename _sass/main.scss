@@ -91,7 +91,6 @@ body {
 }
 
 #content {
-    /*background: linear-gradient(180deg, #f8768a 30%, #fff 60%);*/
     background: linear-gradient(180deg, #d62d2621 10%, #fff 20%);
     background-size: 100% 200%;
     animation: sky 15s linear;
@@ -103,6 +102,24 @@ body {
     }
     100% {
         background-position: 0 0%;
+    }
+}
+
+.acknowledgement #content {
+    background: linear-gradient(200deg, rgba(214,45,38,0.129412) 15%, rgb(0 148 110 / 19%) 30%, rgba(214,45,38,0.129412) 50%, #fff 75%);
+    background-size: 100% 200%;
+    animation: aurora 25s ease-in-out infinite;
+}
+
+@keyframes aurora {
+    0% {
+        background-position: 0% 100%;
+    }
+    50% {
+        background-position: 0 0%;
+    }
+    100% {
+        background-position: 0 100%;
     }
 }
 
@@ -764,9 +781,12 @@ h3.title {
     padding-bottom: 30px;
 }
 
-.desktop.default #main-text,
+.desktop.default #main-text {
+    padding-bottom: 300px;
+}
+
 .desktop.tags-all #main-text {
-    padding-bottom: 120px;
+    padding-bottom: 220px;
 }
 
 .mobile.default #main-text {
@@ -775,10 +795,6 @@ h3.title {
 
 .desktop.tag #main-text {
     padding-bottom: 200px;
-}
-
-.desktop.default #main-text {
-    /*padding-top: 0.9em;*/
 }
 
 #main-text p {
