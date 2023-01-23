@@ -1,28 +1,18 @@
 TODO
 ====
 
-- [] Draw all or some of the logos bc of copyright issues
-- [] Change colors for groups
+- [] review style of the boxes on the homepage
+- [] review placement of the excerpt hover information according to screenheight on home page
 - [] ETSI need to update org image
 - [] ETSI need 4 new group images
-- [] IRTF update org image, only 4 huts left
-- [] IETF update org image, 5 new huts
 - [] 3GPP new group image
 - [] 3GPP update org image, now 2 huts
-- [] in the post loop display the organisation? on hover, or as text?
-- [] make the clouds visible again?
-- [] fixed background in red?
-- [] arrow right: white / style org-link on org page
-- [] footer sans serif schrift
-- [] test on iphone
-- [] special cursor for external links?
-- [] review style of the boxes on the homepage
-- [] have a nicer separation line for the links li
-
-- [] layer 0 can be deleted, and structure 1 too
+- [] IRTF update org image, only 4 huts left
+- [] IETF update org image, 5 new huts
+- [] Draw all or some of the logos bc of copyright issues
 - [] layer 8 has a weird line on the side
-- [] review placement of the excerpt hover information according to screenheight on home page
 - [] _config: change twitter image to ART19 logo or aperçu of this website!
+- [] change style of all groups link arrow to the right in green?
 
 
 multiplexed QUIC prev IETF-x
@@ -34,13 +24,22 @@ detnet previously IRTF grp 7
 MAYBE
 =====
 
+- [] special cursor for external links?
 - [] have a plugin or script to test if all linked URLs exist
 - [] maybe have the org logo on the group page somewhere
+- [] have a nicer separation line for the links li
 - [] search: add search page https://dev-yakuza.posstree.com/en/jekyll/search-bar/#prepare-data
 
 DONE
 ====
 
+- [x] layer 0 can be deleted, and structure 1 too
+- [x] fixed background in red?
+- [x] in the post loop display the organisation? on hover, or as text?
+- [x] make the clouds visible again?
+- [x] footer sans serif schrift
+- [x] test on iphone
+- [x] Change colors for groups
 - [x] Remove logo clone
 - [x] content: texts
 - [x] structure: link tag pages properly in the templates
