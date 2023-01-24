@@ -18,26 +18,6 @@ Copyright (C) 2022-2023 Ulrike Uhlig
 @licend
 */
 
-/*
-// Detect scrolling
-var scrollPos = 0;
-// adding scroll event
-window.addEventListener('scroll', function(){
-    // detects new state and compares it with the new one
-    if ((document.body.getBoundingClientRect()).top > scrollPos) {
-        // scrolling up
-        document.body.classList.add("scrolling-up");
-        document.body.classList.remove("scrolling-down");
-    } else {
-        // scrolling down
-        document.body.classList.add("scrolling-down");
-        document.body.classList.remove("scrolling-up");
-    }
-    // saves the new position for iteration.
-    scrollPos = (document.body.getBoundingClientRect()).top;
-});
-*/
-
 $(function($){
     // helper function for mobile layout
     if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
