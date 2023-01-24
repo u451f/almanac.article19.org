@@ -20,9 +20,16 @@
             </ul>
             {% endif %}
         </div>
+
+    {% comment %}
+    {% if page.org %}
+        <img class="logo org-logo" src="{{ site.url }}/assets/images/logo/{{ page.org }}.svg" alt="logo" />
+    {% endif %}
+    {% endcomment %}
     {% if page.featured-img %}
         <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
     {% endif %}
+
     {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
     {% assign total = 0 %}
     {% for post in orgposts %}

@@ -142,6 +142,12 @@ pre {
     margin-bottom: -1px;
 }
 
+.tag #intro {
+    background-image: url(backgrounds/layer2repeatable-short.svg), url(backgrounds/layer1repeatable-short.svg);
+    margin-bottom: -1px;
+}
+
+
 .org #post {
     background-image: url(backgrounds/layer6repeatable-old.svg), url(backgrounds/layer1repeatableshort.svg);
     margin-bottom: -1px;
@@ -755,18 +761,15 @@ span.bubble:after {
  Org page
   ***********************************/
 
-.org .grid .logo {
+.org .grid .logo,
+.org-logo {
+    position: relative;
+    padding: 20px;
+    margin: auto;
     background: url(images/circle.svg) center center no-repeat;
     background-size: cover;
     width: 180px;
     height: 180px;
-    padding: 20px;
-    margin: auto;
-}
-
-.org .grid .logo-moved {
-    display: block;
-    margin-bottom: 1em;
 }
 
 .links {
@@ -938,11 +941,6 @@ span.bubble:after {
     .home #intro {
         padding-bottom: 130px;
     }
-    .tag #intro {
-        background-position: left bottom, left 200px;
-    }
-
-
    .ogrid {
         display: flex;
         flex-wrap: wrap;
