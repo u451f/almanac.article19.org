@@ -506,7 +506,7 @@ a {
 }
 
 .title.tag-title:hover a,
-.post:hover .post-title {
+.post:hover > .post-description > .post-title {
     background-color: rgba(0,0,0,0.4);
 }
 
