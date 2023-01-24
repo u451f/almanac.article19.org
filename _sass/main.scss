@@ -87,6 +87,44 @@ pre {
 }
 
 /************************************
+ Link styles
+ ***********************************/
+
+a {
+    outline: none;
+    background: var(--colour3);
+    color: var(--bg);
+    text-decoration: none;
+}
+
+.site-title a, #footer a.logo {
+    background: none;
+    padding-right: 0;
+}
+
+#main-text a, #footer p a, .bubble a {
+    padding: 0 0.25em;
+}
+
+.glossary {
+    font-style: italic;
+    cursor: help;
+}
+
+a[href]:not(:where(
+    [href^="#"],
+    [href^="/"]:not([href^="//"]),
+    [href*="//almanac.article19.org"],
+    [href*="//article19.org"],
+    [href*="//localhost"])
+    ):after {
+        content: ' ';
+        background: url(images/arrow-external.svg) no-repeat 6px 6px;
+        padding: 0 8px;
+        display: inline;
+}
+
+/************************************
  Backgrounds
  ***********************************/
 
@@ -205,27 +243,6 @@ pre {
     content: url(images/tree-monstera.svg);
     display: block;
     text-align: center;
-}
-
-a {
-    outline: none;
-    background: var(--colour3);
-    color: var(--bg);
-    text-decoration: none;
-}
-
-.site-title a, #footer a.logo {
-    background: none;
-    padding-right: 0;
-}
-
-#main-text a, #footer p a, .bubble a {
-    padding: 0 0.25em;
-}
-
-.glossary {
-    font-style: italic;
-    cursor: help;
 }
 
 /*************************************
