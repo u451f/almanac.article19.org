@@ -2,21 +2,20 @@ TODO
 ====
 
 - [] change style of all groups link arrow to the right in green?
-
-- [] W3 validate
-- [] Do a final clean upload
+- [] special cursor for external links?
 
 
 MAYBE
 =====
 
 - [] maybe have the org logo on the group page somewhere
-- [] special cursor for external links?
 - [] have a plugin or script to test if all linked URLs exist
 
 DONE
 ====
 
+- [x] Do a final clean upload
+- [x] W3 validate index
 - [x] _config: change twitter image to ART19 logo or aperçu of this website!
 - [x] have some shorter backgrounds for the tags pages → improve
 - [x] resize censorship image
