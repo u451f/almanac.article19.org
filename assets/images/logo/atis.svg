@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="40.961075mm"
-   height="16.819328mm"
-   viewBox="0 0 40.961075 16.819328"
+   width="180"
+   height="180"
+   viewBox="0 0 47.625 47.624999"
    version="1.1"
    id="svg21323"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
@@ -15,23 +15,23 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview21325"
-     pagecolor="#ffffff"
+     pagecolor="#00946e"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2102413"
-     inkscape:cx="-299.65568"
-     inkscape:cy="33.295075"
-     inkscape:window-width="1344"
-     inkscape:window-height="430"
+     inkscape:zoom="3.7124948"
+     inkscape:cx="77.306505"
+     inkscape:cy="31.919237"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs21320" />
@@ -42,7 +42,7 @@
      transform="translate(-83.972853,-140.09034)">
     <g
        id="g10989"
-       transform="matrix(0.55690982,0,0,0.55690982,81.833299,113.9594)">
+       transform="matrix(0.647024,0,0,0.647024,81.487095,121.90197)">
       <path
          style="opacity:0.99;fill:none;stroke:#ffffff;stroke-width:2.994;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          d="m 12.097382,60.009376 c 0,0 13.023381,-1.674981 13.291201,1.432587 0.26782,3.107567 -2.785582,13.76873 -3.26311,13.76873 -0.477528,0 -9.470976,0.07959 -15.5992544,-0.159174 C 4.2181656,71.549646 5.3323982,66.774364 9.5505648,66.85395 13.76873,66.93354 24.27435,66.93354 24.27435,66.93354"

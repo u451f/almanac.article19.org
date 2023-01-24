@@ -15,24 +15,24 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview7"
-     pagecolor="#ffffff"
+     pagecolor="#00946e"
      bordercolor="#000000"
      borderopacity="0.25"
-     inkscape:showpageshadow="2"
+     inkscape:showpageshadow="false"
      inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="true"
+     inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.63785537"
-     inkscape:cx="432.69997"
-     inkscape:cy="618.47876"
+     inkscape:cx="302.57643"
+     inkscape:cy="242.21792"
      inkscape:window-width="2560"
      inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g7553"
+     inkscape:current-layer="layer1"
      showguides="true"
      inkscape:lockguides="false">
     <sodipodi:guide
@@ -271,7 +271,7 @@
     </g>
     <g
        id="g7505"
-       transform="translate(-22.832754,-81.827133)">
+       transform="translate(-23.361921,-77.06463)">
       <path
          d="m 503.48937,333.82063 4.48601,15.25138 4.48548,-15.25138 h 12.16131 v 1.51607 l -4.57914,7.88881 c 1.60867,0.51568 2.82522,1.45468 3.64993,2.81543 0.82523,1.36155 1.23825,2.9591 1.23825,4.79452 0,2.26959 -0.60405,4.17698 -1.81081,5.7232 -1.20677,1.54623 -2.76887,2.31987 -4.68657,2.31987 -1.44409,0 -2.70166,-0.45826 -3.77348,-1.3761 -1.07263,-0.91784 -1.86638,-2.16006 -2.38178,-3.72798 l 2.53603,-1.05172 c 0.37147,0.9488 0.86148,1.69651 1.47002,2.24235 0.60828,0.54662 1.32504,0.8202 2.14974,0.8202 0.86545,0 1.59835,-0.48471 2.19631,-1.45362 0.59849,-0.96943 0.89773,-2.13413 0.89773,-3.49647 0,-1.50574 -0.31988,-2.67123 -0.95859,-3.49594 -0.74374,-0.9689 -1.90896,-1.45415 -3.49673,-1.45415 h -1.23666 v -1.48457 l 4.33043,-7.48692 h -5.22684 l -0.29739,0.50642 -6.3582,21.45453 h -0.3093 l -4.64079,-15.52866 -4.63974,15.52866 h -0.30903 l -7.42315,-25.05498 h 3.24802 l 4.48549,15.25137 3.03212,-10.2698 -1.48458,-4.98105 h 3.24724 v -0.001 z"
          fill="#005A9C"

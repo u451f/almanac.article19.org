@@ -15,18 +15,18 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview7"
-     pagecolor="#ffffff"
+     pagecolor="#00946e"
      bordercolor="#000000"
      borderopacity="0.25"
-     inkscape:showpageshadow="2"
+     inkscape:showpageshadow="false"
      inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="true"
+     inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.5514215"
-     inkscape:cx="241.43404"
-     inkscape:cy="365.87448"
+     inkscape:zoom="1.9996436"
+     inkscape:cx="374.06666"
+     inkscape:cy="300.30352"
      inkscape:window-width="2560"
      inkscape:window-height="1395"
      inkscape:window-x="0"
@@ -232,7 +232,7 @@
     </g>
     <g
        id="g20077"
-       transform="matrix(1.3212054,0,0,1.3212054,382.40002,174.3465)">
+       transform="matrix(1.198833,0,0,1.198833,391.49466,183.30836)">
       <g
          id="g18653-2-8"
          transform="matrix(0.31941728,0,0,0.30108914,44.144724,59.278774)">

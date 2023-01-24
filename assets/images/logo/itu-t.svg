@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="35.417526mm"
-   height="43.122265mm"
-   viewBox="0 0 35.417526 43.122265"
+   width="180"
+   height="180"
+   viewBox="0 0 47.625001 47.625"
    version="1.1"
    id="svg22250"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
@@ -15,23 +15,23 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview22252"
-     pagecolor="#ffffff"
+     pagecolor="#00946e"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2102413"
-     inkscape:cx="-399.5409"
-     inkscape:cy="47.564393"
-     inkscape:window-width="1344"
-     inkscape:window-height="430"
+     inkscape:zoom="5.2106142"
+     inkscape:cx="66.978668"
+     inkscape:cy="81.660239"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs22247" />
@@ -42,7 +42,7 @@
      transform="translate(-110.65565,-135.74819)">
     <g
        id="g20059"
-       transform="translate(103.09131,80.544878)">
+       transform="translate(108.91215,80.544878)">
       <path
          id="path17186-6"
          style="opacity:0.99;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.29728;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"

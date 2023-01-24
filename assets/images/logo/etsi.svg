@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="32.166706mm"
-   height="12.621894mm"
-   viewBox="0 0 32.166706 12.621894"
+   width="180"
+   height="180"
+   viewBox="0 0 47.625 47.625"
    version="1.1"
    id="svg21059"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
@@ -15,23 +15,23 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview21061"
-     pagecolor="#ffffff"
+     pagecolor="#00946e"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2102413"
-     inkscape:cx="-313.925"
-     inkscape:cy="23.782197"
-     inkscape:window-width="1344"
-     inkscape:window-height="430"
+     inkscape:zoom="3.8864912"
+     inkscape:cx="100.09028"
+     inkscape:cy="61.109106"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs21056" />
@@ -42,7 +42,7 @@
      transform="translate(-88.370036,-142.18905)">
     <g
        id="g10669"
-       transform="matrix(0.68665245,0,0,0.68665245,13.587496,123.26573)">
+       transform="matrix(1.015083,0,0,1.015083,-22.181507,130.08959)">
       <path
          style="opacity:0.99;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.579624;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          d="m 145.15479,30.302998 c -2.63845,0.860521 -6.83267,2.493031 -7.81077,6.655474 8.73807,-0.285325 11.37733,0.03567 11.37733,0.03567 0.67603,0.745178 -0.80265,3.531057 -6.91914,5.613494"

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="35.417526mm"
-   height="43.122265mm"
-   viewBox="0 0 35.417526 43.122265"
+   width="180"
+   height="180"
+   viewBox="0 0 47.625 47.625"
    version="1.1"
    id="svg22508"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
@@ -15,23 +15,23 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview22510"
-     pagecolor="#ffffff"
+     pagecolor="#00946e"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2102413"
-     inkscape:cx="-309.16856"
-     inkscape:cy="80.859469"
-     inkscape:window-width="1344"
-     inkscape:window-height="430"
+     inkscape:zoom="3.6844606"
+     inkscape:cx="66.766896"
+     inkscape:cy="81.558749"
+     inkscape:window-width="2560"
+     inkscape:window-height="1395"
      inkscape:window-x="0"
      inkscape:window-y="23"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs22505" />
@@ -42,7 +42,7 @@
      transform="translate(-86.744628,-126.93887)">
     <g
        id="g20077"
-       transform="translate(32.969009,68.842017)">
+       transform="translate(38.969009,69.129259)">
       <g
          id="g18653-2-8"
          transform="matrix(0.31941728,0,0,0.30108914,44.144724,59.278774)">
