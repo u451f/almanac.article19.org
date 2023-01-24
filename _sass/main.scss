@@ -105,36 +105,11 @@ pre {
     animation: aurora 25s ease-in-out infinite;
 }
 
-@keyframes sky {
-    0% {
-        background-position: 0% 100%;
-    }
-    100% {
-        background-position: 0 0%;
-    }
-}
-
-@keyframes aurora {
-    0% {
-        background-position: 0% 100%;
-    }
-    50% {
-        background-position: 0 0%;
-    }
-    100% {
-        background-position: 0 100%;
-    }
-}
-
 #intro, #post {
     background-image: url(backgrounds/layer2repeatable.svg), url(backgrounds/layer1repeatable.svg);
     background-position: left bottom, left bottom;
     background-repeat: repeat-x, repeat-x;
     padding-bottom: 0;
-}
-
-.home #intro {
-    padding-bottom: 20px;
 }
 
 .post #intro {
@@ -569,6 +544,10 @@ h3.title {
     text-transform: uppercase;
 }
 
+.home #intro {
+    padding-bottom: 20px;
+}
+
 #intro img {
     margin: auto;
 }
@@ -588,6 +567,10 @@ h3.title {
     margin: auto;
     display: block;
 }
+
+/*************************************
+ Home page
+  ***********************************/
 
 .bubble {
     display: block;
@@ -615,10 +598,6 @@ span.bubble:after {
     right: 10px;
     z-index: 0;
 }
-
-/*************************************
- Home page
-  ***********************************/
 
 .home #main-text ul {
     list-style: none;
@@ -656,6 +635,10 @@ span.bubble:after {
         transform: translatex(0);
     }
 }
+
+/*************************************
+ Home page: org list
+  ***********************************/
 
 #org-list .org {
     cursor: pointer;
@@ -725,7 +708,7 @@ span.bubble:after {
 }
 
 /*************************************
- Tag and simple pages
+ Main text
   ***********************************/
 
 .desktop.home #main-text {
@@ -753,6 +736,10 @@ span.bubble:after {
     margin-bottom: 1em;
 }
 
+/*************************************
+ Tag and simple pages
+  ***********************************/
+
 .tag #main-text img {
     background: url(images/shadow.svg) bottom center no-repeat;
 }
@@ -771,6 +758,18 @@ span.bubble:after {
     width: 180px;
     height: 180px;
 }
+
+/*************************************
+ Post/Group page
+ ***********************************/
+
+.post .logo {
+    filter: drop-shadow(0px 0px 7px rgba(255,255,255,0.7));
+}
+
+/*************************************
+Post/Group & Org page
+  ***********************************/
 
 .links {
     margin: 2em 0 2em;
@@ -811,8 +810,19 @@ span.bubble:after {
     padding: 0 0.25em;
 }
 
-.all-groups a:hover {
+#main-text img, #intro img, #breadcrumbs {
+    position: relative;
+    z-index: 5;
 }
+
+#content, #org-list, #post-list {
+    position: relative;
+    z-index: 3; /* above cloud */
+}
+
+/*************************************
+ Post list
+ ***********************************/
 
 #post-list {
     padding-top: 1em;
@@ -832,30 +842,8 @@ span.bubble:after {
 }
 
 /*************************************
- WG page
- ***********************************/
-
-.mobile.post .logo-moved {
-    margin-top: 1.5em;
-}
-
-.post .logo {
-    filter: drop-shadow(0px 0px 7px rgba(255,255,255,0.7));
-}
-
-/*************************************
-  Animation
+  Cloud
 ***********************************/
-
-#main-text img, #intro img, #breadcrumbs {
-    position: relative;
-    z-index: 5;
-}
-
-#content, #org-list, #post-list {
-    position: relative;
-    z-index: 3; /* above cloud */
-}
 
 .cloud {
     background: url(images/cloud.svg) no-repeat center center;
@@ -878,6 +866,11 @@ span.bubble:after {
     height: 100px;
     animation: move ease-in-out 25s -2s infinite alternate;
 }
+
+/*************************************
+  Animation
+***********************************/
+
 
 @keyframes move {
     0% {
@@ -905,6 +898,26 @@ span.bubble:after {
     }
 }
 
+@keyframes sky {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0 0%;
+    }
+}
+
+@keyframes aurora {
+    0% {
+        background-position: 0% 100%;
+    }
+    50% {
+        background-position: 0 0%;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
 
 /*************************************
  Media queries
@@ -1095,5 +1108,4 @@ span.bubble:after {
     #org-list .org .excerpt {
         max-width: 450px;
     }
-
 }
