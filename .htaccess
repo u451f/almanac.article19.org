@@ -7,4 +7,4 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^almanac\.article19\.org [NC]
 
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^.]*[^./])$ https://%{SERVER_NAME}//$1.html [R=301,L]
+RewriteRule ^([^.]*[^./])$ https://%{SERVER_NAME}/$1.html [R=301,L]
