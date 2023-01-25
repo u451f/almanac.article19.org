@@ -2,8 +2,7 @@ TODO
 ====
 
 - [] change style of all groups link arrow to the right in green?
-- [] special cursor for external links?
-
+- [] remove htpasswd and corresponding lights in htaccess
 
 MAYBE
 =====
@@ -14,6 +13,7 @@ MAYBE
 DONE
 ====
 
+- [x] special cursor for external links?
 - [x] Do a final clean upload
 - [x] W3 validate index
 - [x] _config: change twitter image to ART19 logo or aperçu of this website!
