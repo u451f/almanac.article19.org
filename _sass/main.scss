@@ -292,6 +292,10 @@ a[href]:not(:where(
     display: grid;
 }
 
+.ogrid .post {
+    margin-bottom: 2em;
+}
+
 /*************************************
   Nav: Breadcrumbs
   ***********************************/
@@ -976,10 +980,25 @@ Post/Group & Org page
     .home #intro {
         padding-bottom: 130px;
     }
+
    .ogrid {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home .ogrid {
         justify-content: space-between;
+    }
+
+    .ogrid .post {
+        width: 25%;
+        padding: 0 3%;
+        box-sizing: border-box;
+    }
+
+    .ogrid .post:nth-child(even) {
+        margin-top: 4em;
     }
 
     .ogrid .org {
@@ -1051,15 +1070,6 @@ Post/Group & Org page
          grid-row-start: 2;
     }
 
-    #post-list .grid {
-        grid-column-gap: 4em;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    #post-list .post:nth-child(even) {
-        margin-top: 4em;
-    }
-
     .post .logo {
         width: 100%;
         max-height: 350px;
@@ -1087,10 +1097,6 @@ Post/Group & Org page
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    #post-list .grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
     #breadcrumbs, #main-text, .all-groups, #primary-menu .main-menu {
         grid-column-start: 2;
         grid-column-end: 4;
@@ -1104,9 +1110,6 @@ Post/Group & Org page
 }
 
 @media all and (min-width: 1600px) {
-    #post-list .grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
     #org-list .org .excerpt {
         top: auto;
         bottom: 10%;
