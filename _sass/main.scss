@@ -701,7 +701,7 @@ span.bubble:after {
 }
 
 #org-list .org .description:hover .excerpt {
-    animation: fade linear 8s;
+    animation: fade linear 10s;
 }
 
 #org-list .org .description img, #post-list .post img {
@@ -909,7 +909,7 @@ Post/Group & Org page
     0% {
         opacity: 0;
     }
-    10% {
+    2% {
         opacity: 1;
     }
     98% {
