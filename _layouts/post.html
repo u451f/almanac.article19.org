@@ -41,7 +41,7 @@
     </div>
 </div>
 <div class="section" id="post-list">
-    <div class="section-content grid">
+    <div class="section-content ogrid">
         {% assign posts = site.posts | where: 'org', page.org | reverse %}
         {% for post in posts %}
             {% if post.title != page.title %}

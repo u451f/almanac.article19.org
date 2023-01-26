@@ -21,7 +21,7 @@
     </div>
 </div>
 <div class="section" id="post-list">
-    <div class="section-content grid">
+    <div class="section-content ogrid">
         {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
         {% for post in orgposts %}
             {% include post_loop.html %}
