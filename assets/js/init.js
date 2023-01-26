@@ -27,6 +27,15 @@ $(function($){
         $('body').addClass('safari');
     }
 
+    // Open external links in new tab
+    $('a[href^=http]').click(function () {
+        var a = new RegExp('/' + window.location.host + '/');
+        if (!a.test(this.href)) {
+            window.open(this.href);
+            return false;
+        }
+    });
+
     // animate submenus
     $('.main-menu li').click(function() {
         if($(this).children("ul").length) {
