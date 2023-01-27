@@ -632,6 +632,8 @@ span.bubble:after {
 
 .home #main-text li {
     animation: float 2s ease-in-out;
+    background: var(--colour3);
+    color: var(--bg);
     margin-bottom: 1.2em;
 }
 
