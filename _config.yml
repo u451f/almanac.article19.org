@@ -3,7 +3,7 @@ collections:
     output: true
   posts:
     output: true
-    permalink: /group/:title
+    permalink: group/:title
 defaults:
   - scope:
       path: ""
