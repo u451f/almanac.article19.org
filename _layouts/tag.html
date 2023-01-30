@@ -33,7 +33,9 @@
     <div class="section-content grid">
         {% for tag in site.tags %}
            {% for post in tag[1] %}
-               {% include post_loop.html %}
+                {% if page.ref == tag[0] %}
+                    {% include post_loop.html %}
+                {% endif %}
            {% endfor %}
         {% endfor %}
     </div>
