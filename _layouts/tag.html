@@ -32,7 +32,8 @@
 <div class="section" id="post-list">
     <div class="section-content ogrid">
         {% for tag in site.tags %}
-           {% for post in tag[1] %}
+           {% assign posts = tag[1] | reverse %}
+           {% for post in posts %}
                 {% if page.ref == tag[0] %}
                     {% include post_loop.html %}
                 {% endif %}
