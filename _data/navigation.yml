@@ -27,7 +27,7 @@
 - name: By tag
   subfolderitems:
   - name: Artificial Intelligence
-    link: /by-issue-ai.html
+    link: /by-issue-AI.html
   - name: Biometrics
     link: /by-issue-biometrics.html
   - name: Cryptography
@@ -43,7 +43,7 @@
   - name: Networking
     link: /by-issue-networking.html
   - name: Privacy-Enhancing Technologies
-    link: /by-issue-pet.html
+    link: /by-issue-PET.html
   - name: Rights and Ethics
     link: /by-issue-rights-ethics.html
   - name: Smart Cities
