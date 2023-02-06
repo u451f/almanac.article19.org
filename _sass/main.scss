@@ -228,7 +228,6 @@ a[href]:not(:where(
 
 .desktop #post-list .post:nth-child(4)::after {
     content: url(backgrounds/layer7.svg);
-    margin-left: calc(var(--hspace)*-1);
     position: absolute;
 }
 
@@ -1120,15 +1119,6 @@ Post/Group & Org page
         min-height: 350px;
     }
 
-    .desktop #post-list .post:nth-child(4)::after {
-        content: "";
-        margin: 0;
-        position: relative;
-    }
-    #post-list .post:nth-child(5)::after {
-        content: url(backgrounds/layer7.svg);
-        position: absolute;
-    }
     .ogrid .org#org-ietf {
         margin-top: 0;
     }
