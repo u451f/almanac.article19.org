@@ -26,23 +26,33 @@
     link: /orgs/1_w3c.html
 - name: By tag
   subfolderitems:
+  - name: Artificial Intelligence
+    link: /by-issue-ai.html
   - name: Biometrics
     link: /by-issue-biometrics.html
-  - name: Censorship resistance
-    link: /by-issue-censorship-resistance.html
-  - name: Connectivity
-    link: /by-issue-connectivity.html
+  - name: Cryptography
+    link: /by-issue-cryptography.html
   - name: Cybersecurity
     link: /by-issue-cybersecurity.html
-  - name: Data-intensive technology
-    link: /by-issue-data-intensive-tech.html
-  - name: Internet of Things
-    link: /by-issue-internet-of-things.html
+  - name: Digital Identity
+    link: /by-issue-digital-identity.html
+  - name: Encrypted DNS
+    link: /by-issue-encrypted-DNS.html
+  - name: Messaging
+    link: /by-issue-messaging.html
+  - name: Networking
+    link: /by-issue-networking.html
+  - name: Privacy-Enhancing Technologies
+    link: /by-issue-pet.html
   - name: Privacy
     link: /by-issue-privacy.html
-  - name: Surveillance
-    link: /by-issue-surveillance.html
+  - name: Rights and Ethics
+    link: /by-issue-rights-ethics.html
+  - name: Smart Cities
+    link: /by-issue-smart-cities.html
+  - name: Telecommunications
+    link: /by-issue-telecommunications.html
 - name: How this came about
-  link: /how-it-came-to-be.html
+  link: /how-it-came-about.html
 - name: Acknowledgements
   link: /acknowledgements.html
