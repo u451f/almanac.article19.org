@@ -7,3 +7,6 @@ group :jekyll_plugins do
   gem 'jekyll-responsive-image'
   gem 'jekyll-feed'
 end
+
+gem 'rake'
+gem 'html-proofer'
