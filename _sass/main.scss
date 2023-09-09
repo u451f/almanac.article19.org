@@ -688,6 +688,7 @@ span.bubble:after {
 
 #org-list .org .description {
     position: relative;
+    text-align: center;
 }
 
 .mobile #org-list .org .excerpt {
@@ -695,6 +696,7 @@ span.bubble:after {
 }
 
 #org-list .org .excerpt {
+    text-align: left;
     opacity: 0;
     box-sizing: border-box;
     position: absolute;
@@ -1112,8 +1114,9 @@ Post/Group & Org page
 
 @media all and (min-width: 1600px) {
     #org-list .org .excerpt {
-        top: auto;
+        /*top: auto;*/
         bottom: 10%;
+        /*max-width: 450px;*/
     }
     .post .wg-info, .org .org-description {
         min-height: 350px;
@@ -1122,7 +1125,12 @@ Post/Group & Org page
     .ogrid .org#org-ietf {
         margin-top: 0;
     }
-    #org-list .org .excerpt {
-        max-width: 450px;
+
+    .ogrid .org#org-itu-r {
+        margin-top: -5vh;
+    }
+
+    .links {
+        line-height: auto;
     }
 }
