@@ -175,6 +175,10 @@ a[href]:not(:where(
     background: rgb(0, 148, 110) url(backgrounds/structure2.svg);
 }
 
+#org-list {
+    margin-top: -1px;
+}
+
 #org-list #org-w3c::after {
     content: url(backgrounds/layer4.svg);
     margin-left: calc(var(--hspace)*-1);
@@ -895,6 +899,29 @@ Post/Group & Org page
     height: 100px;
     animation: move ease-in-out 25s -2s infinite alternate;
 }
+
+/*************************************
+  By dominance
+***********************************/
+
+#navigation-area {
+    list-style: none;
+    position: fixed;
+    z-index: 20;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+#navigation-area li {
+    display: inline-block;
+}
+
+.dominance #content,
+.domorg #content {
+    background: linear-gradient(180deg, rgba(0,0,155,0.2) 10%, var(--bg) 50%);
+}
+
 
 /*************************************
   Animation
