@@ -27,7 +27,7 @@
      showgrid="false"
      inkscape:zoom="0.57626573"
      inkscape:cx="1084.5691"
-     inkscape:cy="147.5014"
+     inkscape:cy="-24.294348"
      inkscape:window-width="1366"
      inkscape:window-height="699"
      inkscape:window-x="0"
@@ -60,10 +60,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient25939"
        id="linearGradient25941"
-       x1="224.49652"
-       y1="109.60545"
-       x2="237.50188"
-       y2="-55.917233"
+       x1="171.32768"
+       y1="106.24629"
+       x2="170.81384"
+       y2="-20.157917"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(3.7775634,0,0,3.7775634,-0.70188403,-112.32627)" />
   </defs>
