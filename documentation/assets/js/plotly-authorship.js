@@ -7,11 +7,6 @@ d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
          });
     }
 
-    /*
-    function unique(value, index, array) {
-        return array.indexOf(value) === index;
-    }
-    */
 
     function getColorCode() {
         // future plan: give some big actors always the same color.
@@ -21,8 +16,8 @@ d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
 
     var traces = [];
 
-    // that would not work in Safari, so we should maybe do it differently
-    // also arr is an object ;)
+    // that would not work in some browsers, so we should maybe do it differently
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy#browser_compatibilit<F12>y
     var arr = Object.groupBy(rows, ({ affiliation }) => affiliation);
     console.log(Object.keys(arr));
     Object.keys(arr).forEach(key => {
