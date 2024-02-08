@@ -1,9 +1,10 @@
 d3.csv("../data/influence/influence_detnet_wide.csv", function(err, rows){
-    console.log(rows);
+    console.log("Rows", rows);
 
     var headerNames = d3.keys(rows[0]);
     headerNames.shift(); // remove Date as a header
-    console.log(headerNames);
+    //headerNames.sort().reverse(); // order alphabetically
+    console.log("headerNames", headerNames);
 
     function unpack(rows, key) {
         return rows.map(function(row) {
@@ -11,11 +12,14 @@ d3.csv("../data/influence/influence_detnet_wide.csv", function(err, rows){
          });
     }
 
-    function randomColor() {
-        return '#' + Math.floor(Math.random() * 16777215).toString(16);
+    function getColorCode() {
+        // future plan: give some big actors always the same color.
+        var hexcolor = '#' + Math.floor(Math.random() * 16777215).toString(16)
+        return hexcolor;
     }
 
     var traces = [];
+    var hexcolor = getColorCode();
     headerNames.forEach((actor) => traces.push({
             type: "scatter",
             //mode: "lines",
@@ -24,9 +28,9 @@ d3.csv("../data/influence/influence_detnet_wide.csv", function(err, rows){
             name: actor,
             x: unpack(rows, 'Date'),
             y: unpack(rows, actor),
-            hoveron: 'fills',
+            hoveron: 'points+fills',
             //line: {color: '#' + Math.floor(Math.random() * 16777215).toString(16)}
-            fillcolor: {color: '#' + Math.floor(Math.random() * 16777215).toString(16)}
+            fillcolor: {color: hexcolor}
         })
     );
     console.log(traces);

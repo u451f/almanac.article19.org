@@ -1,0 +1,9 @@
+,name,email,affiliation,country,errors,submission_date,draft_uri,title,rfc
+0,David Schinazi,dschinazi.ietf@gmail.com,Google LLC,United States of America,[],2022-06-17,/api/v1/doc/document/draft-ietf-masque-h3-datagram/,HTTP Datagrams and the Capsule Protocol,9297
+1,Lucas Pardue,lucaspardue.24.7@gmail.com,Cloudflare,,[],2022-06-17,/api/v1/doc/document/draft-ietf-masque-h3-datagram/,HTTP Datagrams and the Capsule Protocol,9297
+2,David Schinazi,dschinazi.ietf@gmail.com,Google LLC,United States of America,[],2022-06-17,/api/v1/doc/document/draft-ietf-masque-connect-udp/,Proxying UDP in HTTP,9298
+3,Tommy Pauly,tpauly@apple.com,Apple Inc.,,[],2023-04-20,/api/v1/doc/document/draft-ietf-masque-connect-ip/,Proxying IP in HTTP,9484
+4,David Schinazi,dschinazi.ietf@gmail.com,Google LLC,United States of America,[],2023-04-20,/api/v1/doc/document/draft-ietf-masque-connect-ip/,Proxying IP in HTTP,9484
+5,Alex Chernyakhovsky,achernya@google.com,Google LLC,,[],2023-04-20,/api/v1/doc/document/draft-ietf-masque-connect-ip/,Proxying IP in HTTP,9484
+6,Mirja Kuehlewind,mirja.kuehlewind@ericsson.com,Ericsson,,[],2023-04-20,/api/v1/doc/document/draft-ietf-masque-connect-ip/,Proxying IP in HTTP,9484
+7,Magnus Westerlund,magnus.westerlund@ericsson.com,Ericsson,,[],2023-04-20,/api/v1/doc/document/draft-ietf-masque-connect-ip/,Proxying IP in HTTP,9484
