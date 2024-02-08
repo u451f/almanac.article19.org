@@ -33,7 +33,7 @@ d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
             mode: 'markers',
             marker: {
                 size: 10,
-                opacity: 0.3,
+                opacity: 0.6,
                 color: getColorCode()
             },
             name: key,
