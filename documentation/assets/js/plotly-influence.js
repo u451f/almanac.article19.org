@@ -24,9 +24,7 @@ d3.csv("../data/influence/influence_detnet_wide.csv", function(err, rows){
             x: unpack(rows, 'Date'),
             y: unpack(rows, actor),
             hoveron: 'points+fills',
-            fillcolor: {
-                color: getColorCode(actor)
-            }
+            fillcolor: getColorCode(actor)
         })
     );
     console.log(traces);
