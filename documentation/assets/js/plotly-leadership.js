@@ -1,3 +1,5 @@
+import { getColorCode } from './get-color-code.js';
+
 d3.csv("../data/leadership/leadership_dnsop.csv", function(err, rows){
     // console.log("Rows", rows);
 
@@ -7,11 +9,13 @@ d3.csv("../data/leadership/leadership_dnsop.csv", function(err, rows){
          });
     }
 
+    /*
     function getColorCode() {
         // future plan: give some big actors always the same color.
         var hexcolor = '#' + Math.floor(Math.random() * 16777215).toString(16)
         return hexcolor;
     }
+    */
 
     var traces = [];
     var hexcolor;
@@ -20,7 +24,7 @@ d3.csv("../data/leadership/leadership_dnsop.csv", function(err, rows){
     // do some kind of grouping of affiliations first
 
     for(var i = 0; i < rows.length; i++) {
-        hexcolor = getColorCode();
+        hexcolor = getColorCode(rows[i]['affiliation']);
         /* This bit should probably be done when creating the CSV*/
         var datetime_min, datetime_max;
         if(!rows[i]['datetime_min']) {
