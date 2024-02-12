@@ -48,7 +48,10 @@ d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
             title: 'Submission date',
             tickformat: '%Y'
         },
-        yaxis: {title: 'Titles'},
+        yaxis: {
+            //title: 'Standard',
+            automargin: true
+        },
         scattergap: 0,
     };
 
