@@ -40,8 +40,7 @@ d3.csv(file, function(err, rows){
             });
         }
     }
-
-    console.log("traces", traces);
+    //console.log("traces", traces);
 
     var data = traces;
 
