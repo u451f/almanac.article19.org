@@ -26,7 +26,11 @@ d3.csv(file, function(err, rows){
 
     var data = traces;
     var layout = {
-        title: 'Influence',
+        title: {
+            text: 'Who sent most emails to this WG?',
+            xref: 'container',
+            x: 0
+        },
         xaxis: {
             title: 'per year'
         },

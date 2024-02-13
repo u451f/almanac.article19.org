@@ -3,12 +3,12 @@ var file = "../data/authorship/authorship_detnet.csv"
 import { getColorCode, unpack } from './helper-functions.js';
 
 d3.csv(file, function(err, rows){
-    console.log("Rows", rows);
+    //console.log("Rows", rows);
 
     var traces = [];
 
     var arr = Object.groupBy(rows, ({ affiliation }) => affiliation);
-    console.log(Object.keys(arr));
+    //console.log(Object.keys(arr));
     Object.keys(arr).forEach(key => {
         let affiliation = unpack(arr[key], "affiliation");
         traces.push({
@@ -25,11 +25,15 @@ d3.csv(file, function(err, rows){
             y: unpack(arr[key], "title")
         });
     });
-    console.log("traces", traces);
+    //console.log("traces", traces);
 
     var data = traces;
     var layout = {
-        title: 'Authorship',
+        title: {
+            text: 'Who authored published standards in this WG?',
+            xref: 'container',
+            x: 0
+        },
         scattermode: 'group',
         xaxis: {
             title: 'Submission date',

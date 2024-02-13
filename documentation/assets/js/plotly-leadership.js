@@ -1,4 +1,5 @@
-var file = "../data/leadership/leadership_dnsop.csv";
+var path = "../data/leadership/";
+var file = path + "leadership_dnsop.csv";
 
 import { getColorCode, unpack } from './helper-functions.js';
 
@@ -45,23 +46,31 @@ d3.csv(file, function(err, rows){
 
     var data = traces;
 
-    var layout = {
-        title: 'Leadership',
-        showlegend: false,
-        xaxis: {
-            title: 'Chairing period',
-            tickformat: '%Y'
-        },
-        yaxis: {
-            automargin: true,
-            showgrid: false
-        },
-        font: {
-            family: "Roboto, sans-serif",
-            size: 12,
-            color: '#101820'
-        }
-    };
+    if(window.width < 800) {
+        console.log("small screen");
+    }
+        var layout = {
+            title: {
+                text: 'Who chaired this WG?',
+                xref: 'container',
+                x: 0
+            },
+            showlegend: false,
+            xaxis: {
+                title: 'Chairing period',
+                tickformat: '%Y'
+            },
+            yaxis: {
+                automargin: true,
+                //showticklabels: false,
+                showgrid: false
+            },
+            font: {
+                family: "Roboto, sans-serif",
+                size: 12,
+                color: '#101820'
+            }
+        };
 
     Plotly.newPlot('plotlyLeadership', data, layout);
 })
