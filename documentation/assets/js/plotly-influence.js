@@ -43,5 +43,5 @@ d3.csv(file, function(err, rows){
             color: '#101820'
         }
     };
-    Plotly.newPlot('plotlyInfluence', data, layout);
+    Plotly.newPlot('plotlyInfluence', data, layout, {responsive: true});
 })

@@ -51,5 +51,5 @@ d3.csv(file, function(err, rows){
         }
     };
 
-    Plotly.newPlot('plotlyAuthorship', data, layout);
+    Plotly.newPlot('plotlyAuthorship', data, layout, {responsive: true});
 })

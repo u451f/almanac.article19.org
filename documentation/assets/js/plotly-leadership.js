@@ -72,5 +72,5 @@ d3.csv(file, function(err, rows){
             }
         };
 
-    Plotly.newPlot('plotlyLeadership', data, layout);
+    Plotly.newPlot('plotlyLeadership', data, layout, {responsive: true});
 })
