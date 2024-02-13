@@ -16,15 +16,16 @@ d3.csv(file, function(err, rows){
         /* This bit should probably be done when creating the CSV*/
         var datetime_min, datetime_max;
         if(!rows[i]['datetime_min']) {
-        datetime_min = "2007-01-01 00:00:00+00:00";
+            datetime_min = "2007-01-01 00:00:00+00:00";
         } else {
             datetime_min = rows[i]['datetime_min'];
         }
         if(!rows[i]['datetime_max']) {
-        datetime_max = "2024-01-01 00:00:00+00:00";
+            datetime_max = "2024-01-01 00:00:00+00:00";
         } else {
             datetime_max = rows[i]['datetime_max'];
         }
+
         if(datetime_min != datetime_max) { // should I be doing this or is this a pre-cleanup?
             traces.push({
                 type: "scatter",
@@ -62,5 +63,5 @@ d3.csv(file, function(err, rows){
         }
     };
 
-    Plotly.newPlot('myDiv', data, layout);
+    Plotly.newPlot('plotlyLeadership', data, layout);
 })

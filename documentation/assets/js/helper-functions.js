@@ -1,11 +1,11 @@
+function isNullOrUndefined(value) {
+    return value === undefined || value === null;
+}
+
 function unpack(rows, key) {
     return rows.map(function(row) {
          return row[key];
      });
-}
-
-function isNullOrUndefined(value) {
-  return value === undefined || value === null;
 }
 
 /*
@@ -15,7 +15,7 @@ function isNullOrUndefined(value) {
  * */
 function getColorCode(affiliation) {
     var hexcolor;
-    console.log("affiliation", affiliation);
+    //console.log("affiliation", affiliation);
     switch (affiliation) {
         case 'Google':
             hexcolor = "#ffcc0090";
@@ -35,4 +35,4 @@ function getColorCode(affiliation) {
     return hexcolor;
 }
 
-export { unpack, isNullOrUndefined, getColorCode };
+export { getColorCode, isNullOrUndefined, unpack };
