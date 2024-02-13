@@ -28,7 +28,7 @@ d3.csv(file, function(err, rows){
         if(datetime_min != datetime_max) { // should I be doing this or is this a pre-cleanup?
             traces.push({
                 type: "scatter",
-                mode: 'lines',
+                mode: 'lines+markers',
                 line: {
                     color: hexcolor,
                     width: 25
@@ -47,13 +47,13 @@ d3.csv(file, function(err, rows){
 
     var layout = {
         title: 'Leadership',
+        showlegend: false,
         xaxis: {
             title: 'Chairing period',
             tickformat: '%Y'
         },
         yaxis: {
             automargin: true,
-            visible: false,
             showgrid: false
         },
         font: {

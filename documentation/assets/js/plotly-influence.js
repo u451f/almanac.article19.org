@@ -29,6 +29,12 @@ d3.csv(file, function(err, rows){
     var data = traces;
     var layout = {
         title: 'Influence',
+        xaxis: {
+            title: 'per year'
+        },
+        yaxis: {
+            title: 'Emails sent'
+        },
         font: {
             family: "Roboto, sans-serif",
             size: 12,
