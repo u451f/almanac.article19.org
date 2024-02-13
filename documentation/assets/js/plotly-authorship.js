@@ -1,18 +1,9 @@
-d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
-    console.log("Rows", rows);
+var file = "../data/authorship/authorship_detnet.csv"
 
-    function unpack(rows, key) {
-        return rows.map(function(row) {
-             return row[key];
-         });
-    }
+import { getColorCode, unpack } from './helper-functions.js';
 
-
-    function getColorCode() {
-        // future plan: give some big actors always the same color.
-        var hexcolor = '#' + Math.floor(Math.random() * 16777215).toString(16)
-        return hexcolor;
-    }
+d3.csv(file, function(err, rows){
+    //console.log("Rows", rows);
 
     var traces = [];
 
@@ -23,13 +14,14 @@ d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
     Object.keys(arr).forEach(key => {
         //console.log(key); // key = title
         //console.log(arr[key]); // content
+        let affiliation = unpack(arr[key], "affiliation");
         traces.push({
             type: "scatter",
             mode: 'markers',
             marker: {
                 size: 10,
                 opacity: 0.6,
-                color: getColorCode()
+                color: getColorCode(affiliation)
             },
             name: key,
             text: unpack(arr[key], "affiliation"),
@@ -42,7 +34,7 @@ d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
 
     var data = traces;
     var layout = {
-        title: 'Authorship in WG detnet',
+        title: 'Authorship',
         scattermode: 'group',
         xaxis: {
             title: 'Submission date',
@@ -53,6 +45,11 @@ d3.csv("../data/authorship/authorship_detnet.csv", function(err, rows){
             automargin: true
         },
         scattergap: 0,
+        font: {
+            family: "Roboto, sans-serif",
+            size: 12,
+            color: '#101820'
+        }
     };
 
     Plotly.newPlot('myDiv', data, layout);

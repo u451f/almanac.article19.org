@@ -1,13 +1,9 @@
-import { getColorCode } from './get-color-code.js';
+var file = "../data/leadership/leadership_dnsop.csv";
 
-d3.csv("../data/leadership/leadership_dnsop.csv", function(err, rows){
+import { getColorCode, unpack } from './helper-functions.js';
+
+d3.csv(file, function(err, rows){
     // console.log("Rows", rows);
-
-    function unpack(rows, key) {
-        return rows.map(function(row) {
-             return row[key];
-         });
-    }
 
     var traces = [];
     var hexcolor;
@@ -20,12 +16,12 @@ d3.csv("../data/leadership/leadership_dnsop.csv", function(err, rows){
         /* This bit should probably be done when creating the CSV*/
         var datetime_min, datetime_max;
         if(!rows[i]['datetime_min']) {
-           datetime_min = "2007-01-01 00:00:00+00:00";
+        datetime_min = "2007-01-01 00:00:00+00:00";
         } else {
             datetime_min = rows[i]['datetime_min'];
         }
         if(!rows[i]['datetime_max']) {
-           datetime_max = "2024-01-01 00:00:00+00:00";
+        datetime_max = "2024-01-01 00:00:00+00:00";
         } else {
             datetime_max = rows[i]['datetime_max'];
         }
@@ -50,7 +46,7 @@ d3.csv("../data/leadership/leadership_dnsop.csv", function(err, rows){
     var data = traces;
 
     var layout = {
-        title: 'WG Leadership',
+        title: 'Leadership',
         xaxis: {
             title: 'Chairing period',
             tickformat: '%Y'
@@ -59,6 +55,11 @@ d3.csv("../data/leadership/leadership_dnsop.csv", function(err, rows){
             automargin: true,
             visible: false,
             showgrid: false
+        },
+        font: {
+            family: "Roboto, sans-serif",
+            size: 12,
+            color: '#101820'
         }
     };
 
