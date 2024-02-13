@@ -1,0 +1,24 @@
+* error handling on d3js: if file exists
+* load the polyfill only in incompatible browsers?
+* check out how to layout on mobile (some renderings may be too large) in portrait mode)
+  - possibility: export everygthing as PNG and have mobile use these images instead
+  - might require manual work
+* check how to configure the plotly actions on top right (called modebar)
+  - https://plotly.com/javascript/configuration-options/
+  - eg. export SVG instead of PNG
+  - remove some buttons → var config.
+
+* maybe have only one page in jekyll that calls everything dynamically
+  according to a param in the URL. might need to use some yaml for that as some
+  kind of DB
+  - https://plotly.com/javascript/dropdowns/ that could be useful to load even the data dynamically
+  - https://plotly.com/javascript/custom-buttons/
+  * images
+  * names
+  * data
+
+* have a page where catnip explains how this works
+* maybe don't use the titles in the SVG, but have them in HTML and then have a catnip icon
+
+- do we need animations?
+  https://plotly.com/javascript/gapminder-example/
