@@ -10,8 +10,24 @@
         <script src="./assets/js/plotly-authorship.js" type="module"></script>
         <script src="./assets/js/plotly-influence.js" type="module"></script>
         <script src="./assets/js/plotly-leadership.js" type="module"></script>
+        <script>
+        const queryString = window.location.search;
+        const params = new URLSearchParams(queryString);
+        const WG = params.get('wg')
+        function setWG(select) {
+            var value = select.value;
+            params.set('wg', value);
+            window.location.search = params;
+            // change with option is selected
+        }
+        </script>
     </head>
     <body>
+        <select id="wg" onchange="setWG(this)">
+            <option value="">Select WG</option>
+            <option value="dnsop">dnsop</option>
+            <option value="detnet">detnet</option>
+        </select>
         <h2>Authorship</h2>
         <div id="plotlyAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
 
