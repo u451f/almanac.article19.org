@@ -1,4 +1,5 @@
-var file = "../data/influence/influence_detnet_wide.csv";
+var WG = "dnsop"
+var file = "../data/influence/influence_"+WG+".csv";
 
 import { getColorCode, unpack } from './helper-functions.js';
 

@@ -1,4 +1,5 @@
-var file = "../data/authorship/authorship_detnet.csv"
+var WG = "dnsop"
+var file = "../data/authorship/authorship_"+WG+".csv"
 
 import { getColorCode, unpack } from './helper-functions.js';
 

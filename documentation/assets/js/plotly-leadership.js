@@ -1,5 +1,5 @@
-var path = "../data/leadership/";
-var file = path + "leadership_dnsop.csv";
+var WG = "dnsop"
+var file = "../data/leadership/leadership_"+WG+".csv";
 
 import { getColorCode, unpack } from './helper-functions.js';
 
