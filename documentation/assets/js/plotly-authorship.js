@@ -36,6 +36,7 @@ d3.csv(file, function(err, rows){
             x: 0
         },
         scattermode: 'group',
+        scattergap: 0,
         xaxis: {
             title: 'Submission date',
             tickformat: '%Y'
@@ -44,7 +45,6 @@ d3.csv(file, function(err, rows){
             //title: 'Standard',
             automargin: true
         },
-        scattergap: 0,
         font: {
             family: "Roboto, sans-serif",
             size: 12,
