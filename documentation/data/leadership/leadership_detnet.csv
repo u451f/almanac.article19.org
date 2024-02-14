@@ -1,8 +1,8 @@
-name,person_uri,email,biography,datetime_min,datetime_max
-Pascal Thubert,/api/v1/person/person/115824/,pthubert@cisco.com,"Pascal Thubert has been actively involved in research, development and standards efforts on Internet mobility, cloud, and wireless technologies. Pascal co authored 2 IETF routing protocols, RPL and RIFT. He co-chairs the SCHC WG that applies IETF protocols over low power wide area networking technologies. Earlier, he specialized in IPv6 as applied to mobility and wireless devices and developed routers and switches microcode in Cisco’s core IPv6 product development group and CTAO groups. In parallel with his R&D missions, he has authored multiple IETF RFCs and draft standards dealing with IPv6, mobility and the Internet of Things, including work at NEMO, 6LoWPAN, 6lo, and ROLL.",,2014-10-02 16:10:49+00:00
-Erik Nordmark,/api/v1/person/person/8243/,nordmark@sonic.net,"Erik Nordmark works on a software stack for real-time edge computing at Zededa; a startup company based in California, USA. He has been active in the IETF since the early 1990-ies, as key contributor to IPv6 standards, co-chair in Mobile IP and TRILL, and as an Internet Area Director. His interest is in expanding the reach and capability of the Internet standards towards the various edges of the network including further reaching low-powered devices, by providing architectures and standards that are robust and secure across a large range of scales. Erik holds a Technical Licentiate Degree from Uppsala University and a Master of Science from Stanford University.",2014-11-07 14:21:35+00:00,2015-02-10 23:27:53+00:00
-Jouni Korhonen,/api/v1/person/person/109800/,jouni.nospam@gmail.com,,,2015-02-10 23:27:53+00:00
-Patricia Thaler,/api/v1/person/person/112851/,pthaler@broadcom.com,,2015-06-11 19:14:27+00:00,2015-10-05 17:35:35+00:00
-Patricia Thaler,/api/v1/person/person/112851/,pat.thaler@broadcom.com,,2015-02-10 23:27:53+00:00,2017-12-01 18:42:43+00:00
-János Farkas,/api/v1/person/person/118295/,janos.farkas@ericsson.com,,2017-12-01 18:42:43+00:00,
-Lou Berger,/api/v1/person/person/10064/,lberger@labn.net,,2015-02-10 23:27:53+00:00,
+name,datetime_min,datetime_max,affiliation
+Pascal Thubert,2014-11-07 14:21:35+00:00,2014-10-02 16:10:49+00:00,Pascal Thubert
+Erik Nordmark,2014-11-07 14:21:35+00:00,2015-02-10 23:27:53+00:00,Erik Nordmark
+Jouni Korhonen,2014-11-07 14:21:35+00:00,2015-02-10 23:27:53+00:00,Jouni Korhonen
+Patricia Thaler,2015-06-11 19:14:27+00:00,2015-10-05 17:35:35+00:00,Patricia Thaler
+Patricia Thaler,2015-02-10 23:27:53+00:00,2017-12-01 18:42:43+00:00,Patricia Thaler
+János Farkas,2017-12-01 18:42:43+00:00,2024-01-01 00:00:00+00:00,János Farkas
+Lou Berger,2015-02-10 23:27:53+00:00,2024-01-01 00:00:00+00:00,Lou Berger
