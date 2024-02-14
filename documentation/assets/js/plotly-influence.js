@@ -1,9 +1,11 @@
-var WG = "dnsop"
 var file = "../data/influence/influence_"+WG+".csv";
 
 import { getColorCode, unpack } from './helper-functions.js';
 
-d3.csv(file, function(err, rows){
+d3.csv(file, function(error, rows){
+    // if the file cannot be loaded
+    if (error) throw error;
+
     //console.log("Rows", rows);
 
     var headerNames = d3.keys(rows[0]);
@@ -28,7 +30,7 @@ d3.csv(file, function(err, rows){
     var data = traces;
     var layout = {
         title: {
-            text: 'Who sent most emails to this WG?',
+            text: 'Who sent most emails to WG '+WG+'?',
             xref: 'container',
             x: 0
         },

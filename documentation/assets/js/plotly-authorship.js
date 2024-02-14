@@ -1,9 +1,11 @@
-var WG = "dnsop"
-var file = "../data/authorship/authorship_"+WG+".csv"
-
 import { getColorCode, unpack } from './helper-functions.js';
 
-d3.csv(file, function(err, rows){
+var file = "../data/authorship/authorship_"+WG+".csv"
+
+d3.csv(file, function(error, rows){
+    // if the file cannot be loaded
+    if (error) throw error;
+
     //console.log("Rows", rows);
 
     var traces = [];
@@ -31,7 +33,7 @@ d3.csv(file, function(err, rows){
     var data = traces;
     var layout = {
         title: {
-            text: 'Who authored published standards in this WG?',
+            text: 'Who authored published standards in WG '+WG+'?',
             xref: 'container',
             x: 0
         },
