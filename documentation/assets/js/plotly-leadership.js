@@ -13,6 +13,7 @@ d3.csv(file, function(err, rows){
         hexcolor = getColorCode(rows[i]['affiliation']);
         /* This bit should probably be done when creating the CSV*/
         var datetime_min, datetime_max;
+        /*
         if(!rows[i]['datetime_min']) {
             datetime_min = "2007-01-01 00:00:00+00:00";
         } else {
@@ -23,11 +24,15 @@ d3.csv(file, function(err, rows){
         } else {
             datetime_max = rows[i]['datetime_max'];
         }
+        */
+
+        datetime_min = rows[i]['datetime_min'];
+        datetime_max = rows[i]['datetime_max'];
 
         if(datetime_min != datetime_max) { // should I be doing this or is this a pre-cleanup?
             traces.push({
                 type: "scatter",
-                mode: 'lines+markers',
+                mode: 'lines',
                 line: {
                     color: hexcolor,
                     width: 25
@@ -39,11 +44,12 @@ d3.csv(file, function(err, rows){
             });
         }
     }
-    //console.log("traces", traces);
+    console.log("traces", traces);
 
     var data = traces;
 
     var layout = {
+        scattermode: 'group',
         title: {
             text: 'Who chaired this WG?',
             xref: 'container',
@@ -52,7 +58,6 @@ d3.csv(file, function(err, rows){
         showlegend: false,
         xaxis: {
             title: 'Chairing period',
-            tickformat: '%Y'
         },
         yaxis: {
             automargin: true,
