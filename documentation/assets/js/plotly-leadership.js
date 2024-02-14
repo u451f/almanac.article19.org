@@ -9,9 +9,6 @@ d3.csv(file, function(err, rows){
     var traces = [];
     var hexcolor;
 
-    // TODO: test on some other files and if needed
-    // do some kind of grouping of affiliations first
-
     for(var i = 0; i < rows.length; i++) {
         hexcolor = getColorCode(rows[i]['affiliation']);
         /* This bit should probably be done when creating the CSV*/
@@ -46,31 +43,28 @@ d3.csv(file, function(err, rows){
 
     var data = traces;
 
-    if(window.width < 800) {
-        console.log("small screen");
-    }
-        var layout = {
-            title: {
-                text: 'Who chaired this WG?',
-                xref: 'container',
-                x: 0
-            },
-            showlegend: false,
-            xaxis: {
-                title: 'Chairing period',
-                tickformat: '%Y'
-            },
-            yaxis: {
-                automargin: true,
-                //showticklabels: false,
-                showgrid: false
-            },
-            font: {
-                family: "Roboto, sans-serif",
-                size: 12,
-                color: '#101820'
-            }
-        };
+    var layout = {
+        title: {
+            text: 'Who chaired this WG?',
+            xref: 'container',
+            x: 0
+        },
+        showlegend: false,
+        xaxis: {
+            title: 'Chairing period',
+            tickformat: '%Y'
+        },
+        yaxis: {
+            automargin: true,
+            //showticklabels: false,
+            showgrid: false
+        },
+        font: {
+            family: "Roboto, sans-serif",
+            size: 12,
+            color: '#101820'
+        }
+    };
 
     Plotly.newPlot('plotlyLeadership', data, layout, {responsive: true});
 })
