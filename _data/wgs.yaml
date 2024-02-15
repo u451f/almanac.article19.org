@@ -1,0 +1,4 @@
+- name: "Domain Name Systems Operations /dnsop"
+  slug: dnsop
+- name: "Deterministic networking/detnet"
+  slug: detnet
