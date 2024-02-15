@@ -49,6 +49,7 @@ body {
     text-rendering: optimizeLegibility;
     min-height: 100vh;
     background: var(--bg);
+    padding-top: 2.5em;
 }
 
 b, strong {
@@ -901,32 +902,52 @@ Post/Group & Org page
 }
 
 /*************************************
-  By dominance
+  Data viz
 ***********************************/
 
-#navigation-area {
-    list-style: none;
+#site-area-menu {
     position: fixed;
-    z-index: 20;
-    margin: 0;
     top: 0;
     left: 0;
-    width: 100vw;
-}
-#navigation-area li {
-    display: inline-block;
-}
-
-.dominance #content,
-.domorg #content {
-    background: linear-gradient(180deg, rgba(0,0,155,0.2) 10%, var(--bg) 50%);
+    z-index: 10;
+    width: 100%;
+    background: white;
+    padding-top: 15px;
 }
 
+#site-area-menu.current-area-viz li:last-child a,
+#site-area-menu:not(.current-area-viz) li:first-child a {
+    background: pink;
+}
+
+#site-area-menu li {
+    display: inline;
+}
+
+body.viz #content {
+    background: linear-gradient(180deg, rgba(214,45,38,0.2) 80px, var(--bg) 170px);
+}
+
+#viz-intro {
+
+}
+
+#viz-actions {
+    /*
+    position: fixed;
+    z-index: 25;
+    top: 5px;
+    */
+}
+select {
+    background-color: var(--colour2);
+    color: #fff;
+    padding: 0.5em;
+}
 
 /*************************************
   Animation
 ***********************************/
-
 
 @keyframes move {
     0% {
@@ -1141,9 +1162,7 @@ Post/Group & Org page
 
 @media all and (min-width: 1600px) {
     #org-list .org .excerpt {
-        /*top: auto;*/
         bottom: 10%;
-        /*max-width: 450px;*/
     }
     .post .wg-info, .org .org-description {
         min-height: 350px;
