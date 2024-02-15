@@ -45,11 +45,11 @@ body {
     overflow-x: hidden;
     color: var(--colourtext);
     min-height: 100vh;
-    shape-rendering: crispedges;
+    /*shape-rendering: crispedges;*/
     text-rendering: optimizeLegibility;
     min-height: 100vh;
     background: var(--bg);
-    padding-top: 2.5em;
+    /*padding-top: 25px;*/
 }
 
 b, strong {
@@ -259,6 +259,7 @@ a[href]:not(:where(
   ***********************************/
 
 #content {
+    padding-top: var(--hspace);
     padding-top: var(--hspace);
 }
 
@@ -902,22 +903,32 @@ Post/Group & Org page
 }
 
 /*************************************
-  Data viz
+  Data viz site area
 ***********************************/
 
 #site-area-menu {
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 0;
+    right: var(--hspace);
     z-index: 10;
-    width: 100%;
-    background: white;
-    padding-top: 15px;
+    padding-top: 0;
 }
 
+#site-area-menu ul {
+    margin: 0;
+}
+
+#site-area-menu li a {
+    background-color: var(--colour1);
+    color: #fff;
+    opacity: 0.3;
+    padding: 0.2em 0.5em;
+}
+
+#site-area-menu li a:hover,
 #site-area-menu.current-area-viz li:last-child a,
 #site-area-menu:not(.current-area-viz) li:first-child a {
-    background: pink;
+    opacity: 1;
 }
 
 #site-area-menu li {
@@ -939,10 +950,13 @@ body.viz #content {
     top: 5px;
     */
 }
+
 select {
     background-color: var(--colour2);
+    padding: .5em;
     color: #fff;
-    padding: 0.5em;
+    border: #fff;
+    margin-bottom: .25em;
 }
 
 /*************************************
