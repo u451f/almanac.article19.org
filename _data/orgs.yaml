@@ -1,0 +1,10 @@
+- name: IETF
+  slug: ietf
+- name: IRTF
+  slug: ietf
+- name: ITU-R
+  slug: itu-r
+- name: ITU-T
+  slug: itu-t
+- name: W3C
+  slug: w3c
