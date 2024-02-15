@@ -3,7 +3,7 @@
 * error handling on d3js: if file exists
 * load the polyfill only in incompatible browsers?
 * check out how to layout on mobile (some renderings may be too large) in portrait mode)
-  - possibility: export everygthing as PNG and have mobile use these images instead
+  - possibility: export everything as PNG and have mobile use these images instead
   - might require manual work
 * check how to configure the plotly actions on top right (called modebar)
   - https://plotly.com/javascript/configuration-options/
@@ -54,5 +54,8 @@
   - remove double quotes in names and emails
 
 - visualization
-  - do we want to export PNG or SVG (scalable but not for everyone)
-  - maybe we can do both
+  - do we want to export PNG or SVG (scalable but not for everyone), maybe we
+    can do both
+  - on mobile screens the vizs will not fit. do we want to have a smaller, but
+    interactive viz or rather take care of exporting SVGs (write a script for
+    that and call those in case we're on a small screen?)
