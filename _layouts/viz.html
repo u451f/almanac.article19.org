@@ -1,0 +1,45 @@
+{% include header.html %}
+<div class="section" id="content">
+    <div class="section-content grid" id="viz-intro">
+    {% include site-header.html %}
+    {% include breadcrumbs.html %}
+    {{ content }}
+    </div>
+
+    <div class="section-content grid" id="viz-actions">
+        <select id="or" class="select" onchange="setORG(this)">
+        {% assign items = site.data.orgs %}
+            <option>Select an SDO</option>
+        {% for item in items %}
+            <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
+                {{ item.name }}
+            </option>
+        {% endfor %}
+        </select>
+
+        <select id="wg" class="select" onchange="setWG(this)">
+        {% assign items = site.data.wgs %}
+            <option>Select a Working group</option>
+        {% for item in items %}
+            <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
+                {{ item.name }}
+            </option>
+        {% endfor %}
+        </select>
+
+        <h2>Name of the SDO/ WG</h2>
+        <p>Logo of the SDO / image of the WG</p>
+    </div>
+
+    <div class="section-content" id="viz-display">
+        <h3>Authorship</h3>
+        <div id="plotlyAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+
+        <h3>Influence</h3>
+        <div id="plotlyInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+
+        <h3>Leadership</h3>
+        <div id="plotlyLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+    </div>
+</div>
+{% include footer.html %}
