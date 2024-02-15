@@ -1,0 +1,10 @@
+<nav id="site-area-menu" {% if page.sitearea == "viz" %}class="current-area-viz"{% endif %}>
+    <ul>
+    {% assign items = site.data.navigation-main %}
+    {% for item in items %}
+        <li>
+            <a href="{{ site.url }}{{ item.link }}">{{ item.name }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+</nav>
