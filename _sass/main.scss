@@ -910,6 +910,14 @@ Post/Group & Org page
   Data viz site area
 ***********************************/
 
+.logo-vizexists {
+    background-color: transparent;
+}
+
+.logo-vizexists img {
+    mix-blend-mode: luminosity;
+}
+
 #site-area-menu {
     position: absolute;
     top: 0;
@@ -944,17 +952,42 @@ body.viz .site-title a {
 }
 
 body.viz #content {
-    /*background: linear-gradient(180deg, rgba(214,45,38,0.2) 80px, var(--bg) 170px);*/
-    background: linear-gradient(180deg, rgba(0,148,110, 0.3) 80px, var(--bg) 170px);
+    background: linear-gradient(180deg, rgba(0,148,110, 0.3) 150px, var(--bg) 250px);
 }
 
 .section-content#viz-intro {
     padding-bottom: 0;
 }
+.section-content#viz-intro .post {
+    background: var(--colour1);
+}
+
+.section-content#viz-intro .post img {
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.8));
+    background: url(images/shadow.svg) bottom center no-repeat;
+    background-size: contain;
+    background-blend-mode: luminosity;
+    mix-blend-mode: luminosity;
+    padding-bottom: 25px;
+}
+.section-content#viz-intro .post .post-title {
+    background: var(--colour1);
+}
 
 .section-content#viz-actions {
     padding-bottom: 0;
     align-items: center;
+}
+
+.section-content#viz-actions .post {
+    background: var(--colour2);
+    text-align: center;
+}
+
+.section-content#viz-actions .post img {
+    mix-blend-mode: luminosity;
+    height: 80px;
+    margin-top: 1em;
 }
 
 #viz-display .section-content h3 {
