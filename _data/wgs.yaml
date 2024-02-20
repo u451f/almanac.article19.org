@@ -1,4 +1,4 @@
-- name: "Domain Name Systems Operations /dnsop"
-  slug: dnsop
 - name: "Deterministic networking/detnet"
-  slug: detnet
+  slug: ietf-deterministic-networking
+- name: "Domain Name Systems Operations /dnsop"
+  slug: ietf-domain-name-system-operations
