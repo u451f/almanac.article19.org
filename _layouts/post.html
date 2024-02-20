@@ -21,13 +21,12 @@
             {% endif %}
         </div>
 
-    {% comment %}
-    {% if page.org %}
-        <img class="logo org-logo" src="{{ site.url }}/assets/images/logo/{{ page.org }}.svg" alt="logo" />
-    {% endif %}
-    {% endcomment %}
     {% if page.featured-img %}
         <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
+    {% endif %}
+
+    {% if page.vizexists %}
+    <a href="{{ site.url }}/viz.html?wg={{ page.vizexists }}" class="logo-vizexists"><img src="{{ site.url }}/{{ page.featured-img }}" alt="" /><br>Who's influential in this group?</a>
     {% endif %}
 
     {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
