@@ -1,8 +1,8 @@
+- name: About this research
+  link: /viz-about.html
 - name: Data visualizations
   link: /viz.html
-- name: Main findings
-  link: /viz-findings.html
+- name: Download map
+  link: /#
 - name: How to use the data visualizations
   link: /viz-explain.html
-- name: About the data visualizations
-  link: /viz-about.html
