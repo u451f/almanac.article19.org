@@ -22,18 +22,20 @@
     const WG = params.get('wg')
     // change with option is selected
     if(params.get('wg')) {
+        // FIXME: clean that
         // mark as selected in <select>
-        var selectwg = document.getElementById('wg');
+        let selectwg = document.getElementById('wg');
         selectwg.value = params.get('wg');
         // load corresponding image
-        var wglogo = document.getElementById('wglogo');
+        let wglogo = document.getElementById('wglogo');
         wglogo.src = wglogo.src + WG + ".svg";
         // load corresponding link
-        var wglink = document.getElementById('wglink');
+        let wglink = document.getElementById('wglink');
         wglink.href = wglink.href + WG;
-        // load corresponding name FIXME: use the actual name
-        var wgname = document.getElementById('wgname');
-        wgname.textContent = WG;
+        // load corresponding name
+        let wgname = document.getElementById('wgname');
+        wgname.textContent = selectwg.options[selectwg.selectedIndex].text;
+        wglogo.title = selectwg.options[selectwg.selectedIndex].text;
     } else {
         // nothing was selected, let's have a default view
         params.set('wg', "ietf-domain-name-system-operations");
