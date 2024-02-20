@@ -26,20 +26,30 @@
             </option>
         {% endfor %}
         </select>
-
-        <h2>Name of the SDO/ WG</h2>
-        <p>Logo of the SDO / image of the WG</p>
+        <p>
+            <a href="{{ site.url }}/group/" id="wglink" title="What is this?"><b id="wgname">WG Name<b></a>
+        </p>
+        <img id="wglogo" class="logo" src="{{ site.url }}/assets/images/groups/" alt="" />
     </div>
 
-    <div class="section-content" id="viz-display">
-        <h3>Authorship</h3>
-        <div id="plotlyAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <div id="viz-display">
+        <div class="section-content">
+            <h3>Authorship</h3>
+            <div id="plotlyAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <span class="spacer"></span>
 
-        <h3>Influence</h3>
-        <div id="plotlyInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        <div class="section-content">
+            <h3>Influence</h3>
+            <div id="plotlyInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <span class="spacer"></span>
 
-        <h3>Leadership</h3>
-        <div id="plotlyLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        <div class="section-content">
+            <h3>Leadership</h3>
+            <div id="plotlyLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <span class="spacer"></span>
     </div>
 </div>
 {% include footer.html %}
