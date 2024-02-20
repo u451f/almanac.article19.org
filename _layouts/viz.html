@@ -1,9 +1,15 @@
 {% include header.html %}
 <div class="section" id="content">
     <div class="section-content grid" id="viz-intro">
-    {% include site-header.html %}
-    {% include breadcrumbs.html %}
-    {{ content }}
+        {% include site-header.html %}
+        {% include breadcrumbs.html %}
+        {{ content }}
+        <div class="post">
+            <img id="wglogo" class="img-wg" src="{{ site.url }}/assets/images/groups/" title="" alt="" />
+            <h2 class="post-title">
+                <a href="{{ site.url }}/group/" id="wglink" title="What is this?"><b id="wgname">WG Name</b></a>
+            </h2>
+        </div>
     </div>
 
     <div class="section-content grid" id="viz-actions">
@@ -26,10 +32,6 @@
             </option>
         {% endfor %}
         </select>
-        <p>
-            <a href="{{ site.url }}/group/" id="wglink" title="What is this?"><b id="wgname">WG Name<b></a>
-        </p>
-        <img id="wglogo" class="logo" src="{{ site.url }}/assets/images/groups/" alt="" />
     </div>
 
     <div id="viz-display">
