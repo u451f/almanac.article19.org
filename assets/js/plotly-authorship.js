@@ -37,6 +37,9 @@ d3.csv(file, function(error, rows){
             xref: 'container',
             x: 0
         },
+        margin: {
+            t: 35, r: 0, b: 45, l: 40
+        },
         scattermode: 'group',
         scattergap: 0,
         xaxis: {

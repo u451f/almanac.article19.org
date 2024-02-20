@@ -43,6 +43,9 @@ d3.csv(file, function(error, rows){
             xref: 'container',
             x: 0
         },
+        margin: {
+            t: 35, r: 0, b: 50, l: 40
+        },
         showlegend: false,
         xaxis: {
             title: 'Chairing period',
