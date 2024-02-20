@@ -34,17 +34,6 @@
     <script src="{{ site.url }}/assets/js/plotly-authorship.js" type="module"></script>
     <script src="{{ site.url }}/assets/js/plotly-influence.js" type="module"></script>
     <script src="{{ site.url }}/assets/js/plotly-leadership.js" type="module"></script>
-    <script>
-    const queryString = window.location.search;
-    const params = new URLSearchParams(queryString);
-    const WG = params.get('wg')
-    function setWG(select) {
-        var value = select.value;
-        params.set('wg', value);
-        window.location.search = params;
-        // change with option is selected
-    }
-    </script>
 {% endif %}
 </head>
-<body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }}">
+<body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }} {% if page.sitearea == 'viz' %} viz{% endif %}">
