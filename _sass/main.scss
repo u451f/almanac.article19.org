@@ -1254,3 +1254,22 @@ a.modebar-btn {
         line-height: auto;
     }
 }
+
+.slide {
+    margin-bottom: 4em;
+}
+
+.slide:nth-child(odd) {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.slide:nth-child(even) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.slide img {
+    float: left;
+    margin-right: 4em;
+}
