@@ -1,3 +1,11 @@
+{% comment %}
+{% if page.sitearea == "viz" %}
+    <div id="breadcrumbs">
+        <span class="crumb"><a rel="nofollow" href="{{ site.url }}/viz.html">Data viz</a></span>
+        <span class="crumb"><a rel="nofollow" href="#">WG name / ORG name</a></span>
+    </div>
+{% endif %}
+{% endcomment %}
 {% if page.breadcrumbs != false %}
     <div id="breadcrumbs">
         <span class="crumb"><a rel="nofollow" href="{{ site.url }}">All organisations</a></span>
