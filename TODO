@@ -25,33 +25,7 @@
 - do we need animations?
   https://plotly.com/javascript/gapminder-example/
 
-============================================================
-
-@Seb
-
-- influence
-  - order csv headers alphabetically *after* the affiliations have been added
-  - it's not easy to match an affiliation to a person who has had multiple
-    affiliations. we'd need to create a separate column for each affiliation of
-    the person rather than for the person. not sure how to deal with this.
-
-- authorship
-  - order alphabetically by affiliation *after* the info is there
-  - in the CSV file, the header was written on the bottom instead of at the top
-
-- leadership
-  - order alphabetically by affiliation *after* the info is there or keep current order by date?
-  - datetime_min must not be empty
-  - datetime_max must not be empty, set to current date?
-  - datetime_min and datetime_max must not be equal
-
-- affiliations
-  - normalize names and automate that
-
-- names
-  - must never be empty
-  - decode utf-8 strings correctly
-  - remove double quotes in names and emails
+===========================================================
 
 - visualization
   - do we want to export PNG or SVG (scalable but not for everyone), maybe we
@@ -59,3 +33,10 @@
   - on mobile screens the vizs will not fit. do we want to have a smaller, but
     interactive viz or rather take care of exporting SVGs (write a script for
     that and call those in case we're on a small screen?)
+
+===========================================================
+
+- some issues on http://localhost:4000/viz.html?wg=ietf-quic
+  - Leadership: Netapp should be a single actor on the y axis, even if it's two different persons
+  - Authorship: last line of Excel file was broken
+  - Authorship: the x axis for the years is really weird, years are being repeated
