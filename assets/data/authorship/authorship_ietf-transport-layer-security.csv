@@ -1,0 +1,96 @@
+,name,affiliation,submission_date,draft_uri,title,rfc
+0,Joseph Salowey,Cisco,2008-04-14,/api/v1/doc/document/draft-ietf-tls-rsa-aes-gcm/,AES-GCM Cipher Suites for TLS,5288
+1,Abhijit Choudhury,Cisco,2008-04-14,/api/v1/doc/document/draft-ietf-tls-rsa-aes-gcm/,AES-GCM Cipher Suites for TLS,5288
+2,David McGrew,Cisco,2008-04-14,/api/v1/doc/document/draft-ietf-tls-rsa-aes-gcm/,AES-GCM Cipher Suites for TLS,5288
+3,Eric Rescorla,,2008-05-09,/api/v1/doc/document/draft-ietf-tls-ecc-new-mac/,TLS Elliptic Curve Cipher Suites with SHA-256/384 and AES Galois Counter Mode,5289
+4,Pasi Eronen,Nokia,2008-06-25,/api/v1/doc/document/draft-ietf-tls-des-idea/,DES and IDEA Cipher Suites for Transport Layer Security (TLS),5469
+5,Mohamad Badra,MZ & Partners,2008-10-30,/api/v1/doc/document/draft-ietf-tls-psk-new-mac-aes-gcm/,Pre-Shared Key Cipher Suites for Transport Layer Security (TLS) with SHA-256/384 and AES Galois Counter Mode,5487
+6,Mohamad Badra,MZ & Partners,2008-10-31,/api/v1/doc/document/draft-ietf-tls-ecdhe-psk/,ECDHE_PSK Ciphersuites for Transport Layer Security (TLS),5489
+7,Eric Rescorla,,2009-09-07,/api/v1/doc/document/draft-ietf-tls-extractor/,Keying Material Exporters for Transport Layer Security (TLS),5705
+8,Eric Rescorla,Microsoft,2009-11-26,/api/v1/doc/document/draft-ietf-tls-renegotiation/,Transport Layer Security (TLS) Renegotiation Indication Extension,5746
+9,Marsh Ray,PhoneFactor,2009-11-26,/api/v1/doc/document/draft-ietf-tls-renegotiation/,Transport Layer Security (TLS) Renegotiation Indication Extension,5746
+10,Steve Dispensa,PhoneFactor,2009-11-26,/api/v1/doc/document/draft-ietf-tls-renegotiation/,Transport Layer Security (TLS) Renegotiation Indication Extension,5746
+11,One Way,Microsoft,2009-11-26,/api/v1/doc/document/draft-ietf-tls-renegotiation/,Transport Layer Security (TLS) Renegotiation Indication Extension,5746
+12,Donald Eastlake 3rd,Cisco Systems,2010-09-20,/api/v1/doc/document/draft-ietf-tls-rfc4366-bis/,Transport Layer Security (TLS) Extensions: Extension Definitions,6066
+13,Eric Rescorla,,2011-07-03,/api/v1/doc/document/draft-ietf-tls-rfc4347-bis/,Datagram Transport Layer Security version 1.2,6347
+14,Nagendra Modadugu,Google,2011-07-03,/api/v1/doc/document/draft-ietf-tls-rfc4347-bis/,Datagram Transport Layer Security version 1.2,6347
+15,Robin Seggelmann,Fachhochschule Münster,2011-12-02,/api/v1/doc/document/draft-ietf-tls-dtls-heartbeat/,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,6520
+16,Michael Tuexen,Fachhochschule Münster,2011-12-02,/api/v1/doc/document/draft-ietf-tls-dtls-heartbeat/,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,6520
+17,Michael Williams,,2011-12-02,/api/v1/doc/document/draft-ietf-tls-dtls-heartbeat/,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,6520
+18,Yngve N. Pettersen,,2013-04-11,/api/v1/doc/document/draft-ietf-tls-multiple-cert-status-extension/,The TLS Multiple Certificate Status Request Extension,6961
+19,Paul Wouters,Red hat,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
+20,Hannes Tschofenig,ÖBB,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
+21,John Gilmore,CMI,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
+22,Samuel Weiler,Parsons Corporation,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
+23,Tero Kivinen,,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
+24,Stephan Friedl,Cisco Systems,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
+25,Andrei Popov,Microsoft,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
+26,Adam Langley,Google,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
+27,Emile Stephan,Orange,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
+28,Peter Gutmann,University of Auckland,2014-07-22,/api/v1/doc/document/draft-ietf-tls-encrypt-then-mac/,Encrypt-then-MAC for TLS and DTLS,7366
+29,Andrei Popov,Microsoft,2014-10-01,/api/v1/doc/document/draft-ietf-tls-prohibiting-rc4/,Prohibiting RC4 Cipher Suites,7465
+30,Bodo Moeller,Google,2015-02-19,/api/v1/doc/document/draft-ietf-tls-downgrade-scsv/,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,7507
+31,Adam Langley,Google,2015-02-19,/api/v1/doc/document/draft-ietf-tls-downgrade-scsv/,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,7507
+32,Richard Barnes,Cisco Systems,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
+33,Martin Thomson,Mozilla,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
+34,Alfredo Pironti,IOActive Inc,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
+35,Adam Langley,Google,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
+36,Karthikeyan Bhargavan,INRIA,2015-07-05,/api/v1/doc/document/draft-ietf-tls-session-hash/,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,7627
+37,Antoine Delignat-Lavaud,INRIA,2015-07-05,/api/v1/doc/document/draft-ietf-tls-session-hash/,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,7627
+38,Alfredo Pironti,INRIA,2015-07-05,/api/v1/doc/document/draft-ietf-tls-session-hash/,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,7627
+39,Adam Langley,Google,2015-07-05,/api/v1/doc/document/draft-ietf-tls-session-hash/,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,7627
+40,Marsh Ray,Microsoft,2015-07-05,/api/v1/doc/document/draft-ietf-tls-session-hash/,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,7627
+41,Adam Langley,Google,2015-09-08,/api/v1/doc/document/draft-ietf-tls-padding/,A TLS ClientHello padding extension,7685
+42,Adam Langley,Google,2015-12-16,/api/v1/doc/document/draft-ietf-tls-chacha20-poly1305/,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),7905
+43,Wan-Teh Chang,Google,2015-12-16,/api/v1/doc/document/draft-ietf-tls-chacha20-poly1305/,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),7905
+44,Nikos Mavrogiannopoulos,Red Hat,2015-12-16,/api/v1/doc/document/draft-ietf-tls-chacha20-poly1305/,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),7905
+45,Joachim Strombergson,Assured,2015-12-16,/api/v1/doc/document/draft-ietf-tls-chacha20-poly1305/,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),7905
+46,Simon Josefsson,,2015-12-16,/api/v1/doc/document/draft-ietf-tls-chacha20-poly1305/,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),7905
+47,Adam Langley,Google,2016-05-11,/api/v1/doc/document/draft-ietf-tls-falsestart/,Transport Layer Security (TLS) False Start,7918
+48,Nagendra Modadugu,Google,2016-05-11,/api/v1/doc/document/draft-ietf-tls-falsestart/,Transport Layer Security (TLS) False Start,7918
+49,Bodo Moeller,Google,2016-05-11,/api/v1/doc/document/draft-ietf-tls-falsestart/,Transport Layer Security (TLS) False Start,7918
+50,Daniel Kahn Gillmor,ACLU,2015-06-01,/api/v1/doc/document/draft-ietf-tls-negotiated-ff-dhe/,Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for TLS,7919
+51,Stefan Santesson,3xA Security,2016-05-11,/api/v1/doc/document/draft-ietf-tls-cached-info/,Transport Layer Security (TLS) Cached Information Extension,7924
+52,Hannes Tschofenig,ÖBB,2016-05-11,/api/v1/doc/document/draft-ietf-tls-cached-info/,Transport Layer Security (TLS) Cached Information Extension,7924
+53,Yoav Nir,Check Point,2017-05-05,/api/v1/doc/document/draft-ietf-tls-rfc4492bis/,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,8422
+54,Simon Josefsson,Transtema,2017-05-05,/api/v1/doc/document/draft-ietf-tls-rfc4492bis/,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,8422
+55,Manuel Pegourie-Gonnard,ARM,2017-05-05,/api/v1/doc/document/draft-ietf-tls-rfc4492bis/,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,8422
+56,John Mattsson,Ericsson,2017-05-25,/api/v1/doc/document/draft-ietf-tls-ecdhe-psk-aead/,ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for Transport Layer Security (TLS) Protocol version 1.2,8442
+57,Daniel Migault,Ericsson,2017-05-25,/api/v1/doc/document/draft-ietf-tls-ecdhe-psk-aead/,ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for Transport Layer Security (TLS) Protocol version 1.2,8442
+58,Eric Rescorla,Mozilla,2018-03-20,/api/v1/doc/document/draft-ietf-tls-tls13/,The Transport Layer Security (TLS) Protocol Version 1.3,8446
+59,Joe Salowey,Tableau,2018-05-24,/api/v1/doc/document/draft-ietf-tls-iana-registry-updates/,IANA Registry Updates for Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),8447
+60,Sean Turner,sn3rd llc,2018-05-24,/api/v1/doc/document/draft-ietf-tls-iana-registry-updates/,IANA Registry Updates for Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),8447
+61,Martin Thomson,Mozilla,2018-09-27,/api/v1/doc/document/draft-ietf-tls-tls13-vectors/,Example Handshake Traces for TLS 1.3,8448
+62,Martin Thomson,Mozilla,2018-05-17,/api/v1/doc/document/draft-ietf-tls-record-limit/,Record Size Limit Extension for Transport Layer Security (TLS),8449
+63,David Benjamin,Google,2019-08-22,/api/v1/doc/document/draft-ietf-tls-grease/,Applying GREASE to TLS Extensibility,8701
+64,Christian Huitema,Private Octopus Inc,2019-10-28,/api/v1/doc/document/draft-ietf-tls-sni-encryption/,Issues and Requirements for SNI Encryption in TLS,8744
+65,Eric Rescorla,Mozilla,2019-10-28,/api/v1/doc/document/draft-ietf-tls-sni-encryption/,Issues and Requirements for SNI Encryption in TLS,8744
+66,Russ Housley,Vigil Security,2019-12-23,/api/v1/doc/document/draft-ietf-tls-tls13-cert-with-extern-psk/,TLS 1.3 Extension for Certificate-based Authentication with an External Pre-Shared Key,8773
+67,Alessandro Ghedini,Cloudflare,2020-01-06,/api/v1/doc/document/draft-ietf-tls-certificate-compression/,TLS Certificate Compression,8879
+68,Victor Vasiliev,Google,2020-01-06,/api/v1/doc/document/draft-ietf-tls-certificate-compression/,TLS Certificate Compression,8879
+69,Kathleen Moriarty,Center for Internet Security,2021-01-21,/api/v1/doc/document/draft-ietf-tls-oldversions-deprecate/,Deprecating TLSv1.0 and TLSv1.1,8996
+70,Stephen Farrell,Trinity College Dublin,2021-01-21,/api/v1/doc/document/draft-ietf-tls-oldversions-deprecate/,Deprecating TLSv1.0 and TLSv1.1,8996
+71,Eric Rescorla,Mozilla,2021-06-22,/api/v1/doc/document/draft-ietf-tls-dtls-connection-id/,Connection Identifiers for DTLS 1.2,9146
+72,Hannes Tschofenig,ARM,2021-06-22,/api/v1/doc/document/draft-ietf-tls-dtls-connection-id/,Connection Identifiers for DTLS 1.2,9146
+73,Thomas Fossati,ARM,2021-06-22,/api/v1/doc/document/draft-ietf-tls-dtls-connection-id/,Connection Identifiers for DTLS 1.2,9146
+74,Achim Kraus,Bosch,2021-06-22,/api/v1/doc/document/draft-ietf-tls-dtls-connection-id/,Connection Identifiers for DTLS 1.2,9146
+75,Eric Rescorla,Mozilla,2021-04-30,/api/v1/doc/document/draft-ietf-tls-dtls13/,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,9147
+76,Hannes Tschofenig,ARM,2021-04-30,/api/v1/doc/document/draft-ietf-tls-dtls13/,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,9147
+77,Nagendra Modadugu,Meta,2021-04-30,/api/v1/doc/document/draft-ietf-tls-dtls13/,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,9147
+78,Tommy Pauly,Apple,2020-12-03,/api/v1/doc/document/draft-ietf-tls-ticketrequests/,TLS Ticket Requests,9149
+79,David Schinazi,Google,2020-12-03,/api/v1/doc/document/draft-ietf-tls-ticketrequests/,TLS Ticket Requests,9149
+80,Christopher A. Wood,Cloudflare,2020-12-03,/api/v1/doc/document/draft-ietf-tls-ticketrequests/,TLS Ticket Requests,9149
+81,Loganaden Velvindron,Cyberstorm,2021-09-20,/api/v1/doc/document/draft-ietf-tls-md5-sha1-deprecate/,Deprecating MD5 and SHA-1 signature hashes in (D)TLS 1.2,9155
+82,Kathleen Moriarty,Center for Internet Security,2021-09-20,/api/v1/doc/document/draft-ietf-tls-md5-sha1-deprecate/,Deprecating MD5 and SHA-1 signature hashes in (D)TLS 1.2,9155
+83,Alessandro Ghedini,Cloudflare,2021-09-20,/api/v1/doc/document/draft-ietf-tls-md5-sha1-deprecate/,Deprecating MD5 and SHA-1 signature hashes in (D)TLS 1.2,9155
+84,Russ Housley,Vigil Security,2022-02-04,/api/v1/doc/document/draft-ietf-tls-external-psk-guidance/,Guidance for External PSK Usage in TLS,9257
+85,Jonathan Hoyland,Cloudflare,2022-02-04,/api/v1/doc/document/draft-ietf-tls-external-psk-guidance/,Guidance for External PSK Usage in TLS,9257
+86,Mohit Sethi,KONE,2022-02-04,/api/v1/doc/document/draft-ietf-tls-external-psk-guidance/,Guidance for External PSK Usage in TLS,9257
+87,Christopher A. Wood,Cloudflare,2022-02-04,/api/v1/doc/document/draft-ietf-tls-external-psk-guidance/,Guidance for External PSK Usage in TLS,9257
+88,David Benjamin,Google,2022-04-22,/api/v1/doc/document/draft-ietf-tls-external-psk-importer/,Importing External PSKs for TLS,9258
+89,Christopher A. Wood,Cloudflare,2022-04-22,/api/v1/doc/document/draft-ietf-tls-external-psk-importer/,Importing External PSKs for TLS,9258
+90,Nick Sullivan,Cloudflare,2022-03-04,/api/v1/doc/document/draft-ietf-tls-exported-authenticator/,Exported Authenticators in TLS,9261
+91,Richard Barnes,Cisco,2022-06-15,/api/v1/doc/document/draft-ietf-tls-subcerts/,Delegated Credentials for (D)TLS,9345
+92,Subodh Iyengar,Meta,2022-06-15,/api/v1/doc/document/draft-ietf-tls-subcerts/,Delegated Credentials for (D)TLS,9345
+93,Nick Sullivan,Cloudflare,2022-06-15,/api/v1/doc/document/draft-ietf-tls-subcerts/,Delegated Credentials for (D)TLS,9345
+94,Eric Rescorla,Mozilla,2022-06-15,/api/v1/doc/document/draft-ietf-tls-subcerts/,Delegated Credentials for (D)TLS,9345
