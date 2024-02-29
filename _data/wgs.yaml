@@ -2,3 +2,5 @@
   slug: ietf-deterministic-networking
 - name: "Domain Name Systems Operations /dnsop"
   slug: ietf-domain-name-system-operations
+- name: "QUIC"
+  slug: ietf-quic
