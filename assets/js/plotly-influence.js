@@ -10,7 +10,9 @@ d3.csv(file, function(error, rows){
 
     var headerNames = d3.keys(rows[0]);
     headerNames.shift(); // remove Date as a header
-    headerNames.sort(); // order alphabetically
+    // headerNames.sort(); // order alphabetically
+    // case insensitive sorting
+    headerNames.sort((a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'}));
 
     var traces = [];
     var hexcolor;
