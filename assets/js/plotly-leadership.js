@@ -1,23 +1,28 @@
 import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
 
-var file = "/assets/data/leadership/leadership_"+WG+".csv";
-d3.csv(file, function(error, rows){
-    // if the file cannot be loaded
-    if (error) throw error;
+/*
+ * Leadership
+ * - Who has been chairing a WG?
+ * - Ordered by default by start date (datetime_min)
+ * */
 
-    // console.log("Rows", rows);
+var file = "/assets/data/leadership/leadership_"+WG+".csv";
+d3.csv(file, function(error, rows) {
+    if (error) throw error; // if file cannot be loaded
+
+    //console.log("Rows", rows);
 
     var traces = [];
     var hexcolor;
 
     for(var i = 0; i < rows.length; i++) {
         hexcolor = getColorCode(rows[i]['affiliation']);
-        var datetime_min, datetime_max;
 
+        var datetime_min, datetime_max;
         datetime_min = rows[i]['datetime_min'];
         datetime_max = rows[i]['datetime_max'];
 
-        if(datetime_min != datetime_max) { // should I be doing this or is this a pre-cleanup?
+        if(datetime_min != datetime_max) { // FIXME: this should rather happen at BigBang level
             traces.push({
                 type: "scatter",
                 mode: 'lines',

@@ -1,5 +1,11 @@
 import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
 
+/*
+ * Influence
+ * - Who wrote emails most to mailing lists associated with this WG?
+ * - Ordered by year and affiliation (alphabetical)
+ */
+
 var file = "/assets/data/influence/influence_"+WG+".csv";
 
 d3.csv(file, function(error, rows){
@@ -11,8 +17,7 @@ d3.csv(file, function(error, rows){
     var headerNames = d3.keys(rows[0]);
     headerNames.shift(); // remove Date as a header
     // headerNames.sort(); // order alphabetically
-    // case insensitive sorting
-    headerNames.sort((a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'}));
+    headerNames.sort((a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'})); // case insensitive sorting
 
     var traces = [];
     var hexcolor;

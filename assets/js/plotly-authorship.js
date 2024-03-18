@@ -1,5 +1,11 @@
 import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
 
+/*
+ * Authorship
+ * - Who co-authored standards in this WG?
+ * - FIXME: Need to review the order of authors (alphabetical)
+ * */
+
 var file = "/assets/data/authorship/authorship_"+WG+".csv"
 
 d3.csv(file, function(error, rows){
@@ -14,6 +20,7 @@ d3.csv(file, function(error, rows){
     //console.log(Object.keys(arr));
     Object.keys(arr).forEach(key => {
         let affiliation = unpack(arr[key], "affiliation");
+        //console.log(affiliation);
         traces.push({
             type: "scatter",
             mode: 'markers',
