@@ -1,3 +1,4 @@
+* self documenting code?
 * make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
 x error handling on d3js: if file exists
