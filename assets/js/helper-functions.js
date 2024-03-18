@@ -1,6 +1,3 @@
-function isNullOrUndefined(value) {
-    return value === undefined || value === null;
-}
 
 function unpack(rows, key) {
     return rows.map(function(row) {
@@ -46,4 +43,4 @@ const plotlyConfig = {
     modeBarButtonsToRemove: ['zoom2d', 'pan2d','select2d','lasso2d', 'resetScale2d']
 };
 
-export { getColorCode, isNullOrUndefined, unpack, plotlyConfig };
+export { getColorCode, unpack, plotlyConfig };
