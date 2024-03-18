@@ -35,4 +35,15 @@ function getColorCode(affiliation) {
     return hexcolor;
 }
 
-export { getColorCode, isNullOrUndefined, unpack };
+const plotlyConfig = {
+    displaylogo: false,
+    responsive: true,
+    toImageButtonOptions: {
+        format: 'svg',
+        filename: 'almanac.article19.org-authorship'+WG,
+        scale: 1
+    },
+    modeBarButtonsToRemove: ['zoom2d', 'pan2d','select2d','lasso2d', 'resetScale2d']
+};
+
+export { getColorCode, isNullOrUndefined, unpack, plotlyConfig };
