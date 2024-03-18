@@ -1,6 +1,6 @@
 * make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
-* error handling on d3js: if file exists
+x error handling on d3js: if file exists
 * load the polyfill only in incompatible browsers?
 * check out how to layout on mobile (some renderings may be too large) in portrait mode)
   - possibility: export everything as PNG and have mobile use these images instead
@@ -33,7 +33,7 @@ x maybe don't use the titles in the SVG, but have them in HTML
 
 ===========================================================
 
-- visualization
+x visualization
   x do we want to export PNG or SVG (scalable but not for everyone), maybe we
     can do both
     → only one thing works at a time, I decided for SVG as this is scalable
