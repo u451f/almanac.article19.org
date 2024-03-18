@@ -1,4 +1,4 @@
-import { getColorCode, unpack } from './helper-functions.js';
+import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
 
 var file = "/assets/data/influence/influence_"+WG+".csv";
 
@@ -49,5 +49,5 @@ d3.csv(file, function(error, rows){
             color: '#101820'
         }
     };
-    Plotly.newPlot('plotlyInfluence', data, layout, {responsive: true});
+    Plotly.newPlot('plotlyInfluence', data, layout, plotlyConfig);
 })

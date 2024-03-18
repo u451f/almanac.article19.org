@@ -1,4 +1,4 @@
-import { getColorCode, unpack } from './helper-functions.js';
+import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
 
 var file = "/assets/data/authorship/authorship_"+WG+".csv"
 
@@ -57,5 +57,5 @@ d3.csv(file, function(error, rows){
         }
     };
 
-    Plotly.newPlot('plotlyAuthorship', data, layout, {responsive: true});
+    Plotly.newPlot('plotlyAuthorship', data, layout, plotlyConfig);
 })
