@@ -12,6 +12,7 @@ x check how to configure the plotly actions on top right (called modebar)
   x eg. export SVG instead of PNG
   x remove some buttons → var config.
 * Authorship: unpack function destroys the order of the affiliations, see how to fix that.
+* Authorship: doesn't manage to get colors by affiliation
 * all plotly: if affiliation is empty, use the name instead
 
 * maybe have only one page in jekyll that calls everything dynamically
@@ -27,7 +28,7 @@ x check how to configure the plotly actions on top right (called modebar)
 x maybe don't use the titles in the SVG, but have them in HTML
 * catnip icon for plot titles
 
-* use A19 colors only when generating colors
+x use A19 colors only when generating colors
 
 - do we need animations?
   https://plotly.com/javascript/gapminder-example/
