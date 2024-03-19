@@ -11,7 +11,7 @@
 9,Marsh Ray,PhoneFactor,2009-11-26,/api/v1/doc/document/draft-ietf-tls-renegotiation/,Transport Layer Security (TLS) Renegotiation Indication Extension,5746
 10,Steve Dispensa,PhoneFactor,2009-11-26,/api/v1/doc/document/draft-ietf-tls-renegotiation/,Transport Layer Security (TLS) Renegotiation Indication Extension,5746
 11,One Way,Microsoft,2009-11-26,/api/v1/doc/document/draft-ietf-tls-renegotiation/,Transport Layer Security (TLS) Renegotiation Indication Extension,5746
-12,Donald Eastlake 3rd,Cisco Systems,2010-09-20,/api/v1/doc/document/draft-ietf-tls-rfc4366-bis/,Transport Layer Security (TLS) Extensions: Extension Definitions,6066
+12,Donald Eastlake 3rd,Cisco,2010-09-20,/api/v1/doc/document/draft-ietf-tls-rfc4366-bis/,Transport Layer Security (TLS) Extensions: Extension Definitions,6066
 13,Eric Rescorla,,2011-07-03,/api/v1/doc/document/draft-ietf-tls-rfc4347-bis/,Datagram Transport Layer Security version 1.2,6347
 14,Nagendra Modadugu,Google,2011-07-03,/api/v1/doc/document/draft-ietf-tls-rfc4347-bis/,Datagram Transport Layer Security version 1.2,6347
 15,Robin Seggelmann,Fachhochschule Münster,2011-12-02,/api/v1/doc/document/draft-ietf-tls-dtls-heartbeat/,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,6520
@@ -23,7 +23,7 @@
 21,John Gilmore,CMI,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
 22,Samuel Weiler,Parsons Corporation,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
 23,Tero Kivinen,,2014-01-20,/api/v1/doc/document/draft-ietf-tls-oob-pubkey/,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),7250
-24,Stephan Friedl,Cisco Systems,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
+24,Stephan Friedl,Cisco,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
 25,Andrei Popov,Microsoft,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
 26,Adam Langley,Google,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
 27,Emile Stephan,Orange,2014-03-03,/api/v1/doc/document/draft-ietf-tls-applayerprotoneg/,Transport Layer Security (TLS) Application Layer Protocol Negotiation Extension,7301
@@ -31,7 +31,7 @@
 29,Andrei Popov,Microsoft,2014-10-01,/api/v1/doc/document/draft-ietf-tls-prohibiting-rc4/,Prohibiting RC4 Cipher Suites,7465
 30,Bodo Moeller,Google,2015-02-19,/api/v1/doc/document/draft-ietf-tls-downgrade-scsv/,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,7507
 31,Adam Langley,Google,2015-02-19,/api/v1/doc/document/draft-ietf-tls-downgrade-scsv/,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,7507
-32,Richard Barnes,Cisco Systems,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
+32,Richard Barnes,Cisco,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
 33,Martin Thomson,Mozilla,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
 34,Alfredo Pironti,IOActive Inc,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568
 35,Adam Langley,Google,2015-04-10,/api/v1/doc/document/draft-ietf-tls-sslv3-diediedie/,Deprecating Secure Sockets Layer Version 3.0,7568

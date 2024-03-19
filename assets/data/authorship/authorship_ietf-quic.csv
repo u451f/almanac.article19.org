@@ -8,10 +8,10 @@
 5,Jana Iyengar,Fastly,2021-01-14,/api/v1/doc/document/draft-ietf-quic-recovery/,QUIC Loss Detection and Congestion Control,9002
 6,Ian Swett,Google,2021-01-14,/api/v1/doc/document/draft-ietf-quic-recovery/,QUIC Loss Detection and Congestion Control,9002
 14,Brian Trammell,Google,2022-07-15,/api/v1/doc/document/draft-ietf-quic-applicability/,Applicability of the QUIC Transport Protocol,9308
-11,David Schinazi,Google LLC,2022-02-04,/api/v1/doc/document/draft-ietf-quic-datagram/,An Unreliable Datagram Extension to QUIC,9221
-17,David Schinazi,Google LLC,2022-12-19,/api/v1/doc/document/draft-ietf-quic-version-negotiation/,Compatible Version Negotiation for QUIC,9368
-19,Martin Duke,Google LLC,2022-12-15,/api/v1/doc/document/draft-ietf-quic-v2/,QUIC Version 2,9369
-16,Brian Trammell,Google Switzerland GmbH,2022-07-15,/api/v1/doc/document/draft-ietf-quic-manageability/,Manageability of the QUIC Transport Protocol,9312
+11,David Schinazi,Google,2022-02-04,/api/v1/doc/document/draft-ietf-quic-datagram/,An Unreliable Datagram Extension to QUIC,9221
+17,David Schinazi,Google,2022-12-19,/api/v1/doc/document/draft-ietf-quic-version-negotiation/,Compatible Version Negotiation for QUIC,9368
+19,Martin Duke,Google,2022-12-15,/api/v1/doc/document/draft-ietf-quic-v2/,QUIC Version 2,9369
+16,Brian Trammell,Google,2022-07-15,/api/v1/doc/document/draft-ietf-quic-manageability/,Manageability of the QUIC Transport Protocol,9312
 0,Martin Thomson,Mozilla,2021-01-14,/api/v1/doc/document/draft-ietf-quic-invariants/,Version-Independent Properties of QUIC,8999
 2,Martin Thomson,Mozilla,2021-01-14,/api/v1/doc/document/draft-ietf-quic-transport/,QUIC: A UDP-Based Multiplexed and Secure Transport,9000
 3,Martin Thomson,Mozilla,2021-01-14,/api/v1/doc/document/draft-ietf-quic-tls/,Using TLS to Secure QUIC,9001
