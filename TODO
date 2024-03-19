@@ -13,6 +13,9 @@ x check how to configure the plotly actions on top right (called modebar)
 x Authorship: unpack function destroys the order of the affiliations, see how to fix that.
 x Authorship: doesn't manage to get colors by affiliation
 * all plotly: if affiliation is empty, use the name instead
+x find the art 19 blue hex value
+- affiliation if given, otherwise use name
+- data QuiC authorship: years look weird
 
 * maybe have only one page in jekyll that calls everything dynamically
   according to a param in the URL. might need to use some yaml for that as some
