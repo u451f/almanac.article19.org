@@ -1,4 +1,3 @@
-* self documenting code?
 * make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
 x error handling on d3js: if file exists
@@ -11,8 +10,8 @@ x check how to configure the plotly actions on top right (called modebar)
   x https://plotly.com/javascript/configuration-options/
   x eg. export SVG instead of PNG
   x remove some buttons → var config.
-* Authorship: unpack function destroys the order of the affiliations, see how to fix that.
-* Authorship: doesn't manage to get colors by affiliation
+x Authorship: unpack function destroys the order of the affiliations, see how to fix that.
+x Authorship: doesn't manage to get colors by affiliation
 * all plotly: if affiliation is empty, use the name instead
 
 * maybe have only one page in jekyll that calls everything dynamically
@@ -47,3 +46,10 @@ x visualization
     → that was only due to two different spellings of NetApp/Netapp
   - Authorship: last line of Excel file was broken
   x Authorship: the x axis for the years is really weird, years are being repeated
+
+- Linting
+  - JS lint
+  - 'use strict';
+  - check all variable names are correct and understandable
+
+* have self documenting code
