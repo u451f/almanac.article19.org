@@ -11,7 +11,7 @@ function unpack(rows, key) {
  * */
 function getColorCode(affiliation) {
     var hexcolor;
-    console.log("affiliation", affiliation);
+    //console.log("affiliation", affiliation);
     switch (affiliation) {
         case 'Akamai':
         case 'Akami': /* FIXME: typo in data */
@@ -49,7 +49,7 @@ function getColorCode(affiliation) {
             const transparency = Math.floor(Math.random() * 256).toString(16);
             hexcolor = '#' + colors[randomSelColor] + transparency;
     }
-    console.log("aff: " + affiliation + " hex: " + hexcolor);
+    //console.log("aff: " + affiliation + " hex: " + hexcolor);
     return hexcolor;
 }
 
