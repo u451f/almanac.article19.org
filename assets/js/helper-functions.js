@@ -5,6 +5,14 @@ function unpack(rows, key) {
 }
 
 /*
+ * Return int in range
+ * */
+
+function getRandomArbitrary(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+/*
  * Return a color code for matched affiliations
  * or generate a random color code for unmatched ones
  * Format: hexadecimal with transparency value (90)
@@ -16,37 +24,38 @@ function getColorCode(affiliation) {
         case 'Akamai':
         case 'Akami': /* FIXME: typo in data */
         case 'akamai.com':
-            hexcolor = "#00947066"; // ART19 green more transparent
+            hexcolor = "#702375ab"; // ART19 purple
         break;
         case 'Cisco':
         case 'cisco.com':
-            hexcolor = "#722376ab"; // ART19 purple
+            hexcolor = "#691B32ab"; // ART19 earth
         break;
         case 'Cloudflare':
         case 'cloudflare.com':
-            hexcolor = "#72237666"; // ART19 purple more transparent
+            hexcolor = "#EB8A236ab"; // ART19 orange
         break;
         case 'Facebook':
         case 'Meta':
-            hexcolor = "#f8ab02ab"; // ART19 yellow
+            hexcolor = "#691B3266"; // ART19 earth
         break;
         case 'Fastly':
-            hexcolor = "#bb0748ab"; // ART19 red
+            hexcolor = "#f1a827ab"; // ART19 yellow
         break;
         case 'Futurewei':
         case 'Huawei':
         case 'huawei.com':
-            hexcolor = "#009470ab"; // ART19 green
+            hexcolor = "#B90748ab"; // ART19 raspberry
         break;
         case 'Google':
         case 'google.com':
-            hexcolor = "#bb0748ab"; // ART19 red
+            hexcolor = "#d62d26ab"; // ART19 red
         break;
         default:
             //hexcolor = '#' + Math.floor(Math.random() * 16777215).toString(16) + "90" // Use random hex value
-            const colors = ["bb0748", "009470", "f8ab02", "722376", "000000"]; // main ART19 colors red, green, yellow, purple
+            //const colors = ["d62d26", "eb8a23", "f1a827", "00940a", "00acd8", "142864", "702375", "b90748", "691b32"]; // main ART19 colors red, orange, yellow, green, lightblue, blue, purple, earth
+            const colors = ["009470", "142864", "00acd8", "101820", "c8c8c8"]; // green, blue, lightblue, black, grey
             const randomSelColor = Math.floor(Math.random() * colors.length);
-            const transparency = Math.floor(Math.random() * 256).toString(16);
+            const transparency = getRandomArbitrary(16, 256).toString(16);
             hexcolor = '#' + colors[randomSelColor] + transparency;
     }
     //console.log("aff: " + affiliation + " hex: " + hexcolor);
