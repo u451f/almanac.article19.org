@@ -20,14 +20,14 @@ d3.csv(file, function(error, rows){
     //console.log(Object.keys(arr));
     Object.keys(arr).forEach(key => {
         let affiliation = unpack(arr[key], "affiliation");
-        //console.log(affiliation);
+        console.log(affiliation[0]);
         traces.push({
             type: "scatter",
             mode: 'markers',
             marker: {
                 size: 10,
                 opacity: 0.6,
-                color: getColorCode(affiliation)
+                color: getColorCode(affiliation[0])
             },
             name: key,
             text: unpack(arr[key], "affiliation"),
