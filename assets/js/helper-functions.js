@@ -11,23 +11,45 @@ function unpack(rows, key) {
  * */
 function getColorCode(affiliation) {
     var hexcolor;
-    //console.log("affiliation", affiliation);
+    console.log("affiliation", affiliation);
     switch (affiliation) {
-        case 'Google':
-            hexcolor = "#ffcc0090";
+        case 'Akamai':
+        case 'Akami': /* FIXME: typo in data */
+        case 'akamai.com':
+            hexcolor = "#00947066"; // ART19 green more transparent
         break;
-        case 'mit.edu':
-            hexcolor = "#ffcc0090";
+        case 'Cisco':
+        case 'cisco.com':
+            hexcolor = "#722376ab"; // ART19 purple
         break;
+        case 'Cloudflare':
+        case 'cloudflare.com':
+            hexcolor = "#72237666"; // ART19 purple more transparent
+        break;
+        case 'Facebook':
+        case 'Meta':
+            hexcolor = "#f8ab02ab"; // ART19 yellow
+        break;
+        case 'Fastly':
+            hexcolor = "#bb0748ab"; // ART19 red
+        break;
+        case 'Futurewei':
         case 'Huawei':
-            hexcolor = "#ffcc0090";
+        case 'huawei.com':
+            hexcolor = "#009470ab"; // ART19 green
         break;
-        case 'DENIC':
-            hexcolor = "#ffcc0090";
+        case 'Google':
+        case 'google.com':
+            hexcolor = "#bb0748ab"; // ART19 red
         break;
         default:
-            hexcolor = '#' + Math.floor(Math.random() * 16777215).toString(16) + "90"
+            //hexcolor = '#' + Math.floor(Math.random() * 16777215).toString(16) + "90" // Use random hex value
+            const colors = ["bb0748", "009470", "f8ab02", "722376", "000000"]; // main ART19 colors red, green, yellow, purple
+            const randomSelColor = Math.floor(Math.random() * colors.length);
+            const transparency = Math.floor(Math.random() * 256).toString(16);
+            hexcolor = '#' + colors[randomSelColor] + transparency;
     }
+    console.log("aff: " + affiliation + " hex: " + hexcolor);
     return hexcolor;
 }
 
