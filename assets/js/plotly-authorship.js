@@ -26,7 +26,7 @@ d3.csv(file, function(error, rows){
             mode: 'markers',
             marker: {
                 size: 10,
-                opacity: 0.6,
+                // opacity: 0.6,
                 color: getColorCode(affiliation[0])
             },
             name: key,
