@@ -15,26 +15,36 @@ d3.csv(file, function(error, rows){
     //console.log("Rows", rows);
 
     var traces = [];
-
+    var hexcolor;
     var arr = Object.groupBy(rows, ({ affiliation }) => affiliation);
-    //console.log(Object.keys(arr));
-    Object.keys(arr).forEach(key => {
-        let affiliation = unpack(arr[key], "affiliation");
-        console.log(affiliation[0]);
+
+    // var affiliations = Object.keys(arr);
+
+    // order the object by key
+    const ordered = Object.keys(arr).sort().reduce(
+        (obj, key) => {
+            obj[key] = arr[key];
+            return obj;
+        },
+        {}
+    );
+
+    for (const [key, value] of Object.entries(ordered)) {
+        console.log(key, value);
         traces.push({
             type: "scatter",
             mode: 'markers',
             marker: {
                 size: 10,
-                // opacity: 0.6,
-                color: getColorCode(affiliation[0])
+                // opacity: 0.9,
+                color: getColorCode(key)
             },
             name: key,
-            text: unpack(arr[key], "affiliation"),
-            x: unpack(arr[key], "submission_date"),
-            y: unpack(arr[key], "title")
+            text: unpack(value, "affiliation"),
+            x: unpack(value, "submission_date"),
+            y: unpack(value, "title")
         });
-    });
+    }
     //console.log("traces", traces);
 
     var data = traces;
