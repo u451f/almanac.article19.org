@@ -32,7 +32,7 @@ function getColorCode(affiliation) {
         break;
         case 'Cloudflare':
         case 'cloudflare.com':
-            hexcolor = "#EB8A236ab"; // ART19 orange
+            hexcolor = "#eb8a23ab"; // ART19 orange
         break;
         case 'Facebook':
         case 'Meta':
