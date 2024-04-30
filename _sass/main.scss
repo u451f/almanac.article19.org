@@ -117,6 +117,7 @@ a[href]:not(:where(
     [href^="#"],
     [href^="/"]:not([href^="//"]),
     [href*="//almanac.article19.org"],
+    [href*="//almanac.curlybracket.net"],
     [href*="//article19.org"],
     [href*="//localhost"])
     ):after {
