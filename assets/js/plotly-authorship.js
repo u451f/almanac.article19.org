@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
+import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
 
 /*
  * Authorship
@@ -30,10 +30,11 @@ d3.csv(file, function(error, rows){
     );
 
     for (const [key, value] of Object.entries(ordered)) {
-        console.log(key, value);
+        //console.log(key, value);
+        console.log("color code for " +key, getColorCode(key));
         traces.push({
             type: "scatter",
-            mode: 'markers',
+            mode: "markers",
             marker: {
                 size: 10,
                 // opacity: 0.9,
@@ -45,34 +46,34 @@ d3.csv(file, function(error, rows){
             y: unpack(value, "title")
         });
     }
-    //console.log("traces", traces);
+    console.log("traces", traces);
 
     var data = traces;
     var layout = {
         title: {
-            text: 'Who authored published standards in WG '+WG+'?',
-            xref: 'container',
+            text: "Who authored published standards in WG "+WG+"?",
+            xref: "container",
             x: 0
         },
         margin: {
             t: 35, r: 10, b: 45, l: 40
         },
-        scattermode: 'group',
+        scattermode: "group",
         scattergap: 0,
         xaxis: {
-            title: 'Submission date',
-            tickformat: '%Y'
+            title: "Submission date",
+            tickformat: "%Y"
         },
         yaxis: {
-            //title: 'Standard',
+            //title: "Standard",
             automargin: true
         },
         font: {
             family: "Roboto, sans-serif",
             size: 12,
-            color: '#101820'
+            color: "#101820"
         }
     };
 
-    Plotly.newPlot('plotlyAuthorship', data, layout, plotlyConfig);
+    Plotly.newPlot("plotlyAuthorship", data, layout, plotlyConfig);
 })

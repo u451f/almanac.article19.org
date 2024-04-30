@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
+import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
 
 /*
  * Influence
@@ -17,18 +17,18 @@ d3.csv(file, function(error, rows){
     var headerNames = d3.keys(rows[0]);
     headerNames.shift(); // remove Date as a header
     // headerNames.sort(); // order alphabetically
-    headerNames.sort((a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'})); // case insensitive sorting
+    headerNames.sort((a, b) => a.localeCompare(b, undefined, {sensitivity: "base"})); // case insensitive sorting
 
     var traces = [];
     var hexcolor;
     headerNames.forEach((actor) => traces.push({
             type: "scatter",
             mode: "none",
-            fill: 'tozeroy',
+            fill: "tozeroy",
             name: actor,
-            x: unpack(rows, 'Date'),
+            x: unpack(rows, "Date"),
             y: unpack(rows, actor),
-            hoveron: 'points+fills',
+            hoveron: "points+fills",
             fillcolor: getColorCode(actor)
         })
     );
@@ -37,24 +37,24 @@ d3.csv(file, function(error, rows){
     var data = traces;
     var layout = {
         title: {
-            text: 'Who sent most emails to WG '+WG+'?',
-            xref: 'container',
+            text: "Who sent most emails to WG "+WG+"?",
+            xref: "container",
             x: 0
         },
         margin: {
             t: 35, r: 40, b: 45, l: 40
         },
         xaxis: {
-            title: 'per year'
+            title: "per year"
         },
         yaxis: {
-            title: 'Emails sent'
+            title: "Emails sent"
         },
         font: {
             family: "Roboto, sans-serif",
             size: 12,
-            color: '#101820'
+            color: "#101820"
         }
     };
-    Plotly.newPlot('plotlyInfluence', data, layout, plotlyConfig);
+    Plotly.newPlot("plotlyInfluence", data, layout, plotlyConfig);
 })

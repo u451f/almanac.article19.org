@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfig, unpack } from './helper-functions.js';
+import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
 
 /*
  * Leadership
@@ -16,24 +16,25 @@ d3.csv(file, function(error, rows) {
     var hexcolor;
 
     for(var i = 0; i < rows.length; i++) {
-        hexcolor = getColorCode(rows[i]['affiliation']);
+        hexcolor = getColorCode(rows[i]["affiliation"]);
+        console.log(rows[i]["affiliation"], hexcolor);
 
         var datetime_min, datetime_max;
-        datetime_min = rows[i]['datetime_min'];
-        datetime_max = rows[i]['datetime_max'];
+        datetime_min = rows[i]["datetime_min"];
+        datetime_max = rows[i]["datetime_max"];
 
         if(datetime_min != datetime_max) { // FIXME: this should rather happen at BigBang level
             traces.push({
                 type: "scatter",
-                mode: 'lines',
+                mode: "lines",
                 line: {
                     color: hexcolor,
                     width: 25
                 },
-                name: rows[i]['affiliation'],
-                text: rows[i]['name'],
+                name: rows[i]["affiliation"],
+                text: rows[i]["name"],
                 x: [ datetime_min, datetime_max ],
-                y: [ rows[i]['affiliation'], rows[i]['affiliation'] ],
+                y: [ rows[i]["affiliation"], rows[i]["affiliation"] ],
             });
         }
     }
@@ -42,10 +43,10 @@ d3.csv(file, function(error, rows) {
     var data = traces;
 
     var layout = {
-        scattermode: 'group',
+        scattermode: "group",
         title: {
-            text: 'Who chaired WG '+WG+'?',
-            xref: 'container',
+            text: "Who chaired WG "+WG+"?",
+            xref: "container",
             x: 0
         },
         margin: {
@@ -53,7 +54,7 @@ d3.csv(file, function(error, rows) {
         },
         showlegend: false,
         xaxis: {
-            title: 'Chairing period',
+            title: "Chairing period",
         },
         yaxis: {
             automargin: true,
@@ -63,9 +64,9 @@ d3.csv(file, function(error, rows) {
         font: {
             family: "Roboto, sans-serif",
             size: 12,
-            color: '#101820'
+            color: "#101820"
         }
     };
 
-    Plotly.newPlot('plotlyLeadership', data, layout, plotlyConfig);
+    Plotly.newPlot("plotlyLeadership", data, layout, plotlyConfig);
 })
