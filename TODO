@@ -1,4 +1,4 @@
-* make plotly library lighter
+x make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
 
   `mkdir bundle
@@ -7,21 +7,23 @@
    npm i
    npm run custom-bundle -- --out almanac-bundle --traces scatter --transforms none
    cp dist/plotly-almanac-bundle.min.js assets/js/lib/ `
-  → then load the new file in _includes/header.html
+   → then load the new file in _includes/header.html
 
 x error handling on d3js: if file exists
-* load the polyfill only in incompatible browsers?
-* check out how to layout on mobile (some renderings may be too large) in portrait mode)
-  - possibility: export everything as PNG and have mobile use these images instead
-  - might require manual work
-  - Plotly.newPlot('myDiv', data, layout, {staticPlot: true}); that creates a static chart, maybe that's useful
 x check how to configure the plotly actions on top right (called modebar)
   x https://plotly.com/javascript/configuration-options/
   x eg. export SVG instead of PNG
   x remove some buttons → var config.
 x Authorship: unpack function destroys the order of the affiliations, see how to fix that.
 x Authorship: doesn't manage to get colors by affiliation
+x use A19 colors only when generating colors
 x find the art 19 blue hex value
+
+* load the polyfill only in incompatible browsers?
+* check out how to layout on mobile (some renderings may be too large) in portrait mode)
+  - possibility: export everything as PNG and have mobile use these images instead
+  - might require manual work
+  - Plotly.newPlot('myDiv', data, layout, {staticPlot: true}); that creates a static chart, maybe that's useful
 * all plotly: if affiliation is empty, use the name instead (→ probably this will be handled by Seb)
 - data QuiC authorship: years look weird
 
@@ -37,8 +39,6 @@ x maybe have only one page in jekyll that calls everything dynamically
 * have a page where catnip explains how this works
 x maybe don't use the titles in the SVG, but have them in HTML
 * catnip icon for plot titles
-
-x use A19 colors only when generating colors
 
 - do we need animations?
   https://plotly.com/javascript/gapminder-example/
