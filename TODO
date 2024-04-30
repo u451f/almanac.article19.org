@@ -21,15 +21,19 @@ x Authorship: doesn't manage to get colors by affiliation
 x use A19 colors only when generating colors
 x find the art 19 blue hex value
 
+* all plotly: if affiliation is empty, use the name instead (→ probably this will be handled by Seb)
 * load the polyfill only in incompatible browsers?
 * check out how to layout on mobile (some renderings may be too large) in portrait mode)
   - possibility: export everything as PNG and have mobile use these images instead
   - might require manual work
   - Plotly.newPlot('myDiv', data, layout, {staticPlot: true}); that creates a static chart, maybe that's useful
-* all plotly: if affiliation is empty, use the name instead (→ probably this will be handled by Seb)
-x data QuiC authorship: years look weird
+
+- data QuiC authorship: years look weird
   This is due to: https://plotly.com/javascript/tick-formatting/
   dtick needs to be 1 year in ms
+  → this kind of removes the zoom level when zooming, so maybe we want to do that differently.
+  → we can only scatter the authorship thingies more if we remove the date granularity in the data itself.
+    not sure we want to do that.
 
 x maybe have only one page in jekyll that calls everything dynamically
   according to a param in the URL. might need to use some yaml for that as some
@@ -63,8 +67,6 @@ x visualization
   x Authorship: the x axis for the years is really weird, years are being repeated
 
 - Linting
-  - JS lint
+  - ES lint as git commit hook?
   - 'use strict';
   - check all variable names are correct and understandable
-
-* have self documenting code
