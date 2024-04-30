@@ -8,6 +8,9 @@ import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
 
 var file = "/assets/data/authorship/authorship_"+WG+".csv";
 
+/*
+ * Load authorship CSV file, treat data and call plotly
+ * */
 d3.csv(file, function(error, rows){
     // if the file cannot be loaded
     if (error) {
