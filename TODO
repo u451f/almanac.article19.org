@@ -9,6 +9,8 @@ x make plotly library lighter
    cp dist/plotly-almanac-bundle.min.js assets/js/lib/ `
    → then load the new file in _includes/header.html
 
+x  how to ensure the bundle is up-to-date?
+
 x error handling on d3js: if file exists
 x check how to configure the plotly actions on top right (called modebar)
   x https://plotly.com/javascript/configuration-options/
@@ -25,7 +27,9 @@ x find the art 19 blue hex value
   - might require manual work
   - Plotly.newPlot('myDiv', data, layout, {staticPlot: true}); that creates a static chart, maybe that's useful
 * all plotly: if affiliation is empty, use the name instead (→ probably this will be handled by Seb)
-- data QuiC authorship: years look weird
+x data QuiC authorship: years look weird
+  This is due to: https://plotly.com/javascript/tick-formatting/
+  dtick needs to be 1 year in ms
 
 x maybe have only one page in jekyll that calls everything dynamically
   according to a param in the URL. might need to use some yaml for that as some
