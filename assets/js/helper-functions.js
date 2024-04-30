@@ -8,6 +8,15 @@ function unpack(rows, key) {
 }
 
 /*
+ * Return int in range
+ * needed for color code generation
+ * */
+
+function getRandomArbitrary(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+/*
  * Return a color code for matched affiliations
  * or generate a random color code for unmatched ones
  * Format: hexadecimal with transparency value (90)
