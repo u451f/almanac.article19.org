@@ -19,32 +19,32 @@
     <script>
     const queryString = window.location.search;
     const params = new URLSearchParams(queryString);
-    const WG = params.get('wg')
+    const WG = params.get("wg")
     // change with option is selected
-    if(params.get('wg')) {
+    if(params.get("wg")) {
         // FIXME: clean that
         // mark as selected in <select>
-        let selectwg = document.getElementById('wg');
-        selectwg.value = params.get('wg');
+        let selectwg = document.getElementById("wg");
+        selectwg.value = params.get("wg");
         // load corresponding image
-        let wglogo = document.getElementById('wglogo');
+        let wglogo = document.getElementById("wglogo");
         wglogo.src = wglogo.src + WG + ".svg";
         // load corresponding link
-        let wglink = document.getElementById('wglink');
+        let wglink = document.getElementById("wglink");
         wglink.href = wglink.href + WG;
         // load corresponding name
-        let wgname = document.getElementById('wgname');
+        let wgname = document.getElementById("wgname");
         wgname.textContent = selectwg.options[selectwg.selectedIndex].text;
         wglogo.title = selectwg.options[selectwg.selectedIndex].text;
     } else {
         // nothing was selected, let's have a default view
-        params.set('wg', "ietf-domain-name-system-operations");
+        params.set("wg", "ietf-domain-name-system-operations");
         window.location.search = params;
     }
 
     function setWG(select) {
         var value = select.value;
-        params.set('wg', value);
+        params.set("wg", value);
         window.location.search = params;
     }
     </script>
