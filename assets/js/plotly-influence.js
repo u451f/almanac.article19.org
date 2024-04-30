@@ -10,14 +10,17 @@ var file = "/assets/data/influence/influence_"+WG+".csv";
 
 d3.csv(file, function(error, rows){
     // if the file cannot be loaded
-    if (error) throw error;
+    if (error) {
+        throw error;
+    }
 
     //console.log("Rows", rows);
 
     var headerNames = d3.keys(rows[0]);
-    headerNames.shift(); // remove Date as a header
-    // headerNames.sort(); // order alphabetically
-    headerNames.sort((a, b) => a.localeCompare(b, undefined, {sensitivity: "base"})); // case insensitive sorting
+    // remove Date as a header
+    headerNames.shift();
+    // case insensitive sorting
+    headerNames.sort((a, b) => a.localeCompare(b, undefined, {sensitivity: "base"}));
 
     var traces = [];
     var hexcolor;
