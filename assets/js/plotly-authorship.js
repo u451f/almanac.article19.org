@@ -6,11 +6,13 @@ import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
  * - FIXME: Need to review the order of authors (alphabetical)
  * */
 
-var file = "/assets/data/authorship/authorship_"+WG+".csv"
+var file = "/assets/data/authorship/authorship_"+WG+".csv";
 
 d3.csv(file, function(error, rows){
     // if the file cannot be loaded
-    if (error) throw error;
+    if (error) {
+        throw error;
+    }
 
     //console.log("Rows", rows);
 
