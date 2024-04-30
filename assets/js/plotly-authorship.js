@@ -67,7 +67,8 @@ d3.csv(file, function(error, rows){
         scattergap: 0,
         xaxis: {
             title: "Submission date",
-            tickformat: "%Y"
+            tickformat: "%Y",
+            dtick: 365 * 24 * 60 * 60 * 1000
         },
         yaxis: {
             //title: "Standard",
