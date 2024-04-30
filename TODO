@@ -1,5 +1,14 @@
 * make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
+
+  `mkdir bundle
+   npm i plotly.js
+   cd node_modules/plotly.js
+   npm i
+   npm run custom-bundle -- --out almanac-bundle --traces scatter --transforms none
+   cp dist/plotly-almanac-bundle.min.js assets/js/lib/ `
+  → then load the new file in _includes/header.html
+
 x error handling on d3js: if file exists
 * load the polyfill only in incompatible browsers?
 * check out how to layout on mobile (some renderings may be too large) in portrait mode)
@@ -12,12 +21,11 @@ x check how to configure the plotly actions on top right (called modebar)
   x remove some buttons → var config.
 x Authorship: unpack function destroys the order of the affiliations, see how to fix that.
 x Authorship: doesn't manage to get colors by affiliation
-* all plotly: if affiliation is empty, use the name instead
 x find the art 19 blue hex value
-- affiliation if given, otherwise use name
+* all plotly: if affiliation is empty, use the name instead (→ probably this will be handled by Seb)
 - data QuiC authorship: years look weird
 
-* maybe have only one page in jekyll that calls everything dynamically
+x maybe have only one page in jekyll that calls everything dynamically
   according to a param in the URL. might need to use some yaml for that as some
   kind of DB
   - https://plotly.com/javascript/dropdowns/ that could be useful to load even the data dynamically
