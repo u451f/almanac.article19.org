@@ -9,7 +9,7 @@ x make plotly library lighter
    cp dist/plotly-almanac-bundle.min.js assets/js/lib/ `
    → then load the new file in _includes/header.html
 
-x  how to ensure the bundle is up-to-date?
+-  how to ensure the bundle is up-to-date?
 
 x error handling on d3js: if file exists
 x check how to configure the plotly actions on top right (called modebar)
@@ -34,6 +34,9 @@ x find the art 19 blue hex value
   → this kind of removes the zoom level when zooming, so maybe we want to do that differently.
   → we can only scatter the authorship thingies more if we remove the date granularity in the data itself.
     not sure we want to do that.
+
+- variable vizexists in groups and WG variable should just be the abbreviation
+  of the WG and we need to find the files like that because they will be named like this by Seb
 
 x maybe have only one page in jekyll that calls everything dynamically
   according to a param in the URL. might need to use some yaml for that as some
