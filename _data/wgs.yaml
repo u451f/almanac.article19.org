@@ -1,8 +1,17 @@
-- name: "Deterministic networking/detnet"
-  slug: ietf-deterministic-networking
-- name: "Domain Name Systems Operations /dnsop"
-  slug: ietf-domain-name-system-operations
-- name: "QUIC"
-  slug: ietf-quic
-- name: "Transport Layer Security"
-  slug: ietf-transport-layer-security
+- name: "IETF"
+  slug: ietf
+  wg:
+  - name: "Deterministic networking/detnet"
+    slug: ietf-deterministic-networking
+  - name: "Domain Name Systems Operations"
+    slug: dnsop
+  - name: "Domain Name Systems Operations /dnsop"
+    slug: ietf-domain-name-system-operations
+  - name: "QUIC"
+    slug: ietf-quic
+  - name: "Transport Layer Security"
+    slug: ietf-transport-layer-security
+- name: "IRTF"
+  slug: ietf
+- name: "W3C"
+  slug: ietf
