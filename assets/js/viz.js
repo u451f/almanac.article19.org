@@ -1,7 +1,13 @@
+/*
+ * On the viz dashboard, load WG according to query string
+ * */
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 
-// change with option is selected
+/*
+ * On the viz dashboard, by default load dnsop data
+ * FIXME: think about doing that differently
+ * */
 if(!params.get("wg")) {
     // eventually do that differently
     // nothing was selected, let's have a default view
@@ -9,11 +15,12 @@ if(!params.get("wg")) {
     window.location.search = params;
 }
 
-// assign var to be used in plotly scripts
+/*
+ * Assign WG var to be used by the plotly scripts
+ */
 // FIXME: maybe have the logo and link in a yaml file instead
 const WG = params.get("wg");
 if(WG) {
-    // FIXME: clean that
     // mark as selected in <select>
     let selectwg = document.getElementById("wg");
     selectwg.value = WG;
