@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
+import { getColorCode, plotlyConfigA, unpack } from "./helper-functions.js";
 
 /*
  * Authorship
@@ -81,5 +81,5 @@ d3.csv(file, function(error, rows){
         }
     };
 
-    Plotly.newPlot("plotlyAuthorship", data, layout, plotlyConfig);
+    Plotly.newPlot("plotlyAuthorship", data, layout, plotlyConfigA);
 })

@@ -55,8 +55,6 @@ function getColorCode(affiliation) {
             hexcolor = "#d62d26ab"; // ART19 red
         break;
         default:
-            //hexcolor = "#" + Math.floor(Math.random() * 16777215).toString(16) + "90" // Use random hex value
-            //const colors = ["d62d26", "eb8a23", "f1a827", "00940a", "00acd8", "142864", "702375", "b90748", "691b32"]; // main ART19 colors red, orange, yellow, green, lightblue, blue, purple, earth
             const colors = ["009470", "142864", "00acd8", "101820", "c8c8c8"]; // green, blue, lightblue, black, grey
             const randomSelColor = Math.floor(Math.random() * colors.length);
             const transparency = getRandomArbitrary(16, 256).toString(16);
@@ -68,17 +66,36 @@ function getColorCode(affiliation) {
 
 /*
  * Configure and simplify the plotly tool bar for each plot
- * FIXME: the filename should also contain "authorship", "leadership" or "influence"
  * */
-const plotlyConfig = {
+const plotlyConfigA = {
     displaylogo: false,
     responsive: true,
     toImageButtonOptions: {
         format: "svg",
-        filename: "almanac.article19.org-"+WG,
+        filename: "almanac.article19.org-authorship-"+WG,
+        scale: 1
+    },
+    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
+};
+const plotlyConfigL = {
+    displaylogo: false,
+    responsive: true,
+    toImageButtonOptions: {
+        format: "svg",
+        filename: "almanac.article19.org-leadership-"+WG,
+        scale: 1
+    },
+    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
+};
+const plotlyConfigI = {
+    displaylogo: false,
+    responsive: true,
+    toImageButtonOptions: {
+        format: "svg",
+        filename: "almanac.article19.org-influence-"+WG,
         scale: 1
     },
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
-export { getColorCode, unpack, plotlyConfig };
+export { getColorCode, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI };

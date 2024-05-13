@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
+import { getColorCode, plotlyConfigL, unpack } from "./helper-functions.js";
 
 /*
  * Leadership
@@ -68,5 +68,5 @@ d3.csv(file, function(error, rows) {
         }
     };
 
-    Plotly.newPlot("plotlyLeadership", data, layout, plotlyConfig);
+    Plotly.newPlot("plotlyLeadership", data, layout, plotlyConfigL);
 })

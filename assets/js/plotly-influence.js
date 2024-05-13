@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfig, unpack } from "./helper-functions.js";
+import { getColorCode, plotlyConfigI, unpack } from "./helper-functions.js";
 
 /*
  * Influence
@@ -59,5 +59,5 @@ d3.csv(file, function(error, rows){
             color: "#101820"
         }
     };
-    Plotly.newPlot("plotlyInfluence", data, layout, plotlyConfig);
+    Plotly.newPlot("plotlyInfluence", data, layout, plotlyConfigI);
 })
