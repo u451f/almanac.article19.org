@@ -84,3 +84,6 @@ x visualization
   - needs design
 - Rename groups in old almanac and have an .htaccess for redirection, rely on shortname
   - do it only for IETF and IRTF for now
+  x done: IETF
+
+- fix breadcrumbs in viz area
