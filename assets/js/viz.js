@@ -18,7 +18,7 @@ if(!params.get("wg")) {
 /*
  * Assign WG var to be used by the plotly scripts
  */
-// FIXME: maybe have the logo and link in a yaml file instead
+// FIXME: have the corresponding link in a yaml file instead
 const WG = params.get("wg");
 if(WG) {
     // mark as selected in <select>
