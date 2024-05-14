@@ -44,6 +44,8 @@ x find the art 19 blue hex value
             }]
         }],`
 
+- small screens: adjust placement of the y axis title
+- small screens: adjust width of legend (influence)
 
 - data QuiC authorship: years look weird
   This is due to: https://plotly.com/javascript/tick-formatting/
