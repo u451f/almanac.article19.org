@@ -42,4 +42,3 @@ function setWG(select) {
     params.set("wg", value);
     window.location.search = params;
 }
-

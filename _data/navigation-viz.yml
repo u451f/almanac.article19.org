@@ -1,8 +1,8 @@
 - name: About this research
-  link: /viz-about.html
+  link: /dashboard-about.html
 - name: Data dashboard
-  link: /viz.html
+  link: /dashboard.html
 - name: Download map
   link: /#
 - name: How to use the data visualizations
-  link: /viz-explain.html
+  link: /dashboard-explain.html

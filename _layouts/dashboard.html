@@ -14,7 +14,7 @@
 
     <div class="section-content grid" id="viz-actions">
         <select id="wg" class="select" onchange="setWG(this)">
-        {% assign items = site.data.wgs %}
+        {% assign items = site.data.dashboard_working_groups %}
             <option>Choose dashboard</option>
             {% for item in items %}
                 <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
