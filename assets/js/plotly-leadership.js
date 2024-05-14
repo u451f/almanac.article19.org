@@ -6,7 +6,7 @@ import { getColorCode, isScreenSmall, plotlyConfigL, unpack } from "./helper-fun
  * - Ordered by default by start date (datetime_min)
  * */
 
-var file = "/assets/data/leadership/leadership_"+WG+".csv";
+var file = "/assets/data/leadership/"+WG+".csv";
 if (isScreenSmall()) {
     var is_small_screen = true;
 }
