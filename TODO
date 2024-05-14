@@ -24,28 +24,13 @@ x find the art 19 blue hex value
 * all plotly: if affiliation is empty, use the name instead (→ probably this will be handled by Seb)
 * load the polyfill only in incompatible browsers?
 * check out how to layout on mobile (some renderings may be too large) in portrait mode)
-  - possibility: export everything as SVG and have mobile use these images instead
-  - might require manual work
+  / possibility: export everything as SVG and have mobile use these images instead
+  / might require manual work
   - Plotly.newPlot('myDiv', data, layout, {staticPlot: true}); that creates a static chart, maybe that's useful
-  - alert people who watch the dashboard on a vertical phone or on a horizontal with less than 900px width that they should turn their phone.
-  - hide the legend, see https://github.com/plotly/plotly.js/issues/4042
-    → add this to layout:
-    `showlegend: false`
-
-    or using a button (I find it quite slow to react and the thing does not remember that I clicked that button and the legend is vaguely important):
-
-    `    updatemenus: [{
-            type: 'buttons',
-            buttons: [{
-                label: '≡',
-                method: 'relayout',
-                args: ['showlegend', false],
-                args2: ['showlegend', true]   // NEW attribute !
-            }]
-        }],`
-
-- small screens: adjust placement of the y axis title
-- small screens: adjust width of legend (influence)
+  - alert people who watch the dashboard on a vertical phone or on a horizontal with less than 1024px width that they should turn their phone or use a larger screen
+  x small screens: use horizontal legend below
+  x small screens: adjust placement of the y axis title
+  x small screens: adjust width of legend (influence)
 
 - data QuiC authorship: years look weird
   This is due to: https://plotly.com/javascript/tick-formatting/
