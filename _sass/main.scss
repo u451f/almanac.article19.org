@@ -957,10 +957,12 @@ body.viz #content {
 }
 
 .section-content#viz-intro {
-    padding-bottom: 0;
+    padding-bottom: 0.5em;
 }
+
 .section-content#viz-intro .post {
     background: var(--colour1);
+    text-align: center;
 }
 
 .section-content#viz-intro .post img {
