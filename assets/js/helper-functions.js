@@ -1,4 +1,14 @@
 /*
+ * Check if people have a small screen so we can adjust the plot layout
+ * */
+
+function isScreenSmall() {
+    if (window.screen.width <= 1024) {
+        return true;
+    }
+}
+
+/*
  * FIXME: document this
  * */
 function unpack(rows, key) {
@@ -98,4 +108,4 @@ const plotlyConfigI = {
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
-export { getColorCode, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI };
+export { getColorCode, isScreenSmall, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI };
