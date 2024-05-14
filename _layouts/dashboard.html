@@ -3,19 +3,19 @@
     <div class="section-content grid" id="viz-intro">
         {% include site-header.html %}
         {% include breadcrumbs.html %}
-        {{ content }}
-        <div class="post">
-            <img id="wglogo" class="img-wg" src="{{ site.url }}/assets/images/groups/" title="" alt="" /><!-- JS filled -->
-            <h2 class="post-title">
-                <a href="{{ site.url }}/group/" id="wglink" title="Learn more about this working group"><b id="wgname">WG Name</b></a>
-            </h2>
+        <div id="main-text">
+            <h2 class="title">{{ page.title }}: <span id="wgname">select<!-- WG Name --></span></h2>
+            {{ content }}
+        </div>
+        <div class="post"><!-- dashboard.js fills in -->
+            <img id="wglogo" class="img-wg" src="{{ site.url }}/assets/images/groups/" title="" alt="" />
         </div>
     </div>
 
     <div class="section-content grid" id="viz-actions">
         <select id="wg" class="select" onchange="setWG(this)">
         {% assign items = site.data.dashboard_working_groups %}
-            <option>Choose dashboard</option>
+            <option disabled>Explore data about</option>
             {% for item in items %}
                 <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
                     {{ item.name }}

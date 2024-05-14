@@ -27,13 +27,12 @@ if(WG) {
     // load corresponding image
     let wglogo = document.getElementById("wglogo");
     wglogo.src = wglogo.src + WG + ".svg";
-    // load corresponding link
-    let wglink = document.getElementById("wglink");
-    wglink.href = wglink.href + WG;
+    // load corresponding link into main menu
+    let almanaclink = document.getElementById("almanaclink");
+    almanaclink.href = almanaclink.href + WG;
     // load corresponding name
     let wgname = document.getElementById("wgname");
     wgname.textContent = selectwg.options[selectwg.selectedIndex].text;
-    wglogo.title = selectwg.options[selectwg.selectedIndex].text;
 }
 
 /* switch view to a different WG and reload page */

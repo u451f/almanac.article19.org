@@ -1,10 +1,10 @@
 <nav id="site-area-menu" {% if page.sitearea == "viz" %}class="current-area-viz"{% endif %}>
     <ul>
-    {% assign items = site.data.navigation-main %}
-    {% for item in items %}
-        <li>
-            <a href="{{ site.url }}{{ item.link }}">{{ item.name }}</a>
-        </li>
-    {% endfor %}
+    {% if page.vizexists %}
+        <li><a href="{{ site.url }}/dashboard.html?wg={{ page.vizexists }}">Explore data dashboard 😼</a></li>
+    {% endif %}
+    {% if page.sitearea == "viz" %}
+        <li><a href="{{ site.url }}/group/" id="almanaclink">Look up in almanac 🐱</a></li>
+    {% endif %}
     </ul>
 </nav>

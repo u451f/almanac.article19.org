@@ -961,7 +961,7 @@ body.viz #content {
 }
 
 .section-content#viz-intro .post {
-    background: var(--colour1);
+    /*background: var(--colour1);*/
     text-align: center;
 }
 
@@ -973,6 +973,7 @@ body.viz #content {
     mix-blend-mode: luminosity;
     padding-bottom: 25px;
 }
+
 .section-content#viz-intro .post .post-title {
     background: var(--colour1);
 }
@@ -1189,7 +1190,8 @@ a.modebar-btn {
     }
 
     /* align the single group image */
-    #intro.grid img, .home #intro .img {
+    #intro.grid img,
+    .home #intro .img {
         align-self: end;
         margin: unset;
     }

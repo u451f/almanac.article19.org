@@ -25,10 +25,6 @@
         <img class="logo" src="{{ site.url }}/{{ page.featured-img }}" alt="{{page.featured-img}} logo" />
     {% endif %}
 
-    {% if page.vizexists %}
-    <a href="{{ site.url }}/viz.html?wg={{ page.vizexists }}" class="logo-vizexists"><img src="{{ site.url }}/{{ page.featured-img }}" alt="" /><br>Who's influential in this group?</a>
-    {% endif %}
-
     {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
     {% assign total = 0 %}
     {% for post in orgposts %}
