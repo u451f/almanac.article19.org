@@ -11,14 +11,14 @@ const params = new URLSearchParams(queryString);
 if(!params.get("wg")) {
     // eventually do that differently
     // nothing was selected, let's have a default view
-    params.set("wg", "ietf-domain-name-system-operations");
+    params.set("wg", "ietf-dnsop");
     window.location.search = params;
 }
 
 /*
  * Assign WG var to be used by the plotly scripts
+ * groups, images and links follow the scheme $org-$wg, e.g. "ietf-dnsop"
  */
-// FIXME: have the corresponding link in a yaml file instead
 const WG = params.get("wg");
 if(WG) {
     // mark as selected in <select>
