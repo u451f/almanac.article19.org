@@ -1,0 +1,30 @@
+---
+layout: post
+org: ietf
+org-full-name: Internet Engineering Task Force
+tags: encrypted-DNS
+title: "QUIC"
+excerpt: "This group focuses on the maintenance and evolution of the encrypted transport protocol QUIC, supporting its implementation and developing possible extensions to it."
+featured-img: assets/images/groups/ietf-quic.svg
+vizexists: "ietf-quic"
+---
+<div class="wg-info">
+    <h1 class="title">QUIC</h1>
+    <div class="wg-description">
+        <p>QUIC focuses on the maintenance and evolution of the encrypted
+        transport protocol QUIC, supporting its implementation and developing
+        possible extensions to it. Created initially by Google and growing in
+        usage, QUIC is designed to combine cryptographic protections with
+        transport protocols, folding security and transport into the same
+        mechanism. Despite this robustness, the deployment model for QUIC is
+        structured so that, in the case of failure, systems that prefer to use
+        QUIC will revert to TLS-over-TCP. This means that a malicious network
+        operator that objects to QUIC – and its ability to hide metadata – can
+        simply block it, so clients will default to less secure protocols.
+        </p>
+    </div>
+    <ul class="links">
+        <li><b>Standard under development:</b> <a href="https://datatracker.ietf.org/doc/draft-duke-quic-protected-initial/">Protected QUIC Initial Packets</a> sets out ways to better encrypt the initial packets in a QUIC connection.</li>
+        <li><b>Working group:</b> <a href="https://datatracker.ietf.org/wg/quic/about/">QUIC</a></li>
+    </ul>
+</div>

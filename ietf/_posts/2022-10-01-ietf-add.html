@@ -1,0 +1,30 @@
+---
+layout: post
+org: ietf
+org-full-name: Internet Engineering Task Force
+tags: encrypted-DNS
+title: "Adaptive DNS Discovery"
+excerpt: "This group defines mechanisms that allow a client to identify and select DNS resolvers that support encrypted protocols."
+featured-img: assets/images/groups/ietf-add.svg
+---
+<div class="wg-info">
+    <h1 class="title">Adaptive DNS Discovery |&nbsp;ADD</h1>
+    <div class="wg-description">
+        <p>ADD works on mechanisms to allow the client to discover resolvers
+        and their properties. It defines the mechanisms through which DNS
+        resolver information is communicated, allowing the client to decide
+        which DNS server to use. Its current focus is to limit data leakage
+        that happens during multi-hop DNS resolution between DNS resolvers.
+        Sending DNS messages over encrypted transports to DNS resolvers can
+        prevent malicious actors from snooping on the contents of DNS messages
+        and modifying DNS traffic to block responses from selective queries.
+        This can prevent internet service providers or government actors from
+        monitoring or blocking users who attempt to access certain
+        websites.</p>
+    </div>
+    <ul class="links">
+        <li><b>Standard under development:</b> <a href="https://datatracker.ietf.org/doc/draft-ietf-add-ddr/">Discovery of Designated Resolvers</a> sets out a mechanism for clients to discover a resolver’s encrypted DNS configuration, in order to facilitate data packets to flow through encrypted DNS resolvers.
+        </li>
+        <li><b>Working group:</b> <a href="https://datatracker.ietf.org/wg/add/about/">Adaptive DNS Discovery |&nbsp;ADD</a></li>
+    </ul>
+</div>
