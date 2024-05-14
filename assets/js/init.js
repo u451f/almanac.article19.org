@@ -19,14 +19,6 @@ Copyright (C) 2022-2023 Ulrike Uhlig
 */
 
 $(function($){
-    // helper function for mobile layout
-    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $('body').addClass('mobile').removeClass('desktop');
-    }
-    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-        $('body').addClass('safari');
-    }
-
     // Open external links in new tab
     $('a[href^=http]').click(function () {
         var a = new RegExp('/' + window.location.host + '/');
