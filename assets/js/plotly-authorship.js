@@ -3,7 +3,6 @@ import { getColorCode, isScreenSmall, plotlyConfigA, unpack } from "./helper-fun
 /*
  * Authorship
  * - Who co-authored standards in this WG?
- * - FIXME: Need to review the order of authors (alphabetical)
  * */
 
 var file = "/assets/data/authorship/authorship_"+WG+".csv";
@@ -40,7 +39,7 @@ d3.csv(file, function(error, rows){
 
     for (const [key, value] of Object.entries(ordered)) {
         //console.log(key, value);
-        console.log("color code for " +key, getColorCode(key));
+        //console.log("color code for " +key, getColorCode(key));
         traces.push({
             type: "scatter",
             mode: "markers",
@@ -55,7 +54,7 @@ d3.csv(file, function(error, rows){
             y: unpack(value, "title")
         });
     }
-    console.log("traces", traces);
+    //console.log("traces", traces);
 
     var data = traces;
     var layout = {
@@ -88,8 +87,11 @@ d3.csv(file, function(error, rows){
         }
     };
     if(is_small_screen) {
-        layout.legend.orientation = "h";
         layout.yaxis.showticklabels = false;
+        layout.legend.orientation = "h";
+        layout.legend.y = -0.3;
+        layout.margin.l = 5;
+        layout.margin.r = 5;
     }
 
     Plotly.newPlot("plotlyAuthorship", data, layout, plotlyConfigA);

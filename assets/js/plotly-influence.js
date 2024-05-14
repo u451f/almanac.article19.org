@@ -68,7 +68,8 @@ d3.csv(file, function(error, rows){
     };
     if(is_small_screen) {
         layout.legend.orientation = "h";
-
+        layout.legend.y = -0.75;
+        layout.margin.r = 5;
     }
     Plotly.newPlot("plotlyInfluence", data, layout, plotlyConfigI);
 })
