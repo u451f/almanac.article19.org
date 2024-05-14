@@ -1,17 +1,15 @@
 - name: "IETF"
   slug: ietf
   wg:
-  - name: "Deterministic networking/detnet"
-    slug: ietf-deterministic-networking
+  - name: "Deterministic networking"
+    slug: ietf-detnet
   - name: "Domain Name Systems Operations"
-    slug: dnsop
-  - name: "Domain Name Systems Operations /dnsop"
-    slug: ietf-domain-name-system-operations
+    slug: ietf-dnsop
   - name: "QUIC"
     slug: ietf-quic
   - name: "Transport Layer Security"
-    slug: ietf-transport-layer-security
+    slug: ietf-tls
 - name: "IRTF"
-  slug: ietf
+  slug: irtf
 - name: "W3C"
-  slug: ietf
+  slug: w3c
