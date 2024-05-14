@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfigI, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigI, unpack } from "./helper-functions.js";
 
 /*
  * Influence
@@ -7,6 +7,10 @@ import { getColorCode, plotlyConfigI, unpack } from "./helper-functions.js";
  */
 
 var file = "/assets/data/influence/influence_"+WG+".csv";
+
+if (isScreenSmall()) {
+    var is_small_screen = true;
+}
 
 d3.csv(file, function(error, rows){
     // if the file cannot be loaded
@@ -57,7 +61,14 @@ d3.csv(file, function(error, rows){
             family: "Roboto, sans-serif",
             size: 12,
             color: "#101820"
+        },
+        legend: {
+            orientation: "v"
         }
     };
+    if(is_small_screen) {
+        layout.legend.orientation = "h";
+
+    }
     Plotly.newPlot("plotlyInfluence", data, layout, plotlyConfigI);
 })

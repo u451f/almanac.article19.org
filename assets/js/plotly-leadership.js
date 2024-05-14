@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfigL, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigL, unpack } from "./helper-functions.js";
 
 /*
  * Leadership
@@ -7,6 +7,10 @@ import { getColorCode, plotlyConfigL, unpack } from "./helper-functions.js";
  * */
 
 var file = "/assets/data/leadership/leadership_"+WG+".csv";
+if (isScreenSmall()) {
+    var is_small_screen = true;
+}
+
 d3.csv(file, function(error, rows) {
     if (error) throw error; // if file cannot be loaded
 
@@ -52,7 +56,6 @@ d3.csv(file, function(error, rows) {
         margin: {
             t: 35, r: 0, b: 50, l: 40
         },
-        showlegend: false,
         xaxis: {
             title: "Chairing period",
         },
@@ -65,8 +68,12 @@ d3.csv(file, function(error, rows) {
             family: "Roboto, sans-serif",
             size: 12,
             color: "#101820"
-        }
+        },
+        showlegend: true,
     };
+    if(is_small_screen) {
+        layout.showlegend = false
+    }
 
     Plotly.newPlot("plotlyLeadership", data, layout, plotlyConfigL);
 })

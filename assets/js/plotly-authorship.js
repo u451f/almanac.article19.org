@@ -1,4 +1,4 @@
-import { getColorCode, plotlyConfigA, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigA, unpack } from "./helper-functions.js";
 
 /*
  * Authorship
@@ -7,6 +7,10 @@ import { getColorCode, plotlyConfigA, unpack } from "./helper-functions.js";
  * */
 
 var file = "/assets/data/authorship/authorship_"+WG+".csv";
+
+if (isScreenSmall()) {
+    var is_small_screen = true;
+}
 
 /*
  * Load authorship CSV file, treat data and call plotly
@@ -78,8 +82,15 @@ d3.csv(file, function(error, rows){
             family: "Roboto, sans-serif",
             size: 12,
             color: "#101820"
+        },
+        legend: {
+            orientation: "v"
         }
     };
+    if(is_small_screen) {
+        layout.legend.orientation = "h";
+        layout.yaxis.showticklabels = false;
+    }
 
     Plotly.newPlot("plotlyAuthorship", data, layout, plotlyConfigA);
 })
