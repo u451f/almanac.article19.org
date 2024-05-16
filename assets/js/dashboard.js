@@ -29,7 +29,7 @@ if(WG) {
     wglogo.src = wglogo.src + WG + ".svg";
     // load corresponding link into main menu
     let almanaclink = document.getElementById("almanaclink");
-    almanaclink.href = almanaclink.href + WG;
+    almanaclink.href = almanaclink.href + WG + ".html";
     // load corresponding name
     let wgname = document.getElementById("wgname");
     wgname.textContent = selectwg.options[selectwg.selectedIndex].text;
