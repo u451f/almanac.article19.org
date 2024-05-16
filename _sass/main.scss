@@ -991,8 +991,14 @@ body.viz #content {
 
 #viz-display .spacer {
     display: block;
-    height: 5em;
-    background: linear-gradient(360deg, rgba(0,148,110, 0.3) 3%, var(--bg) 90%);
+    /*height: 5em;*/
+    /*background: linear-gradient(360deg, rgba(0,148,110, 0.3) 3%, var(--bg) 90%);*/
+    border-bottom: 1px dashed var(--colour2);
+    margin-bottom: 2em;
+}
+
+#viz-display .spacer:last-child {
+    margin-bottom: 0;
 }
 
 select {
