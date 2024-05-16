@@ -911,14 +911,6 @@ Post/Group & Org page
   Data viz site area
 ***********************************/
 
-.logo-vizexists {
-    background-color: transparent;
-}
-
-.logo-vizexists img {
-    mix-blend-mode: luminosity;
-}
-
 #site-area-menu {
     position: absolute;
     top: 0;
@@ -969,8 +961,6 @@ body.viz #content {
     filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.8));
     background: url(images/shadow.svg) bottom center no-repeat;
     background-size: contain;
-    background-blend-mode: luminosity;
-    mix-blend-mode: luminosity;
     padding-bottom: 25px;
 }
 
