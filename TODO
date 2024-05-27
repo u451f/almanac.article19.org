@@ -87,3 +87,4 @@ x navigation between workgroup in almanac and workgroup in viz
   x done: IETF
 
 - fix breadcrumbs in viz area
+- actually give colors to specific affiliations in assets/js/helper-functions.js
