@@ -21,7 +21,7 @@ d3.csv(file, function(error, rows) {
 
     for(var i = 0; i < rows.length; i++) {
         hexcolor = getColorCode(rows[i]["affiliation"]);
-        console.log(rows[i]["affiliation"], hexcolor);
+        //console.log(rows[i]["affiliation"], hexcolor);
 
         var datetime_min, datetime_max;
         datetime_min = rows[i]["datetime_min"];
