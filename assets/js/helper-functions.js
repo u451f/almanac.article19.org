@@ -36,7 +36,6 @@ function getColorCode(affiliation) {
     //console.log("affiliation", affiliation);
     switch (affiliation) {
         case "Akamai":
-        case "Akami": /* FIXME: typo in data */
         case "akamai.com":
             hexcolor = "#702375ab"; // ART19 purple
         break;
