@@ -7,22 +7,25 @@ d3.csv(file, function (err, data) {
     }
     //console.log("data", data);
     // Create a lookup table to sort and regroup the columns of data,
-    // first by year, then by wg:
+    // first by year, then by affiliation:
     var lookup = {};
-    function getData(year, wg) {
-        var byYear, trace;
+    function getData(year, affiliation) {
+        var byYear;
+        var trace;
         if (!(byYear = lookup[year])) {;
             byYear = lookup[year] = {};
         }
-        // If a container for this year + wg doesn't exist yet,
+        // If a container for this year + affiliation doesn't exist yet,
         // then create one:
-        if (!(trace = byYear[wg])) {
-            trace = byYear[wg] = {
+        if (!(trace = byYear[affiliation])) {
+            trace = byYear[affiliation] = {
                 x: [],
                 y: [],
                 id: [],
                 text: [],
-                marker: {size: []}
+                marker: {
+                    size: []
+                }
             };
         }
         return trace;
@@ -34,33 +37,35 @@ d3.csv(file, function (err, data) {
         var datum = data[i];
         var trace = getData(datum.year, datum.affiliation);
         trace.text.push(datum.nb_contributions);
-        trace.id.push(datum.wg);
-        trace.x.push(datum.wg);
-        trace.y.push(datum.affiliation);
+        trace.id.push(datum.affiliation);
+        trace.x.push(datum.affiliation);
+        trace.y.push(datum.wg);
         trace.marker.size.push(datum.nb_contributions);
+        // FIXME: add marker color here
+        //console.log("trace",trace);
     }
-
 
     // Get the group names:
     var years = Object.keys(lookup);
     // In this case, every year includes every wg, so we
     // can just infer the wgs from the *first* year:
-    // FIXME: this might not be true
+    // FIXME: this might not be true → which is why we need to this this differently
     var firstYear = lookup[years[0]];
-    var wgs = Object.keys(firstYear);
-    console.log(wgs);
+    var affiliations = Object.keys(firstYear);
+    console.log("affiliations", affiliations);
+    console.log("1stY", firstYear);
 
     // Create the main traces, one for each wg:
     var traces = [];
-    for (i = 0; i < wgs.length; i++) {
-        var data = firstYear[wgs[i]];
+    for (i = 0; i < affiliations.length; i++) {
+        var data = firstYear[affiliations[i]];
         // One small note. We're creating a single trace here, to which
         // the frames will pass data for the different years. It's
         // subtle, but to avoid data reference problems, we'll slice
         // the arrays to ensure we never write any new data into our
         // lookup table:
         traces.push({
-            name: wgs[i],
+            name: affiliations[i],
             x: data.x.slice(),
             y: data.y.slice(),
             id: data.id.slice(),
@@ -77,19 +82,16 @@ d3.csv(file, function (err, data) {
     // traces, except they don't need to contain the *full* trace
     // definition (for example, appearance). The frames just need
     // the parts the traces that change (here, the data).
-    //
-    // FIXME: if I miss some data here, then my bubbles move onto a wrong y
-    // while if the data here is 0 then the frames are correct.
     var frames = [];
     for (i = 0; i < years.length; i++) {
         frames.push({
             name: years[i],
-            data: wgs.map(function (wg) {
-                return getData(years[i], wg);
+            data: affiliations.map(function (affiliation) {
+                return getData(years[i], affiliation);
             })
         })
     }
-    console.log(frames);
+    console.log("frames", frames);
 
     // Now create slider steps, one for each frame. The slider
     // executes a plotly.js API command (here, Plotly.animate).
