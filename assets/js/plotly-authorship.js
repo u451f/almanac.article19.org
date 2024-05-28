@@ -29,7 +29,7 @@ d3.csv(file, function(error, rows){
     // var affiliations = Object.keys(arrByAffiliation);
 
     // order the object by key
-    const ordered = Object.keys(arrByAffiliation).sort().reduce(
+    const orderedByAffiliation = Object.keys(arrByAffiliation).sort().reduce(
         (obj, key) => {
             obj[key] = arrByAffiliation[key];
             return obj;
@@ -37,7 +37,7 @@ d3.csv(file, function(error, rows){
         {}
     );
 
-    for (const [key, value] of Object.entries(ordered)) {
+    for (const [key, value] of Object.entries(orderedByAffiliation)) {
         //console.log(key, value);
         //console.log("color code for " +key, getColorCode(key));
         traces.push({
