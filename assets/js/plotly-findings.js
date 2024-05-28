@@ -1,3 +1,7 @@
+// This is based on https://plotly.com/javascript/gapminder-example/
+
+import { getColorCode, plotlyConfigA } from "./helper-functions.js";
+
 var file = "/assets/data/findings/test.csv";
 
 d3.csv(file, function (err, data) {
@@ -6,6 +10,7 @@ d3.csv(file, function (err, data) {
         throw err;
     }
     //console.log("data", data);
+
     // Create a lookup table to sort and regroup the columns of data,
     // first by year, then by affiliation:
     var lookup = {};
@@ -24,7 +29,8 @@ d3.csv(file, function (err, data) {
                 id: [],
                 text: [],
                 marker: {
-                    size: []
+                    size: [],
+                    color: []
                 }
             };
         }
@@ -35,19 +41,19 @@ d3.csv(file, function (err, data) {
     // Go through each row, get the right trace, and append the data:
     for (var i = 0; i < data.length; i++) {
         var datum = data[i];
+        var hexcolor = getColorCode(datum.affiliation);
         var trace = getData(datum.year, datum.affiliation);
         trace.text.push(datum.nb_contributions);
         trace.id.push(datum.affiliation);
         trace.x.push(datum.affiliation);
         trace.y.push(datum.wg);
         trace.marker.size.push(datum.nb_contributions);
-        // FIXME: add marker color here
-        //console.log("trace",trace);
+        trace.marker.color.push(hexcolor);
     }
 
     // Get the group names:
     var years = Object.keys(lookup);
-    // In this case, every year includes every wg, so we
+    // In this case, every year includes every affiliation, so we
     // can just infer the wgs from the *first* year:
     // FIXME: this might not be true → which is why we need to this this differently
     var firstYear = lookup[years[0]];
@@ -72,7 +78,8 @@ d3.csv(file, function (err, data) {
             text: data.text.slice(),
             mode: 'markers',
             marker: {
-                size: data.marker.size.slice()
+                size: data.marker.size.slice(),
+                color: data.marker.color.slice()
             }
         });
     }
@@ -104,22 +111,14 @@ d3.csv(file, function (err, data) {
             label: years[i],
             args: [[years[i]], {
                 mode: 'immediate',
-                transition: {duration: 300},
-                frame: {duration: 300, redraw: false},
+                transition: { duration: 100 },
+                frame: { duration: 300, redraw: false },
             }]
         });
     }
 
     var layout = {
-        /*
-        xaxis: {
-            title: 'WG',
-        },
-        yaxis: {
-            title: 'Affiliation'
-        },
         hovermode: 'closest',
-        */
         // We'll use updatemenus (whose functionality includes menus as
         // well as buttons) to create a play button and a pause button.
         // The play button works by passing `null`, which indicates that
@@ -176,9 +175,7 @@ d3.csv(file, function (err, data) {
     Plotly.newPlot('plotlyFindings', {
         data: traces,
         layout: layout,
-        config: {
-            showSendToCloud: true
-        },
+        config: plotlyConfigA,
         frames: frames,
     });
 });
