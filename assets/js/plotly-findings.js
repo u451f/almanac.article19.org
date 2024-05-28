@@ -1,4 +1,13 @@
 // This is based on https://plotly.com/javascript/gapminder-example/
+//
+// FIXME: for the frames we always need all the wgs+affiliations, and if they
+// don't exist in the data we need to add them artifially, setting
+// nb_contributions to 0
+// this could potentially be done after we created the frames, by adding more info
+// this problem does not seem to exist in traces, only in frames
+//
+// FIXME: we could also have one viz where we do overlay all the data of all the years
+// that would show some sort of heatmap of *where* the actors are most active.
 
 import { getColorCode, plotlyConfigA } from "./helper-functions.js";
 
@@ -37,7 +46,6 @@ d3.csv(file, function (err, data) {
         return trace;
     }
 
-    // FIXME: Use our colors
     // Go through each row, get the right trace, and append the data:
     for (var i = 0; i < data.length; i++) {
         var datum = data[i];
@@ -83,7 +91,7 @@ d3.csv(file, function (err, data) {
             }
         });
     }
-    //console.log(traces);
+    console.log("traces", traces);
 
     // Create a frame for each year. Frames are effectively just
     // traces, except they don't need to contain the *full* trace
