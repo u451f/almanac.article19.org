@@ -24,14 +24,14 @@ d3.csv(file, function(error, rows){
 
     var traces = [];
     var hexcolor;
-    var arr = Object.groupBy(rows, ({ affiliation }) => affiliation);
+    var arrByAffiliation = Object.groupBy(rows, ({ affiliation }) => affiliation);
 
-    // var affiliations = Object.keys(arr);
+    // var affiliations = Object.keys(arrByAffiliation);
 
     // order the object by key
-    const ordered = Object.keys(arr).sort().reduce(
+    const ordered = Object.keys(arrByAffiliation).sort().reduce(
         (obj, key) => {
-            obj[key] = arr[key];
+            obj[key] = arrByAffiliation[key];
             return obj;
         },
         {}
