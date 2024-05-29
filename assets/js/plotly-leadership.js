@@ -26,20 +26,18 @@ d3.csv(file, function(error, rows) {
         time_start = rows[i]["time_start"];
         time_end = rows[i]["time_end"];
 
-        if(time_start != time_end) {
-            traces.push({
-                type: "scatter",
-                mode: "lines",
-                line: {
-                    color: hexcolor,
-                    width: 25
-                },
-                name: rows[i]["affiliation"],
-                text: rows[i]["name"],
-                x: [ time_start, time_end ],
-                y: [ rows[i]["affiliation"], rows[i]["affiliation"] ],
-            });
-        }
+        traces.push({
+            type: "scatter",
+            mode: "lines",
+            line: {
+                color: hexcolor,
+                width: 25
+            },
+            name: rows[i]["affiliation"],
+            text: rows[i]["name"],
+            x: [ time_start, time_end ],
+            y: [ rows[i]["affiliation"], rows[i]["affiliation"] ],
+        });
     }
     //console.log("traces", traces);
 
