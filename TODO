@@ -1,4 +1,9 @@
-- order affiliations alphabetically in leadership plots
+x order affiliations alphabetically in leadership plots
+- group affiliations in leadership:
+  - periods seem to overlap, example:
+    - ietf-quic: akami, BBC, cloudflare
+    → sent email to Seb about that
+- better color for Fastly
 - simplify authorship JS: ordering by affiliation might be more simple
 
 x make plotly library lighter
