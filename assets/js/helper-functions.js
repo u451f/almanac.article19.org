@@ -27,6 +27,20 @@ function getRandomArbitrary(min, max) {
 }
 
 /*
+ * Order alphabetically by affiliation
+ * Usage: array.sort( compare );
+ * */
+function orderByAffiliation( a, b ) {
+    if ( a.affiliation < b.affiliation ) {
+        return -1;
+    }
+    if ( a.affiliation > b.affiliation ) {
+        return 1;
+    }
+    return 0;
+}
+
+/*
  * Return a color code for matched affiliations
  * or generate a random color code for unmatched ones
  * Format: hexadecimal with transparency value (90)
@@ -107,4 +121,4 @@ const plotlyConfigI = {
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
-export { getColorCode, isScreenSmall, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI };
+export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI };
