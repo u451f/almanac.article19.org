@@ -8,6 +8,7 @@
 //
 // FIXME: we could also have one viz where we do overlay all the data of all the years
 // that would show some sort of heatmap of *where* the actors are most active.
+// I'll use that for the printable map.
 
 import { getColorCode, plotlyConfigF } from "./helper-functions.js";
 
@@ -66,8 +67,8 @@ d3.csv(file, function (err, data) {
     // FIXME: this might not be true → which is why we need to this this differently
     var firstYear = lookup[years[0]];
     var affiliations = Object.keys(firstYear);
-    console.log("affiliations", affiliations);
-    console.log("1stY", firstYear);
+    //console.log("affiliations", affiliations);
+    //console.log("1stY", firstYear);
 
     // Create the main traces, one for each wg:
     var traces = [];
