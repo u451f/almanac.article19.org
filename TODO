@@ -16,6 +16,9 @@ x order affiliations alphabetically in leadership plots
 - add a select to the findings page
 - decide what should be the default view on the dashboard page, currently it's dnsop
 - the footer bg image looks strange on the dashboard: it should be changed
+- explain page:
+  - have a logo of bigbang or some image illustrating the data (csv screenshot?)
+  - have images of the dashboard in the how to use section
 
 x make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
