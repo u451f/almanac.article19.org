@@ -1,3 +1,6 @@
+- order affiliations alphabetically in leadership plots
+- simplify authorship JS: ordering by affiliation might be more simple
+
 x make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
 
@@ -8,7 +11,6 @@ x make plotly library lighter
    npm run custom-bundle -- --out almanac-bundle --traces scatter --transforms none
    cp dist/plotly-almanac-bundle.min.js assets/js/lib/ `
    → then load the new file in _includes/header.html
-
 -  how to ensure the bundle is up-to-date?
 
 x error handling on d3js: if file exists
@@ -55,7 +57,7 @@ x maybe have only one page in jekyll that calls everything dynamically
 x maybe don't use the titles in the SVG, but have them in HTML
 * catnip icon for plot titles
 
-- do we need animations?
+x do we need animations? → will be used in findings page
   https://plotly.com/javascript/gapminder-example/
 
 ===========================================================
@@ -77,6 +79,8 @@ x visualization
   - ES lint as git commit hook?
   - 'use strict';
   - check all variable names are correct and understandable
+
+- automatically build jekyll _site on Github?
 
 ============================================================
 
