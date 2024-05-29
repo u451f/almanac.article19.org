@@ -3,10 +3,8 @@ x order affiliations alphabetically in leadership plots
   - periods seem to overlap, example:
     - ietf-quic: akami, BBC, cloudflare
     → sent email to Seb about that
-- better color for Fastly
+- better color for Fastly (it's too similar to Cloudflare)
 - simplify authorship JS: ordering by affiliation might be more simple
-- use findings plots to create map images:
-  - overlay all the years for authorship
 
 - think about how to represent influence over time
 - think about how to represent chairs over time → that could be a question for the others
@@ -19,6 +17,14 @@ x order affiliations alphabetically in leadership plots
 - explain page:
   - have a logo of bigbang or some image illustrating the data (csv screenshot?)
   - have images of the dashboard in the how to use section
+- fix the empty frames issue in the overview/findings JS
+- use findings plots to create map images:
+  - overlay all the years for authorship
+
+- rename d-about to dom-overview
+- rename dashboard to dom-dashboard
+- rename d-explain to dom-explain
+- fix all the links
 
 x make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
