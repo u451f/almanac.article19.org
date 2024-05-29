@@ -1,0 +1,6 @@
+- name: "IETF"
+  slug: ietf
+- name: "IRTF"
+  slug: irtf
+- name: "W3C"
+  slug: w3c
