@@ -5,6 +5,7 @@ x order affiliations alphabetically in leadership plots
     → sent email to Seb about that
 - better color for Fastly (it's too similar to Cloudflare)
 - simplify authorship JS: ordering by affiliation might be more simple
+- verify the breadcrumbs for the dom part of the almanac
 
 - think about how to represent influence over time
 - think about how to represent chairs over time → that could be a question for the others
