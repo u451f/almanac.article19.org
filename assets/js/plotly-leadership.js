@@ -29,18 +29,20 @@ d3.csv(file, function(error, rows) {
         time_end = rows[i]["time_end"];
         hexcolor = getColorCode(affiliation);
 
-        traces.push({
-            type: "scatter",
-            mode: "lines",
-            line: {
-                color: hexcolor,
-                width: 25
-            },
-            name: affiliation,
-            text: person,
-            x: [ time_start, time_end ],
-            y: [ affiliation, affiliation ],
-        });
+        if(time_start != time_end) { // for esthetical reasons: but there's a bug somewhere in the data if that happens
+            traces.push({
+                type: "scatter",
+                mode: "lines",
+                line: {
+                    color: hexcolor,
+                    width: 25
+                },
+                name: affiliation,
+                text: person,
+                x: [ time_start, time_end ],
+                y: [ affiliation, affiliation ],
+            });
+        }
     }
     //console.log("traces", traces);
 
