@@ -28,7 +28,7 @@ function getRandomArbitrary(min, max) {
 
 /*
  * Order alphabetically by affiliation
- * Usage: array.sort( compare );
+ * Usage: array.sort( orderByAffiliation );
  * */
 function orderByAffiliation( a, b ) {
     if ( a.affiliation < b.affiliation ) {
