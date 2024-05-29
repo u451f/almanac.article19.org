@@ -1,15 +1,7 @@
-name,affiliation,datetime_min,datetime_max
-Eric Rescorla,Microsoft,2011-12-09 20:00:00+00:00,2011-12-09 20:00:00+00:00
-Eric Rescorla,Microsoft,2011-12-09 20:00:00+00:00,2013-07-03 23:05:34+00:00
-Eric Rescorla,Mozilla,2013-07-03 23:05:34+00:00,2014-03-11 23:05:34+00:00
-Joseph A. Salowey,Cisco,2011-12-09 20:00:00+00:00,2014-07-22 18:26:08+00:00
-Sean Turner,International Electronic Communications Analysts (IECA),2014-03-11 23:05:34+00:00,2014-07-22 18:26:08+00:00
-Christopher A. Wood,Apple,2018-07-07 22:03:32+00:00,2019-03-04 00:55:41+00:00
-Christopher A. Wood,Apple,2019-03-04 00:55:52+00:00,2020-04-01 00:00:00+00:00
-Christopher A. Wood,Cloudflare,2020-04-01 00:00:00+00:00,2024-01-01 00:00:00+00:00
-Christopher A. Wood,Apple,2024-01-01 00:00:00+00:00,2024-04-01 00:00:00 +00:00
-Joseph A. Salowey,F5,2014-07-22 18:26:08+00:00,2015-04-01 00:00:00+00:00
-Joseph A. Salowey,Tableau,2015-04-01 00:00:00+00:00,2020-04-01 00:00:00+00:00
-Joseph A. Salowey,Salesforce,2020-04-01 00:00:00+00:00,2022-08-01 00:00:00+00:00
-Joseph A. Salowey,Venafi,2022-08-01 00:00:00+00:00,2024-04-01 00:00:00 +00:00
-Sean Turner,sn3rd llc,2015-06-15 19:23:33+00:00,2024-04-01 00:00:00 +00:00
+,name,affiliation,time_start,time_end
+0,Eric Rescorla,Microsoft,2011-12-09 20:00:00+00:00,2011-03-01 00:00:00+00:00
+1,Eric Rescorla,Mozilla,2013-07-01 00:00:00+00:00,2014-03-11 23:05:34+00:00
+2,Sean Turner,International Electronic Communications Analysts (IECA),2014-03-11 23:05:34+00:00,2016-08-01 00:00:00+00:00
+3,Sean Turner,sn3rd llc,2015-08-01 00:00:00+00:00,2024-05-28 21:59:13.392715+00:00
+4,Sean Turner,International Electronic Communications Analysts (IECA),2014-03-11 23:05:34+00:00,2016-08-01 00:00:00+00:00
+5,Sean Turner,sn3rd llc,2015-08-01 00:00:00+00:00,2024-05-28 21:59:13.392720+00:00

@@ -1,10 +1,9 @@
-name,datetime_min,datetime_max,affiliation
-Peter Koch,2007-03-13 00:00:00+00:00,2013-03-13 22:38:02+00:00,DENIC
-Stephen Morris,2007-03-13 00:00:00+00:00,2013-03-13 22:38:02+00:00,Nominet UK
-Tim Wicinski,2013-03-13 22:38:02+00:00,2013-03-13 22:38:02+00:00,AOL
-Suzanne Woolf,2013-12-20 17:14:29+00:00,2021-02-25 22:53:13+00:00,Internet Infrastructure Technology and Policy (consulting)
-Tim Wicinski,2013-12-20 17:14:29+00:00,2023-02-03 02:04:12+00:00,AOL
-Tim Wicinski,2023-04-16 19:45:59+00:00,2023-04-16 19:45:59+00:00,Salesforce
-Benno Overeinder,2018-04-11 23:55:46+00:00,2024-04-16 19:45:59+00:00,NLNet Labs
-Suzanne Woolf,2021-03-19 19:29:47+00:00,2024-04-16 19:45:59+00:00,Public Interest Registry
-Tim Wicinski,2023-10-24 14:15:38+00:00,2024-04-16 19:45:59+00:00,Cox Communications
+,name,affiliation,time_start,time_end
+0,Peter Koch,DENIC,2011-12-09 20:00:00+00:00,2013-03-13 22:38:02+00:00
+1,Stephen Morris,Nominet UK,2011-12-09 20:00:00+00:00,2010-05-01 00:00:00+00:00
+2,Benno Overeinder,NLnet Labs,2018-04-11 23:55:46+00:00,2024-05-28 21:59:11.261983+00:00
+3,Suzanne Woolf,Public Interest Registry,2019-05-01 00:00:00+00:00,2024-05-28 21:59:11.262529+00:00
+4,Suzanne Woolf,Internet Infrastructure Technology and Policy (consulting) ,2014-04-01 00:00:00+00:00,2024-05-28 21:59:11.262531+00:00
+5,Tim Wicinski,AOL,2013-03-13 22:38:02+00:00,2014-01-01 00:00:00+00:00
+6,Tim Wicinski,Salesforce,2014-01-01 00:00:00+00:00,2020-03-01 00:00:00+00:00
+7,Tim Wicinski,Cox Communications,2021-05-01 00:00:00+00:00,2024-05-28 21:59:11.262559+00:00
