@@ -28,7 +28,7 @@ function getRandomArbitrary(min, max) {
 
 /*
  * Order alphabetically by affiliation
- * Usage: array.sort( orderByAffiliation );
+ * Usage: myArray.sort( orderByAffiliation );
  * */
 function orderByAffiliation( a, b ) {
     if ( a.affiliation < b.affiliation ) {
@@ -120,5 +120,16 @@ const plotlyConfigI = {
     },
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
+const plotlyConfigF = {
+    displaylogo: false,
+    responsive: true,
+    toImageButtonOptions: {
+        format: "svg",
+        filename: "almanac.article19.org-findings-"+WG,
+        //filename: "almanac.article19.org-authorship-"+WG, // we can add that later, when we know if we change org here or not
+        scale: 1
+    },
+    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
+};
 
-export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI };
+export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI, plotlyConfigF };
