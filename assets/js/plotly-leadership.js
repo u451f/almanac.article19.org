@@ -62,7 +62,6 @@ d3.csv(file, function(error, rows) {
         yaxis: {
             automargin: true,
             autorange: "reversed",
-            //showticklabels: false,
             showgrid: false
         },
         font: {
