@@ -20,11 +20,9 @@ d3.csv(file, function(error, rows) {
     //console.log("Rows", rows);
 
     var traces = [];
-    var hexcolor;
+    var affiliation, hexcolor, person, time_start, time_end;
 
     for(var i = 0; i < rows.length; i++) {
-        var affiliation, person, time_start, time_end;
-
         affiliation = rows[i]["affiliation"];
         person = rows[i]["name"];
         time_start = rows[i]["time_start"];
