@@ -9,7 +9,7 @@
 // FIXME: we could also have one viz where we do overlay all the data of all the years
 // that would show some sort of heatmap of *where* the actors are most active.
 
-import { getColorCode, plotlyConfigA } from "./helper-functions.js";
+import { getColorCode, plotlyConfigF } from "./helper-functions.js";
 
 var file = "/assets/data/findings/test.csv";
 
@@ -183,7 +183,7 @@ d3.csv(file, function (err, data) {
     Plotly.newPlot('plotlyFindings', {
         data: traces,
         layout: layout,
-        config: plotlyConfigA,
+        config: plotlyConfigF,
         frames: frames,
     });
 });
