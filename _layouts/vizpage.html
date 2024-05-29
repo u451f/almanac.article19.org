@@ -1,10 +1,70 @@
 {% include header.html %}
-<script>WG="ietf";</script>
 <div class="section" id="content">
-    <div class="section-content grid" id="intro">
+    <div class="section-content grid" id="viz-intro">
         {% include site-header.html %}
         {% include breadcrumbs.html %}
+
         {{ content }}
+
+    </div>
+    <script>WG="ietf";</script>
+
+    <div class="section-content grid">
+        <div id="viz-actions">
+            <select id="wg" class="select" onchange="setWG(this)">
+            {% assign items = site.data.dashboard_overview_sdos %}
+                <option disabled>Explore</option>
+                {% for item in items %}
+                    <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
+                        {{ item.name }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+
+    <div class="section-content grid">
+        <div>
+            <h2 class="title">Authorship</h2>
+            <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-waving.svg" alt="Catnip waving" width="200" />
+            <p>The authorship graph shows participation of actors and their affiliation in writing RFC drafts in a working group over time.</p>
+        </div>
+        <div id="viz-display">
+            <div id="plotlyFindings" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+    </div>
+    <span class="spacer"></span>
+
+    <div class="section-content grid">
+        <div>
+            <h2 class="title">Influence</h2>
+            <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-waving.svg" alt="Catnip waving" width="200" />
+            <p>The influence graph shows the amount of emails sent to working group related mailing lists over time.</p>
+        </div>
+        <div id="viz-display">
+            <div id="plotlyFindingsI" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+    </div>
+    <span class="spacer"></span>
+
+    <div class="section-content grid">
+        <div>
+            <h2 class="title">Leadership</h2>
+            <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-waving.svg" alt="Catnip waving" width="200" />
+            <p>The leadership graph shows the chairs of a working group and their affiliation.</p>
+        </div>
+        <div id="viz-display">
+            <div id="plotlyFindingsL" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+    </div>
+    <span class="spacer"></span>
+
+    <div class="section-content grid">
+        <h2 class="title">Curious to explore more?</h2>
+        <!-- FIXME: link to the currently selected SDO -->
+        <p><a class="button" href="{{ site.url }}/dashboard.html">Have a detailed look at the data in the dashboard</a></p>
+        <p>We've created a map of our findings! It's size is DIN A2 (size in cm and inches), it's a PDF that you can print yourself: <a class="button" href="#">Download map</a></p>
+        <p><a class="button" href="{{ site.url }}/dashboard-explain.html">Learn more about our research</a></p>
     </div>
 </div>
 {% include footer.html %}
