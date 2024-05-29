@@ -12,10 +12,12 @@ if (isScreenSmall()) {
 }
 
 d3.csv(file, function(error, rows) {
-    if (error) throw error; // if file cannot be loaded
+    if (error) {
+        throw error;
+    }
 
     rows.sort(orderByAffiliation);
-    console.log("Rows", rows);
+    //console.log("Rows", rows);
 
     var traces = [];
     var hexcolor;
