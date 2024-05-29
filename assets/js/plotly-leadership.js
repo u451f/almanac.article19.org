@@ -20,11 +20,13 @@ d3.csv(file, function(error, rows) {
     var hexcolor;
 
     for(var i = 0; i < rows.length; i++) {
-        hexcolor = getColorCode(rows[i]["affiliation"]);
-
-        var time_start, time_end;
+        var affiliation, person, time_start, time_end;
+        affiliation = rows[i]["affiliation"];
+        person = rows[i]["name"];
         time_start = rows[i]["time_start"];
         time_end = rows[i]["time_end"];
+
+        hexcolor = getColorCode(affiliation);
 
         traces.push({
             type: "scatter",
@@ -33,10 +35,10 @@ d3.csv(file, function(error, rows) {
                 color: hexcolor,
                 width: 25
             },
-            name: rows[i]["affiliation"],
-            text: rows[i]["name"],
+            name: affiliation,
+            text: person,
             x: [ time_start, time_end ],
-            y: [ rows[i]["affiliation"], rows[i]["affiliation"] ],
+            y: [ affiliation, affiliation ],
         });
     }
     //console.log("traces", traces);
