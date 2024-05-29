@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, plotlyConfigL, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, orderByAffiliation, plotlyConfigL, unpack } from "./helper-functions.js";
 
 /*
  * Leadership
@@ -14,7 +14,8 @@ if (isScreenSmall()) {
 d3.csv(file, function(error, rows) {
     if (error) throw error; // if file cannot be loaded
 
-    //console.log("Rows", rows);
+    rows.sort(orderByAffiliation);
+    console.log("Rows", rows);
 
     var traces = [];
     var hexcolor;
