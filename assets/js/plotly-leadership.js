@@ -3,7 +3,7 @@ import { getColorCode, isScreenSmall, plotlyConfigL, unpack } from "./helper-fun
 /*
  * Leadership
  * - Who has been chairing a WG?
- * - Ordered by default by start date (datetime_min)
+ * - Ordered by default by start date (time_start)
  * */
 
 var file = "/assets/data/leadership/"+WG+".csv";
@@ -21,13 +21,12 @@ d3.csv(file, function(error, rows) {
 
     for(var i = 0; i < rows.length; i++) {
         hexcolor = getColorCode(rows[i]["affiliation"]);
-        //console.log(rows[i]["affiliation"], hexcolor);
 
-        var datetime_min, datetime_max;
-        datetime_min = rows[i]["datetime_min"];
-        datetime_max = rows[i]["datetime_max"];
+        var time_start, time_end;
+        time_start = rows[i]["time_start"];
+        time_end = rows[i]["time_end"];
 
-        if(datetime_min != datetime_max) { // FIXME: this should rather happen at BigBang level
+        if(time_start != time_end) {
             traces.push({
                 type: "scatter",
                 mode: "lines",
@@ -37,7 +36,7 @@ d3.csv(file, function(error, rows) {
                 },
                 name: rows[i]["affiliation"],
                 text: rows[i]["name"],
-                x: [ datetime_min, datetime_max ],
+                x: [ time_start, time_end ],
                 y: [ rows[i]["affiliation"], rows[i]["affiliation"] ],
             });
         }
