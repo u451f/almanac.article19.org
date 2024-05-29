@@ -22,10 +22,10 @@ x order affiliations alphabetically in leadership plots
 - use findings plots to create map images:
   - overlay all the years for authorship
 
-- rename d-about to dom-overview
-- rename dashboard to dom-dashboard
-- rename d-explain to dom-explain
-- fix all the links
+x rename d-about to dom-overview
+x rename dashboard to dom-dashboard
+x rename d-explain to dom-explain
+x fix all the links
 
 x make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
