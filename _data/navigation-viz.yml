@@ -1,8 +1,8 @@
-- name: About our findings
+- name: Which actors are most dominant in internet standards setting?
   link: /dashboard-about.html
 - name: Dashboard
   link: /dashboard.html
-- name: Using the dashboard
+- name: About our research
   link: /dashboard-explain.html
 - name: Download map
   link: /#
