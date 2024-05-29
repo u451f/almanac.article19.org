@@ -1,10 +1,14 @@
 - name: "IETF"
   slug: ietf
   wg:
+  - name: "Adaptive DNS Discovery"
+    slug: ietf-add
   - name: "Deterministic networking"
     slug: ietf-detnet
   - name: "Domain Name Systems Operations"
     slug: ietf-dnsop
+  - name: "Network Virtualization Overlays"
+    slug: ietf-nvo3
   - name: "QUIC"
     slug: ietf-quic
   - name: "Transport Layer Security"
