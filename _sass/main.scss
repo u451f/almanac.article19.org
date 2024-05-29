@@ -760,7 +760,7 @@ span.bubble:after {
     padding-bottom: 30px;
 }
 
-.desktop.default #main-text {
+.desktop.default:not(.viz) #main-text {
     padding-bottom: 300px;
 }
 
