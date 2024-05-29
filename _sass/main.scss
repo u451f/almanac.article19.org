@@ -1208,7 +1208,7 @@ a.modebar-btn {
         margin: -2.5em 0 3.5em 0;
     }
 
-    .vizpage #viz-display {
+    .vizpage .viz-display {
         grid-column-start: 2;
         grid-column-end: 5;
     }
@@ -1257,24 +1257,4 @@ a.modebar-btn {
     .links {
         line-height: auto;
     }
-}
-
-.slide {
-    margin-bottom: 4em;
-    background: var(--color2);
-}
-
-.slide:nth-child(odd) {
-    grid-column-start: 2;
-    grid-column-end: 5;
-}
-
-.slide:nth-child(even) {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-.slide img {
-    float: left;
-    margin-right: 4em;
 }
