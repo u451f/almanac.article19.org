@@ -5,6 +5,17 @@ x order affiliations alphabetically in leadership plots
     → sent email to Seb about that
 - better color for Fastly
 - simplify authorship JS: ordering by affiliation might be more simple
+- use findings plots to create map images:
+  - overlay all the years for authorship
+
+- think about how to represent influence over time
+- think about how to represent chairs over time → that could be a question for the others
+- add new catnip icons to findings page. Can they be fun somehow?
+- add new catnip icons to dashboard, but keep it small
+- have an error message if a file does not exist? that's visible to the user
+- add a select to the findings page
+- decide what should be the default view on the dashboard page, currently it's dnsop
+- the footer bg image looks strange on the dashboard: it should be changed
 
 x make plotly library lighter
   https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md
