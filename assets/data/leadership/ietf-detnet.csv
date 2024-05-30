@@ -1,15 +1,9 @@
 ,name,affiliation,time_start,time_end
 0,Pascal Thubert,Cisco,2014-10-02 16:10:49+00:00,2014-10-02 16:10:49+00:00
-1,Erik Nordmark,ZEDEDA,2017-03-01 00:00:00+00:00,2015-02-10 23:27:53+00:00
-2,Erik Nordmark,The Linux Foundation,2019-01-01 00:00:00+00:00,2015-02-10 23:27:53+00:00
-3,Erik Nordmark,Arista Networks,2014-11-07 14:21:35+00:00,2015-02-10 23:27:53+00:00
-4,Erik Nordmark,Cisco,2014-11-07 14:21:35+00:00,2013-10-01 00:00:00+00:00
-5,Jouni Korhonen,Nordic Semiconductor ASA,2017-06-01 00:00:00+00:00,2015-02-10 23:27:53+00:00
-6,Jouni Korhonen,Broadcom Limited,2014-10-02 16:10:49+00:00,2015-02-10 23:27:53+00:00
-7,Jouni Korhonen,Nokia Siemens Networks,2014-10-02 16:10:49+00:00,2012-11-01 00:00:00+00:00
-8,Patricia Thaler,Broadcom Limited,2015-02-10 23:27:53+00:00,2017-12-01 18:42:43+00:00
-9,János Farkas,Ericsson,2023-08-01 00:00:00+00:00,2024-05-28 21:59:10.698301+00:00
-10,János Farkas,Avinty,2023-03-01 00:00:00+00:00,2023-07-01 00:00:00+00:00
-11,János Farkas,INNObyte Hungary,2017-12-01 18:42:43+00:00,2023-03-01 00:00:00+00:00
-12,Lou Berger,LabN Consulting LLC,2015-02-10 23:27:53+00:00,2024-05-28 21:59:10.698312+00:00
-13,Lou Berger,"Movaz Networks, Inc",2015-02-10 23:27:53+00:00,2005-11-01 00:00:00+00:00
+1,Erik Nordmark,Arista Networks,2014-11-07 14:21:35+00:00,2015-02-10 23:27:53+00:00
+2,Jouni Korhonen,Broadcom Limited,2014-10-02 16:10:49+00:00,2015-02-10 23:27:53+00:00
+3,Patricia Thaler,Broadcom Limited,2015-02-10 23:27:53+00:00,2017-12-01 18:42:43+00:00
+4,János Farkas,Ericsson,2023-08-01 00:00:00+00:00,2024-05-30 13:13:12.009990+00:00
+5,János Farkas,Avinty,2023-03-01 00:00:00+00:00,2023-07-01 00:00:00+00:00
+6,János Farkas,INNObyte Hungary,2017-12-01 18:42:43+00:00,2023-03-01 00:00:00+00:00
+7,Lou Berger,LabN Consulting LLC,2015-02-10 23:27:53+00:00,2024-05-30 13:13:12.010000+00:00

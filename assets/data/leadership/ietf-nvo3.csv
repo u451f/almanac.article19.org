@@ -1,11 +1,5 @@
 ,name,affiliation,time_start,time_end
-0,Benson Schliesser,Google,2022-02-01 00:00:00+00:00,2015-06-15 19:13:23+00:00
-1,Benson Schliesser,IBM,2021-09-01 00:00:00+00:00,2015-06-15 19:13:23+00:00
-2,Benson Schliesser,Volta Networks,2017-11-01 00:00:00+00:00,2015-06-15 19:13:23+00:00
-3,Benson Schliesser,Brocade,2014-01-01 00:00:00+00:00,2015-06-15 19:13:23+00:00
-4,Benson Schliesser,Juniper Networks,2012-07-01 00:00:00+00:00,2013-11-01 00:00:00+00:00
-5,Benson Schliesser,Cisco Systems,2012-02-23 20:00:00+00:00,2012-06-01 00:00:00+00:00
-6,Benson Schliesser,Savvis,2012-02-23 20:00:00+00:00,2010-10-01 00:00:00+00:00
-7,Sam Aldrin,Cisco Systems,2016-07-07 15:58:32+00:00,2010-11-01 00:00:00+00:00
-8,Sam Aldrin,Huawei,2016-07-07 15:58:32+00:00,2015-02-01 00:00:00+00:00
-9,Sam Aldrin,Google,2016-07-07 15:58:32+00:00,2024-05-28 21:59:11.797791+00:00
+0,Benson Schliesser,Brocade,2014-01-01 00:00:00+00:00,2015-06-15 19:13:23+00:00
+1,Benson Schliesser,Juniper Networks,2012-07-01 00:00:00+00:00,2013-11-01 00:00:00+00:00
+2,Benson Schliesser,Cisco Systems,2012-02-23 20:00:00+00:00,2012-06-01 00:00:00+00:00
+3,Sam Aldrin,Google,2016-07-07 15:58:32+00:00,2024-05-30 13:13:13.094544+00:00
