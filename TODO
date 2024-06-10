@@ -1,26 +1,60 @@
-x order affiliations alphabetically in leadership plots
-- group affiliations in leadership:
-  - periods seem to overlap, example:
-    - ietf-quic: akami, BBC, cloudflare
-    → sent email to Seb about that
-- better color for Fastly (it's too similar to Cloudflare)
-- simplify authorship JS: ordering by affiliation might be more simple
-- verify the breadcrumbs for the dom part of the almanac
+- create catnip icons
 
-- think about how to represent influence over time
-- think about how to represent chairs over time → that could be a question for the others
-- add new catnip icons to findings page. Can they be fun somehow?
-- add new catnip icons to dashboard, but keep it small
-- have an error message if a file does not exist? that's visible to the user
-- add a select to the findings page
-- decide what should be the default view on the dashboard page, currently it's dnsop
-- the footer bg image looks strange on the dashboard: it should be changed
-- explain page:
+- dashboard
+  - add new catnip icons to dashboard, but keep it small
+
+- map design
+  - use findings plots to create map images: overlay all the years for authorship
+
+- overview page
+  - think about how to represent influence over time
+  - think about how to represent chairs over time → that could be a question for the others
+  - fix the empty frames issue in the overview/findings JS (if there is missing data, the bubbles jump so we need to assume that the data is 0 and add that)
+  - add more graphs
+  - make sure the select works
+  - add new catnip icons to this page. Can they be fun somehow?
+
+- about page
+  - fix the layout
+  - explain page:
   - have a logo of bigbang or some image illustrating the data (csv screenshot?)
   - have images of the dashboard in the how to use section
-- fix the empty frames issue in the overview/findings JS
-- use findings plots to create map images:
-  - overlay all the years for authorship
+
+- general tasks
+  - actually give colors to specific affiliations in assets/js/helper-functions.js
+  - better color for Fastly (it's too similar to Cloudflare)
+  - have an error message if a file does not exist? that's visible to the user or just hide the title if that happens.
+  - the footer bg image looks strange on the dashboard: it should be changed
+  -  how to ensure the bundle is up-to-date?
+  - Rename groups in old almanac and have an .htaccess for redirection, rely on shortname
+    x done: IETF
+    - todo: IRTF, W3C
+  - simplify authorship JS: ordering by affiliation might be more simple
+  - alert people who watch the dashboard on a vertical phone or on a horizontal with less than 1024px width that they should turn their phone or use a larger screen
+  - automatically build jekyll _site on Github → it's currently not needed because there is no workflow to automatically upload stuff to the website but it could be nice for everyone to use the dashboard with new data without me having to rebuild and upload
+  - Linting
+    - ES lint as git commit hook?
+    - 'use strict';
+    - check all variable names are correct and understandable
+
+
+================== STATUS UNCERTAIN ==========================
+
+- Seb:
+  - group affiliations in leadership:
+    - periods seem to overlap, example:
+      - ietf-quic: akami, BBC, cloudflare
+      → sent email to Seb about that
+
+
+- data QuiC authorship: years look weird
+  This is due to: https://plotly.com/javascript/tick-formatting/
+  dtick needs to be 1 year in ms
+  → this kind of removes the zoom level when zooming, so maybe we want to do that differently.
+  → we can only scatter the authorship thingies more if we remove the date granularity in the data itself.
+    not sure we want to do that.
+
+================== DONE ======================================
 
 x rename d-about to dom-overview
 x rename dashboard to dom-dashboard
@@ -37,7 +71,6 @@ x make plotly library lighter
    npm run custom-bundle -- --out almanac-bundle --traces scatter --transforms none
    cp dist/plotly-almanac-bundle.min.js assets/js/lib/ `
    → then load the new file in _includes/header.html
--  how to ensure the bundle is up-to-date?
 
 x error handling on d3js: if file exists
 x check how to configure the plotly actions on top right (called modebar)
@@ -55,17 +88,9 @@ x find the art 19 blue hex value
   / possibility: export everything as SVG and have mobile use these images instead
   / might require manual work
   - Plotly.newPlot('myDiv', data, layout, {staticPlot: true}); that creates a static chart, maybe that's useful
-  - alert people who watch the dashboard on a vertical phone or on a horizontal with less than 1024px width that they should turn their phone or use a larger screen
   x small screens: use horizontal legend below
   x small screens: adjust placement of the y axis title
   x small screens: adjust width of legend (influence)
-
-- data QuiC authorship: years look weird
-  This is due to: https://plotly.com/javascript/tick-formatting/
-  dtick needs to be 1 year in ms
-  → this kind of removes the zoom level when zooming, so maybe we want to do that differently.
-  → we can only scatter the authorship thingies more if we remove the date granularity in the data itself.
-    not sure we want to do that.
 
 x variable vizexists in groups and WG variable should just be the abbreviation
   of the WG and we need to find the files like that because they will be named like this by Seb
@@ -95,26 +120,18 @@ x visualization
 
 ===========================================================
 
-- some issues on http://localhost:4000/viz.html?wg=ietf-quic
+x some issues on http://localhost:4000/viz.html?wg=ietf-quic
   x Leadership: Netapp should be a single actor on the y axis, even if it's two different persons
     → that was only due to two different spellings of NetApp/Netapp
-  - Authorship: last line of Excel file was broken
+  x Authorship: last line of Excel file was broken
   x Authorship: the x axis for the years is really weird, years are being repeated
-
-- Linting
-  - ES lint as git commit hook?
-  - 'use strict';
-  - check all variable names are correct and understandable
-
-- automatically build jekyll _site on Github?
 
 ============================================================
 
 x navigation between workgroup in almanac and workgroup in viz
   x needs design
-- Rename groups in old almanac and have an .htaccess for redirection, rely on shortname
-  - do it only for IETF and IRTF for now
-  x done: IETF
 
-- fix breadcrumbs in viz area
-- actually give colors to specific affiliations in assets/js/helper-functions.js
+x fix breadcrumbs in viz area → we don't use them here
+x order affiliations alphabetically in leadership plots
+x decide what should be the default view on the dashboard page, currently it's dnsop
+
