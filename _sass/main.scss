@@ -17,7 +17,7 @@
     --colour1: #d62d26; /* ART19 red */
     --colour2: rgb(0,148,110); /* ART19green */
     --colour3: #287758; /* darkergreen */
-    --hspace: 4vw;
+    --hspace: 4vh;
     --vspace: 3vh;
     --basefontsize: 17px;
 }
@@ -401,7 +401,7 @@ a[href]:not(:where(
 
 .menu li > a, .menu li > span {
     text-transform: uppercase;
-    font-size: calc(var(--basefontsize) * 1.5);
+    font-size: calc(var(--basefontsize));
     line-height: 1.5em;
     background: rgba(0,0,0,0.2);
     margin-bottom: 0.5em;
@@ -907,9 +907,9 @@ Post/Group & Org page
     animation: move ease-in-out 25s -2s infinite alternate;
 }
 
-/*************************************
-  Data viz site area
-***********************************/
+/***************************************
+  Data dashboard & dominance site area
+***************************************/
 
 #site-area-menu {
     position: absolute;
@@ -1012,8 +1012,15 @@ select option:checked {
     background-color: var(--colour3);
 }
 
+/*************************************
+  Plotly elements
+***********************************/
 a.modebar-btn {
     background: #fff;
+}
+
+.modebar-container {
+    margin-top: -36px !important;
 }
 
 /*************************************
@@ -1085,6 +1092,9 @@ a.modebar-btn {
         height: auto;
         padding: 0 0 0 40%;
         box-sizing: border-box;
+    }
+    .menu li > a, .menu li > span {
+        font-size: calc(var(--basefontsize) * 1.5);
     }
     #footer {
         padding-top: 7em;
