@@ -1,6 +1,6 @@
 {% include header.html %}
 <div class="section" id="content">
-    <div class="section-content grid" id="viz-intro">
+    <div class="section-content grid" id="intro">
         {% include site-header.html %}
         {% include breadcrumbs.html %}
         <div id="main-text">
@@ -35,20 +35,30 @@
         <div class="section-content">
             <h3 class="title">Authorship</h3>
             <div id="plotlyAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-author.jpg" alt="Catnip authoring an RFC" />
         </div>
         <span class="spacer"></span>
 
         <div class="section-content">
             <h3 class="title">Influence</h3>
             <div id="plotlyInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-influencer.jpg" alt="Catnip witing an email" />
         </div>
         <span class="spacer"></span>
 
         <div class="section-content">
             <h3 class="title">Leadership</h3>
             <div id="plotlyLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a (zaisu) chair" />
         </div>
         <span class="spacer"></span>
+    </div>
+
+    <div class="section-content grid">
+        <h2 class="title">Curious to explore more?</h2>
+        <p><a class="button" href="{{ site.url }}/dom-overview.html">See an animated overview of our findings</a></p>
+        <p>We've created a map of our findings! It's size is DIN A2 (size in cm and inches), it's a PDF that you can print yourself: <a class="button" href="#">Download map</a></p>
+        <p><a class="button" href="{{ site.url }}/dom-about.html">Learn more about our research</a></p>
     </div>
 </div>
 {% include footer.html %}
