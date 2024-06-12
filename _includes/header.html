@@ -43,3 +43,4 @@
 {% endif %}
 </head>
 <body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }} {% if page.sitearea == 'viz' %} viz{% endif %}">
+    {% include navigation-main.html %}
