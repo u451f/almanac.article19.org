@@ -150,6 +150,10 @@ a[href]:not(:where(
     animation: aurora 25s ease-in-out infinite;
 }
 
+.viz #content {
+    background: linear-gradient(180deg, rgba(0,148,110, 0.3) 150px, var(--bg) 250px);
+}
+
 #intro, #post {
     background-image: url(backgrounds/layer2repeatable.svg), url(backgrounds/layer1repeatable.svg);
     background-position: left bottom, left bottom;
@@ -273,6 +277,12 @@ a[href]:not(:where(
     background-size: contain;
     padding: 2em var(--hspace) 1em;
     overflow: hidden;
+}
+
+.viz #footer {
+    background-image: url(backgrounds/layer-upsidedown.svg);
+    background-position: left bottom;
+    padding: 4em var(--hspace) 4em;
 }
 
 #footer p {
@@ -912,11 +922,17 @@ Post/Group & Org page
 ***************************************/
 
 #site-area-menu {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
-    right: var(--hspace);
+    /*right: var(--hspace);*/
     z-index: 10;
     padding-top: 0;
+    padding-left: var(--hspace);
+    background: rgba(214, 45, 38, 0.2);
+}
+
+.viz #site-area-menu {
+    background: rgba(0,148,110,0.3);
 }
 
 #site-area-menu ul {
@@ -942,10 +958,6 @@ Post/Group & Org page
 
 body.viz .site-title a {
     color: var(--colour2);
-}
-
-body.viz #content {
-    background: linear-gradient(180deg, rgba(0,148,110, 0.3) 150px, var(--bg) 250px);
 }
 
 .section-content#viz-intro {
@@ -994,8 +1006,16 @@ body.viz #content {
     padding-top: 1em;
 }
 
-#viz-display .spacer:last-child {
-    margin-bottom: 0;
+.catnip-icon {
+    max-width: 250px;
+}
+
+.dom-dashboard .catnip-icon {
+    margin-top: -100px;
+    z-index: 100;
+    position: relative;
+    max-width: 150px;
+    float: right;
 }
 
 select {
@@ -1217,6 +1237,7 @@ a.modebar-btn {
         margin: -2.5em 0 3.5em 0;
     }
 
+    .dom-dashboard .viz-display,
     .dom-overview .viz-display {
         grid-column-start: 2;
         grid-column-end: 5;
