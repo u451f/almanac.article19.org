@@ -154,14 +154,15 @@ a[href]:not(:where(
     background: linear-gradient(180deg, rgba(0,148,110, 0.3) 150px, var(--bg) 250px);
 }
 
-#intro, #post {
+body:not(.viz) #intro,
+body:not(.viz) #post {
     background-image: url(backgrounds/layer2repeatable.svg), url(backgrounds/layer1repeatable.svg);
     background-position: left bottom, left bottom;
     background-repeat: repeat-x, repeat-x;
     padding-bottom: 0;
 }
 
-.post #intro {
+body:not(.viz) .post #intro {
     background-image: url(backgrounds/layer6repeatable.svg), url(backgrounds/layer1repeatableshort.svg);
     margin-bottom: -1px;
 }
@@ -170,7 +171,6 @@ a[href]:not(:where(
     background-image: url(backgrounds/layer2repeatable-short.svg), url(backgrounds/layer1repeatable-short.svg);
     margin-bottom: -1px;
 }
-
 
 .org #post {
     background-image: url(backgrounds/layer6repeatable-old.svg), url(backgrounds/layer1repeatableshort.svg);
@@ -922,9 +922,7 @@ Post/Group & Org page
 ***************************************/
 
 #site-area-menu {
-    /*position: absolute;*/
     top: 0;
-    /*right: var(--hspace);*/
     z-index: 10;
     padding-top: 0;
     padding-left: var(--hspace);
@@ -960,23 +958,22 @@ body.viz .site-title a {
     color: var(--colour2);
 }
 
-.section-content#viz-intro {
+.viz .section-content#intro {
     padding-bottom: 0.5em;
 }
 
-.section-content#viz-intro .post {
-    /*background: var(--colour1);*/
+.viz .section-content#intro .post {
     text-align: center;
 }
 
-.section-content#viz-intro .post img {
+.section-content#intro .post img {
     filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.8));
     background: url(images/shadow.svg) bottom center no-repeat;
     background-size: contain;
     padding-bottom: 25px;
 }
 
-.section-content#viz-intro .post .post-title {
+.section-content#intro .post .post-title {
     background: var(--colour1);
 }
 
@@ -1000,10 +997,6 @@ body.viz .site-title a {
     display: block;
     border-bottom: 1px dashed var(--colour2);
     margin-bottom: 2em;
-}
-
-#viz-display .title {
-    padding-top: 1em;
 }
 
 .catnip-icon {
@@ -1237,8 +1230,7 @@ a.modebar-btn {
         margin: -2.5em 0 3.5em 0;
     }
 
-    .dom-dashboard .viz-display,
-    .dom-overview .viz-display {
+   .viz-display {
         grid-column-start: 2;
         grid-column-end: 5;
     }
