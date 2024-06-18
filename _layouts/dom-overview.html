@@ -59,12 +59,21 @@
     </div>
     <span class="spacer"></span>
 
-    <div class="section-content grid">
+    <div class="section-content grid dom-bottom-links">
         <h2 class="title">Curious to explore more?</h2>
-        <!-- FIXME: link to the currently selected SDO -->
-        <p><a class="button" href="{{ site.url }}/dom-dashboard.html">Have a detailed look at the data in the dashboard</a></p>
-        <p>We've created a map of our findings! It's size is DIN A2 (size in cm and inches), it's a PDF that you can print yourself: <a class="button" href="#">Download map</a></p>
-        <p><a class="button" href="{{ site.url }}/dom-about.html">Learn more about our research</a></p>
+        <p>
+            <a class="button" href="{{ site.url }}/dom-about.html">Learn more about our research</a>
+            <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-about.jpg" alt="" />
+        </p>
+        <p>
+            <!-- FIXME: link to the currently selected SDO -->
+            <a class="button" href="{{ site.url }}/dom-dashboard.html">Explore the dashboard</a>
+            <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-dashboard.jpg" alt="" />
+        </p>
+        <p>
+            <a class="button" href="#">Download map</a>
+            <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-map.jpg" alt="" />
+        </p>
     </div>
 </div>
 {% include footer.html %}
