@@ -1025,6 +1025,24 @@ select option:checked {
     background-color: var(--colour3);
 }
 
+.dom-bottom-links img {
+    display: block;
+    margin-top: 1.5em;
+    margin-left: -25px;
+    transition: all .1s cubic-bezier(0.71, 1.32, 1, 1.38);
+}
+
+.dom-bottom-links p:last-child img {
+    margin-top: 0.9em;
+}
+
+.dom-bottom-links a:hover img {
+    transform: scale(1.1);
+}
+
+.dom-bottom-links .button {
+    padding: 0.2em;
+}
 /*************************************
   Plotly elements
 ***********************************/
@@ -1279,10 +1297,4 @@ a.modebar-btn {
     .links {
         line-height: auto;
     }
-}
-
-.dom-bottom-links img {
-    display: block;
-    margin-top: 1.5em;
-    margin-left: -25px;
 }
