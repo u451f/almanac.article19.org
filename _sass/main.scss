@@ -1198,6 +1198,11 @@ a.modebar-btn {
         grid-column-gap: 35px;
     }
 
+    .grid.dom-bottom-links {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 35px;
+    }
+
     .all-groups {
         margin-top: 1em;
     }
