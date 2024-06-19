@@ -1,5 +1,7 @@
 <nav id="site-area-menu" {% if page.sitearea == "viz" %}class="current-area-viz"{% endif %}>
     <ul>
+        <li><a href="{{ site.url }}">Almanac</a></li>
+        <li><a href="{{ site.url }}/dom-overview.html">Dominance</a></li>
     {% if page.vizexists %}
         <li><a href="{{ site.url }}/dom-dashboard.html?wg={{ page.vizexists }}">Explore data dashboard 😼</a></li>
     {% endif %}
