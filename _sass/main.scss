@@ -140,10 +140,6 @@ a[href]:not(:where(
     background-size: 100% 200%;
 }
 
-.home #content {
-    animation: sky 7s linear;
-}
-
 .acknowledgement #content {
     background: linear-gradient(200deg, rgba(214,45,38,0.3) 15%, rgba(0,148,110,0.3) 30%, rgba(214,45,38,0.3) 50%, var(--bg) 75%);
     background-size: 100% 200%;
@@ -1081,15 +1077,6 @@ a.modebar-btn {
     }
     100% {
         opacity: 0;
-    }
-}
-
-@keyframes sky {
-    0% {
-        background-position: 0% 100%;
-    }
-    100% {
-        background-position: 0 0%;
     }
 }
 
