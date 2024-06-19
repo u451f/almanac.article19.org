@@ -1,31 +1,25 @@
-- create catnip icons
-
-- dashboard
-  - add new catnip icons to dashboard, but keep it small
-
-- map design
-  - use findings plots to create map images: overlay all the years for authorship
+x dashboard
+  x add new catnip icons to dashboard, but keep it small
+  → actually that overloads the page quite a bit, so I hide them for now
 
 - overview page
+  x add new catnip icons to this page.
   - think about how to represent influence over time
   - think about how to represent chairs over time → that could be a question for the others
   - fix the empty frames issue in the overview/findings JS (if there is missing data, the bubbles jump so we need to assume that the data is 0 and add that)
   - add more graphs
   - make sure the select works
-  - add new catnip icons to this page. Can they be fun somehow?
 
-- about page
-  - fix the layout
-  - explain page:
-  - have a logo of bigbang or some image illustrating the data (csv screenshot?)
-  - have images of the dashboard in the how to use section
+- map design
+  - use findings plots to create map images: overlay all the years for authorship
 
 - general tasks
+  - add new texts everywhere (waiting for Don & Dinah)
   - actually give colors to specific affiliations in assets/js/helper-functions.js
   - better color for Fastly (it's too similar to Cloudflare)
   - have an error message if a file does not exist? that's visible to the user or just hide the title if that happens.
   - the footer bg image looks strange on the dashboard: it should be changed
-  -  how to ensure the bundle is up-to-date?
+  - how to ensure the bundle is up-to-date?
   - Rename groups in old almanac and have an .htaccess for redirection, rely on shortname
     x done: IETF
     - todo: IRTF, W3C
@@ -134,4 +128,3 @@ x navigation between workgroup in almanac and workgroup in viz
 x fix breadcrumbs in viz area → we don't use them here
 x order affiliations alphabetically in leadership plots
 x decide what should be the default view on the dashboard page, currently it's dnsop
-
