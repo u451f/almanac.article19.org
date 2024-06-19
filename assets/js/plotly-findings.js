@@ -1,5 +1,3 @@
-// This is based on https://plotly.com/javascript/gapminder-example/
-//
 // FIXME: for the frames we always need all the wgs+affiliations, and if they
 // don't exist in the data we need to add them artifially, setting
 // nb_contributions to 0
