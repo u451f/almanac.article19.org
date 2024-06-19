@@ -36,4 +36,4 @@ feed:
     path: atom.xml
     posts_limit: 15
     collections:
-exclude: ["README.md", "TODO"]
+exclude: ["Rakefile", "README.md", "TODO"]
