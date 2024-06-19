@@ -20,6 +20,11 @@ if(!params.get("wg")) {
  * groups, images and links follow the scheme $org-$wg, e.g. "ietf-dnsop"
  */
 const WG = params.get("wg");
+if(WG) {
+    // mark as selected in <select>
+    let selectwg = document.getElementById("wg");
+    selectwg.value = WG;
+}
 
 /* switch view to a different WG and reload page */
 function setWG(select) {
