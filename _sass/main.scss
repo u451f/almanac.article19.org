@@ -98,6 +98,10 @@ a {
     text-decoration: none;
 }
 
+.viz a {
+    background: var(--colour2);
+}
+
 .site-title a, #footer a.logo {
     background: none;
     padding-right: 0;
@@ -936,12 +940,16 @@ Post/Group & Org page
 #site-area-menu li a {
     background-color: var(--colour1);
     color: #fff;
-    opacity: 0.3;
+    opacity: 0.7;
     padding: 0.2em 0.5em;
 }
 
+.viz #site-area-menu li a {
+    background-color: var(--colour2);
+}
+
 #site-area-menu li a:hover,
-#site-area-menu.current-area-viz li:last-child a,
+#site-area-menu.current-area-viz li:nth-child(2) a,
 #site-area-menu:not(.current-area-viz) li:first-child a {
     opacity: 1;
 }
