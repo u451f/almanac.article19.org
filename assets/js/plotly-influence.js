@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, plotlyConfigDI, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigDI, unpack } from "./dom-helper-functions.js";
 
 /*
  * Influence

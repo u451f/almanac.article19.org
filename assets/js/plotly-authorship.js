@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, plotlyConfigDA, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigDA, unpack } from "./dom-helper-functions.js";
 
 /*
  * Authorship
