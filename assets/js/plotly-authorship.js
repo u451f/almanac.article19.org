@@ -5,7 +5,7 @@ import { getColorCode, isScreenSmall, plotlyConfigDA, unpack } from "./helper-fu
  * - Who co-authored standards in this WG?
  * */
 
-var file = "/assets/data/authorship/"+WG+".csv";
+var file = "/assets/data/dashboard/authorship/"+WG+".csv";
 
 if (isScreenSmall()) {
     var is_small_screen = true;

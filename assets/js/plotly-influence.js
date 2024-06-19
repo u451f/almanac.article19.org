@@ -6,7 +6,7 @@ import { getColorCode, isScreenSmall, plotlyConfigDI, unpack } from "./helper-fu
  * - Ordered by year and affiliation (alphabetical)
  */
 
-var file = "/assets/data/influence/"+WG+".csv";
+var file = "/assets/data/dashboard/influence/"+WG+".csv";
 
 if (isScreenSmall()) {
     var is_small_screen = true;
