@@ -1254,7 +1254,8 @@ a.modebar-btn {
         width: auto;
     }
 
-    .grid {
+    .grid,
+    .grid.dom-bottom-links {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
