@@ -6,12 +6,12 @@ x dashboard
   x add new catnip icons to this page.
   - think about how to represent influence over time
   - think about how to represent chairs over time → that could be a question for the others
-  - fix the empty frames issue in the overview/findings JS (if there is missing data, the bubbles jump so we need to assume that the data is 0 and add that)
+  - fix the empty frames issue in the overview/overview JS (if there is missing data, the bubbles jump so we need to assume that the data is 0 and add that)
   - add more graphs
   - make sure the select works
 
 - map design
-  - use findings plots to create map images: overlay all the years for authorship
+  - use overview plots to create map images: overlay all the years for authorship
 
 - general tasks
   - add new texts everywhere (waiting for Don & Dinah)
@@ -102,7 +102,7 @@ x maybe have only one page in jekyll that calls everything dynamically
 x maybe don't use the titles in the SVG, but have them in HTML
 * catnip icon for plot titles
 
-x do we need animations? → will be used in findings page
+x do we need animations? → will be used in overview page
   https://plotly.com/javascript/gapminder-example/
 
 ===========================================================

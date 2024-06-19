@@ -133,7 +133,7 @@ const plotlyConfigOA = {
     responsive: true,
     toImageButtonOptions: {
         format: "svg",
-        filename: "almanac.article19.org-findings-"+WG,
+        filename: "almanac.article19.org-overview-"+WG,
         //filename: "almanac.article19.org-authorship-"+WG, // we can add that later, when we know if we change org here or not
         scale: 1
     },
