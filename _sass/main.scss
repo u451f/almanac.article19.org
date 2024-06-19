@@ -1022,13 +1022,18 @@ select {
     padding: .5em;
     color: #fff;
     border: #fff;
-    margin-bottom: .25em;
+    margin-bottom: 0;
     cursor: pointer;
+    width: 100%;
 }
 
 select option:hover,
 select option:checked {
     background-color: var(--colour3);
+}
+
+option:disabled {
+    background: #fff;
 }
 
 .dom-bottom-links img {
