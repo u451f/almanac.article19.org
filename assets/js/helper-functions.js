@@ -90,6 +90,8 @@ function getColorCode(affiliation) {
 /*
  * Configure and simplify the plotly tool bar for each plot
  * */
+
+// Config for dashboard → authorship plot
 const plotlyConfigA = {
     displaylogo: false,
     responsive: true,
@@ -100,6 +102,8 @@ const plotlyConfigA = {
     },
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
+
+// Config for dashboard → leadership plot
 const plotlyConfigL = {
     displaylogo: false,
     responsive: true,
@@ -110,6 +114,8 @@ const plotlyConfigL = {
     },
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
+
+// Config for dashboard → influence plot
 const plotlyConfigI = {
     displaylogo: false,
     responsive: true,

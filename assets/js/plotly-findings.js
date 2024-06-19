@@ -12,7 +12,7 @@
 
 import { getColorCode, plotlyConfigOA } from "./helper-functions.js";
 
-var file = "/assets/data/findings/test.csv";
+var file = "/assets/data/overview/authorship/ietf.csv"; // fixme
 
 d3.csv(file, function (err, data) {
     // if the file cannot be loaded
