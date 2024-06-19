@@ -14,7 +14,7 @@
 
     <div class="section-content grid" id="viz-actions">
         <select id="wg" class="select" onchange="setWG(this)">
-        {% assign items = site.data.dashboard_working_groups %}
+        {% assign items = site.data.dom_dashboard_working_groups %}
             <option disabled>Explore data about</option>
             {% for item in items %}
                 <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
