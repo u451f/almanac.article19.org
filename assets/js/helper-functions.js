@@ -120,7 +120,9 @@ const plotlyConfigI = {
     },
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
-const plotlyConfigF = {
+
+// Config for overview → authorship plot
+const plotlyConfigOA = {
     displaylogo: false,
     responsive: true,
     toImageButtonOptions: {
@@ -132,4 +134,4 @@ const plotlyConfigF = {
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
-export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI, plotlyConfigF };
+export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI, plotlyConfigOA };

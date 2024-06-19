@@ -181,10 +181,10 @@ d3.csv(file, function (err, data) {
     };
 
     // Create the plot:
-    Plotly.newPlot('plotlyFindings', {
+    Plotly.newPlot('plotlyOverviewAuthorship', {
         data: traces,
         layout: layout,
-        config: plotlyConfigF,
+        config: plotlyConfigOA,
         frames: frames,
     });
 });
