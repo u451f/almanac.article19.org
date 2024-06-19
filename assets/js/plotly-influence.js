@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, plotlyConfigI, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigDI, unpack } from "./helper-functions.js";
 
 /*
  * Influence
@@ -71,5 +71,5 @@ d3.csv(file, function(error, rows){
         layout.legend.y = -0.75;
         layout.margin.r = 5;
     }
-    Plotly.newPlot("plotlyInfluence", data, layout, plotlyConfigI);
+    Plotly.newPlot("plotlyDInfluence", data, layout, plotlyConfigDI);
 })

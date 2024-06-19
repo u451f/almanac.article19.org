@@ -92,7 +92,7 @@ function getColorCode(affiliation) {
  * */
 
 // Config for dashboard → authorship plot
-const plotlyConfigA = {
+const plotlyConfigDA = {
     displaylogo: false,
     responsive: true,
     toImageButtonOptions: {
@@ -103,25 +103,25 @@ const plotlyConfigA = {
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
-// Config for dashboard → leadership plot
-const plotlyConfigL = {
-    displaylogo: false,
-    responsive: true,
-    toImageButtonOptions: {
-        format: "svg",
-        filename: "almanac.article19.org-leadership-"+WG,
-        scale: 1
-    },
-    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
-};
-
 // Config for dashboard → influence plot
-const plotlyConfigI = {
+const plotlyConfigDI = {
     displaylogo: false,
     responsive: true,
     toImageButtonOptions: {
         format: "svg",
         filename: "almanac.article19.org-influence-"+WG,
+        scale: 1
+    },
+    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
+};
+
+// Config for dashboard → leadership plot
+const plotlyConfigDL = {
+    displaylogo: false,
+    responsive: true,
+    toImageButtonOptions: {
+        format: "svg",
+        filename: "almanac.article19.org-leadership-"+WG,
         scale: 1
     },
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
@@ -140,4 +140,4 @@ const plotlyConfigOA = {
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
-export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigA, plotlyConfigL, plotlyConfigI, plotlyConfigOA };
+export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigDA, plotlyConfigDI, plotlyConfigDL, plotlyConfigOA };

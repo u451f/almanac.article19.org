@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, orderByAffiliation, plotlyConfigL, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, orderByAffiliation, plotlyConfigDL, unpack } from "./helper-functions.js";
 
 /*
  * Leadership
@@ -77,5 +77,5 @@ d3.csv(file, function(error, rows) {
         layout.showlegend = false
     }
 
-    Plotly.newPlot("plotlyLeadership", data, layout, plotlyConfigL);
+    Plotly.newPlot("plotlyDLeadership", data, layout, plotlyConfigDL);
 })

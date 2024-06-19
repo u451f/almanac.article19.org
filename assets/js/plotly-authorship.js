@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, plotlyConfigA, unpack } from "./helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigDA, unpack } from "./helper-functions.js";
 
 /*
  * Authorship
@@ -94,5 +94,5 @@ d3.csv(file, function(error, rows){
         layout.margin.r = 5;
     }
 
-    Plotly.newPlot("plotlyAuthorship", data, layout, plotlyConfigA);
+    Plotly.newPlot("plotlyDAuthorship", data, layout, plotlyConfigDA);
 })
