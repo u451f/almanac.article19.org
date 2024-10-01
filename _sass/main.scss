@@ -1047,12 +1047,17 @@ option:disabled {
     margin-top: 0.9em;
 }
 
-.dom-bottom-links a:hover img {
+.dom-bottom-links a:not(.current-item):hover img {
     transform: scale(1.1);
 }
 
 .dom-bottom-links .button {
     padding: 0.2em;
+    font-variation-settings: "wght" 600;
+}
+
+.dom-bottom-links .current-item {
+    opacity: 0.5;
 }
 /*************************************
   Plotly elements
