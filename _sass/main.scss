@@ -1037,10 +1037,14 @@ option:disabled {
     background: #fff;
 }
 
+.dom-bottom-links p {
+    margin-bottom: 3em;
+}
+
 .dom-bottom-links img {
     display: block;
     margin-top: 1.5em;
-    margin-left: -25px;
+    margin-left: -15px;
     transition: all .1s cubic-bezier(0.71, 1.32, 1, 1.38);
 }
 
@@ -1121,6 +1125,7 @@ a.modebar-btn {
     #primary-menu .main-menu {
         height: 90vh;
     }
+
     #primary-menu img {
         position: relative;
         bottom: unset;
@@ -1263,7 +1268,14 @@ a.modebar-btn {
 
    .viz-display {
         grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-end: 5;
+    }
+
+    .dom-bottom-links p {
+        margin-bottom: 0;
+    }
+    .dom-bottom-links img {
+        margin-left: -25px;
     }
 }
 
@@ -1278,6 +1290,7 @@ a.modebar-btn {
     .grid,
     .grid.dom-bottom-links {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 80px;
     }
 
     #breadcrumbs, #main-text, .all-groups, #primary-menu .main-menu {
