@@ -8,7 +8,7 @@
 
     </div>
 
-    <div class="section-content grid">
+    <div class="section-content grid" id="selector">
         <div id="viz-actions">
             <select id="wg" class="select" onchange="setWG(this)">
             {% assign items = site.data.dom_overview_sdo %}
@@ -24,9 +24,9 @@
 
     <div class="section-content grid">
         <div>
-            <h2 class="title">Authorship over time</h2>
+            <h2 class="title">Authorship - Amount of published standards</h2>
             <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-author.jpg" alt="Catnip authoring an RFC" />
-            <p>The authorship graph shows the amount of contributions by the 5 most active actors in writing RFC drafts per working group and per year.</p>
+            <p>The authorship graph shows the five most dominant actors successful in publishing technical standards per working group and per year.</p>
         </div>
         <div class="viz-display">
             <div id="plotlyOverviewAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
@@ -36,9 +36,10 @@
 
     <div class="section-content grid">
         <div>
-            <h2 class="title">Influence over time</h2>
+            <h2 class="title">Influence - Amount of communication</h2>
             <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-influencer.jpg" alt="Catnip writing an email" />
-            <p>The influence graph shows the amount of emails sent to working group related mailing lists by the 5 most prolific actors per year.</p>
+            <p>The influence graph shows the five most dominant actors based on contributions through modes of communication, such as mailing lists, per year.
+</p>
         </div>
         <div class="viz-display">
             <div id="plotlyFindingsI" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
@@ -48,9 +49,9 @@
 
     <div class="section-content grid">
         <div>
-            <h2 class="title">Leadership over time</h2>
+            <h2 class="title">Leadership - Longest chairing periods</h2>
             <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a chair" />
-            <p>The leadership graph shows the 5 actors who occupied a chair for the longest periods, all working groups taken together.</p>
+            <p>The leadership graph shows the five most dominant actors who have taken a formal position within a working group or committee based on the length of time as chair.</p>
         </div>
         <div class="viz-display">
             <div id="plotlyFindingsL" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
