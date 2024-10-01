@@ -9,11 +9,39 @@ sitearea: viz
 
 <div class="section-content grid">
     <div>
+        <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a zaisu chair" />
+    </div>
+    <div class="viz-display">
+        <h2 class="title">1. The number of formal positions in standards
+            developing organisations such as working group/committee chairs by
+            actor</h2>
+        <p>Formal positions have a direct impact on shaping the agenda and
+        discussions, who has the chance to speak, and which proposals and
+        contributions are accepted. From ARTICLE 19’s own experience engaging
+        in technical standards, we’ve seen chairs have total control of when a
+        meeting starts and ends, particularly when conducted remotely.</p>
+    </div>
+</div>
+<span class="spacer"></span>
+
+<div class="section-content grid">
+    <div>
         <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-author.jpg" alt="Catnip writing an RFC" />
     </div>
     <div class="viz-display">
-        <h2 class="title">Authorship</h2>
-        <p>The authorship graph shows participation of actors and their affiliation in writing RFC drafts in a working group or an SDO.</p>
+        <h2 class="title">2. The number of authorships of published technical standards by actor</h2>
+        <p> Authorship is one of the most direct ways to engage in standards
+        development. Authors have more control over the process as they lead
+        and facilitate the proposal through decision-making discussions. As
+        technical standardisation is a lengthy process, a draft or a proposal
+        made by a participant in an SDO must be reviewed and accepted by its
+        technical community. Even if a draft is published, it is subject to
+        iterative improvements and deliberations from the community. Publishing
+        a draft does not guarantee that it will become a standard. By authoring
+        a published standard, participants must successfully dedicate time and
+        resources, and persuade the technical community within the respective
+        decision making process. Therefore, for the purpose of this research,
+        we focused our analysis on authorship of published standards only.</p>
     </div>
 </div>
 <span class="spacer"></span>
@@ -23,19 +51,14 @@ sitearea: viz
         <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-influencer.jpg" alt="Catnip writing emails" />
     </div>
     <div class="viz-display">
-        <h2 class="title">Influence</h2>
-        <p>The influence graph shows the amount of emails sent to working group related mailing lists over time. Or: who generated most noise?</p>
-    </div>
-</div>
-<span class="spacer"></span>
-
-<div class="section-content grid">
-    <div>
-        <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a zaisu chair" />
-    </div>
-    <div class="viz-display">
-        <h2 class="title">Leadership</h2>
-        <p>The leadership graph shows the chairs of a working group and their affiliation over time.</p>
+        <h2 class="title">3. The amount of actor’s involvement and
+            communication in technical decision-making processes</h2>
+        <p>Various standards developing organisations continue to use mailing
+        lists as a primary mode of participation and communication in working
+        groups and committees. Actors can actively make contributions and
+        object to various proposals. Analysing mailing lists provides further
+        information into how dominant participants’ involvement and
+        communication is within the decision making process.</p>
     </div>
 </div>
 <span class="spacer"></span>
@@ -46,6 +69,15 @@ sitearea: viz
     </div>
     <div class="viz-display">
         <h2 class="title">About the data</h2>
+        <p>For this research, we leveraged various web-scraping tools to
+        analyse which actors dominate technical standardisation through three
+        modes mentioned here. In order to study which actors dominate the
+        development of technical standards, we use BigBang to provide a
+        quantitative and qualitative analysis of mailing lists (mailman and
+        Listserv).</p>
+        <p>&nbsp;</p>
+
+        <h2 class="title">About BigBang</h2>
         <p>What's BigBang? How was the data obtained?</p>
         <p>Was the data anonymized or altered and if yes, how?</p>
         <p>Potentially link BigBang, potentially link the data on Github.</p>
@@ -59,7 +91,17 @@ sitearea: viz
     </div>
     <div class="viz-display">
         <h2 class="title">How to use the dashboard?</h2>
-        <p><b>Isolating an actor</b> Isolate an actor in the legend on the right by double clicking on them. Toggle actors by clicking on them.</p>
-        <p><b>Exporting plots</b> Plots can be exported by clicking on the camera icon. The export will always show the current selection and current zoom level. The exported file is a scalable vector image with a transparent background.</p>
+        <p>Select the working group or organisation you want to look at. By
+        default, you’ll see information about the “dnsop” working group in the
+        IETF. The dashboard then contains three different visualisations for
+        each authorship, influence, and leadership in the selected group or
+        organisation.</p>
+        <p>On devices with a small screen information shown and user interaction is reduced; we therefore recommend using the dashboard on a screen with a higher resolution.</p>
+        <p>Hovering any of the three visualisation plots with the cursor will make available options for interacting with the plot appear on the top right. Here are the basic options:</p>
+        <ul>
+            <li>Each plot can be zoomed in, zoomed out, and reset to the initial scale.</li>
+            <li>Exporting plots. Plots can be exported by clicking on the camera icon. The export will always show the current view (i.e the currently visible selection and current zoom level). The exported file is a scalable vector image with a transparent background.</li>
+        </ul>
+        <p>On the plots themselves, each actor can be shown separately. Isolate the actor you’d like to see by double clicking on their name in the legend below / to the right of each plot. Toggle more actors on and off by clicking on them.</p>
     </div>
 </div>
