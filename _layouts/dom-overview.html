@@ -8,18 +8,18 @@
 
     </div>
 
-    <div class="section-content grid" id="selector">
-        <div id="viz-actions">
-            <select id="wg" class="select" onchange="setWG(this)">
+    <div class="section-content grid">
+        <ul id="select-sdo-view">
             {% assign items = site.data.dom_overview_sdo %}
-                <option disabled>Explore</option>
                 {% for item in items %}
-                    <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
-                        {{ item.name }}
-                    </option>
+                <li><a href="{{ page.url }}?wg={{ item.slug }}">
+                        <!-- FIXME: add class="active" if active -->
+                        <!-- FIXME: on click scroll here, don't go to top of the page -->
+                        <img src="{{ site.url }}/{{ item.logo }}" alt="Load data for {{ item.name }}" />
+                    </a>
+                </li>
                 {% endfor %}
-            </select>
-        </div>
+        </ul>
     </div>
 
     <div class="section-content grid">
