@@ -32,8 +32,7 @@ if(WG) {
     almanaclink.href = almanaclink.href + WG + ".html";
     // load corresponding name
     let wgname = document.getElementById("wgname");
-    //wgname.textContent = selectwg.options[selectwg.selectedIndex].text;
-    wgname.textContent = selectwg.options[selectwg.selectedIndex].text.replace('- - ','');
+    wgname.textContent = selectwg.options[selectwg.selectedIndex].text.replace('-- ','');
 }
 
 /* switch view to a different WG and reload page */

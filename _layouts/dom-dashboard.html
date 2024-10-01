@@ -23,7 +23,7 @@
                 {% if item.wg %}
                     {% for entry in item.wg %}
                     <option {% if page.url == entry.slug %} selected{% endif %} value="{{ entry.slug }}">
-                        - - {{ entry.name }}
+                        -- {{ item.name }} - {{ entry.name }}
                     </option>
                     {% endfor %}
                 {% endif %}
