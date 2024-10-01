@@ -5,7 +5,7 @@ const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 
 /*
- * On the viz dashboard, by default load dnsop data
+ * On the viz dashboard, by default load ietf data
  * FIXME: think about doing that differently
  * */
 if(!params.get("wg")) {
