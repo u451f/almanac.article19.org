@@ -107,7 +107,7 @@ a {
     padding-right: 0;
 }
 
-#main-text a, #footer p a, .bubble a {
+#main-text a, #footer p a, .bubble-list li a {
     padding: 0 0.25em;
     margin-right: 0.25em;
 }
@@ -645,19 +645,20 @@ span.bubble:after {
     z-index: 0;
 }
 
-.home #main-text ul {
+.bubble-list {
     list-style: none;
     margin: 0 0 1em 0;
 }
 
-.home #main-text li {
+.bubble-list li {
     animation: float 2s ease-in-out;
     background: var(--colour3);
     color: var(--bg);
     margin-bottom: 1.2em;
+    text-align: left;
 }
 
-.home #main-text li:last-child {
+.bubble-list li:last-child {
     animation: float2 2s ease-in-out;
 }
 
@@ -1048,7 +1049,7 @@ option:disabled {
 }
 
 .dom-bottom-links a:not(.current-item):hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .dom-bottom-links .button {
@@ -1262,7 +1263,7 @@ a.modebar-btn {
 
    .viz-display {
         grid-column-start: 2;
-        grid-column-end: 5;
+        grid-column-end: 4;
     }
 }
 
