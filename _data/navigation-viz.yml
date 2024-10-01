@@ -1,10 +1,8 @@
-- name: Which actors are most dominant in internet standards setting?
+- name: "Guess who!"
   link: /dom-overview.html
-- name: Dashboard
+- name: "… Data dashboard"
   link: /dom-dashboard.html
-- name: About our research
+- name: "… About"
   link: /dom-about.html
-- name: Download map
-  link: /#
-- name: Switch to Almanac
+- name: "→ Almanac"
   link: /index.html
