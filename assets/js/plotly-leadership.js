@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, orderByAffiliation, plotlyConfigDL, unpack } from "./dom-helper-functions.js";
+import { getColorCode, isScreenSmall, orderByAffiliation, plotlyConfigDL, unpack } from "./guess-who-helper-functions.js";
 
 /*
  * Leadership

@@ -8,7 +8,7 @@
 // that would show some sort of heatmap of *where* the actors are most active.
 // I'll use that for the printable map.
 
-import { getColorCode, plotlyConfigOA } from "./dom-helper-functions.js";
+import { getColorCode, plotlyConfigOA } from "./guess-who-helper-functions.js";
 
 var file = "/assets/data/overview/authorship/"+WG+".csv";
 

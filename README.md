@@ -11,8 +11,7 @@
 
 * cd into the Git repository
 * run `bundle exec jekyll serve`
-* navigate to http://localhost:4000/dom-dashboard.html
-  (this file will be renamed to *guess-who-dashboard.html* at some point)
+* navigate to http://localhost:4000/guess-who-dashboard.html
 
 ## Adding new data to the dashboard
 

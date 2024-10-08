@@ -7,14 +7,14 @@
             <h2 class="title">{{ page.title }}: <span id="wgname"><!-- WG Name --></span></h2>
             {{ content }}
         </div>
-        <div class="post"><!-- dom-dashboard.js fills in -->
+        <div class="post"><!-- guess-who-dashboard.js fills in -->
             <img id="wglogo" class="img-wg" src="{{ site.url }}/assets/images/groups/" title="" alt="" />
         </div>
     </div>
 
     <div class="section-content grid" id="viz-actions">
         <select id="wg" class="select" onchange="setWG(this)">
-        {% assign items = site.data.dom_dashboard_working_groups %}
+        {% assign items = site.data.guess_who_dashboard_working_groups %}
             <option disabled>Explore data about</option>
             {% for item in items %}
                 <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">

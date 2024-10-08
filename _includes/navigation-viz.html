@@ -5,7 +5,7 @@
         <div class="section-content grid">
             <h1 class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></h1>
             <ul class="main-menu">
-            {% assign items = site.data.navigation-viz %}
+            {% assign items = site.data.navigation-guess-who %}
             {% for item in items %}
                 <li {% if page.url == item.link %}class="current-item"{% endif %}>
                     {% if item.subfolderitems %}

@@ -1038,7 +1038,7 @@ body.viz .site-title a {
     max-width: 250px;
 }
 
-.dom-dashboard .catnip-icon {
+.guess-who-dashboard .catnip-icon {
     margin-top: -100px;
     z-index: 100;
     position: relative;
@@ -1066,31 +1066,31 @@ option:disabled {
     background: #fff;
 }
 
-.dom-bottom-links p {
+.guess-who-bottom-links p {
     margin-bottom: 3em;
 }
 
-.dom-bottom-links img {
+.guess-who-bottom-links img {
     display: block;
     margin-top: 1.5em;
     margin-left: -15px;
     transition: all .1s cubic-bezier(0.71, 1.32, 1, 1.38);
 }
 
-.dom-bottom-links p:last-child img {
+.guess-who-bottom-links p:last-child img {
     margin-top: 0.9em;
 }
 
-.dom-bottom-links a:not(.current-item):hover img {
+.guess-who-bottom-links a:not(.current-item):hover img {
     transform: scale(1.05);
 }
 
-.dom-bottom-links .button {
+.guess-who-bottom-links .button {
     padding: 0.2em;
     font-variation-settings: "wght" 600;
 }
 
-.dom-bottom-links .current-item {
+.guess-who-bottom-links .current-item {
     opacity: 0.5;
 }
 
@@ -1255,7 +1255,7 @@ a.modebar-btn {
         grid-column-gap: 35px;
     }
 
-    .grid.dom-bottom-links {
+    .grid.guess-who-bottom-links {
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 35px;
     }
@@ -1302,10 +1302,10 @@ a.modebar-btn {
         grid-column-end: 5;
     }
 
-    .dom-bottom-links p {
+    .guess-who-bottom-links p {
         margin-bottom: 0;
     }
-    .dom-bottom-links img {
+    .guess-who-bottom-links img {
         margin-left: -25px;
     }
 }
@@ -1319,7 +1319,7 @@ a.modebar-btn {
     }
 
     .grid,
-    .grid.dom-bottom-links {
+    .grid.guess-who-bottom-links {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 80px;
     }
