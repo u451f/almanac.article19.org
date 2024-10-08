@@ -2,9 +2,9 @@
 
 ## Prerequisites
 
-* Install [https://jekyllrb.com/docs/installation/](Jeykyll).
+* Install [Jekyll](https://jekyllrb.com/docs/installation/).
 * Clone this Git repository.
-* You might need to run `gem install` to install the Ruby gems
+* You might also need to run `gem install` to install the Ruby gems
   associated with this website.
 
 ## Running the site locally
