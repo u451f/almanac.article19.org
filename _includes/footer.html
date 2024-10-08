@@ -1,5 +1,5 @@
-    {% if page.sitearea == "viz" %}
-        {% include navigation-guess-who.html %}
+    {% if page.sitearea == "guess-who" %}
+        {% include navigation-guess-who-btm.html %}
     {% endif %}
     <div id="footer">
         <p>
@@ -9,8 +9,8 @@
 
         <a href="https://article19.org" class="logo"><img src="{{ site.url }}/assets/images/logo/article19.svg" alt="Logo ARTICLE 19"></a>
     </div>
-    {% if page.sitearea == "viz" %}
-        {% include navigation-viz.html %}
+    {% if page.sitearea == "guess-who" %}
+        {% include navigation-guess-who.html %}
     {% else %}
         {% include navigation.html %}
     {% endif %}

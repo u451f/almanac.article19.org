@@ -98,7 +98,7 @@ a {
     text-decoration: none;
 }
 
-.viz a {
+.guess-who a {
     background: var(--colour2);
 }
 
@@ -150,19 +150,19 @@ a[href]:not(:where(
     animation: aurora 25s ease-in-out infinite;
 }
 
-.viz #content {
+.guess-who #content {
     background: linear-gradient(180deg, rgba(0,148,110, 0.3) 150px, var(--bg) 250px);
 }
 
-body:not(.viz) #intro,
-body:not(.viz) #post {
+body:not(.guess-who) #intro,
+body:not(.guess-who) #post {
     background-image: url(backgrounds/layer2repeatable.svg), url(backgrounds/layer1repeatable.svg);
     background-position: left bottom, left bottom;
     background-repeat: repeat-x, repeat-x;
     padding-bottom: 0;
 }
 
-body:not(.viz) .post #intro {
+body:not(.guess-who) .post #intro {
     background-image: url(backgrounds/layer6repeatable.svg), url(backgrounds/layer1repeatableshort.svg);
     margin-bottom: -1px;
 }
@@ -279,7 +279,7 @@ body:not(.viz) .post #intro {
     overflow: hidden;
 }
 
-.viz #footer {
+.guess-who #footer {
     background-image: url(backgrounds/layer-upsidedown.svg);
     background-position: left bottom;
     padding: 4em var(--hspace) 4em;
@@ -452,8 +452,8 @@ body:not(.viz) .post #intro {
     height: 30px;
 }
 
-.viz .toggler {
-    background-image: url(images/menu-viz.svg);
+.guess-who .toggler {
+    background-image: url(images/menu-guess-who.svg);
 }
 
 .darkbg .toggler {
@@ -771,7 +771,7 @@ span.bubble:after {
     padding-bottom: 30px;
 }
 
-.desktop.default:not(.viz) #main-text {
+.desktop.default:not(.guess-who) #main-text {
     padding-bottom: 300px;
 }
 
@@ -930,7 +930,7 @@ Post/Group & Org page
     background: rgba(214, 45, 38, 0.2);
 }
 
-.viz #site-area-menu {
+.guess-who #site-area-menu {
     background: rgba(0,148,110,0.3);
 }
 
@@ -945,13 +945,13 @@ Post/Group & Org page
     padding: 0.2em 0.5em;
 }
 
-.viz #site-area-menu li a {
+.guess-who #site-area-menu li a {
     background-color: var(--colour2);
 }
 
 #site-area-menu li a:hover,
-#site-area-menu.current-area-viz li:nth-child(2) a,
-#site-area-menu:not(.current-area-viz) li:first-child a {
+#site-area-menu.current-area-guess-who li:nth-child(2) a,
+#site-area-menu:not(.current-area-guess-who) li:first-child a {
     opacity: 1;
 }
 
@@ -959,15 +959,15 @@ Post/Group & Org page
     display: inline;
 }
 
-body.viz .site-title a {
+body.guess-who .site-title a {
     color: var(--colour2);
 }
 
-.viz .section-content#intro {
+.guess-who .section-content#intro {
     padding-bottom: 0.5em;
 }
 
-.viz .section-content#intro .post {
+.guess-who .section-content#intro .post {
     text-align: center;
 }
 
@@ -982,17 +982,17 @@ body.viz .site-title a {
     background: var(--colour1);
 }
 
-.section-content#viz-actions {
+.section-content#guess-who-actions {
     padding-bottom: 0;
     align-items: center;
 }
 
-.section-content#viz-actions .post {
+.section-content#guess-who-actions .post {
     background: var(--colour2);
     text-align: center;
 }
 
-.section-content#viz-actions .post img {
+.section-content#guess-who-actions .post img {
     mix-blend-mode: luminosity;
     height: 80px;
     margin-top: 1em;
@@ -1297,7 +1297,7 @@ a.modebar-btn {
         margin: -2.5em 0 3.5em 0;
     }
 
-   .viz-display {
+   .guess-who-display {
         grid-column-start: 2;
         grid-column-end: 5;
     }

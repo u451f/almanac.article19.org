@@ -1,9 +1,9 @@
-<nav id="site-area-menu" {% if page.sitearea == "viz" %}class="current-area-viz"{% endif %}>
+<nav id="site-area-menu" {% if page.sitearea == "guess-who" %}class="current-area-guess-who"{% endif %}>
     <ul>
         <li><a href="{{ site.url }}">Almanac</a></li>
         <li><a href="{{ site.url }}/guess-who-overview.html">Guess who!</a></li>
-    {% if page.vizexists %}
-        <li><a href="{{ site.url }}/guess-who-dashboard.html?wg={{ page.vizexists }}">Explore in data dashboard</a></li>
+    {% if page.guess-whoexists %}
+        <li><a href="{{ site.url }}/guess-who-dashboard.html?wg={{ page.guess-whoexists }}">Explore in data dashboard</a></li>
     {% endif %}
     {% if page.loadjsdashboard %}
         <li><a href="{{ site.url }}/group/" id="almanaclink">Look up in Almanac</a></li>

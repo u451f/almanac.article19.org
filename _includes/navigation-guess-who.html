@@ -1,23 +1,28 @@
-    <span class="spacer"></span>
-
-    <div class="section-content grid guess-who-bottom-links">
-        <h2 class="title">Curious to explore more?</h2>
-        <p>
-        <a href="{{ site.url }}/guess-who-overview.html"{% if page.url == "/guess-who-overview.html" %} class="current-item"{% endif %}>
-                <span class="button">Guess who! Overview</span>
-                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-overview.jpg" alt="" />
-            </a>
-        </p>
-        <p>
-            <a href="{{ site.url }}/guess-who-dashboard.html"{% if page.url == "/guess-who-dashboard.html" %} class="current-item"{% endif %}>
-                <span class="button">Uncover that data with our dashboard</span>
-                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-dashboard.jpg" alt="" />
-            </a>
-        </p>
-        <p>
-            <a href="{{ site.url }}/guess-who-about.html"{% if page.url == "/guess-who-about.html" %} class="current-item"{% endif %}>
-                <span class="button">Learn how we developed these maps</span>
-                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-about.jpg" alt="" />
-            </a>
-        </p>
-    </div>
+<div class="mobile-menu-toggle">
+    <input class="toggler" aria-hidden="true" type="checkbox" />
+    <div class="toggler menu-action"><!-- hamburger --></div>
+    <nav id="primary-menu" class="menu">
+        <div class="section-content grid">
+            <h1 class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+            <ul class="main-menu">
+            {% assign items = site.data.navigation-guess-who %}
+            {% for item in items %}
+                <li {% if page.url == item.link %}class="current-item"{% endif %}>
+                    {% if item.subfolderitems %}
+                        <span>{{ item.name }}</span>
+                        <ul>
+                            {% for entry in item.subfolderitems %}
+                            <li {% if page.url == entry.link %}class="current-item"{% endif %}>
+                            <a href="{{ site.url }}{{ entry.link }}">{{ entry.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <a href="{{ site.url }}{{ item.link }}">{{ item.name }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+            <img src="{{ site.url }}/assets/images/logo/article19-white.svg" alt="Logo ARTICLE 19">
+        </div>
+    </nav>
+</div>

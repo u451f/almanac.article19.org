@@ -1,11 +1,11 @@
 /*
- * On the viz dashboard, load WG according to query string
+ * On the guess-who dashboard, load WG according to query string
  * */
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 
 /*
- * On the viz dashboard, by default load dnsop data
+ * On the guess-who dashboard, by default load dnsop data
  * FIXME: think about doing that differently
  * */
 if(!params.get("wg")) {

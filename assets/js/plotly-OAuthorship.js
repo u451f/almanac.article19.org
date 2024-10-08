@@ -4,7 +4,7 @@
 // this could potentially be done after we created the frames, by adding more info
 // this problem does not seem to exist in traces, only in frames
 //
-// FIXME: we could also have one viz where we do overlay all the data of all the years
+// FIXME: we could also have one guess-who where we do overlay all the data of all the years
 // that would show some sort of heatmap of *where* the actors are most active.
 // I'll use that for the printable map.
 
