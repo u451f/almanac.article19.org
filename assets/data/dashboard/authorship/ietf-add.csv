@@ -1,0 +1,14 @@
+,id,country,name,affiliation,draft,title,submission_date,wg,docid
+0,117988,,Benjamin M. Schwartz,"Meta Platforms, Inc.",draft-ietf-add-svcb-dns-09,Service Binding Mapping for DNS Servers,2023-11-01,add,RFC9461
+1,119325,United States of America,Tommy Pauly,Apple Inc.,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+2,124846,United States of America,Eric Kinnear,Apple Inc.,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+3,121595,United States of America,Christopher A. Wood,Cloudflare,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+4,116593,,Patrick McManus,Fastly,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+5,126651,,Tommy Jensen,Microsoft,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+6,112869,France,Mohamed Boucadair,Orange,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+7,112901,India,Tirumaleswar Reddy.K,Nokia,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+8,100038,USA,Dan Wing,"Citrix Systems, Inc.",draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+9,107591,UK,Neil Cook,Open-Xchange,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+10,126651,USA,Tommy Jensen,Microsoft,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+11,112901,India,Tirumaleswar Reddy.K,Nokia,draft-ietf-add-resolver-info-13,DNS Resolver Information,2024-06-01,add,RFC9606
+12,112869,France,Mohamed Boucadair,Orange,draft-ietf-add-resolver-info-13,DNS Resolver Information,2024-06-01,add,RFC9606

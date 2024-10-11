@@ -1,0 +1,9 @@
+,id,country,name,affiliation,draft,title,submission_date,wg,docid
+0,119562,United States of America,David Schinazi,Google LLC,draft-ietf-masque-h3-datagram-11,HTTP Datagrams and the Capsule Protocol,2022-08-01,masque,RFC9297
+1,122812,,Lucas Pardue,Cloudflare,draft-ietf-masque-h3-datagram-11,HTTP Datagrams and the Capsule Protocol,2022-08-01,masque,RFC9297
+2,119562,United States of America,David Schinazi,Google LLC,draft-ietf-masque-connect-udp-15,Proxying UDP in HTTP,2022-08-01,masque,RFC9298
+3,119325,,Tommy Pauly,Apple Inc.,draft-ietf-masque-connect-ip-13,Proxying IP in HTTP,2023-10-01,masque,RFC9484
+4,119562,United States of America,David Schinazi,Google LLC,draft-ietf-masque-connect-ip-13,Proxying IP in HTTP,2023-10-01,masque,RFC9484
+5,126831,,Alex Chernyakhovsky,Google LLC,draft-ietf-masque-connect-ip-13,Proxying IP in HTTP,2023-10-01,masque,RFC9484
+6,112330,,Mirja Kühlewind,Ericsson,draft-ietf-masque-connect-ip-13,Proxying IP in HTTP,2023-10-01,masque,RFC9484
+7,104294,,Magnus Westerlund,Ericsson,draft-ietf-masque-connect-ip-13,Proxying IP in HTTP,2023-10-01,masque,RFC9484
