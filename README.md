@@ -6,6 +6,7 @@
 * Clone this Git repository.
 * You might also need to run `gem install` to install the Ruby gems
   associated with this website.
+  - or `bundle install`
 
 ## Running the site locally
 
