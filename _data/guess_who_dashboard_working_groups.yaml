@@ -7,40 +7,40 @@
     slug: ietf-detnet
   - name: "Domain Name Systems Operations"
     slug: ietf-dnsop
-  - name: "..."
+  - name: "DNS PRIVate Exchange"
     slug: ietf-dprive
-  - name: "..."
+  - name: "Limited Additional Mechanisms for PKIX and SMIME"
     slug: ietf-lamps
-  - name: "..."
+  - name: "Multiplexed Application Substrate over QUIC Encryption"
     slug: ietf-masque
-  - name: "..."
+  - name: "Messaging Layer Security"
     slug: ietf-mls
   - name: "Network Virtualization Overlays"
     slug: ietf-nvo3
-  - name: "..."
+  - name: "Oblivious HTTP Application Intermediation"
     slug: ietf-ohai
-  - name: "..."
+  - name: "Path Computation Element"
     slug: ietf-pce
-  - name: "..."
+  - name: "Privacy Pass"
     slug: ietf-privacypass
-  - name: "..."
+  - name: "Privacy Preserving Measurement"
     slug: ietf-ppm
   - name: "QUIC"
     slug: ietf-quic
-  - name: "..."
+  - name: "Real-Time Communication in WEB-browsers"
     slug: ietf-rtcweb
   - name: "Transport Layer Security"
     slug: ietf-tls
 - name: "IRTF"
   slug: irtf
   wg:
-  - name: "..."
+  - name: "Decentralization of the Internet Research Group"
     slug: irtf-dinrg
-  - name: "..."
+  - name: "Human Rights Protocol Considerations"
     slug: irtf-hrpc
-  - name: "..."
+  - name: "Path Aware Networking RG"
     slug: irtf-panrg
-  - name: "..."
+  - name: "Privacy Enhancements and Assessments Research Group"
     slug: irtf-pearg
 - name: "W3C"
   slug: w3c
