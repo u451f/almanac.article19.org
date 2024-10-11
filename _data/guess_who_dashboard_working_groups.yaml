@@ -7,13 +7,40 @@
     slug: ietf-detnet
   - name: "Domain Name Systems Operations"
     slug: ietf-dnsop
+  - name: "..."
+    slug: ietf-dprive
+  - name: "..."
+    slug: ietf-lamps
+  - name: "..."
+    slug: ietf-masque
+  - name: "..."
+    slug: ietf-mls
   - name: "Network Virtualization Overlays"
     slug: ietf-nvo3
+  - name: "..."
+    slug: ietf-ohai
+  - name: "..."
+    slug: ietf-pce
+  - name: "..."
+    slug: ietf-privacypass
+  - name: "..."
+    slug: ietf-ppm
   - name: "QUIC"
     slug: ietf-quic
+  - name: "..."
+    slug: ietf-rtcweb
   - name: "Transport Layer Security"
     slug: ietf-tls
 - name: "IRTF"
   slug: irtf
+  wg:
+  - name: "..."
+    slug: irtf-dinrg
+  - name: "..."
+    slug: irtf-hrpc
+  - name: "..."
+    slug: irtf-panrg
+  - name: "..."
+    slug: irtf-pearg
 - name: "W3C"
   slug: w3c
