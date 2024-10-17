@@ -1,4 +1,4 @@
-import { getColorCode, isScreenSmall, plotlyConfigDA, unpack } from "./guess-who-helper-functions.js";
+import { getColorCode, isScreenSmall, plotlyConfigDA, unpack, unpackShorten } from "./guess-who-helper-functions.js";
 
 /*
  * Authorship
@@ -51,7 +51,7 @@ d3.csv(file, function(error, rows){
             name: key,
             text: unpack(value, "affiliation"),
             x: unpack(value, "submission_date"),
-            y: unpack(value, "title")
+            y: unpackShorten(value, "title")
         });
     }
     //console.log("traces", traces);
@@ -74,7 +74,6 @@ d3.csv(file, function(error, rows){
             tickformat: "%Y"
         },
         yaxis: {
-            //title: "Standard",
             automargin: true
         },
         font: {
@@ -83,7 +82,7 @@ d3.csv(file, function(error, rows){
             color: "#101820"
         },
         legend: {
-            orientation: "v"
+            orientation: "v",
         }
     };
     if(is_small_screen) {
@@ -92,6 +91,7 @@ d3.csv(file, function(error, rows){
         layout.legend.y = -0.3;
         layout.margin.l = 5;
         layout.margin.r = 5;
+        //Plotly.newPlot("plotlyDAuthorship", data, layout, { staticPlot: true });
     }
 
     Plotly.newPlot("plotlyDAuthorship", data, layout, plotlyConfigDA);
