@@ -18,20 +18,6 @@ function unpack(rows, key) {
 }
 
 /*
- * Unpack data and return a string limited to 70 chars
- * Useful for very long titles on the y-axis
- * */
-function unpackShorten(rows, key) {
-    return rows.map(function(row) {
-        if(row[key].length > 70) {
-            return row[key].substring(0, 70) + "…";
-        } else {
-            return row[key];
-        }
-     });
-}
-
-/*
  * Return int in range
  * needed for color code generation
  * */
@@ -109,7 +95,6 @@ const plotlyConfigDA = {
         filename: "almanac.article19.org-authorship-"+WG,
         scale: 1
     },
-    displayModeBar: true,
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
@@ -122,7 +107,6 @@ const plotlyConfigDI = {
         filename: "almanac.article19.org-influence-"+WG,
         scale: 1
     },
-    displayModeBar: true,
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
@@ -135,7 +119,6 @@ const plotlyConfigDL = {
         filename: "almanac.article19.org-leadership-"+WG,
         scale: 1
     },
-    displayModeBar: true,
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
@@ -148,8 +131,7 @@ const plotlyConfigOA = {
         filename: "almanac.article19.org-authorship-ov-"+WG,
         scale: 1
     },
-    displayModeBar: true,
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
 };
 
-export { getColorCode, isScreenSmall, orderByAffiliation, unpack, unpackShorten, plotlyConfigDA, plotlyConfigDI, plotlyConfigDL, plotlyConfigOA };
+export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigDA, plotlyConfigDI, plotlyConfigDL, plotlyConfigOA };
