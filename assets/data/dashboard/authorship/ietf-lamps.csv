@@ -12,11 +12,11 @@
 10,110217,,Phillip Hallam-Baker,,draft-ietf-lamps-rfc6844bis-07,DNS Certification Authority Authorization (CAA) Resource Record,2019-11-01,lamps,RFC8659
 11,111932,,Rob Stradling,Sectigo Ltd.,draft-ietf-lamps-rfc6844bis-07,DNS Certification Authority Authorization (CAA) Resource Record,2019-11-01,lamps,RFC8659
 12,119956,,Jacob Hoffman-Andrews,Let's Encrypt,draft-ietf-lamps-rfc6844bis-07,DNS Certification Authority Authorization (CAA) Resource Record,2019-11-01,lamps,RFC8659
-13,115376,,Panos Kampanakis,Cisco Systems,draft-ietf-lamps-pkix-shake-15,Internet X.509 Public Key Infrastructure: Additional Algorithm Identifiers for RSASSA-PSS and ECDSA Using SHAKEs,2019-12-01,lamps,RFC8692
+13,115376,,Panos Kampanakis,Cisco,draft-ietf-lamps-pkix-shake-15,Internet X.509 Public Key Infrastructure: Additional Algorithm Identifiers for RSASSA-PSS and ECDSA Using SHAKEs,2019-12-01,lamps,RFC8692
 14,125010,USA,Quynh Dang,NIST,draft-ietf-lamps-pkix-shake-15,Internet X.509 Public Key Infrastructure: Additional Algorithm Identifiers for RSASSA-PSS and ECDSA Using SHAKEs,2019-12-01,lamps,RFC8692
 15,5376,USA,Russ Housley,Vigil Security,draft-ietf-lamps-cms-mix-with-psk-07,Using Pre-Shared Key (PSK) in the Cryptographic Message Syntax (CMS),2019-12-01,lamps,RFC8696
 16,125010,,Quynh Dang,NIST,draft-ietf-lamps-cms-shakes-18,Use of the SHAKE One-Way Hash Functions in the Cryptographic Message Syntax (CMS),2020-01-01,lamps,RFC8702
-17,115376,,Panos Kampanakis,Cisco Systems,draft-ietf-lamps-cms-shakes-18,Use of the SHAKE One-Way Hash Functions in the Cryptographic Message Syntax (CMS),2020-01-01,lamps,RFC8702
+17,115376,,Panos Kampanakis,Cisco,draft-ietf-lamps-cms-shakes-18,Use of the SHAKE One-Way Hash Functions in the Cryptographic Message Syntax (CMS),2020-01-01,lamps,RFC8702
 18,5376,USA,Russ Housley,Vigil Security,draft-ietf-lamps-cms-hash-sig-10,Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS),2020-02-01,lamps,RFC8708
 19,124005,,Tadahiko Ito,,draft-ietf-lamps-5480-ku-clarifications-03,Clarifications for Elliptic Curve Cryptography Subject Public Key Information,2020-08-01,lamps,RFC8813
 20,19483,,Sean Turner,sn3rd,draft-ietf-lamps-5480-ku-clarifications-03,Clarifications for Elliptic Curve Cryptography Subject Public Key Information,2020-08-01,lamps,RFC8813
@@ -55,8 +55,8 @@
 53,106884,Germany,Steffen Fries,Siemens AG,draft-ietf-lamps-lightweight-cmp-profile-21,Lightweight Certificate Management Protocol (CMP) Profile,2023-11-01,lamps,RFC9483
 54,125564,Germany,David von Oheimb,Siemens,draft-ietf-lamps-lightweight-cmp-profile-21,Lightweight Certificate Management Protocol (CMP) Profile,2023-11-01,lamps,RFC9483
 55,127690,,Corey Bonnell,"DigiCert, Inc.",draft-ietf-lamps-caa-issuemail-07,Certification Authority Authorization (CAA) Processing for Email Addresses,2023-10-01,lamps,RFC9495
-56,112901,India,Tirumaleswar Reddy.K,Nokia,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
-57,135790,Finland,Jani Ekman,Nokia,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
+56,112901,India,Tirumaleswar Reddy.K,Nokia Corporation,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
+57,135790,Finland,Jani Ekman,Nokia Corporation,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
 58,109969,Canada,Daniel Migault,Ericsson,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
 59,5376,US,Russ Housley,"Vigil Security, LLC",draft-ietf-lamps-rfc8399bis-05,Internationalization Updates to RFC 5280,2024-03-01,lamps,RFC9549
 60,122718,Czech Republic,Alicja Kario,"Red Hat, Inc.",draft-ietf-lamps-pkcs12-pbmac1-08,Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax,2024-05-01,lamps,RFC9579

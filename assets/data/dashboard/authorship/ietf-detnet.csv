@@ -1,8 +1,8 @@
 ,id,country,name,affiliation,draft,title,submission_date,wg,docid
-0,115824,FRANCE,Pascal Thubert,Cisco Systems,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
+0,115824,FRANCE,Pascal Thubert,Cisco,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
 1,105922,US,Norman Finn,Huawei Technologies Co. Ltd,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
 2,124759,USA,Ethan Grossman,"Dolby Laboratories, Inc.",draft-ietf-detnet-use-cases-20,Deterministic Networking Use Cases,2019-05-01,detnet,RFC8578
-3,115824,FRANCE,Pascal Thubert,Cisco Systems,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
+3,115824,FRANCE,Pascal Thubert,Cisco,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
 4,105922,US,Norman Finn,Huawei,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
 5,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
 6,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
@@ -10,17 +10,17 @@
 8,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-data-plane-framework-06,Deterministic Networking (DetNet) Data Plane Framework,2020-11-01,detnet,RFC8938
 9,10064,,Lou Berger,"LabN Consulting, L.L.C.",draft-ietf-detnet-data-plane-framework-06,Deterministic Networking (DetNet) Data Plane Framework,2020-11-01,detnet,RFC8938
 10,3844,,Andrew G. Malis,Malis Consulting,draft-ietf-detnet-data-plane-framework-06,Deterministic Networking (DetNet) Data Plane Framework,2020-11-01,detnet,RFC8938
-11,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-data-plane-framework-06,Deterministic Networking (DetNet) Data Plane Framework,2020-11-01,detnet,RFC8938
+11,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-data-plane-framework-06,Deterministic Networking (DetNet) Data Plane Framework,2020-11-01,detnet,RFC8938
 12,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-ip-07,Deterministic Networking (DetNet) Data Plane: IP,2020-11-01,detnet,RFC8939
 13,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-ip-07,Deterministic Networking (DetNet) Data Plane: IP,2020-11-01,detnet,RFC8939
 14,10064,,Lou Berger,"LabN Consulting, L.L.C.",draft-ietf-detnet-ip-07,Deterministic Networking (DetNet) Data Plane: IP,2020-11-01,detnet,RFC8939
 15,120813,,Don Fedyk,"LabN Consulting, L.L.C.",draft-ietf-detnet-ip-07,Deterministic Networking (DetNet) Data Plane: IP,2020-11-01,detnet,RFC8939
-16,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-ip-07,Deterministic Networking (DetNet) Data Plane: IP,2020-11-01,detnet,RFC8939
+16,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-ip-07,Deterministic Networking (DetNet) Data Plane: IP,2020-11-01,detnet,RFC8939
 17,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-mpls-13,Deterministic Networking (DetNet) Data Plane: MPLS,2021-01-01,detnet,RFC8964
 18,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-mpls-13,Deterministic Networking (DetNet) Data Plane: MPLS,2021-01-01,detnet,RFC8964
 19,10064,,Lou Berger,"LabN Consulting, L.L.C.",draft-ietf-detnet-mpls-13,Deterministic Networking (DetNet) Data Plane: MPLS,2021-01-01,detnet,RFC8964
 20,3844,,Andrew G. Malis,Malis Consulting,draft-ietf-detnet-mpls-13,Deterministic Networking (DetNet) Data Plane: MPLS,2021-01-01,detnet,RFC8964
-21,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-mpls-13,Deterministic Networking (DetNet) Data Plane: MPLS,2021-01-01,detnet,RFC8964
+21,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-mpls-13,Deterministic Networking (DetNet) Data Plane: MPLS,2021-01-01,detnet,RFC8964
 22,109800,,Jouni Korhonen,,draft-ietf-detnet-mpls-13,Deterministic Networking (DetNet) Data Plane: MPLS,2021-01-01,detnet,RFC8964
 23,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-flow-information-model-14,Flow and Service Information Model for Deterministic Networking (DetNet),2021-03-01,detnet,RFC9016
 24,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-flow-information-model-14,Flow and Service Information Model for Deterministic Networking (DetNet),2021-03-01,detnet,RFC9016
@@ -30,27 +30,27 @@
 28,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-ip-over-tsn-07,Deterministic Networking (DetNet) Data Plane: IP over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9023
 29,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-ip-over-tsn-07,Deterministic Networking (DetNet) Data Plane: IP over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9023
 30,3844,,Andrew G. Malis,Malis Consulting,draft-ietf-detnet-ip-over-tsn-07,Deterministic Networking (DetNet) Data Plane: IP over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9023
-31,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-ip-over-tsn-07,Deterministic Networking (DetNet) Data Plane: IP over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9023
+31,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-ip-over-tsn-07,Deterministic Networking (DetNet) Data Plane: IP over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9023
 32,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-tsn-vpn-over-mpls-07,Deterministic Networking (DetNet) Data Plane: IEEE 802.1 Time-Sensitive Networking over MPLS,2021-06-01,detnet,RFC9024
 33,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-tsn-vpn-over-mpls-07,Deterministic Networking (DetNet) Data Plane: IEEE 802.1 Time-Sensitive Networking over MPLS,2021-06-01,detnet,RFC9024
 34,3844,,Andrew G. Malis,Malis Consulting,draft-ietf-detnet-tsn-vpn-over-mpls-07,Deterministic Networking (DetNet) Data Plane: IEEE 802.1 Time-Sensitive Networking over MPLS,2021-06-01,detnet,RFC9024
-35,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-tsn-vpn-over-mpls-07,Deterministic Networking (DetNet) Data Plane: IEEE 802.1 Time-Sensitive Networking over MPLS,2021-06-01,detnet,RFC9024
+35,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-tsn-vpn-over-mpls-07,Deterministic Networking (DetNet) Data Plane: IEEE 802.1 Time-Sensitive Networking over MPLS,2021-06-01,detnet,RFC9024
 36,120813,,Don Fedyk,"LabN Consulting, L.L.C.",draft-ietf-detnet-tsn-vpn-over-mpls-07,Deterministic Networking (DetNet) Data Plane: IEEE 802.1 Time-Sensitive Networking over MPLS,2021-06-01,detnet,RFC9024
 37,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-mpls-over-udp-ip-08,Deterministic Networking (DetNet) Data Plane: MPLS over UDP/IP,2021-04-01,detnet,RFC9025
 38,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-mpls-over-udp-ip-08,Deterministic Networking (DetNet) Data Plane: MPLS over UDP/IP,2021-04-01,detnet,RFC9025
 39,10064,,Lou Berger,"LabN Consulting, L.L.C.",draft-ietf-detnet-mpls-over-udp-ip-08,Deterministic Networking (DetNet) Data Plane: MPLS over UDP/IP,2021-04-01,detnet,RFC9025
 40,3844,,Andrew G. Malis,Malis Consulting,draft-ietf-detnet-mpls-over-udp-ip-08,Deterministic Networking (DetNet) Data Plane: MPLS over UDP/IP,2021-04-01,detnet,RFC9025
-41,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-mpls-over-udp-ip-08,Deterministic Networking (DetNet) Data Plane: MPLS over UDP/IP,2021-04-01,detnet,RFC9025
+41,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-mpls-over-udp-ip-08,Deterministic Networking (DetNet) Data Plane: MPLS over UDP/IP,2021-04-01,detnet,RFC9025
 42,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
 43,118295,Hungary,János Farkas,Ericsson,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
 44,3844,,Andrew G. Malis,Malis Consulting,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
-45,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
+45,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
 46,110614,,Tal Mizrahi,Huawei Network.IO Innovation Lab,draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 47,124759,USA,Ethan Grossman,"Dolby Laboratories, Inc.",draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 48,122934,USA,Andrew J. Hacker,"MistIQ Technologies, Inc",draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 49,110053,Hungary,Balazs Varga,Ericsson,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 50,10064,,Lou Berger,"LabN Consulting, L.L.C.",draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
-51,2329,,Stewart Bryant,Futurewei Technologies,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
+51,2329,,Stewart Bryant,Huawei Device Co. Ltd,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 52,109800,,Jouni Korhonen,,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 53,120813,,Don Fedyk,"LabN Consulting, L.L.C.",draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 54,105922,US,Norman Finn,Huawei Technologies Co. Ltd,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320

@@ -33,14 +33,14 @@
 31,112848,USA,Ilango Ganga,Intel,draft-ietf-nvo3-geneve-16,Geneve: Generic Network Virtualization Encapsulation,2020-11-01,nvo3,RFC8926
 32,113438,,Jesse Gross,,draft-ietf-nvo3-geneve-16,Geneve: Generic Network Virtualization Encapsulation,2020-11-01,nvo3,RFC8926
 33,126638,USA,T. Sridhar,VMware,draft-ietf-nvo3-geneve-16,Geneve: Generic Network Virtualization Encapsulation,2020-11-01,nvo3,RFC8926
-34,115629,USA,Jorge Rabadan,Nokia,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
-35,105786,,Matthew Bocci,Nokia,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
+34,115629,USA,Jorge Rabadan,Nokia Corporation,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
+35,105786,,Matthew Bocci,Nokia Corporation,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
 36,108236,,Sami Boutros,Ciena,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
-37,105741,,Ali Sajassi,"Cisco Systems, Inc.",draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
+37,105741,,Ali Sajassi,Cisco,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
 38,111299,China,Xiao Min,ZTE Corp.,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 39,113047,United States of America,Greg Mirsky,Ericsson,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 40,116285,India,Santosh Pallagatti,VMware,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 41,112405,United States of America,Jeff Tantsura,Nvidia,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 42,112237,United States of America,Sam Aldrin,Google,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 43,108236,USA,Sami Boutros,Ciena Corporation,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
-44,102391,USA,Donald E. Eastlake 3rd,Futurewei Technologies,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
+44,102391,USA,Donald E. Eastlake 3rd,Huawei Device Co. Ltd,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
