@@ -9,11 +9,11 @@ function isScreenSmall() {
 }
 
 /*
- * FIXME: document this
+ * Unpack data and return
  * */
 function unpack(rows, key) {
     return rows.map(function(row) {
-         return row[key];
+        return row[key];
      });
 }
 
@@ -50,15 +50,12 @@ function getColorCode(affiliation) {
     //console.log("affiliation", affiliation);
     switch (affiliation) {
         case "Akamai":
-        case "akamai.com":
             hexcolor = "#702375ab"; // ART19 purple
         break;
         case "Cisco":
-        case "cisco.com":
             hexcolor = "#691B32ab"; // ART19 earth
         break;
         case "Cloudflare":
-        case "cloudflare.com":
             hexcolor = "#eb8a23ab"; // ART19 orange
         break;
         case "Facebook":
@@ -70,11 +67,9 @@ function getColorCode(affiliation) {
         break;
         case "Futurewei":
         case "Huawei":
-        case "huawei.com":
             hexcolor = "#B90748ab"; // ART19 raspberry
         break;
         case "Google":
-        case "google.com":
             hexcolor = "#d62d26ab"; // ART19 red
         break;
         default:
@@ -133,8 +128,7 @@ const plotlyConfigOA = {
     responsive: true,
     toImageButtonOptions: {
         format: "svg",
-        filename: "almanac.article19.org-overview-"+WG,
-        //filename: "almanac.article19.org-authorship-"+WG, // we can add that later, when we know if we change org here or not
+        filename: "almanac.article19.org-authorship-ov-"+WG,
         scale: 1
     },
     modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]

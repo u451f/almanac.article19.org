@@ -67,15 +67,16 @@ d3.csv(file, function(error, rows){
             t: 35, r: 10, b: 45, l: 40
         },
         scattermode: "group",
-        scattergap: 0,
+        scattergap: 10,
         xaxis: {
             title: "Submission date",
-            //tickformat: "%Y",
-            //dtick: 365 * 24 * 60 * 60 * 1000
+            tickformat: "%b %Y"
         },
         yaxis: {
-            //title: "Standard",
-            automargin: true
+            title: "RFCs",
+            automargin: true,
+            showticklabels: false,
+            showgrid: false
         },
         font: {
             family: "Roboto, sans-serif",
@@ -83,15 +84,15 @@ d3.csv(file, function(error, rows){
             color: "#101820"
         },
         legend: {
-            orientation: "v"
+            orientation: "v",
         }
     };
     if(is_small_screen) {
-        layout.yaxis.showticklabels = false;
         layout.legend.orientation = "h";
-        layout.legend.y = -0.3;
-        layout.margin.l = 5;
-        layout.margin.r = 5;
+        layout.legend.y = -0.5;
+        layout.margin.l = 0;
+        layout.margin.r = 0;
+        layout.legend.entrywidth = 300;
     }
 
     Plotly.newPlot("plotlyDAuthorship", data, layout, plotlyConfigDA);
