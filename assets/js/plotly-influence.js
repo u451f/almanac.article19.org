@@ -44,7 +44,7 @@ d3.csv(file, function(error, rows){
     var data = traces;
     var layout = {
         title: {
-            text: "Who sent most emails to WG "+WG+"?",
+            text: "Who sent most emails to "+WG+"?",
             xref: "container",
             x: 0
         },
