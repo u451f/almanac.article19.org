@@ -52,7 +52,7 @@ d3.csv(file, function(error, rows) {
     var layout = {
         scattermode: "group",
         title: {
-            text: "Who chaired WG "+WG+"?",
+            text: "Chairing periods: "+WG,
             xref: "container",
             x: 0
         },
