@@ -11,7 +11,7 @@ const params = new URLSearchParams(queryString);
 if(!params.get("wg")) {
     // eventually do that differently
     // nothing was selected, let's have a default view
-    params.set("wg", "ietf-dnsop");
+    params.set("wg", "ietf-add");
     window.location.search = params;
 }
 
