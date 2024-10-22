@@ -15,9 +15,12 @@
     <div class="section-content grid" id="guess-who-actions">
         <select id="wg" class="select" onchange="setWG(this)">
         {% assign items = site.data.guess_who_dashboard_working_groups %}
-            <option disabled>Explore data about</option>
             {% for item in items %}
+                {% if item.slug %}
                 <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
+                {% else %}
+                <option disabled>
+                {% endif %}
                     {{ item.name }}
                 </option>
                 {% if item.wg %}

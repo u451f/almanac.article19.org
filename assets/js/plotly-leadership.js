@@ -20,13 +20,14 @@ d3.csv(file, function(error, rows) {
     //console.log("Rows", rows);
 
     var traces = [];
-    var affiliation, hexcolor, person, time_start, time_end;
+    var affiliation, hexcolor, person, time_start, time_end, wgname;
 
     for(var i = 0; i < rows.length; i++) {
         affiliation = rows[i]["affiliation"];
         person = rows[i]["name"];
         time_start = rows[i]["time_start"];
         time_end = rows[i]["time_end"];
+        wgname = (rows[i]["wg"] !== undefined) ? rows[i]["wg"] : WG;
         hexcolor = getColorCode(affiliation);
 
         if(time_start != time_end) { // for esthetical reasons: but there's a bug somewhere in the data if that happens
@@ -38,7 +39,7 @@ d3.csv(file, function(error, rows) {
                     width: 25
                 },
                 name: affiliation,
-                text: person,
+                text: wgname + "/" + person,
                 x: [ time_start, time_end ],
                 y: [ affiliation, affiliation ],
             });
@@ -51,7 +52,7 @@ d3.csv(file, function(error, rows) {
     var layout = {
         scattermode: "group",
         title: {
-            text: "Who chaired WG "+WG+"?",
+            text: "Chairing periods: "+WG,
             xref: "container",
             x: 0
         },
@@ -64,18 +65,15 @@ d3.csv(file, function(error, rows) {
         yaxis: {
             automargin: true,
             autorange: "reversed",
-            showgrid: false
+            showgrid: false,
         },
         font: {
             family: "Roboto, sans-serif",
             size: 12,
             color: "#101820"
         },
-        showlegend: true,
+        showlegend: false,
     };
-    if(is_small_screen) {
-        layout.showlegend = false
-    }
 
     Plotly.newPlot("plotlyDLeadership", data, layout, plotlyConfigDL);
 })

@@ -45,35 +45,42 @@ function orderByAffiliation( a, b ) {
  * or generate a random color code for unmatched ones
  * Format: hexadecimal with transparency value (90)
  * */
+String.prototype.startsWith = function( str ){
+    return ( this.indexOf( str ) === 0 );
+};
+
 function getColorCode(affiliation) {
     var hexcolor;
     //console.log("affiliation", affiliation);
-    switch (affiliation) {
-        case "Akamai":
+    switch (true) {
+        case affiliation.startsWith("Akamai"):
+        case affiliation.startsWith("Cisco"):
             hexcolor = "#702375ab"; // ART19 purple
         break;
-        case "Cisco":
-            hexcolor = "#691B32ab"; // ART19 earth
-        break;
-        case "Cloudflare":
+        case affiliation.startsWith("Cloudflare"):
             hexcolor = "#eb8a23ab"; // ART19 orange
         break;
-        case "Facebook":
-        case "Meta":
+        case affiliation.startsWith("Facebook"):
+        case affiliation.startsWith("Meta"):
             hexcolor = "#691B3266"; // ART19 earth
         break;
-        case "Fastly":
+        case affiliation.startsWith("Fastly"):
+        case affiliation.startsWith("ICANN"):
             hexcolor = "#f1a827ab"; // ART19 yellow
         break;
-        case "Futurewei":
-        case "Huawei":
+        case affiliation.startsWith("Futurewei"):
+        case affiliation.startsWith("Huawei"):
             hexcolor = "#B90748ab"; // ART19 raspberry
         break;
-        case "Google":
+        case affiliation.startsWith("Google"):
             hexcolor = "#d62d26ab"; // ART19 red
         break;
+        case affiliation.startsWith("CDT"):
+        case affiliation.startsWith("Mozilla"):
+            hexcolor = "#009470ab"; // ART19 green
+        break;
         default:
-            const colors = ["009470", "142864", "00acd8", "101820", "c8c8c8"]; // green, blue, lightblue, black, grey
+            const colors = ["142864", "00acd8", "c8c8c8"]; // blue, lightblue, grey
             const randomSelColor = Math.floor(Math.random() * colors.length);
             const transparency = getRandomArbitrary(16, 256).toString(16);
             hexcolor = "#" + colors[randomSelColor] + transparency;
