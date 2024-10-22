@@ -65,18 +65,15 @@ d3.csv(file, function(error, rows) {
         yaxis: {
             automargin: true,
             autorange: "reversed",
-            showgrid: false
+            showgrid: false,
         },
         font: {
             family: "Roboto, sans-serif",
             size: 12,
             color: "#101820"
         },
-        showlegend: true,
+        showlegend: false,
     };
-    if(is_small_screen) {
-        layout.showlegend = false
-    }
 
     Plotly.newPlot("plotlyDLeadership", data, layout, plotlyConfigDL);
 })
