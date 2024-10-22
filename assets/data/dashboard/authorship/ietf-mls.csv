@@ -1,7 +1,7 @@
-,id,country,name,affiliation,draft,title,submission_date,wg,docid
-0,108049,,Richard Barnes,Cisco,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
-1,124345,,Jon Millican,Meta Platforms,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
-2,124346,,Emad Omara,Google,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
-3,124347,,Katriel Cohn-Gordon,University of Oxford,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
-4,118067,,Benjamin Beurdouche,Inria & Mozilla,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
-5,128864,,Raphael Robert,Phoenix R&D,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,108049,,Cisco,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
+1,124345,,Meta Platforms,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
+2,124346,,Google,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
+3,124347,,University of Oxford,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
+4,118067,,Inria & Mozilla,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420
+5,128864,,Phoenix R&D,draft-ietf-mls-protocol-20,The Messaging Layer Security (MLS) Protocol,2023-07-01,mls,RFC9420

@@ -1,11 +1,11 @@
-,id,country,name,affiliation,draft,title,submission_date,wg,docid
-0,124899,Portugal,Alex Davidson,LIP,draft-ietf-privacypass-architecture-16,The Privacy Pass Architecture,2024-06-01,privacypass,RFC9576
-1,121595,United States of America,Christopher A. Wood,Cloudflare,draft-ietf-privacypass-architecture-16,The Privacy Pass Architecture,2024-06-01,privacypass,RFC9576
-2,105721,,Jana Iyengar,Fastly,draft-ietf-privacypass-architecture-16,The Privacy Pass Architecture,2024-06-01,privacypass,RFC9576
-3,119325,United States of America,Tommy Pauly,Apple Inc.,draft-ietf-privacypass-auth-scheme-15,The Privacy Pass HTTP Authentication Scheme,2024-06-01,privacypass,RFC9577
-4,124109,,Steven Valdez,Google LLC,draft-ietf-privacypass-auth-scheme-15,The Privacy Pass HTTP Authentication Scheme,2024-06-01,privacypass,RFC9577
-5,121595,,Christopher A. Wood,Cloudflare,draft-ietf-privacypass-auth-scheme-15,The Privacy Pass HTTP Authentication Scheme,2024-06-01,privacypass,RFC9577
-6,126300,Portugal,Sofia Celi,Brave Software,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578
-7,124899,Portugal,Alex Davidson,Brave Software,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578
-8,124109,,Steven Valdez,Google LLC,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578
-9,121595,United States of America,Christopher A. Wood,Cloudflare,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,124899,Portugal,LIP,draft-ietf-privacypass-architecture-16,The Privacy Pass Architecture,2024-06-01,privacypass,RFC9576
+1,121595,United States of America,Cloudflare,draft-ietf-privacypass-architecture-16,The Privacy Pass Architecture,2024-06-01,privacypass,RFC9576
+2,105721,,Fastly,draft-ietf-privacypass-architecture-16,The Privacy Pass Architecture,2024-06-01,privacypass,RFC9576
+3,119325,United States of America,Apple Inc.,draft-ietf-privacypass-auth-scheme-15,The Privacy Pass HTTP Authentication Scheme,2024-06-01,privacypass,RFC9577
+4,124109,,Google LLC,draft-ietf-privacypass-auth-scheme-15,The Privacy Pass HTTP Authentication Scheme,2024-06-01,privacypass,RFC9577
+5,121595,,Cloudflare,draft-ietf-privacypass-auth-scheme-15,The Privacy Pass HTTP Authentication Scheme,2024-06-01,privacypass,RFC9577
+6,126300,Portugal,Brave Software,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578
+7,124899,Portugal,Brave Software,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578
+8,124109,,Google LLC,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578
+9,121595,United States of America,Cloudflare,draft-ietf-privacypass-protocol-16,Privacy Pass Issuance Protocols,2024-06-01,privacypass,RFC9578

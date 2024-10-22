@@ -1,5 +1,5 @@
-,id,country,name,affiliation,draft,title,submission_date,wg,docid
-0,107131,,Martin Thomson,Mozilla,draft-ietf-ohai-ohttp-10,Oblivious HTTP,2024-01-01,ohai,RFC9458
-1,121595,,Christopher A. Wood,Cloudflare,draft-ietf-ohai-ohttp-10,Oblivious HTTP,2024-01-01,ohai,RFC9458
-2,119325,,Tommy Pauly,Apple Inc.,draft-ietf-ohai-svcb-config-07,Discovery of Oblivious Services via Service Binding Records,2024-02-01,ohai,RFC9540
-3,112901,,Tirumaleswar Reddy.K,Nokia Corporation,draft-ietf-ohai-svcb-config-07,Discovery of Oblivious Services via Service Binding Records,2024-02-01,ohai,RFC9540
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,107131,,Mozilla,draft-ietf-ohai-ohttp-10,Oblivious HTTP,2024-01-01,ohai,RFC9458
+1,121595,,Cloudflare,draft-ietf-ohai-ohttp-10,Oblivious HTTP,2024-01-01,ohai,RFC9458
+2,119325,,Apple Inc.,draft-ietf-ohai-svcb-config-07,Discovery of Oblivious Services via Service Binding Records,2024-02-01,ohai,RFC9540
+3,112901,,Nokia Corporation,draft-ietf-ohai-svcb-config-07,Discovery of Oblivious Services via Service Binding Records,2024-02-01,ohai,RFC9540

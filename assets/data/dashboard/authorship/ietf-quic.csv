@@ -1,23 +1,23 @@
-,id,country,name,affiliation,draft,title,submission_date,wg,docid
-0,107131,,Martin Thomson,Mozilla,draft-ietf-quic-invariants-13,Version-Independent Properties of QUIC,2021-05-01,quic,RFC8999
-1,105721,,Jana Iyengar,Fastly,draft-ietf-quic-transport-34,QUIC: A UDP-Based Multiplexed and Secure Transport,2021-05-01,quic,RFC9000
-2,107131,,Martin Thomson,Mozilla,draft-ietf-quic-transport-34,QUIC: A UDP-Based Multiplexed and Secure Transport,2021-05-01,quic,RFC9000
-3,107131,,Martin Thomson,Mozilla,draft-ietf-quic-tls-34,Using TLS to Secure QUIC,2021-05-01,quic,RFC9001
-4,19483,,Sean Turner,sn3rd,draft-ietf-quic-tls-34,Using TLS to Secure QUIC,2021-05-01,quic,RFC9001
-5,105721,,Jana Iyengar,Fastly,draft-ietf-quic-recovery-34,QUIC Loss Detection and Congestion Control,2021-05-01,quic,RFC9002
-6,119702,,Ian Swett,Google,draft-ietf-quic-recovery-34,QUIC Loss Detection and Congestion Control,2021-05-01,quic,RFC9002
-7,116439,,Mike Bishop,Akamai,draft-ietf-quic-http-34,HTTP/3,2022-06-01,quic,RFC9114
-8,122958,,Charles 'Buck' Krasic,Netflix,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
-9,116439,,Mike Bishop,Akamai Technologies,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
-10,124381,,Alan Frindell,Meta USA,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
-11,119325,United States of America,Tommy Pauly,Apple Inc.,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
-12,124846,United States of America,Eric Kinnear,Apple Inc.,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
-13,119562,United States of America,David Schinazi,Google LLC,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
-14,107131,,Martin Thomson,Mozilla,draft-ietf-quic-bit-grease-04,Greasing the QUIC Bit,2022-08-01,quic,RFC9287
-15,112330,,Mirja Kühlewind,Ericsson,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
-16,109354,Switzerland,Brian Trammell,Google,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
-17,112330,,Mirja Kühlewind,Ericsson,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
-18,109354,Switzerland,Brian Trammell,Google Switzerland GmbH,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
-19,119562,United States of America,David Schinazi,Google LLC,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
-20,12695,,Eric Rescorla,Mozilla,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
-21,106541,,Martin Duke,Google LLC,draft-ietf-quic-v2-10,QUIC Version 2,2023-05-01,quic,RFC9369
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,107131,,Mozilla,draft-ietf-quic-invariants-13,Version-Independent Properties of QUIC,2021-05-01,quic,RFC8999
+1,105721,,Fastly,draft-ietf-quic-transport-34,QUIC: A UDP-Based Multiplexed and Secure Transport,2021-05-01,quic,RFC9000
+2,107131,,Mozilla,draft-ietf-quic-transport-34,QUIC: A UDP-Based Multiplexed and Secure Transport,2021-05-01,quic,RFC9000
+3,107131,,Mozilla,draft-ietf-quic-tls-34,Using TLS to Secure QUIC,2021-05-01,quic,RFC9001
+4,19483,,sn3rd,draft-ietf-quic-tls-34,Using TLS to Secure QUIC,2021-05-01,quic,RFC9001
+5,105721,,Fastly,draft-ietf-quic-recovery-34,QUIC Loss Detection and Congestion Control,2021-05-01,quic,RFC9002
+6,119702,,Google,draft-ietf-quic-recovery-34,QUIC Loss Detection and Congestion Control,2021-05-01,quic,RFC9002
+7,116439,,Akamai,draft-ietf-quic-http-34,HTTP/3,2022-06-01,quic,RFC9114
+8,122958,,Netflix,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
+9,116439,,Akamai Technologies,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
+10,124381,,Meta USA,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
+11,119325,United States of America,Apple Inc.,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
+12,124846,United States of America,Apple Inc.,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
+13,119562,United States of America,Google LLC,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
+14,107131,,Mozilla,draft-ietf-quic-bit-grease-04,Greasing the QUIC Bit,2022-08-01,quic,RFC9287
+15,112330,,Ericsson,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
+16,109354,Switzerland,Google,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
+17,112330,,Ericsson,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
+18,109354,Switzerland,Google Switzerland GmbH,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
+19,119562,United States of America,Google LLC,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
+20,12695,,Mozilla,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
+21,106541,,Google LLC,draft-ietf-quic-v2-10,QUIC Version 2,2023-05-01,quic,RFC9369

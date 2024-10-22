@@ -1,32 +1,32 @@
-,id,country,name,affiliation,draft,title,submission_date,wg,docid
-0,107725,France,Stéphane Bortzmeyer,AFNIC,draft-ietf-dprive-problem-statement-06,DNS Privacy Considerations,2015-08-01,dprive,RFC7626
-1,107406,Austria,Alexander Mayrhofer,nic.at GmbH,draft-ietf-dprive-edns0-padding-03,The EDNS(0) Padding Option,2016-05-01,dprive,RFC7830
-2,113052,United States,Liang Zhu,USC/ISI,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
-3,20670,United States,John Heidemann,USC/ISI,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
-4,20778,United States,Duane Wessels,Verisign Labs,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
-5,10083,,Paul E. Hoffman,ICANN,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
-6,114505,,Allison Mankin,Independent,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
-7,116894,United States,Zi Hu,USC/ISI,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
-8,112901,India,Tirumaleswar Reddy.K,Cisco,draft-ietf-dprive-dnsodtls-15,DNS over Datagram Transport Layer Security (DTLS),2017-02-01,dprive,RFC8094
-9,112902,,Prashanth Patil,Cisco,draft-ietf-dprive-dnsodtls-15,DNS over Datagram Transport Layer Security (DTLS),2017-02-01,dprive,RFC8094
-10,100038,,Dan Wing,,draft-ietf-dprive-dnsodtls-15,DNS over Datagram Transport Layer Security (DTLS),2017-02-01,dprive,RFC8094
-11,112423,UK,Sara Dickinson,Sinodun,draft-ietf-dprive-dtls-and-tls-profiles-11,Usage Profiles for DNS over TLS and DNS over DTLS,2018-03-01,dprive,RFC8310
-12,111614,USA,Daniel Kahn Gillmor,ACLU,draft-ietf-dprive-dtls-and-tls-profiles-11,Usage Profiles for DNS over TLS and DNS over DTLS,2018-03-01,dprive,RFC8310
-13,112901,India,Tirumaleswar Reddy.K,McAfee,draft-ietf-dprive-dtls-and-tls-profiles-11,Usage Profiles for DNS over TLS and DNS over DTLS,2018-03-01,dprive,RFC8310
-14,107406,Austria,Alexander Mayrhofer,nic.at GmbH,draft-ietf-dprive-padding-policy-06,Padding Policies for Extension Mechanisms for DNS (EDNS(0)),2018-10-01,dprive,RFC8467
-15,112423,United Kingdom,Sara Dickinson,Sinodun IT,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
-16,123662,The Netherlands,Benno Overeinder,NLnet Labs,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
-17,114505,,Allison Mankin,Salesforce,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
-18,124059,The Netherlands,Roland van Rijswijk-Deij,NLnet Labs,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
-19,115244,USA,Tim Wicinski,,draft-ietf-dprive-rfc7626-bis-09,DNS Privacy Considerations,2021-07-01,dprive,RFC9076
-20,124423,United States,Pallavi Aras,Salesforce,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
-21,119936,Amsterdam,Willem Toorop,NLnet Labs,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
-22,112423,United Kingdom,Sara Dickinson,Sinodun IT,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
-23,114505,United States,Allison Mankin,Salesforce,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
-24,123472,Canada,Shivan Kaul Sahib,Brave Software,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
-25,3147,USA,Christian Huitema,Private Octopus Inc.,draft-ietf-dprive-dnsoquic-12,DNS over Dedicated QUIC Connections,2022-05-01,dprive,RFC9250
-26,114505,,Allison Mankin,Salesforce,draft-ietf-dprive-dnsoquic-12,DNS over Dedicated QUIC Connections,2022-05-01,dprive,RFC9250
-27,112423,UK,Sara Dickinson,Sinodun IT,draft-ietf-dprive-dnsoquic-12,DNS over Dedicated QUIC Connections,2022-05-01,dprive,RFC9250
-28,111614,USA,Daniel Kahn Gillmor,American Civil Liberties Union,draft-ietf-dprive-unilateral-probing-13,Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS,2024-02-01,dprive,RFC9539
-29,126292,CR,Joey Salazar,,draft-ietf-dprive-unilateral-probing-13,Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS,2024-02-01,dprive,RFC9539
-30,10083,USA,Paul E. Hoffman,ICANN,draft-ietf-dprive-unilateral-probing-13,Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS,2024-02-01,dprive,RFC9539
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,107725,France,AFNIC,draft-ietf-dprive-problem-statement-06,DNS Privacy Considerations,2015-08-01,dprive,RFC7626
+1,107406,Austria,nic.at GmbH,draft-ietf-dprive-edns0-padding-03,The EDNS(0) Padding Option,2016-05-01,dprive,RFC7830
+2,113052,United States,USC/ISI,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
+3,20670,United States,USC/ISI,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
+4,20778,United States,Verisign Labs,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
+5,10083,,ICANN,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
+6,114505,,Independent,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
+7,116894,United States,USC/ISI,draft-ietf-dprive-dns-over-tls-09,Specification for DNS over Transport Layer Security (TLS),2016-05-01,dprive,RFC7858
+8,112901,India,Cisco,draft-ietf-dprive-dnsodtls-15,DNS over Datagram Transport Layer Security (DTLS),2017-02-01,dprive,RFC8094
+9,112902,,Cisco,draft-ietf-dprive-dnsodtls-15,DNS over Datagram Transport Layer Security (DTLS),2017-02-01,dprive,RFC8094
+10,100038,,Dan Wing,draft-ietf-dprive-dnsodtls-15,DNS over Datagram Transport Layer Security (DTLS),2017-02-01,dprive,RFC8094
+11,112423,UK,Sinodun,draft-ietf-dprive-dtls-and-tls-profiles-11,Usage Profiles for DNS over TLS and DNS over DTLS,2018-03-01,dprive,RFC8310
+12,111614,USA,ACLU,draft-ietf-dprive-dtls-and-tls-profiles-11,Usage Profiles for DNS over TLS and DNS over DTLS,2018-03-01,dprive,RFC8310
+13,112901,India,McAfee,draft-ietf-dprive-dtls-and-tls-profiles-11,Usage Profiles for DNS over TLS and DNS over DTLS,2018-03-01,dprive,RFC8310
+14,107406,Austria,nic.at GmbH,draft-ietf-dprive-padding-policy-06,Padding Policies for Extension Mechanisms for DNS (EDNS(0)),2018-10-01,dprive,RFC8467
+15,112423,United Kingdom,Sinodun IT,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
+16,123662,The Netherlands,NLnet Labs,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
+17,114505,,Salesforce,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
+18,124059,The Netherlands,NLnet Labs,draft-ietf-dprive-bcp-op-14,Recommendations for DNS Privacy Service Operators,2020-10-01,dprive,RFC8932
+19,115244,USA,Tim Wicinski,draft-ietf-dprive-rfc7626-bis-09,DNS Privacy Considerations,2021-07-01,dprive,RFC9076
+20,124423,United States,Salesforce,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
+21,119936,Amsterdam,NLnet Labs,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
+22,112423,United Kingdom,Sinodun IT,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
+23,114505,United States,Salesforce,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
+24,123472,Canada,Brave Software,draft-ietf-dprive-xfr-over-tls-12,DNS Zone Transfer over TLS,2021-08-01,dprive,RFC9103
+25,3147,USA,Private Octopus Inc.,draft-ietf-dprive-dnsoquic-12,DNS over Dedicated QUIC Connections,2022-05-01,dprive,RFC9250
+26,114505,,Salesforce,draft-ietf-dprive-dnsoquic-12,DNS over Dedicated QUIC Connections,2022-05-01,dprive,RFC9250
+27,112423,UK,Sinodun IT,draft-ietf-dprive-dnsoquic-12,DNS over Dedicated QUIC Connections,2022-05-01,dprive,RFC9250
+28,111614,USA,American Civil Liberties Union,draft-ietf-dprive-unilateral-probing-13,Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS,2024-02-01,dprive,RFC9539
+29,126292,CR,Joey Salazar,draft-ietf-dprive-unilateral-probing-13,Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS,2024-02-01,dprive,RFC9539
+30,10083,USA,ICANN,draft-ietf-dprive-unilateral-probing-13,Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS,2024-02-01,dprive,RFC9539
