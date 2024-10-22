@@ -1,5 +1,4 @@
 - name: "IETF"
-  slug: ietf
   wg:
   - name: "Adaptive DNS Discovery"
     slug: ietf-add
@@ -32,7 +31,6 @@
   - name: "Transport Layer Security"
     slug: ietf-tls
 - name: "IRTF"
-  slug: irtf
   wg:
   - name: "Decentralization of the Internet Research Group"
     slug: irtf-dinrg
@@ -43,4 +41,6 @@
   - name: "Privacy Enhancements and Assessments Research Group"
     slug: irtf-pearg
 - name: "W3C"
-  slug: w3c
+  wg:
+  - name: "XXX"
+    slug: w3c-xxx
