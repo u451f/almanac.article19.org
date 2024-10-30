@@ -6,7 +6,12 @@ import { getColorCode, isScreenSmall, orderByAffiliation, plotlyConfigDL, unpack
  * - Ordered by default by start date (time_start)
  * */
 
-var file = "/assets/data/dashboard/leadership/"+WG+".csv";
+if(REALM != "undefined" && REALM == "overview") {
+   var file = "/assets/data/overview/leadership/"+WG+".csv";
+} else {
+   var file = "/assets/data/dashboard/leadership/"+WG+".csv";
+}
+
 if (isScreenSmall()) {
     var is_small_screen = true;
 }

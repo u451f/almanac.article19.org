@@ -20,6 +20,7 @@ if(!params.get("wg")) {
  * groups, images and links follow the scheme $org-$wg, e.g. "ietf-dnsop"
  */
 const WG = params.get("wg");
+const REALM = params.get("realm");
 if(WG) {
     // mark as selected in <select>
     let selectwg = document.getElementById("wg");

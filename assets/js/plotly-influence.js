@@ -6,7 +6,11 @@ import { getColorCode, isScreenSmall, plotlyConfigDI, unpack } from "./guess-who
  * - Ordered by year and affiliation (alphabetical)
  */
 
-var file = "/assets/data/dashboard/influence/"+WG+".csv";
+if(REALM != "undefined" && REALM == "overview") {
+    var file = "/assets/data/overview/influence/"+WG+".csv";
+} else {
+    var file = "/assets/data/dashboard/influence/"+WG+".csv";
+}
 
 if (isScreenSmall()) {
     var is_small_screen = true;
@@ -28,15 +32,15 @@ d3.csv(file, function(error, rows){
 
     var traces = [];
     var hexcolor;
-    headerNames.forEach((actor) => traces.push({
+    headerNames.forEach((affiliation) => traces.push({
             type: "scatter",
             mode: "none",
             fill: "tozeroy",
-            name: actor,
+            name: affiliation,
             x: unpack(rows, "Date"),
-            y: unpack(rows, actor),
+            y: unpack(rows, affiliation),
             hoveron: "points+fills",
-            fillcolor: getColorCode(actor)
+            fillcolor: getColorCode(affiliation)
         })
     );
     //console.log(traces);

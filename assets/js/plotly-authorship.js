@@ -84,7 +84,7 @@ d3.csv(file, function(error, rows){
             color: "#101820"
         },
         legend: {
-            orientation: "v",
+            orientation: "v"
         }
     };
     if(is_small_screen) {
