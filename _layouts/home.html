@@ -1,12 +1,12 @@
 {% include header.html %}
-<div class="section" id="content">
+<main class="section" id="content">
     <div class="section-content grid" id="intro">
     {% include site-header.html %}
     {% include breadcrumbs.html %}
     {{ content }}
     </div>
-</div>
-<div class="section" id="org-list">
+</main>
+<div class="section" id="org-list" role="navigation" aria-label="List of SDOs">
     <div class="section-content">
         <div class="ogrid">
         {% for org in site.orgs %}

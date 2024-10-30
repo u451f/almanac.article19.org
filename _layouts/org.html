@@ -1,5 +1,5 @@
 {% include header.html %}
-<div class="section" id="content">
+<main class="section" id="content">
     <div class="section-content grid org" id="post">
     {% include site-header.html %}
         <div id="main-text">
@@ -19,8 +19,8 @@
         <p class="all-groups"><a href="#post-list">Working groups in this organisation</a></p>
     {% endif %}
     </div>
-</div>
-<div class="section" id="post-list">
+</main>
+<div class="section" id="post-list" role="navigation" aria-label="Working groups in this SDO">
     <div class="section-content ogrid">
         {% assign orgposts = site.posts | where: 'org', page.org | reverse %}
         {% for post in orgposts %}
