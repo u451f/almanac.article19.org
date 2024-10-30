@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes, shrink-to-fit=no">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon.png">
     {% feed_meta %}
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon.png">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
     {% seo %}
-
 {% if page.loadjsplotly %}
+    <!-- Guess who! -->
     <script src="{{ site.url }}/assets/js/lib/d3-3.5.17.min.js"></script>
     <script src="{{ site.url }}/assets/js/lib/plotly-almanac-bundle.min.js"></script>
     <script src="{{ site.url }}/assets/js/lib/core-js-bundle@3.35.1.min.js"></script><!-- for groupBy -->
@@ -27,4 +27,7 @@
 </head>
 <body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }} {% if page.sitearea == 'guess-who' %} guess-who{% endif %}">
     <a href="#content" class="screen-reader-text">Skip to main content</a>
+{% if page.loadjsplotly %}
+    <span class="mobile-users">This page is best viewed on a large screen.</span>
+{% endif %}
     {% include navigation-main.html %}

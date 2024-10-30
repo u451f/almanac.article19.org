@@ -1364,3 +1364,21 @@ a.modebar-btn {
         line-height: auto;
     }
 }
+
+.mobile-users {
+    display: none;
+}
+
+@media all and (max-width: 640px) {
+    .mobile-users {
+        display: block;
+        background: var(--colour2);
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        font-size: .9em;
+        padding: .5em var(--hspace);
+        box-sizing: border-box;
+    }
+}
+
