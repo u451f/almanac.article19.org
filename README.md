@@ -38,11 +38,13 @@ custom bundles can be created. [Documentation](https://github.com/plotly/plotly.
 
 This was done:
 
-  `mkdir bundle
-   npm i plotly.js
-   cd node_modules/plotly.js
-   npm i
-   npm run custom-bundle -- --out almanac-bundle --traces scatter --transforms none
-   cp dist/plotly-almanac-bundle.min.js assets/js/lib/ `
+```
+mkdir bundle
+npm i plotly.js
+cd node_modules/plotly.js
+npm i
+npm run custom-bundle -- --out almanac-bundle --traces scatter --transforms none
+cp dist/plotly-almanac-bundle.min.js assets/js/lib/
+```
 
 → then load the new file in _includes/header.html
