@@ -12,9 +12,9 @@
         <ul id="select-sdo-view">
             {% assign items = site.data.guess_who_overview_sdo %}
                 {% for item in items %}
-                <li><a href="{{ page.url }}?wg={{ item.slug }}">
+                <li><a href="{{ page.url }}?wg={{ item.slug }}&&realm=overview">
                         <!-- FIXME: add class="active" if active -->
-                        <!-- FIXME: on click scroll here, don't go to top of the page -->
+                        <!-- FIXME: on click scroll here, don't go to top of the page → might be solved when using Ajax -->
                         <img src="{{ site.url }}/{{ item.logo }}" alt="Load data for {{ item.name }}" />
                     </a>
                 </li>
@@ -29,7 +29,7 @@
             <p>The authorship graph shows the five most dominant actors successful in publishing technical standards per working group and per year.</p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyOverviewAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
     <span class="spacer"></span>
@@ -42,7 +42,7 @@
 </p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyOverviewInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
     <span class="spacer"></span>
@@ -54,7 +54,7 @@
             <p>The leadership graph shows the five most dominant actors who have taken a formal position within a working group or committee based on the length of time as chair.</p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyOverviewLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
 </div>

@@ -22,6 +22,8 @@
 {% endif %}
 {% if page.loadjsoverview %}
     <script src="{{ site.url }}/assets/js/plotly-OAuthorship.js" type="module"></script>
+    <script src="{{ site.url }}/assets/js/plotly-influence.js" type="module"></script>
+    <script src="{{ site.url }}/assets/js/plotly-leadership.js" type="module"></script>
 {% endif %}
 </head>
 <body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }} {% if page.sitearea == 'guess-who' %} guess-who{% endif %}">
