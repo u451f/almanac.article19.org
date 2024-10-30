@@ -6,7 +6,7 @@ import { getColorCode, isScreenSmall, plotlyConfigDI, unpack } from "./guess-who
  * - Ordered by year and affiliation (alphabetical)
  */
 
-if(REALM != "undefined" && REALM == "overview") {
+if(typeof REALM !== "undefined" && REALM == "overview") {
     var file = "/assets/data/overview/influence/"+WG+".csv";
 } else {
     var file = "/assets/data/dashboard/influence/"+WG+".csv";

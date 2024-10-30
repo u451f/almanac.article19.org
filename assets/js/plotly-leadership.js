@@ -6,7 +6,7 @@ import { getColorCode, isScreenSmall, orderByAffiliation, plotlyConfigDL, unpack
  * - Ordered by default by start date (time_start)
  * */
 
-if(REALM != "undefined" && REALM == "overview") {
+if(typeof REALM !== "undefined" && REALM == "overview") {
    var file = "/assets/data/overview/leadership/"+WG+".csv";
 } else {
    var file = "/assets/data/dashboard/leadership/"+WG+".csv";
