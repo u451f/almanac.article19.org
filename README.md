@@ -12,24 +12,26 @@
 
 * cd into the Git repository
 * run `bundle exec jekyll serve`
-* navigate to http://localhost:4000/guess-who-dashboard.html
+* navigate to http://localhost:4000/
 
-## Adding new data to the dashboard
+## Building the _site for export
+
+`bundle exec jekyll build`
+
+## Building the _site and test links, scripts, images, markup
+
+`rake test`
+
+## Guess who! part of the site
+
+### Adding new data to the dashboard
 
 - Add CSV files to *assets/data/dashboard/* either to the *authorship*,
   *leadership* or *influence* folder. The file should be named after
   this scheme: *$sdo_$wg*, e.g. *ietf_add*
 - Add the working group concerned by this data to *_data/guess_who_dashboard_working_groups.yaml*
 
-## Building the _site for export
-
-`bundle exec jekyll build`
-
-## Building the _site and test all links
-
-`rake test`
-
-# JS libraries
+### JS libraries
 
 We use the Plotly Javascript library. It's quite heavy per se, but
 custom bundles can be created. [Documentation](https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md)
