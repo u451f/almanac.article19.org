@@ -1,9 +1,11 @@
 
-function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
+function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=true) {
     // Load CSV
-    var file = "/assets/data/dashboard/leadership/"+WG+".csv";
-    // FIXME: Load Overview
-    // var file = "/assets/data/overview/leadership/"+WG+".csv";
+    if(dashboard === true) {
+        var file = "/assets/data/dashboard/leadership/"+WG+".csv";
+    } else {
+        var file = "/assets/data/overview/leadership/"+WG+".csv";
+    }
 
     // Config for dashboard → leadership plot
     const plotlyConfigDL = {

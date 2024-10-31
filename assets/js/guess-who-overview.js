@@ -21,8 +21,8 @@ var WG = "ietf";
 //var WGtext = cleanOptionText(selectElement.options[1].text);
 //updateInterfaceElements(WG, WGtext);
 loadAuthorshipOverviewData(WG, false, is_small_screen);
-loadInfluenceData(WG, false, is_small_screen);
-loadLeadershipData(WG, false, is_small_screen);
+loadInfluenceData(WG, false, is_small_screen, false);
+loadLeadershipData(WG, false, is_small_screen, false);
 
 /*
  * Main dashboard logic
@@ -33,7 +33,7 @@ selectElement.addEventListener("change", (event) => {
     if(typeof(WG) !== "undefined") {
         //updateInterfaceElements(WG, WGtext);
         loadAuthorshipOverviewData(WG, true, is_small_screen);
-        loadInfluenceData(WG, true, is_small_screen);
-        loadLeadershipData(WG, true, is_small_screen);
+        loadInfluenceData(WG, true, is_small_screen, false);
+        loadLeadershipData(WG, true, is_small_screen, false);
     }
 });

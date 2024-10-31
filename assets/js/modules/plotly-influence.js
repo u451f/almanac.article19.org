@@ -4,13 +4,15 @@
  * - Ordered by year and affiliation (alphabetical)
  */
 
-function loadInfluenceData(WG, redraw=false, is_small_screen=false) {
+function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=true) {
     // Data CSV
-    var file = "/assets/data/dashboard/influence/"+WG+".csv";
-    // FIXME: overview page
-    //var file = "/assets/data/overview/influence/"+WG+".csv";
+    if(dashboard === true) {
+        var file = "/assets/data/dashboard/influence/"+WG+".csv";
+    } else {
+        var file = "/assets/data/overview/influence/"+WG+".csv";
+    }
 
-    // Config for dashboard → influence plot
+    // Config for influence plot
     const plotlyConfigDI = {
         displaylogo: false,
         responsive: true,
@@ -76,7 +78,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false) {
                 orientation: "v"
             }
         };
-        
+
         if(is_small_screen) {
             layout.legend.orientation = "h";
             layout.legend.y = -0.75;
