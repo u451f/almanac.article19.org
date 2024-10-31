@@ -112,15 +112,3 @@ function getColorCode(affiliation) {
     //console.log("aff: " + affiliation + " hex: " + hexcolor);
     return hexcolor;
 }
-
-// Config for overview → authorship plot
-const plotlyConfigOA = {
-    displaylogo: false,
-    responsive: true,
-    toImageButtonOptions: {
-        format: "svg",
-        //filename: "almanac.article19.org-authorship-ov-"+WG,
-        scale: 1
-    },
-    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
-};
