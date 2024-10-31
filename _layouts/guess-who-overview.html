@@ -9,17 +9,14 @@
     </div>
 
     <div class="section-content grid">
-        <ul id="select-sdo-view">
-            {% assign items = site.data.guess_who_overview_sdo %}
-                {% for item in items %}
-                <li><a href="{{ page.url }}?wg={{ item.slug }}&&realm=overview">
-                        <!-- FIXME: add class="active" if active -->
-                        <!-- FIXME: on click scroll here, don't go to top of the page → might be solved when using Ajax -->
-                        <img src="{{ site.url }}/{{ item.logo }}" alt="Load data for {{ item.name }}" />
-                    </a>
-                </li>
-                {% endfor %}
-        </ul>
+        <select id="wg" class="select">
+        {% assign items = site.data.guess_who_overview_sdo %}
+            {% for item in items %}
+            <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
+                {{ item.name }}
+            </option>
+            {% endfor %}
+        </select>
     </div>
 
     <div class="section-content grid">
