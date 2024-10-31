@@ -28,8 +28,16 @@
 
 - Add CSV files to *assets/data/dashboard/* either to the *authorship*,
   *leadership* or *influence* folder. The file should be named after
-  this scheme: *$sdo_$wg*, e.g. *ietf_add*
+  this scheme: *$sdo_$wg*, e.g. *ietf_add.csv*
 - Add the working group concerned by this data to *_data/guess_who_dashboard_working_groups.yaml*
+- Don't add files for SDOs here.
+
+### Adding new data for the overview page
+
+- Add CSV files to *assets/data/dashboard/* either to the *authorship*,
+  *leadership* or *influence* folder. The file should be named after
+  this scheme: *$sdo*, e.g. *ietf.csv*
+- Only add files for SDOs here.
 
 ### JS libraries
 
