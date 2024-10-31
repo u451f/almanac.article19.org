@@ -17,7 +17,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
     };
 
-    d3.csv(file, function(error, rows){
+    d3.csv(file, function(error, rows) {
         // if the file cannot be loaded
         if (error) {
             throw error;
@@ -103,7 +103,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         Plotly.newPlot("plotlyDAuthorship", data, layout, plotlyConfigDA);
 
         if(redraw === true) {
-            Plotly.redraw("plotlyDAuthorship", data);
+            Plotly.update("plotlyDAuthorship", data);
         }
     });
 

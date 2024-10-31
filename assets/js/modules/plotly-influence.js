@@ -89,7 +89,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
         Plotly.newPlot("plotlyDInfluence", data, layout, plotlyConfigDI);
 
         if(redraw === true) {
-            Plotly.redraw("plotlyDInfluence", data);
+            Plotly.update("plotlyDInfluence", data);
         }
     })
 }

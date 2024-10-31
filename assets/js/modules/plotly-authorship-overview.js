@@ -83,7 +83,7 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
         Plotly.newPlot("plotlyDAuthorship", data, layout, plotlyConfig);
 
         if(redraw === true) {
-            Plotly.redraw("plotlyDAuthorship", data);
+            Plotly.update("plotlyDAuthorship", data);
         }
     })
 }

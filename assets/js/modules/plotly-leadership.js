@@ -87,7 +87,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         Plotly.newPlot("plotlyDLeadership", data, layout, plotlyConfigDL);
 
         if(redraw === true) {
-            Plotly.redraw("plotlyDLeadership", data);
+            Plotly.update("plotlyDLeadership", data);
         }
     })
 }
