@@ -13,12 +13,12 @@ if (isScreenSmall()) {
 const selectElement = document.querySelector("#wg");
 
 /*
- * Load data and interface elements for default working group
- * FIXME: potentially just select the first element of the select that's not disabled.
+ * Load data and interface elements for working group (WG)
+ * Use first option as default
  */
 
-var WG = "ietf-add";
-var WGtext = cleanOptionText(selectElement.options[1].text);
+var WG = selectElement.selectedOptions[0].value;
+var WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 updateInterfaceElements(WG, WGtext);
 loadAuthorshipData(WG, false, is_small_screen);
 loadInfluenceData(WG, false, is_small_screen);

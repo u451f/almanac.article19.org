@@ -13,25 +13,22 @@ if (isScreenSmall()) {
 const selectElement = document.querySelector("#wg");
 
 /*
- * Load data and interface elements for default working group
- * FIXME: potentially just select the first element of the select that's not disabled.
+ * Load data and interface elements for working group (WG)
+ * Use first option as default
  */
 
-var WG = "ietf";
-//var WGtext = cleanOptionText(selectElement.options[1].text);
-//updateInterfaceElements(WG, WGtext);
+var WG = selectElement.selectedOptions[0].value;
+var WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 loadAuthorshipOverviewData(WG, false, is_small_screen);
 loadInfluenceData(WG, false, is_small_screen, false);
 loadLeadershipData(WG, false, is_small_screen, false);
 
 /*
- * Main dashboard logic
+ * Main overview page logic
  */
 selectElement.addEventListener("change", (event) => {
     WG = event.target.value;
-    //WGtext = cleanOptionText(event.target.selectedOptions[0].text);
     if(typeof(WG) !== "undefined") {
-        //updateInterfaceElements(WG, WGtext);
         loadAuthorshipOverviewData(WG, true, is_small_screen);
         loadInfluenceData(WG, true, is_small_screen, false);
         loadLeadershipData(WG, true, is_small_screen, false);
