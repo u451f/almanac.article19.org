@@ -1,43 +1,39 @@
-/*
- * On the guess-who dashboard, load WG according to query string
- * */
-const queryString = window.location.search;
-const params = new URLSearchParams(queryString);
+import { loadAuthorshipData } from "./modules/plotly-authorship.js";
+import { loadInfluenceData } from "./modules/plotly-influence.js";
+import { loadLeadershipData } from "./modules/plotly-leadership.js";
 
-/*
- * On the guess-who dashboard, by default load dnsop data
- * FIXME: think about doing that differently
- * */
-if(!params.get("wg")) {
-    // eventually do that differently
-    // nothing was selected, let's have a default view
-    params.set("wg", "ietf-add");
-    window.location.search = params;
+// Setup
+if (isScreenSmall()) {
+    var is_small_screen = true;
 }
 
 /*
- * Assign WG var to be used by the plotly scripts
- * groups, images and links follow the scheme $org-$wg, e.g. "ietf-dnsop"
+ * Event listener for working group selector
  */
-const WG = params.get("wg");
-if(WG) {
-    // mark as selected in <select>
-    let selectwg = document.getElementById("wg");
-    selectwg.value = WG;
-    // load corresponding image
-    let wglogo = document.getElementById("wglogo");
-    wglogo.src = wglogo.src + WG + ".svg";
-    // load corresponding link into main menu
-    let almanaclink = document.getElementById("almanaclink");
-    almanaclink.href = almanaclink.href + WG + ".html";
-    // load corresponding name
-    let wgname = document.getElementById("wgname");
-    wgname.textContent = selectwg.options[selectwg.selectedIndex].text.replace('-- ','');
-}
+const selectElement = document.querySelector("#wg");
 
-/* switch view to a different WG and reload page */
-function setWG(select) {
-    var value = select.value;
-    params.set("wg", value);
-    window.location.search = params;
-}
+/*
+ * Load data and interface elements for default working group
+ * FIXME: potentially just select the first element of the select that's not disabled.
+ */
+
+var WG = "ietf-add";
+var WGtext = cleanOptionText(selectElement.options[1].text);
+updateInterfaceElements(WG, WGtext);
+loadAuthorshipData(WG, false, is_small_screen);
+loadInfluenceData(WG, false, is_small_screen);
+loadLeadershipData(WG, false, is_small_screen);
+
+/*
+ * Main dashboard logic
+ */
+selectElement.addEventListener("change", (event) => {
+    WG = event.target.value;
+    WGtext = cleanOptionText(event.target.selectedOptions[0].text);
+    if(typeof(WG) !== "undefined") {
+        updateInterfaceElements(WG, WGtext);
+        loadAuthorshipData(WG, true, is_small_screen);
+        loadInfluenceData(WG, true, is_small_screen);
+        loadLeadershipData(WG, true, is_small_screen);
+    }
+});
