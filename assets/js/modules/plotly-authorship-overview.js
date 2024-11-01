@@ -76,7 +76,10 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
         if(is_small_screen) {
             layout.legend.orientation = "h";
             layout.legend.y = -0.75;
+            layout.legend.entrywidth = 300;
             layout.margin.r = 5;
+            layout.xaxis.fixedrange = true; // no zoom
+            layout.yaxis.fixedrange = true;
         }
 
         // executed only once, bc this is a module

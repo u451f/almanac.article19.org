@@ -2,11 +2,14 @@
  * Load authorship CSV file, treat data and call plotly
  * */
 function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
+    // measure loading time
+    var startTime = performance.now()
+
     // Data CSV
     var file = "/assets/data/dashboard/authorship/"+WG+".csv";
 
-    // Config for dashboard → authorship plot
-    const plotlyConfigDA = {
+    // Config → authorship plot
+    const plotlyConfig = {
         displaylogo: false,
         responsive: true,
         toImageButtonOptions: {
@@ -97,14 +100,20 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
             layout.margin.l = 0;
             layout.margin.r = 0;
             layout.legend.entrywidth = 300;
+            layout.xaxis.fixedrange = true; // no zoom
+            layout.yaxis.fixedrange = true;
         }
 
         // executed only once, bc this is a module
-        Plotly.newPlot("plotlyDAuthorship", data, layout, plotlyConfigDA);
+        Plotly.newPlot("plotlyDAuthorship", data, layout, plotlyConfig);
 
         if(redraw === true) {
             Plotly.update("plotlyDAuthorship", data);
         }
+
+        // measure loading time
+        var endTime = performance.now()
+        console.log(`Call took ${endTime - startTime} ms`)
     });
 
 }

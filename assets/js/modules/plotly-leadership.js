@@ -8,7 +8,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
     }
 
     // Config for dashboard → leadership plot
-    const plotlyConfigDL = {
+    const plotlyConfig = {
         displaylogo: false,
         responsive: true,
         toImageButtonOptions: {
@@ -81,10 +81,23 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
                 color: "#101820"
             },
             showlegend: false,
+            legend: {
+                orientation: "v"
+            }
         };
 
+        if(is_small_screen) {
+            layout.yaxis.showticklabels = false;
+            layout.showlegend = true;
+            layout.legend.orientation = "h";
+            layout.legend.y = -0.5;
+            layout.legend.entrywidth = 300;
+            layout.xaxis.fixedrange = true; // no zoom
+            layout.yaxis.fixedrange = true;
+        }
+
         // executed only once, bc this is a module
-        Plotly.newPlot("plotlyDLeadership", data, layout, plotlyConfigDL);
+        Plotly.newPlot("plotlyDLeadership", data, layout, plotlyConfig);
 
         if(redraw === true) {
             Plotly.update("plotlyDLeadership", data);
