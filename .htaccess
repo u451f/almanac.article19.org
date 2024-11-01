@@ -20,3 +20,7 @@ RewriteRule ^ietf-privacy-preserving-measurement.html /group/ietf-ppm.html [R=30
 RewriteRule ^ietf-quic.html /group/ietf-quic.html [R=301,L]
 RewriteRule ^ietf-real-time-communication-web-browser.html /group/ietf-rtcweb.html [R=301,L]
 RewriteRule ^ietf-transport-layer-security.html /group/ietf-tls.html [R=301,L]
+RewriteRule ^irtf-decentralized-internet-infrastructure.html$ /group/irtf-dinrg.html [R=301,L]
+RewriteRule ^irtf-human-rights-protocol-considerations.html$ /group/irtf-hrpc.html [R=301,L]
+RewriteRule ^irtf-path-aware-networking.html$ /group/irtf-panrg.html [R=301,L]
+RewriteRule ^irtf-privacy-enhancements-assessments.html /group/irtf-pearg.html [R=301,L]
