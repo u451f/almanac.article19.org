@@ -973,6 +973,7 @@ body.guess-who .site-title a {
 
 .guess-who .section-content#intro {
     padding-bottom: 0.5em;
+    margin-bottom: 2em;
 }
 
 .guess-who .section-content#intro .post {
@@ -1105,6 +1106,10 @@ option:disabled {
 /*************************************
   Plotly elements
 ***********************************/
+
+.plotlyRender {
+    margin-top: 1.5em;
+}
 
 a.modebar-btn {
     background: #fff;
@@ -1305,6 +1310,10 @@ a.modebar-btn {
         margin: -2.5em 0 3.5em 0;
     }
 
+    .guess-who .section-content#intro {
+        margin-bottom: 0;
+    }
+
    .guess-who-display {
         grid-column-start: 2;
         grid-column-end: 5;
@@ -1315,6 +1324,9 @@ a.modebar-btn {
     }
     .guess-who-bottom-links img {
         margin-left: -25px;
+    }
+    .plotlyRender {
+        margin-top: 0;
     }
 }
 
@@ -1372,13 +1384,15 @@ a.modebar-btn {
 @media all and (max-width: 640px) {
     .mobile-users {
         display: block;
-        background: var(--colour2);
+        background: var(--colour1);
         text-align: center;
         width: 100%;
         color: #fff;
         font-size: .9em;
-        padding: .5em var(--hspace);
+        padding: .2em var(--hspace);
         box-sizing: border-box;
+        position: relative;
+        z-index: 1;
     }
 }
 
