@@ -13,7 +13,7 @@
     </div>
 
     <div class="section-content grid" id="guess-who-actions">
-        <select id="wg" class="select">
+        <select id="wg" class="select" aria-label="Upon selecting a different working group, visualisations below will change.">
         {% assign items = site.data.guess_who_dashboard_working_groups %}
             {% for item in items %}
                 {% if item.slug %}
