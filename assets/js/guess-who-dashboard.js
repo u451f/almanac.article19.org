@@ -20,9 +20,23 @@ const selectElement = document.querySelector("#wg");
 var WG = selectElement.selectedOptions[0].value;
 var WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 updateInterfaceElements(WG, WGtext);
-loadAuthorshipData(WG, false, is_small_screen);
-loadInfluenceData(WG, false, is_small_screen);
-loadLeadershipData(WG, false, is_small_screen);
+try {
+    loadAuthorshipData(WG, false, is_small_screen);
+} catch (error) {
+    console.log(error);
+}
+
+try {
+    loadInfluenceData(WG, false, is_small_screen);
+} catch (error) {
+    console.log(error);
+}
+
+try {
+    loadLeadershipData(WG, false, is_small_screen);
+} catch (error) {
+    console.log(error);
+}
 
 /*
  * Main dashboard logic
@@ -32,8 +46,20 @@ selectElement.addEventListener("change", (event) => {
     WGtext = cleanOptionText(event.target.selectedOptions[0].text);
     if(typeof(WG) !== "undefined") {
         updateInterfaceElements(WG, WGtext);
-        loadAuthorshipData(WG, true, is_small_screen);
-        loadInfluenceData(WG, true, is_small_screen);
-        loadLeadershipData(WG, true, is_small_screen);
+        try {
+            loadAuthorshipData(WG, true, is_small_screen);
+        } catch (error) {
+            console.log(error);
+        }
+        try {
+            loadInfluenceData(WG, true, is_small_screen);
+        } catch (error) {
+            console.log(error);
+        }
+        try {
+            loadLeadershipData(WG, true, is_small_screen);
+        } catch (error) {
+            console.log(error);
+        }
     }
 });

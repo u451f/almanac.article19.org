@@ -27,9 +27,8 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
     d3.csv(file, function(error, rows){
         // if the file cannot be loaded
         if (error) {
-            throw error;
+            return console.warn(error);
         }
-
         //console.log("Rows", rows);
 
         var headerNames = d3.keys(rows[0]);
