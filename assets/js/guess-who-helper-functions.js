@@ -8,6 +8,24 @@ function isScreenSmall() {
     }
 }
 
+function displayError(errtxt) {
+    var target = document.getElementById("wg");
+    var elmTxt = document.createElement('div');
+    elmTxt.className = "error";
+    elmTxt.innerHTML = "Data could not be loaded: " + errtxt;
+    target.after(elmTxt);
+    removeErrors();
+}
+
+function removeErrors() {
+    const elems = document.querySelectorAll('.error');
+    setTimeout(function() {
+        for (const e of elems) {
+            e.remove();
+        }
+    }, 3000);
+}
+
 /*
  * Dashboard interface: headline
  * */
