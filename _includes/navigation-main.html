@@ -1,7 +1,7 @@
 <nav id="site-area-menu" {% if page.sitearea == "guess-who" %}class="current-area-guess-who"{% endif %} aria-label="Switch between the almanac and the data visualizations of SDOs and working groups">
     <ul>
         <li><a href="{{ site.url }}">Almanac</a></li>
-        <li><a href="{{ site.url }}/guess-who-overview.html">Guess who!</a></li>
+        <li><a href="{{ site.url }}/guess-who.html">Guess who!</a></li>
     {% if page.guess-whoexists %}
         <li><a href="{{ site.url }}/guess-who-dashboard.html?wg={{ page.guess-whoexists }}">Explore in data dashboard</a></li>
     {% endif %}
