@@ -17,6 +17,7 @@
             </option>
             {% endfor %}
         </select>
+        <p class="error" id="handleErrors"><!-- --></p>
     </div>
 
     <div class="section-content grid">
@@ -26,7 +27,7 @@
             <p>The authorship graph shows the five most dominant actors successful in publishing technical standards per working group and per year.</p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyDAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDAuthorship" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
     <span class="spacer"></span>
@@ -39,7 +40,7 @@
 </p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyDInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDInfluence" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
     <span class="spacer"></span>
@@ -51,7 +52,7 @@
             <p>The leadership graph shows the five most dominant actors who have taken a formal position within a working group or committee based on the length of time as chair.</p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyDLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDLeadership" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
 </main>
