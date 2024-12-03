@@ -16,9 +16,25 @@ const selectElement = document.querySelector("#wg");
  * Load data and interface elements for working group (WG)
  * Use first option as default
  */
+/*
+// Remove saved data from sessionStorage
+sessionStorage.removeItem("WG");
+// Remove all saved data from sessionStorage
+sessionStorage.clear();
+*/
+var WG, WGtext;
+let lastSelectedWG = sessionStorage.getItem("WG");
 
-var WG = selectElement.selectedOptions[0].value;
-var WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
+if (lastSelectedWG) {
+    // if person is reloading the page or using the back button, restore the view
+    WG = lastSelectedWG;
+    selectElement.value = WG;
+    WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
+} else {
+    // on first load, use the first element in the list
+    WG = selectElement.selectedOptions[0].value;
+    WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
+}
 loadAuthorshipOverviewData(WG, false, is_small_screen);
 loadInfluenceData(WG, false, is_small_screen, false);
 loadLeadershipData(WG, false, is_small_screen, false);
@@ -32,5 +48,6 @@ selectElement.addEventListener("change", (event) => {
         loadAuthorshipOverviewData(WG, true, is_small_screen);
         loadInfluenceData(WG, true, is_small_screen, false);
         loadLeadershipData(WG, true, is_small_screen, false);
+        sessionStorage.setItem("WG", event.target.value);
     }
 });
