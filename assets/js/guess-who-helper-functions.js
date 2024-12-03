@@ -39,15 +39,21 @@ function cleanOptionText(WGtext) {
 function updateInterfaceElements(WG, WGtext) {
     // load corresponding image
     let wglogo = document.getElementById("wglogo");
-    wglogo.src = "/assets/images/groups/" + WG + ".svg";
+    if(wglogo) {
+        wglogo.src = "/assets/images/groups/" + WG + ".svg";
+    }
 
     // load corresponding link into top menu
     let almanaclink = document.getElementById("almanaclink");
-    almanaclink.href = "/group/" + WG + ".html";
+    if(almanaclink) {
+        almanaclink.href = "/group/" + WG + ".html";
+    }
 
     // load corresponding name into the title
     let wgname = document.getElementById("wgname");
-    wgname.textContent = WGtext;
+    if(wgname) {
+        wgname.textContent = WGtext;
+    }
 }
 
 /*
