@@ -75,6 +75,12 @@ $(function($){
                 $('body').removeClass("darkbg");
             }
         }
+        let distance = 1;
+        if($(window).scrollTop() > distance) {
+            $('body').addClass("scrolled");
+        } else {
+            $('body').removeClass("scrolled");
+        }
     });
     $(window).scroll();
 });
