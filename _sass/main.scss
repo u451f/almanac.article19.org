@@ -469,7 +469,7 @@ body:not(.guess-who) .post #intro {
     background-image: url(images/menu-guess-who.svg);
 }
 
-.darkbg .toggler {
+.darkbg:not(.guess-who) .toggler {
     background-image: url(images/menu-white.svg);
 }
 
