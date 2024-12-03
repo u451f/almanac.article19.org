@@ -2,9 +2,6 @@
  * Load authorship CSV file, treat data and call plotly
  * */
 function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
-    // measure loading time
-    var startTime = performance.now()
-
     // Data CSV
     var file = "/assets/data/dashboard/authorship/"+WG+".csv";
 
@@ -111,10 +108,6 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         if(redraw === true) {
             Plotly.update("plotlyDAuthorship", data);
         }
-
-        // measure loading time
-        var endTime = performance.now()
-        console.log(`Call took ${endTime - startTime} ms`)
     });
 
 }
