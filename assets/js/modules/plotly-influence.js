@@ -18,7 +18,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
         responsive: true,
         toImageButtonOptions: {
             format: "svg",
-            filename: "almanac.article19.org-influence-"+WG,
+            filename: "almanac.article19.org-who-speaks-"+WG,
             scale: 1
         },
         modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
@@ -56,7 +56,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
         var data = traces;
         var layout = {
             title: {
-                text: "Who sent most emails to "+WG+"?",
+                text: "Amount of communication in "+WG,
                 xref: "container",
                 x: 0
             },

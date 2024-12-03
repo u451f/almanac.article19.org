@@ -13,7 +13,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         responsive: true,
         toImageButtonOptions: {
             format: "svg",
-            filename: "almanac.article19.org-leadership-"+WG,
+            filename: "almanac.article19.org-who-leads-"+WG,
             scale: 1
         },
         modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]

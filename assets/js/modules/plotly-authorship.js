@@ -14,7 +14,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         responsive: true,
         toImageButtonOptions: {
             format: "svg",
-            filename: "almanac.article19.org-authorship-"+WG,
+            filename: "almanac.article19.org-who-publishes-"+WG,
             scale: 1
         },
         modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
@@ -66,7 +66,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         var data = traces;
         var layout = {
             title: {
-                text: "Who authored published standards in WG "+WG+"?",
+                text: "Amount of published standards in WG "+WG,
                 xref: "container",
                 x: 0
             },
