@@ -17,8 +17,7 @@ const selectElement = document.querySelector("#wg");
  */
 
 var WG, WGtext;
-let lastSelectedWG = sessionStorage.getItem("WG");
-console.log(lastSelectedWG);
+let lastSelectedWG = sessionStorage.getItem("overview");
 
 if (lastSelectedWG) {
     // if person is reloading the page or using the back button, restore the view
@@ -46,6 +45,6 @@ selectElement.addEventListener("change", (event) => {
         loadAuthorshipData(WG, true, is_small_screen);
         loadInfluenceData(WG, true, is_small_screen);
         loadLeadershipData(WG, true, is_small_screen);
-        sessionStorage.setItem("WG", event.target.value);
+        sessionStorage.setItem("overview", event.target.value);
     }
 });
