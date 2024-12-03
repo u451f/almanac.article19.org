@@ -87,6 +87,12 @@ pre {
     text-align: center;
 }
 
+.error {
+    background: var(--colour1);
+    color: #fff;
+    padding: 0.25em;
+}
+
 /*************************************
   Accessibility
   ***********************************/
@@ -446,7 +452,7 @@ body:not(.guess-who) .post #intro {
     -webkit-user-select: none;
     user-select: none;
     position: fixed;
-    top: calc(var(--hspace) + 5px);
+    top: calc(var(--hspace) + 8px);
     right: var(--hspace);
     z-index: 11;
 }
@@ -1007,6 +1013,10 @@ body.guess-who .site-title a {
     margin-top: 1em;
 }
 
+.guess-who-default .section-content .descriptive-txt p {
+    margin-bottom: 1em;
+}
+
 #select-sdo-view {
     list-style: none;
     margin: 0;
@@ -1042,20 +1052,6 @@ body.guess-who .site-title a {
     margin-bottom: 2em;
 }
 
-/*
-.catnip-icon {
-    max-width: 250px;
-}
-
-.guess-who-dashboard .catnip-icon {
-    margin-top: -100px;
-    z-index: 100;
-    position: relative;
-    max-width: 150px;
-    float: right;
-}
-*/
-
 select {
     background-color: var(--colour2);
     padding: .5em;
@@ -1073,6 +1069,21 @@ select option:checked {
 
 option:disabled {
     background: #fff;
+}
+
+select#wg {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.scrolled select#wg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    border: none;
+    outline: none;
 }
 
 .guess-who-bottom-links p {
@@ -1273,6 +1284,11 @@ a.modebar-btn {
         grid-row-gap: 35px;
     }
 
+    .guess-who-default .section-content .descriptive-txt {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
     .all-groups {
         margin-top: 1em;
     }
@@ -1353,6 +1369,12 @@ a.modebar-btn {
         grid-column-start: 4;
         grid-column-end: 6;
     }
+
+    select#wg {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
 
 }
 
