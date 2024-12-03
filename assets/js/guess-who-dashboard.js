@@ -18,12 +18,13 @@ const selectElement = document.querySelector("#wg");
 
 var WG, WGtext;
 let lastSelectedWG = sessionStorage.getItem("WG");
+console.log(lastSelectedWG);
 
 if (lastSelectedWG) {
     // if person is reloading the page or using the back button, restore the view
     WG = lastSelectedWG;
     selectElement.value = WG;
-    WGtext = cleanOptionText(selectElement.selectedOptions[0].text); // fixme
+    WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 } else {
     // on first load, use the first element in the list
     WG = selectElement.selectedOptions[0].value;
@@ -45,6 +46,6 @@ selectElement.addEventListener("change", (event) => {
         loadAuthorshipData(WG, true, is_small_screen);
         loadInfluenceData(WG, true, is_small_screen);
         loadLeadershipData(WG, true, is_small_screen);
+        sessionStorage.setItem("WG", event.target.value);
     }
-    sessionStorage.setItem("WG", event.target.value);
 });
