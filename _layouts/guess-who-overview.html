@@ -1,5 +1,5 @@
 {% include header.html %}
-<div class="section" id="content">
+<main class="section" id="content">
     <div class="section-content grid" id="intro">
         {% include site-header.html %}
         {% include breadcrumbs.html %}
@@ -9,53 +9,50 @@
     </div>
 
     <div class="section-content grid">
-        <ul id="select-sdo-view">
-            {% assign items = site.data.guess_who_overview_sdo %}
-                {% for item in items %}
-                <li><a href="{{ page.url }}?wg={{ item.slug }}">
-                        <!-- FIXME: add class="active" if active -->
-                        <!-- FIXME: on click scroll here, don't go to top of the page -->
-                        <img src="{{ site.url }}/{{ item.logo }}" alt="Load data for {{ item.name }}" />
-                    </a>
-                </li>
-                {% endfor %}
-        </ul>
+        <select id="wg" class="select" aria-label="Upon selecting a different working group, visualisations below will change.">
+        {% assign items = site.data.guess_who_overview_sdo %}
+            {% for item in items %}
+            <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
+                {{ item.name }}
+            </option>
+            {% endfor %}
+        </select>
     </div>
 
     <div class="section-content grid">
         <div>
-            <h2 class="title">Authorship - Amount of published standards</h2>
-            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-author.jpg" alt="Catnip authoring an RFC" />
-            <p>The authorship graph shows the five most dominant actors successful in publishing technical standards per working group and per year.</p>
+            <h2 class="title">Who leads? Longest chairing periods</h2>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a chair" />
+            <p>The leadership graph shows the 10 actors who have held positions of power the longest  (eg: chair of a working group or committee)</p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyOverviewAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDLeadership" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
     <span class="spacer"></span>
 
     <div class="section-content grid">
         <div>
-            <h2 class="title">Influence - Amount of communication</h2>
+            <h2 class="title">Who speaks? Amount of communication</h2>
             <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-influencer.jpg" alt="Catnip writing an email" />
-            <p>The influence graph shows the five most dominant actors based on contributions through modes of communication, such as mailing lists, per year.
+            <p>The influence graph shows the 10 actors who dominate discussions and send the greatest volume of emails per year to working groups.
 </p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyOverviewInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDInfluence" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
     <span class="spacer"></span>
 
     <div class="section-content grid">
         <div>
-            <h2 class="title">Leadership - Longest chairing periods</h2>
-            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a chair" />
-            <p>The leadership graph shows the five most dominant actors who have taken a formal position within a working group or committee based on the length of time as chair.</p>
+            <h2 class="title">Who publishes? Amount of published standards</h2>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-author.jpg" alt="Catnip authoring an RFC" />
+            <p>The authorship graph shows the 10 most dominant actors successful in publishing technical standards per working group and per year.</p>
         </div>
         <div class="guess-who-display">
-            <div id="plotlyOverviewLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <div id="plotlyDAuthorship" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
-</div>
+</main>
 {% include footer.html %}

@@ -1,12 +1,14 @@
-<nav id="site-area-menu" {% if page.sitearea == "guess-who" %}class="current-area-guess-who"{% endif %}>
+<nav id="site-area-menu" {% if page.sitearea == "guess-who" %}class="current-area-guess-who"{% endif %} aria-label="Switch between the almanac and the data visualizations of SDOs and working groups">
     <ul>
-        <li><a href="{{ site.url }}">Almanac</a></li>
-        <li><a href="{{ site.url }}/guess-who-overview.html">Guess who!</a></li>
+        {% comment %}
+        <li><a href="{{ site.url }}" title="Switch to almanac">Almanac</a></li>
+        <li><a href="{{ site.url }}/guess-who.html" title="Switch to Guess who!">Guess who!</a></li>
+        {% endcomment %}
     {% if page.guess-whoexists %}
-        <li><a href="{{ site.url }}/guess-who-dashboard.html?wg={{ page.guess-whoexists }}">Explore in data dashboard</a></li>
+        <li><a href="{{ site.url }}/guess-who-dashboard.html?wg={{ page.guess-whoexists }}" title="Look up who leads, speaks, and publishes in this group">⤳</a></li>
     {% endif %}
     {% if page.loadjsdashboard %}
-        <li><a href="{{ site.url }}/group/" id="almanaclink">Look up in Almanac</a></li>
+        <li><a href="{{ site.url }}/group/" id="almanaclink" title="Look this working group up in the almanac">👁</a></li>
     {% endif %}
     </ul>
 </nav>

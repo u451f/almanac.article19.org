@@ -1,9 +1,9 @@
 <div class="mobile-menu-toggle">
     <input class="toggler" aria-hidden="true" type="checkbox" />
     <div class="toggler menu-action"><!-- hamburger --></div>
-    <nav id="primary-menu" class="menu">
+    <nav id="primary-menu" class="menu" aria-label="Main navigation">
         <div class="section-content grid">
-            <h1 class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+            <span class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></span>
             <ul class="main-menu">
             {% assign items = site.data.navigation %}
             {% for item in items %}

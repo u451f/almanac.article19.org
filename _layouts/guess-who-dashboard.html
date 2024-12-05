@@ -1,5 +1,5 @@
 {% include header.html %}
-<div class="section" id="content">
+<main class="section" id="content">
     <div class="section-content grid" id="intro">
         {% include site-header.html %}
         {% include breadcrumbs.html %}
@@ -13,7 +13,7 @@
     </div>
 
     <div class="section-content grid" id="guess-who-actions">
-        <select id="wg" class="select" onchange="setWG(this)">
+        <select id="wg" class="select" aria-label="Upon selecting a different working group, visualisations below will change.">
         {% assign items = site.data.guess_who_dashboard_working_groups %}
             {% for item in items %}
                 {% if item.slug %}
@@ -32,28 +32,27 @@
                 {% endif %}
             {% endfor %}
         </select>
+
     </div>
 
     <div id="guess-who-display">
+
         <div class="section-content">
-            <h3 class="title">Authorship - Amount of published standards</h3>
-            <div id="plotlyDAuthorship" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
-            <!--<img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-author.jpg" alt="Catnip authoring an RFC" />-->
+            <h3 class="title">Who leads? Chairing periods</h3>
+            <div id="plotlyDLeadership" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
         <span class="spacer"></span>
 
         <div class="section-content">
-            <h3 class="title">Influence - Amount of communication</h3>
-            <div id="plotlyDInfluence" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
-            <!--<img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-influencer.jpg" alt="Catnip witing an email" />-->
+            <h3 class="title">Who speaks? Amount of communication</h3>
+            <div id="plotlyDInfluence" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
         <span class="spacer"></span>
 
         <div class="section-content">
-            <h3 class="title">Leadership - Chairing periods</h3>
-            <div id="plotlyDLeadership" class="plotlyRender"><!-- Plotly chart will be drawn inside this DIV --></div>
-            <!--<img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a (zaisu) chair" />-->
+            <h3 class="title">Who publishes? Amount of published standards</h3>
+            <div id="plotlyDAuthorship" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
         </div>
     </div>
-</div>
+</main>
 {% include footer.html %}

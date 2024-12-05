@@ -8,6 +8,54 @@ function isScreenSmall() {
     }
 }
 
+function displayError(errtxt) {
+    var target = document.getElementById("wg");
+    var elmTxt = document.createElement('div');
+    elmTxt.className = "error";
+    elmTxt.innerHTML = "Data could not be loaded: " + errtxt;
+    target.after(elmTxt);
+    removeErrors();
+}
+
+function removeErrors() {
+    const elems = document.querySelectorAll('.error');
+    setTimeout(function() {
+        for (const e of elems) {
+            e.remove();
+        }
+    }, 3000);
+}
+
+/*
+ * Dashboard interface: headline
+ * */
+function cleanOptionText(WGtext) {
+    return WGtext.replace('-- ','');
+}
+
+/*
+ * Dashboard interface: load image, link, title
+ */
+function updateInterfaceElements(WG, WGtext) {
+    // load corresponding image
+    let wglogo = document.getElementById("wglogo");
+    if(wglogo) {
+        wglogo.src = "/assets/images/groups/" + WG + ".svg";
+    }
+
+    // load corresponding link into top menu
+    let almanaclink = document.getElementById("almanaclink");
+    if(almanaclink) {
+        almanaclink.href = "/group/" + WG + ".html";
+    }
+
+    // load corresponding name into the title
+    let wgname = document.getElementById("wgname");
+    if(wgname) {
+        wgname.textContent = WGtext;
+    }
+}
+
 /*
  * Unpack data and return
  * */
@@ -88,57 +136,3 @@ function getColorCode(affiliation) {
     //console.log("aff: " + affiliation + " hex: " + hexcolor);
     return hexcolor;
 }
-
-/*
- * Configure and simplify the plotly tool bar for each plot
- * */
-
-// Config for dashboard → authorship plot
-const plotlyConfigDA = {
-    displaylogo: false,
-    responsive: true,
-    toImageButtonOptions: {
-        format: "svg",
-        filename: "almanac.article19.org-authorship-"+WG,
-        scale: 1
-    },
-    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
-};
-
-// Config for dashboard → influence plot
-const plotlyConfigDI = {
-    displaylogo: false,
-    responsive: true,
-    toImageButtonOptions: {
-        format: "svg",
-        filename: "almanac.article19.org-influence-"+WG,
-        scale: 1
-    },
-    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
-};
-
-// Config for dashboard → leadership plot
-const plotlyConfigDL = {
-    displaylogo: false,
-    responsive: true,
-    toImageButtonOptions: {
-        format: "svg",
-        filename: "almanac.article19.org-leadership-"+WG,
-        scale: 1
-    },
-    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
-};
-
-// Config for overview → authorship plot
-const plotlyConfigOA = {
-    displaylogo: false,
-    responsive: true,
-    toImageButtonOptions: {
-        format: "svg",
-        filename: "almanac.article19.org-authorship-ov-"+WG,
-        scale: 1
-    },
-    modeBarButtonsToRemove: ["zoom2d", "pan2d","select2d","lasso2d", "resetScale2d"]
-};
-
-export { getColorCode, isScreenSmall, orderByAffiliation, unpack, plotlyConfigDA, plotlyConfigDI, plotlyConfigDL, plotlyConfigOA };
