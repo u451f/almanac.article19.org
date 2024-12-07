@@ -28,7 +28,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
         // if the file cannot be loaded
         if (error) {
             Plotly.purge("plotlyDInfluence");
-            displayError("Influence");
+            displayError("plotlyDInfluence");
             return console.warn(error);
         }
         //console.log("Rows", rows);

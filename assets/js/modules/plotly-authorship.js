@@ -21,7 +21,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         // if the file cannot be loaded
         if (error) {
             Plotly.purge("plotlyDAuthorship");
-            displayError("Authorship");
+            displayError("plotlyDAuthorship");
             return console.warn(error);
         }
 

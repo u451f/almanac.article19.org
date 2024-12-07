@@ -9,21 +9,18 @@ function isScreenSmall() {
 }
 
 function displayError(errtxt) {
-    var target = document.getElementById("wg");
+    var target = document.getElementById(errtxt);
     var elmTxt = document.createElement('div');
     elmTxt.className = "error";
-    elmTxt.innerHTML = "Data could not be loaded: " + errtxt;
+    elmTxt.innerHTML = "No available data.";
     target.after(elmTxt);
-    removeErrors();
 }
 
 function removeErrors() {
     const elems = document.querySelectorAll('.error');
-    setTimeout(function() {
-        for (const e of elems) {
-            e.remove();
-        }
-    }, 3000);
+    for (const e of elems) {
+        e.remove();
+    };
 }
 
 /*

@@ -41,6 +41,7 @@ selectElement.addEventListener("change", (event) => {
     WG = event.target.value;
     WGtext = cleanOptionText(event.target.selectedOptions[0].text);
     if(typeof(WG) !== "undefined") {
+        removeErrors();
         updateInterfaceElements(WG, WGtext);
         loadAuthorshipData(WG, true, is_small_screen);
         loadInfluenceData(WG, true, is_small_screen);
