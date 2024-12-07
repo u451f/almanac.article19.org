@@ -18,6 +18,7 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
     d3.csv(file, function(error, rows){
         // if the file cannot be loaded
         if (error) {
+            Plotly.purge("plotlyDAuthorship");
             displayError("Authorship");
             return console.warn(error);
         }
