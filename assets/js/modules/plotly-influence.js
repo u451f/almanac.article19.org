@@ -27,7 +27,8 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
     d3.csv(file, function(error, rows){
         // if the file cannot be loaded
         if (error) {
-            displayError("Influence");
+            Plotly.purge("plotlyDInfluence");
+            displayError("plotlyDInfluence");
             return console.warn(error);
         }
         //console.log("Rows", rows);

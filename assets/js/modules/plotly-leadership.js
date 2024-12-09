@@ -21,7 +21,8 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
 
     d3.csv(file, function(error, rows) {
         if (error) {
-            displayError("Leadership");
+            Plotly.purge("plotlyDLeadership");
+            displayError("plotlyDLeadership");
             return console.warn(error);
         }
 

@@ -23,7 +23,8 @@ sessionStorage.removeItem("WG");
 sessionStorage.clear();
 */
 var WG, WGtext;
-let lastSelectedWG = sessionStorage.getItem("WG");
+let lastSelectedWG = sessionStorage.getItem("overview");
+console.log(lastSelectedWG);
 
 if (lastSelectedWG) {
     // if person is reloading the page or using the back button, restore the view
@@ -45,9 +46,10 @@ loadLeadershipData(WG, false, is_small_screen, false);
 selectElement.addEventListener("change", (event) => {
     WG = event.target.value;
     if(typeof(WG) !== "undefined") {
+        removeErrors();
         loadAuthorshipOverviewData(WG, true, is_small_screen);
         loadInfluenceData(WG, true, is_small_screen, false);
         loadLeadershipData(WG, true, is_small_screen, false);
-        sessionStorage.setItem("WG", event.target.value);
+        sessionStorage.setItem("overview", event.target.value);
     }
 });
