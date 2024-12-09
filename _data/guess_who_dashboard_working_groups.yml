@@ -42,5 +42,13 @@
     slug: irtf-pearg
 - name: "W3C"
   wg:
-  - name: "XXX"
-    slug: w3c-xxx
+  - name: "Privacy Community Group"
+    slug: w3c-cg-privacycg
+  - name: "Privacy Interest Group"
+    slug: w3c-ig-privacy
+  - name: "Improving Web Advertising Business Group"
+    slug: w3c-bg-web-adv
+  - name: "Private Advertising Technology Community Group"
+    slug: w3c-cg-patcg
+  - name: "Decentralized Identifier Working Group"
+    slug: w3c-wg-did
