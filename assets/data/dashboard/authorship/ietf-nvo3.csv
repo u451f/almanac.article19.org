@@ -44,3 +44,48 @@
 42,112237,United States of America,Google,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 43,108236,USA,Ciena Corporation,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
 44,102391,USA,Huawei Device Co. Ltd,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
+45,7262,United States,IBM,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
+46,105399,United States,Microsoft,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
+47,107729,,Ericsson,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
+48,122556,United States,Cisco,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
+49,107816,United States,AT&T,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
+50,103156,United States,EMC,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
+51,105300,,Alcatel-Lucent,draft-ietf-nvo3-framework-09,Framework for Data Center (DC) Network Virtualization,2014-10-01,nvo3,RFC7365
+52,106814,United States,Alcatel-Lucent,draft-ietf-nvo3-framework-09,Framework for Data Center (DC) Network Virtualization,2014-10-01,nvo3,RFC7365
+53,106860,,Orange,draft-ietf-nvo3-framework-09,Framework for Data Center (DC) Network Virtualization,2014-10-01,nvo3,RFC7365
+54,101564,United States,Verizon,draft-ietf-nvo3-framework-09,Framework for Data Center (DC) Network Virtualization,2014-10-01,nvo3,RFC7365
+55,10535,,Juniper,draft-ietf-nvo3-framework-09,Framework for Data Center (DC) Network Virtualization,2014-10-01,nvo3,RFC7365
+56,112823,,Independent,draft-ietf-nvo3-arch-08,An Architecture for Data-Center Network Virtualization over Layer 3 (NVO3),2016-12-01,nvo3,RFC8014
+57,122556,,Independent,draft-ietf-nvo3-arch-08,An Architecture for Data-Center Network Virtualization over Layer 3 (NVO3),2016-12-01,nvo3,RFC8014
+58,7262,,IBM,draft-ietf-nvo3-arch-08,An Architecture for Data-Center Network Virtualization over Layer 3 (NVO3),2016-12-01,nvo3,RFC8014
+59,105300,,Independent,draft-ietf-nvo3-arch-08,An Architecture for Data-Center Network Virtualization over Layer 3 (NVO3),2016-12-01,nvo3,RFC8014
+60,103156,,Dell EMC,draft-ietf-nvo3-arch-08,An Architecture for Data-Center Network Virtualization over Layer 3 (NVO3),2016-12-01,nvo3,RFC8014
+61,107800,,Huawei,draft-ietf-nvo3-use-case-17,Use Cases for Data Center Network Virtualization Overlay Networks,2017-05-01,nvo3,RFC8151
+62,111281,United States of America,Juniper Networks,draft-ietf-nvo3-use-case-17,Use Cases for Data Center Network Virtualization Overlay Networks,2017-05-01,nvo3,RFC8151
+63,111086,United States of America,Huawei,draft-ietf-nvo3-use-case-17,Use Cases for Data Center Network Virtualization Overlay Networks,2017-05-01,nvo3,RFC8151
+64,105627,United States of America,Nano Sec Co,draft-ietf-nvo3-use-case-17,Use Cases for Data Center Network Virtualization Overlay Networks,2017-05-01,nvo3,RFC8151
+65,113635,,Verizon,draft-ietf-nvo3-use-case-17,Use Cases for Data Center Network Virtualization Overlay Networks,2017-05-01,nvo3,RFC8151
+66,20162,,Dell,draft-ietf-nvo3-mcast-framework-11,A Framework for Multicast in Network Virtualization over Layer 3,2018-01-01,nvo3,RFC8293
+67,111086,"Plano, TX 75024, USA",Huawei,draft-ietf-nvo3-mcast-framework-11,A Framework for Multicast in Network Virtualization over Layer 3,2018-01-01,nvo3,RFC8293
+68,115545,,Google,draft-ietf-nvo3-mcast-framework-11,A Framework for Multicast in Network Virtualization over Layer 3,2018-01-01,nvo3,RFC8293
+69,105708,,Huawei,draft-ietf-nvo3-mcast-framework-11,A Framework for Multicast in Network Virtualization over Layer 3,2018-01-01,nvo3,RFC8293
+70,112936,,Dell,draft-ietf-nvo3-mcast-framework-11,A Framework for Multicast in Network Virtualization over Layer 3,2018-01-01,nvo3,RFC8293
+71,108527,China,Huawei Technologies,draft-ietf-nvo3-hpvr2nve-cp-req-17,Split Network Virtualization Edge (Split-NVE) Control-Plane Requirements,2018-05-01,nvo3,RFC8394
+72,122556,,"Arrcus, Inc",draft-ietf-nvo3-hpvr2nve-cp-req-17,Split Network Virtualization Edge (Split-NVE) Control-Plane Requirements,2018-05-01,nvo3,RFC8394
+73,7262,,IBM,draft-ietf-nvo3-hpvr2nve-cp-req-17,Split Network Virtualization Edge (Split-NVE) Control-Plane Requirements,2018-05-01,nvo3,RFC8394
+74,103156,"Hopkinton, MA 01748 USA",Dell EMC,draft-ietf-nvo3-hpvr2nve-cp-req-17,Split Network Virtualization Edge (Split-NVE) Control-Plane Requirements,2018-05-01,nvo3,RFC8394
+75,102391,"Milford, MA 01757 USA",Huawei Technologies,draft-ietf-nvo3-hpvr2nve-cp-req-17,Split Network Virtualization Edge (Split-NVE) Control-Plane Requirements,2018-05-01,nvo3,RFC8394
+76,112848,USA,Intel,draft-ietf-nvo3-geneve-16,Geneve: Generic Network Virtualization Encapsulation,2020-11-01,nvo3,RFC8926
+77,113438,,Jesse Gross,draft-ietf-nvo3-geneve-16,Geneve: Generic Network Virtualization Encapsulation,2020-11-01,nvo3,RFC8926
+78,126638,USA,VMware,draft-ietf-nvo3-geneve-16,Geneve: Generic Network Virtualization Encapsulation,2020-11-01,nvo3,RFC8926
+79,115629,USA,Nokia Corporation,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
+80,105786,,Nokia Corporation,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
+81,108236,,Ciena,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
+82,105741,,Cisco,draft-ietf-nvo3-evpn-applicability-06,Applicability of Ethernet Virtual Private Network (EVPN) to Network Virtualization over Layer 3 (NVO3) Networks,2023-09-01,nvo3,RFC9469
+83,111299,China,ZTE Corp.,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
+84,113047,United States of America,Ericsson,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
+85,116285,India,VMware,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
+86,112405,United States of America,Nvidia,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
+87,112237,United States of America,Google,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
+88,108236,USA,Ciena Corporation,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
+89,102391,USA,Huawei Device Co. Ltd,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638

@@ -71,3 +71,77 @@
 69,125546,US,Entrust,draft-ietf-lamps-cms-kemri-08,Using Key Encapsulation Mechanism (KEM) Algorithms in the Cryptographic Message Syntax (CMS),2024-08-01,lamps,RFC9629
 70,110753,US,"DigiCert, Inc.",draft-ietf-lamps-cms-kemri-08,Using Key Encapsulation Mechanism (KEM) Algorithms in the Cryptographic Message Syntax (CMS),2024-08-01,lamps,RFC9629
 71,135182,USA,Netskope Inc,draft-ietf-lamps-ocsp-nonce-update-11,Online Certificate Status Protocol (OCSP) Nonce Extension,2024-08-01,lamps,RFC9654
+72,5376,United States of America,"Vigil Security, LLC",draft-ietf-lamps-cms-sha3-hash-04,Use of the SHA3 One-Way Hash Functions in the Cryptographic Message Syntax (CMS),2024-11-01,lamps,RFC9688
+73,102154,UK,Isode Ltd,draft-ietf-lamps-eai-addresses-18,Internationalized Email Addresses in X.509 Certificates,2018-05-01,lamps,RFC8398
+74,116262,US,"Google, Inc.",draft-ietf-lamps-eai-addresses-18,Internationalized Email Addresses in X.509 Certificates,2018-05-01,lamps,RFC8398
+75,5376,USA,Vigil Security,draft-ietf-lamps-rfc5280-i18n-update-04,Internationalization Updates to RFC 5280,2018-05-01,lamps,RFC8399
+76,110910,,August Cellars,draft-ietf-lamps-rfc5750-bis-08,Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 4.0 Certificate Handling,2019-04-01,lamps,RFC8550
+77,21446,,"Brute Squad Labs, Inc.",draft-ietf-lamps-rfc5750-bis-08,Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 4.0 Certificate Handling,2019-04-01,lamps,RFC8550
+78,19483,,sn3rd,draft-ietf-lamps-rfc5750-bis-08,Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 4.0 Certificate Handling,2019-04-01,lamps,RFC8550
+79,110910,,August Cellars,draft-ietf-lamps-rfc5751-bis-11,Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 4.0 Message Specification,2019-04-01,lamps,RFC8551
+80,21446,,"Brute Squad Labs, Inc.",draft-ietf-lamps-rfc5751-bis-11,Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 4.0 Message Specification,2019-04-01,lamps,RFC8551
+81,19483,,sn3rd,draft-ietf-lamps-rfc5751-bis-11,Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 4.0 Message Specification,2019-04-01,lamps,RFC8551
+82,5376,US,Vigil Security,draft-ietf-lamps-hash-of-root-key-cert-extn-07,Hash Of Root Key Certificate Extension,2019-08-01,lamps,RFC8649
+83,110217,,Phillip Hallam-Baker,draft-ietf-lamps-rfc6844bis-07,DNS Certification Authority Authorization (CAA) Resource Record,2019-11-01,lamps,RFC8659
+84,111932,,Sectigo Ltd.,draft-ietf-lamps-rfc6844bis-07,DNS Certification Authority Authorization (CAA) Resource Record,2019-11-01,lamps,RFC8659
+85,119956,,Let's Encrypt,draft-ietf-lamps-rfc6844bis-07,DNS Certification Authority Authorization (CAA) Resource Record,2019-11-01,lamps,RFC8659
+86,115376,,Cisco,draft-ietf-lamps-pkix-shake-15,Internet X.509 Public Key Infrastructure: Additional Algorithm Identifiers for RSASSA-PSS and ECDSA Using SHAKEs,2019-12-01,lamps,RFC8692
+87,125010,USA,NIST,draft-ietf-lamps-pkix-shake-15,Internet X.509 Public Key Infrastructure: Additional Algorithm Identifiers for RSASSA-PSS and ECDSA Using SHAKEs,2019-12-01,lamps,RFC8692
+88,5376,USA,Vigil Security,draft-ietf-lamps-cms-mix-with-psk-07,Using Pre-Shared Key (PSK) in the Cryptographic Message Syntax (CMS),2019-12-01,lamps,RFC8696
+89,125010,,NIST,draft-ietf-lamps-cms-shakes-18,Use of the SHAKE One-Way Hash Functions in the Cryptographic Message Syntax (CMS),2020-01-01,lamps,RFC8702
+90,115376,,Cisco,draft-ietf-lamps-cms-shakes-18,Use of the SHAKE One-Way Hash Functions in the Cryptographic Message Syntax (CMS),2020-01-01,lamps,RFC8702
+91,5376,USA,Vigil Security,draft-ietf-lamps-cms-hash-sig-10,Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS),2020-02-01,lamps,RFC8708
+92,124005,,Tadahiko Ito,draft-ietf-lamps-5480-ku-clarifications-03,Clarifications for Elliptic Curve Cryptography Subject Public Key Information,2020-08-01,lamps,RFC8813
+93,19483,,sn3rd,draft-ietf-lamps-5480-ku-clarifications-03,Clarifications for Elliptic Curve Cryptography Subject Public Key Information,2020-08-01,lamps,RFC8813
+94,5376,US,"Vigil Security, LLC",draft-ietf-lamps-cms-update-alg-id-protect-05,Update to the Cryptographic Message Syntax (CMS) for Algorithm Identifier Protection,2020-10-01,lamps,RFC8933
+95,102254,,Sandelman Software Works,draft-ietf-lamps-rfc7030est-clarify-10,Clarification of Enrollment over Secure Transport (EST): Transfer Encodings and ASN.1,2020-11-01,lamps,RFC8951
+96,125734,,Siemens,draft-ietf-lamps-rfc7030est-clarify-10,Clarification of Enrollment over Secure Transport (EST): Transfer Encodings and ASN.1,2020-11-01,lamps,RFC8951
+97,125173,,Huawei Technologies,draft-ietf-lamps-rfc7030est-clarify-10,Clarification of Enrollment over Secure Transport (EST): Transfer Encodings and ASN.1,2020-11-01,lamps,RFC8951
+98,125529,US,Palo Alto Networks,draft-ietf-lamps-ocsp-nonce-05,Online Certificate Status Protocol (OCSP) Nonce Extension,2020-11-01,lamps,RFC8954
+99,5376,United States of America,Vigil Security,draft-ietf-lamps-cms-aes-gmac-alg-05,Using the AES-GMAC Algorithm with the Cryptographic Message Syntax (CMS),2021-06-01,lamps,RFC9044
+100,5376,United States of America,Vigil Security,draft-ietf-lamps-crmf-update-algs-07,Algorithm Requirements Update to the Internet X.509 Public Key Infrastructure Certificate Request Message Format (CRMF),2021-06-01,lamps,RFC9045
+101,5376,US,"Vigil Security, LLC",draft-ietf-lamps-rfc7299-update-02,Update to the Object Identifier Registry for the PKIX Working Group,2021-11-01,lamps,RFC9158
+102,111614,USA,American Civil Liberties Union,draft-ietf-lamps-samples-08,S/MIME Example Keys and Certificates,2022-04-01,lamps,RFC9216
+103,19483,,sn3rd,draft-ietf-lamps-8410-ku-clarifications-02,"Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm Identifiers",2022-09-01,lamps,RFC9295
+104,104569,,SJD AB,draft-ietf-lamps-8410-ku-clarifications-02,"Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm Identifiers",2022-09-01,lamps,RFC9295
+105,124261,,Square Inc.,draft-ietf-lamps-8410-ku-clarifications-02,"Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm Identifiers",2022-09-01,lamps,RFC9295
+106,124005,,"SECOM CO., LTD.",draft-ietf-lamps-8410-ku-clarifications-02,"Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm Identifiers",2022-09-01,lamps,RFC9295
+107,5376,US,"Vigil Security, LLC",draft-ietf-lamps-5g-nftypes-08,X.509 Certificate Extension for 5G Network Function Types,2023-01-01,lamps,RFC9310
+108,19483,US,sn3rd,draft-ietf-lamps-5g-nftypes-08,X.509 Certificate Extension for 5G Network Function Types,2023-01-01,lamps,RFC9310
+109,109330,Sweden,Ericsson,draft-ietf-lamps-5g-nftypes-08,X.509 Certificate Extension for 5G Network Function Types,2023-01-01,lamps,RFC9310
+110,109969,Canada,Ericsson,draft-ietf-lamps-5g-nftypes-08,X.509 Certificate Extension for 5G Network Function Types,2023-01-01,lamps,RFC9310
+111,124005,,"SECOM CO., LTD.",draft-ietf-lamps-documentsigning-eku-06,X.509 Certificate General-Purpose Extended Key Usage (EKU) for Document Signing,2022-12-01,lamps,RFC9336
+112,110753,,"DigiCert, Inc.",draft-ietf-lamps-documentsigning-eku-06,X.509 Certificate General-Purpose Extended Key Usage (EKU) for Document Signing,2022-12-01,lamps,RFC9336
+113,19483,,sn3rd,draft-ietf-lamps-documentsigning-eku-06,X.509 Certificate General-Purpose Extended Key Usage (EKU) for Document Signing,2022-12-01,lamps,RFC9336
+114,106863,,IDsec Solutions AB,draft-ietf-lamps-rfc3709bis-10,Internet X.509 Public Key Infrastructure: Logotypes in X.509 Certificates,2023-05-01,lamps,RFC9399
+115,5376,US,"Vigil Security, LLC",draft-ietf-lamps-rfc3709bis-10,Internet X.509 Public Key Infrastructure: Logotypes in X.509 Certificates,2023-05-01,lamps,RFC9399
+116,23160,US,Amazon Web Services,draft-ietf-lamps-rfc3709bis-10,Internet X.509 Public Key Infrastructure: Logotypes in X.509 Certificates,2023-05-01,lamps,RFC9399
+117,110131,US,Adobe,draft-ietf-lamps-rfc3709bis-10,Internet X.509 Public Key Infrastructure: Logotypes in X.509 Certificates,2023-05-01,lamps,RFC9399
+118,125563,Germany,Siemens,draft-ietf-lamps-cmp-updates-23,Certificate Management Protocol (CMP) Updates,2023-11-01,lamps,RFC9480
+119,125564,Germany,Siemens,draft-ietf-lamps-cmp-updates-23,Certificate Management Protocol (CMP) Updates,2023-11-01,lamps,RFC9480
+120,125546,United States of America,Entrust,draft-ietf-lamps-cmp-updates-23,Certificate Management Protocol (CMP) Updates,2023-11-01,lamps,RFC9480
+121,125563,,Siemens AG,draft-ietf-lamps-cmp-algorithms-15,Certificate Management Protocol (CMP) Algorithms,2023-11-01,lamps,RFC9481
+122,127887,,Siemens AG,draft-ietf-lamps-cmp-algorithms-15,Certificate Management Protocol (CMP) Algorithms,2023-11-01,lamps,RFC9481
+123,124414,,Entrust,draft-ietf-lamps-cmp-algorithms-15,Certificate Management Protocol (CMP) Algorithms,2023-11-01,lamps,RFC9481
+124,125546,,Entrust,draft-ietf-lamps-cmp-algorithms-15,Certificate Management Protocol (CMP) Algorithms,2023-11-01,lamps,RFC9481
+125,125563,Germany,Siemens,draft-ietf-lamps-lightweight-cmp-profile-21,Lightweight Certificate Management Protocol (CMP) Profile,2023-11-01,lamps,RFC9483
+126,106884,Germany,Siemens AG,draft-ietf-lamps-lightweight-cmp-profile-21,Lightweight Certificate Management Protocol (CMP) Profile,2023-11-01,lamps,RFC9483
+127,125564,Germany,Siemens,draft-ietf-lamps-lightweight-cmp-profile-21,Lightweight Certificate Management Protocol (CMP) Profile,2023-11-01,lamps,RFC9483
+128,127690,,"DigiCert, Inc.",draft-ietf-lamps-caa-issuemail-07,Certification Authority Authorization (CAA) Processing for Email Addresses,2023-10-01,lamps,RFC9495
+129,5376,US,"Vigil Security, LLC",draft-ietf-lamps-rfc8399bis-05,Internationalization Updates to RFC 5280,2024-03-01,lamps,RFC9549
+130,112901,India,Nokia Corporation,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
+131,135790,Finland,Nokia Corporation,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
+132,109969,Canada,Ericsson,draft-ietf-lamps-nf-eku-05,X.509 Certificate Extended Key Usage (EKU) for 5G Network Functions,2024-03-01,lamps,RFC9509
+133,102154,United Kingdom,Isode Ltd,draft-ietf-lamps-rfc8398bis-05,Internationalized Email Addresses in X.509 Certificates,2024-05-01,lamps,RFC9598
+134,116262,United States of America,"Google, Inc.",draft-ietf-lamps-rfc8398bis-05,Internationalized Email Addresses in X.509 Certificates,2024-05-01,lamps,RFC9598
+135,127690,United States of America,DigiCert,draft-ietf-lamps-rfc8398bis-05,Internationalized Email Addresses in X.509 Certificates,2024-05-01,lamps,RFC9598
+136,122718,Czech Republic,"Red Hat, Inc.",draft-ietf-lamps-pkcs12-pbmac1-08,Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax,2024-05-01,lamps,RFC9579
+137,5376,US,"Vigil Security, LLC",draft-ietf-lamps-norevavail-04,No Revocation Available for X.509 Public Key Certificates,2024-06-01,lamps,RFC9608
+138,110753,US,"DigiCert, Inc.",draft-ietf-lamps-norevavail-04,No Revocation Available for X.509 Public Key Certificates,2024-06-01,lamps,RFC9608
+139,137524,USA,SecureG Inc.,draft-ietf-lamps-norevavail-04,No Revocation Available for X.509 Public Key Certificates,2024-06-01,lamps,RFC9608
+140,5376,US,"Vigil Security, LLC",draft-ietf-lamps-cms-kemri-08,Using Key Encapsulation Mechanism (KEM) Algorithms in the Cryptographic Message Syntax (CMS),2024-08-01,lamps,RFC9629
+141,125546,US,Entrust,draft-ietf-lamps-cms-kemri-08,Using Key Encapsulation Mechanism (KEM) Algorithms in the Cryptographic Message Syntax (CMS),2024-08-01,lamps,RFC9629
+142,110753,US,"DigiCert, Inc.",draft-ietf-lamps-cms-kemri-08,Using Key Encapsulation Mechanism (KEM) Algorithms in the Cryptographic Message Syntax (CMS),2024-08-01,lamps,RFC9629
+143,135182,USA,Netskope Inc,draft-ietf-lamps-ocsp-nonce-update-11,Online Certificate Status Protocol (OCSP) Nonce Extension,2024-08-01,lamps,RFC9654
+144,122403,,Google LLC,draft-ietf-lamps-x509-policy-graph-05,Updates to X.509 Policy Validation,2024-08-01,lamps,RFC9618
+145,5376,United States of America,"Vigil Security, LLC",draft-ietf-lamps-cms-sha3-hash-04,Use of the SHA3 One-Way Hash Functions in the Cryptographic Message Syntax (CMS),2024-11-01,lamps,RFC9688

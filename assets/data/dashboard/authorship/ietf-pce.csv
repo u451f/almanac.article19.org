@@ -238,3 +238,242 @@
 236,112405,,Nvidia,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 237,103392,,Huawei Technologies,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 238,124329,China,Huawei Technologies,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
+239,104198,,Old Dog Consulting,draft-ietf-pce-architecture-05,A Path Computation Element (PCE)-Based Architecture,2006-08-01,pce,RFC4655
+240,108224,USA,AT&T,draft-ietf-pce-architecture-05,A Path Computation Element (PCE)-Based Architecture,2006-08-01,pce,RFC4655
+241,106269,,JP Vasseur,draft-ietf-pce-architecture-05,A Path Computation Element (PCE)-Based Architecture,2006-08-01,pce,RFC4655
+242,108224,"Middletown, NJ 07748, USA",AT&T,draft-ietf-pce-comm-protocol-gen-reqs-07,Path Computation Element (PCE) Communication Protocol Generic Requirements,2006-09-01,pce,RFC4657
+243,108303,"22307 Lannion Cedex, FRANCE",France Telecom,draft-ietf-pce-comm-protocol-gen-reqs-07,Path Computation Element (PCE) Communication Protocol Generic Requirements,2006-09-01,pce,RFC4657
+244,105705,FRANCE,France Telecom,draft-ietf-pce-discovery-reqs-05,Requirements for Path Computation Element (PCE) Discovery,2006-10-01,pce,RFC4674
+245,105705,,Jean-Louis Le Roux,draft-ietf-pce-pcecp-interarea-reqs-05,Path Computation Element Communication Protocol (PCECP) Specific Requirements for Inter-Area MPLS and GMPLS Traffic Engineering,2007-06-01,pce,RFC4927
+246,106268,USA,BT,draft-ietf-pce-disco-proto-ospf-08,OSPF Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5088
+247,106177,JAPAN,Nippon Telegraph and Telephone Corporation (NTT),draft-ietf-pce-disco-proto-ospf-08,OSPF Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5088
+248,105705,FRANCE,France Telecom,draft-ietf-pce-disco-proto-ospf-08,OSPF Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5088
+249,106269,USA,Cisco,draft-ietf-pce-disco-proto-ospf-08,OSPF Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5088
+250,106268,USA,BT,draft-ietf-pce-disco-proto-isis-08,IS-IS Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5089
+251,106177,JAPAN,Nippon Telegraph and Telephone Corporation (NTT),draft-ietf-pce-disco-proto-isis-08,IS-IS Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5089
+252,105705,FRANCE,France Telecom,draft-ietf-pce-disco-proto-isis-08,IS-IS Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5089
+253,106269,USA,Cisco,draft-ietf-pce-disco-proto-isis-08,IS-IS Protocol Extensions for Path Computation Element (PCE) Discovery,2008-01-01,pce,RFC5089
+254,107025,"Saitama 356-8502, JAPAN",KDDI R&D Labs,draft-ietf-pce-interas-pcecp-reqs-06,Inter-AS Requirements for the Path Computation Element Communication Protocol (PCECP),2008-11-01,pce,RFC5376
+255,106268,"El Segundo, CA 90245 USA",BT,draft-ietf-pce-interas-pcecp-reqs-06,Inter-AS Requirements for the Path Computation Element Communication Protocol (PCECP),2008-11-01,pce,RFC5376
+256,101564,"Waltham, MA 02451 USA",Verizon,draft-ietf-pce-interas-pcecp-reqs-06,Inter-AS Requirements for the Path Computation Element Communication Protocol (PCECP),2008-11-01,pce,RFC5376
+257,124308,"B-2018 Antwerpen, Belgium",Nokia Corporation,draft-ietf-pce-policy-enabled-path-comp-04,Policy-Enabled Path Computation Framework,2008-12-01,pce,RFC5394
+258,108224,,AT&T,draft-ietf-pce-policy-enabled-path-comp-04,Policy-Enabled Path Computation Framework,2008-12-01,pce,RFC5394
+259,121044,"McLean, VA 22102",Adva Optical,draft-ietf-pce-policy-enabled-path-comp-04,Policy-Enabled Path Computation Framework,2008-12-01,pce,RFC5394
+260,10064,,LabN Consulting,draft-ietf-pce-policy-enabled-path-comp-04,Policy-Enabled Path Computation Framework,2008-12-01,pce,RFC5394
+261,106269,USA,Cisco,draft-ietf-pce-pcep-19,Path Computation Element (PCE) Communication Protocol (PCEP),2009-03-01,pce,RFC5440
+262,105705,,Jean-Louis Le Roux,draft-ietf-pce-pcep-19,Path Computation Element (PCE) Communication Protocol (PCEP),2009-03-01,pce,RFC5440
+263,106268,USA,BT Infonet,draft-ietf-pce-brpc-09,A Backward-Recursive PCE-Based Computation (BRPC) Procedure to Compute Shortest Constrained Inter-Domain Traffic Engineering Label Switched Paths,2009-04-01,pce,RFC5441
+264,101564,USA,Verizon,draft-ietf-pce-brpc-09,A Backward-Recursive PCE-Based Computation (BRPC) Procedure to Compute Shortest Constrained Inter-Domain Traffic Engineering Label Switched Paths,2009-04-01,pce,RFC5441
+265,105705,,Jean-Louis Le Roux,draft-ietf-pce-brpc-09,A Backward-Recursive PCE-Based Computation (BRPC) Procedure to Compute Shortest Constrained Inter-Domain Traffic Engineering Label Switched Paths,2009-04-01,pce,RFC5441
+266,106269,USA,Cisco,draft-ietf-pce-brpc-09,A Backward-Recursive PCE-Based Computation (BRPC) Procedure to Compute Shortest Constrained Inter-Domain Traffic Engineering Label Switched Paths,2009-04-01,pce,RFC5441
+267,107025,"Saitama 356-8502, JAPAN","KDDI R&D Laboratories, Inc.",draft-ietf-pce-dste-02,Diffserv-Aware Class-Type Object for the Path Computation Element Communication Protocol,2009-03-01,pce,RFC5455
+268,108235,Canada,Cisco,draft-ietf-pce-dste-02,Diffserv-Aware Class-Type Object for the Path Computation Element Communication Protocol,2009-03-01,pce,RFC5455
+269,108236,USA,Cisco,draft-ietf-pce-dste-02,Diffserv-Aware Class-Type Object for the Path Computation Element Communication Protocol,2009-03-01,pce,RFC5455
+270,106042,Canada,Cisco,draft-ietf-pce-dste-02,Diffserv-Aware Class-Type Object for the Path Computation Element Communication Protocol,2009-03-01,pce,RFC5455
+271,104198,,Old Dog Consulting,draft-ietf-pce-path-key-05,Preserving Topology Confidentiality in Inter-Domain Path Computation Using a Path-Key-Based Mechanism,2009-04-01,pce,RFC5520
+272,106036,USA,Cisco,draft-ietf-pce-path-key-05,Preserving Topology Confidentiality in Inter-Domain Path Computation Using a Path-Key-Based Mechanism,2009-04-01,pce,RFC5520
+273,106269,USA,Cisco,draft-ietf-pce-path-key-05,Preserving Topology Confidentiality in Inter-Domain Path Computation Using a Path-Key-Based Mechanism,2009-04-01,pce,RFC5520
+274,106581,"Musashino-shi, Tokyo 180-8585, Japan",NTT,draft-ietf-pce-pcep-xro-06,Extensions to the Path Computation Element Communication Protocol (PCEP) for Route Exclusions,2009-04-01,pce,RFC5521
+275,104198,,Old Dog Consulting,draft-ietf-pce-pcep-xro-06,Extensions to the Path Computation Element Communication Protocol (PCEP) for Route Exclusions,2009-04-01,pce,RFC5521
+276,105715,JAPAN,University of Electro-Communications,draft-ietf-pce-pcep-xro-06,Extensions to the Path Computation Element Communication Protocol (PCEP) for Route Exclusions,2009-04-01,pce,RFC5521
+277,118347,USA,Huawei,draft-ietf-pce-of-06,Encoding of Objective Functions in the Path Computation Element Communication Protocol (PCEP),2009-06-01,pce,RFC5541
+278,105705,,Jean-Louis Le Roux,draft-ietf-pce-of-06,Encoding of Objective Functions in the Path Computation Element Communication Protocol (PCEP),2009-06-01,pce,RFC5541
+279,106269,France,Cisco,draft-ietf-pce-of-06,Encoding of Objective Functions in the Path Computation Element Communication Protocol (PCEP),2009-06-01,pce,RFC5541
+280,118347,US,Huawei,draft-ietf-pce-global-concurrent-optimization-10,Path Computation Element Communication Protocol (PCEP) Requirements and Protocol Extensions in Support of Global Concurrent Optimization,2009-07-01,pce,RFC5557
+281,105715,JAPAN,University of Electro Communications,draft-ietf-pce-global-concurrent-optimization-10,Path Computation Element Communication Protocol (PCEP) Requirements and Protocol Extensions in Support of Global Concurrent Optimization,2009-07-01,pce,RFC5557
+282,109558,United Kingdom,Old Dog Consulting,draft-ietf-pce-global-concurrent-optimization-10,Path Computation Element Communication Protocol (PCEP) Requirements and Protocol Extensions in Support of Global Concurrent Optimization,2009-07-01,pce,RFC5557
+283,105705,,Jean-Louis Le Roux,draft-ietf-pce-global-concurrent-optimization-10,Path Computation Element Communication Protocol (PCEP) Requirements and Protocol Extensions in Support of Global Concurrent Optimization,2009-07-01,pce,RFC5557
+284,106581,"Musashino-shi, Tokyo 180-8585, Japan",NTT,draft-ietf-pce-inter-layer-frwk-10,Framework for PCE-Based Inter-Layer MPLS and GMPLS Traffic Engineering,2009-09-01,pce,RFC5623
+285,105715,Japan,University of Electro-Communications,draft-ietf-pce-inter-layer-frwk-10,Framework for PCE-Based Inter-Layer MPLS and GMPLS Traffic Engineering,2009-09-01,pce,RFC5623
+286,104198,,Old Dog Consulting,draft-ietf-pce-inter-layer-frwk-10,Framework for PCE-Based Inter-Layer MPLS and GMPLS Traffic Engineering,2009-09-01,pce,RFC5623
+287,105705,"22300 Lannion, France",France Telecom,draft-ietf-pce-inter-layer-frwk-10,Framework for PCE-Based Inter-Layer MPLS and GMPLS Traffic Engineering,2009-09-01,pce,RFC5623
+288,104198,,Old Dog Consulting,draft-ietf-pce-p2mp-app-02,Applicability of the Path Computation Element (PCE) to Point-to-Multipoint (P2MP) MPLS and GMPLS Traffic Engineering (TE),2009-10-01,pce,RFC5671
+289,105925,Japan,NTT,draft-ietf-pce-p2mp-app-02,Applicability of the Path Computation Element (PCE) to Point-to-Multipoint (P2MP) MPLS and GMPLS Traffic Engineering (TE),2009-10-01,pce,RFC5671
+290,104198,,Old Dog Consulting,draft-ietf-pce-p2mp-req-05,Path Computation Clients (PCC) - Path Computation Element (PCE) Requirements for Point-to-Multipoint MPLS-TE,2010-06-01,pce,RFC5862
+291,105925,JAPAN,NTT Corporation,draft-ietf-pce-p2mp-req-05,Path Computation Clients (PCC) - Path Computation Element (PCE) Requirements for Point-to-Multipoint MPLS-TE,2010-06-01,pce,RFC5862
+292,106177,Japan,NTT Communications Corporation,draft-ietf-pce-monitoring-09,A Set of Monitoring Tools for Path Computation Element (PCE)-Based Architecture,2010-06-01,pce,RFC5886
+293,105705,,Jean-Louis Le Roux,draft-ietf-pce-monitoring-09,A Set of Monitoring Tools for Path Computation Element (PCE)-Based Architecture,2010-06-01,pce,RFC5886
+294,106269,USA,Cisco,draft-ietf-pce-monitoring-09,A Set of Monitoring Tools for Path Computation Element (PCE)-Based Architecture,2010-06-01,pce,RFC5886
+295,106206,Canada,Cisco,draft-ietf-pce-pcep-p2mp-extensions-11,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2010-09-01,pce,RFC6006
+296,109558,UK,Old Dog Consulting,draft-ietf-pce-pcep-p2mp-extensions-11,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2010-09-01,pce,RFC6006
+297,108882,France,Thales Communication France,draft-ietf-pce-pcep-p2mp-extensions-11,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2010-09-01,pce,RFC6006
+298,106581,Japan,NTT Corporation,draft-ietf-pce-pcep-p2mp-extensions-11,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2010-09-01,pce,RFC6006
+299,108213,France,France Telecom,draft-ietf-pce-pcep-p2mp-extensions-11,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2010-09-01,pce,RFC6006
+300,108881,US,Huawei Technology,draft-ietf-pce-pcep-p2mp-extensions-11,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2010-09-01,pce,RFC6006
+301,109558,United Kingdom,Old Dog Consulting,draft-ietf-pce-pcep-svec-list-05,Use of the Synchronization VECtor (SVEC) List for Synchronized Dependent Path Computations,2010-09-01,pce,RFC6007
+302,108038,Japan,NEC Corp.,draft-ietf-pce-pcep-svec-list-05,Use of the Synchronization VECtor (SVEC) List for Synchronized Dependent Path Computations,2010-09-01,pce,RFC6007
+303,104198,,Old Dog Consulting,draft-ietf-pce-manageability-requirements-11,Inclusion of Manageability Sections in Path Computation Element (PCE) Working Group Drafts,2011-02-01,pce,RFC6123
+304,106581,"Musashino-shi, Tokyo 180-8585, Japan",NTT,draft-ietf-pce-inter-layer-req-15,PCC-PCE Communication and PCE Discovery Requirements for Inter-Layer Traffic Engineering,2011-12-01,pce,RFC6457
+305,104198,,Old Dog Consulting,draft-ietf-pce-inter-layer-req-15,PCC-PCE Communication and PCE Discovery Requirements for Inter-Layer Traffic Engineering,2011-12-01,pce,RFC6457
+306,104198,UK,Old Dog Consulting,draft-ietf-pce-hierarchy-fwk-05,The Application of the Path Computation Element Architecture to the Determination of a Sequence of Domains in MPLS and GMPLS,2012-11-01,pce,RFC6805
+307,109558,UK,Old Dog Consulting,draft-ietf-pce-hierarchy-fwk-05,The Application of the Path Computation Element Architecture to the Determination of a Sequence of Domains in MPLS and GMPLS,2012-11-01,pce,RFC6805
+308,106502,Italy,Ericsson,draft-ietf-pce-gmpls-aps-req-09,Requirements for GMPLS Applications of PCE,2013-09-01,pce,RFC7025
+309,108894,P.R. China,Huawei Technologies,draft-ietf-pce-gmpls-aps-req-09,Requirements for GMPLS Applications of PCE,2013-09-01,pce,RFC7025
+310,106803,Japan,KDDI,draft-ietf-pce-gmpls-aps-req-09,Requirements for GMPLS Applications of PCE,2013-09-01,pce,RFC7025
+311,108431,Japan,KDDI,draft-ietf-pce-gmpls-aps-req-09,Requirements for GMPLS Applications of PCE,2013-09-01,pce,RFC7025
+312,110920,Germany,Coriant R&D GmbH,draft-ietf-pce-gmpls-aps-req-09,Requirements for GMPLS Applications of PCE,2013-09-01,pce,RFC7025
+313,108894,,Huawei,draft-ietf-pce-vendor-constraints-11,Conveying Vendor-Specific Constraints in the Path Computation Element Communication Protocol,2014-03-01,pce,RFC7150
+314,104198,,Juniper Networks,draft-ietf-pce-vendor-constraints-11,Conveying Vendor-Specific Constraints in the Path Computation Element Communication Protocol,2014-03-01,pce,RFC7150
+315,108881,US,Huawei Technology,draft-ietf-pce-pcep-inter-domain-p2mp-procedures-08,PCE-Based Computation Procedure to Compute Shortest Constrained Point-to-Multipoint (P2MP) Inter-Domain Traffic Engineering Label Switched Paths,2014-08-01,pce,RFC7334
+316,111477,India,Huawei Technology,draft-ietf-pce-pcep-inter-domain-p2mp-procedures-08,PCE-Based Computation Procedure to Compute Shortest Constrained Point-to-Multipoint (P2MP) Inter-Domain Traffic Engineering Label Switched Paths,2014-08-01,pce,RFC7334
+317,106206,Canada,Cisco,draft-ietf-pce-pcep-inter-domain-p2mp-procedures-08,PCE-Based Computation Procedure to Compute Shortest Constrained Point-to-Multipoint (P2MP) Inter-Domain Traffic Engineering Label Switched Paths,2014-08-01,pce,RFC7334
+318,109558,UK,Old Dog Consulting,draft-ietf-pce-pcep-inter-domain-p2mp-procedures-08,PCE-Based Computation Procedure to Compute Shortest Constrained Point-to-Multipoint (P2MP) Inter-Domain Traffic Engineering Label Switched Paths,2014-08-01,pce,RFC7334
+319,111837,Spain,CTTC,draft-ietf-pce-pcep-inter-domain-p2mp-procedures-08,PCE-Based Computation Procedure to Compute Shortest Constrained Point-to-Multipoint (P2MP) Inter-Domain Traffic Engineering Label Switched Paths,2014-08-01,pce,RFC7334
+320,104198,,Juniper Networks,draft-ietf-pce-questions-08,Unanswered Questions in the Path Computation Element Architecture,2014-10-01,pce,RFC7399
+321,109558,,Old Dog Consulting,draft-ietf-pce-questions-08,Unanswered Questions in the Path Computation Element Architecture,2014-10-01,pce,RFC7399
+322,108881,United States,Huawei Technology,draft-ietf-pce-pcep-mib-11,Path Computation Element Communication Protocol (PCEP) Management Information Base (MIB) Module,2014-12-01,pce,RFC7420
+323,109558,,Old Dog Consulting,draft-ietf-pce-pcep-mib-11,Path Computation Element Communication Protocol (PCEP) Management Information Base (MIB) Module,2014-12-01,pce,RFC7420
+324,112866,France,Orange,draft-ietf-pce-pcep-mib-11,Path Computation Element Communication Protocol (PCEP) Management Information Base (MIB) Module,2014-12-01,pce,RFC7420
+325,113543,United Kingdom,Microsoft,draft-ietf-pce-pcep-mib-11,Path Computation Element Communication Protocol (PCEP) Management Information Base (MIB) Module,2014-12-01,pce,RFC7420
+326,117564,,Brocade Communications,draft-ietf-pce-pcep-mib-11,Path Computation Element Communication Protocol (PCEP) Management Information Base (MIB) Module,2014-12-01,pce,RFC7420
+327,104256,United States,Grotto Networking,draft-ietf-pce-wson-routing-wavelength-15,Path Computation Element Communication Protocol (PCEP) Requirements for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment,2015-02-01,pce,RFC7449
+328,128006,Sweden,Acreo,draft-ietf-pce-wson-routing-wavelength-15,Path Computation Element Communication Protocol (PCEP) Requirements for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment,2015-02-01,pce,RFC7449
+329,110932,Spain,Telefonica,draft-ietf-pce-wson-routing-wavelength-15,Path Computation Element Communication Protocol (PCEP) Requirements for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment,2015-02-01,pce,RFC7449
+330,110597,Japan,KDDI,draft-ietf-pce-wson-routing-wavelength-15,Path Computation Element Communication Protocol (PCEP) Requirements for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment,2015-02-01,pce,RFC7449
+331,106581,Japan,NTT,draft-ietf-pce-wson-routing-wavelength-15,Path Computation Element Communication Protocol (PCEP) Requirements for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment,2015-02-01,pce,RFC7449
+332,118347,United States,Huawei,draft-ietf-pce-wson-routing-wavelength-15,Path Computation Element Communication Protocol (PCEP) Requirements for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment,2015-02-01,pce,RFC7449
+333,108894,,Huawei,draft-ietf-pce-rfc7150bis-01,Conveying Vendor-Specific Constraints in the Path Computation Element Communication Protocol,2015-03-01,pce,RFC7470
+334,104198,,Juniper Networks,draft-ietf-pce-rfc7150bis-01,Conveying Vendor-Specific Constraints in the Path Computation Element Communication Protocol,2015-03-01,pce,RFC7470
+335,111477,India,Huawei Technologies,draft-ietf-pce-iro-update-07,Update to the Include Route Object (IRO) Specification in the Path Computation Element Communication Protocol (PCEP),2016-06-01,pce,RFC7896
+336,111478,India,Huawei Technologies,draft-ietf-pce-pcep-domain-sequence-12,Domain Subobjects for the Path Computation Element Communication Protocol (PCEP),2016-06-01,pce,RFC7897
+337,111837,Spain,CTTC,draft-ietf-pce-pcep-domain-sequence-12,Domain Subobjects for the Path Computation Element Communication Protocol (PCEP),2016-06-01,pce,RFC7897
+338,111477,India,Huawei Technologies,draft-ietf-pce-pcep-domain-sequence-12,Domain Subobjects for the Path Computation Element Communication Protocol (PCEP),2016-06-01,pce,RFC7897
+339,113468,China,Huawei Technologies,draft-ietf-pce-stateful-pce-app-08,Applicability of a Stateful Path Computation Element (PCE),2017-01-01,pce,RFC8051
+340,106540,United States of America,"Google, Inc.",draft-ietf-pce-stateful-pce-app-08,Applicability of a Stateful Path Computation Element (PCE),2017-01-01,pce,RFC8051
+341,111400,US,Cisco,draft-ietf-pce-stateful-pce-21,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE,2017-09-01,pce,RFC8231
+342,106540,US,"Google, Inc.",draft-ietf-pce-stateful-pce-21,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE,2017-09-01,pce,RFC8231
+343,112907,Slovakia,Pantheon Technologies SRO,draft-ietf-pce-stateful-pce-21,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE,2017-09-01,pce,RFC8231
+344,104147,US,Oracle,draft-ietf-pce-stateful-pce-21,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE,2017-09-01,pce,RFC8231
+345,111400,US,Cisco,draft-ietf-pce-stateful-sync-optimizations-10,Optimizations of Label Switched Path State Synchronization Procedures for a Stateful PCE,2017-09-01,pce,RFC8232
+346,106540,US,"Google, Inc.",draft-ietf-pce-stateful-sync-optimizations-10,Optimizations of Label Switched Path State Synchronization Procedures for a Stateful PCE,2017-09-01,pce,RFC8232
+347,113468,P.R.China,Huawei Technologies,draft-ietf-pce-stateful-sync-optimizations-10,Optimizations of Label Switched Path State Synchronization Procedures for a Stateful PCE,2017-09-01,pce,RFC8232
+348,111477,India,Huawei Technologies,draft-ietf-pce-stateful-sync-optimizations-10,Optimizations of Label Switched Path State Synchronization Procedures for a Stateful PCE,2017-09-01,pce,RFC8232
+349,104147,,Oracle,draft-ietf-pce-stateful-sync-optimizations-10,Optimizations of Label Switched Path State Synchronization Procedures for a Stateful PCE,2017-09-01,pce,RFC8232
+350,112907,Slovakia,Pantheon Technologies SRO,draft-ietf-pce-stateful-sync-optimizations-10,Optimizations of Label Switched Path State Synchronization Procedures for a Stateful PCE,2017-09-01,pce,RFC8232
+351,106206,,Cisco,draft-ietf-pce-pcep-service-aware-13,Extensions to the Path Computation Element Communication Protocol (PCEP) to Compute Service-Aware Label Switched Paths (LSPs),2017-09-01,pce,RFC8233
+352,107025,,KDDI Corporation,draft-ietf-pce-pcep-service-aware-13,Extensions to the Path Computation Element Communication Protocol (PCEP) to Compute Service-Aware Label Switched Paths (LSPs),2017-09-01,pce,RFC8233
+353,111477,India,Huawei,draft-ietf-pce-pcep-service-aware-13,Extensions to the Path Computation Element Communication Protocol (PCEP) to Compute Service-Aware Label Switched Paths (LSPs),2017-09-01,pce,RFC8233
+354,105627,USA,Ionos Network,draft-ietf-pce-pcep-service-aware-13,Extensions to the Path Computation Element Communication Protocol (PCEP) to Compute Service-Aware Label Switched Paths (LSPs),2017-09-01,pce,RFC8233
+355,112751,China,Huawei,draft-ietf-pce-pcep-service-aware-13,Extensions to the Path Computation Element Communication Protocol (PCEP) to Compute Service-Aware Label Switched Paths (LSPs),2017-09-01,pce,RFC8233
+356,112751,China,Huawei,draft-ietf-pce-pceps-18,PCEPS: Usage of TLS to Provide a Secure Transport for the Path Computation Element Communication Protocol (PCEP),2017-10-01,pce,RFC8253
+357,111477,India,Huawei,draft-ietf-pce-pceps-18,PCEPS: Usage of TLS to Provide a Secure Transport for the Path Computation Element Communication Protocol (PCEP),2017-10-01,pce,RFC8253
+358,117844,Spain,Telefonica I+D,draft-ietf-pce-pceps-18,PCEPS: Usage of TLS to Provide a Secure Transport for the Path Computation Element Communication Protocol (PCEP),2017-10-01,pce,RFC8253
+359,110932,Spain,Telefonica I+D,draft-ietf-pce-pceps-18,PCEPS: Usage of TLS to Provide a Secure Transport for the Path Computation Element Communication Protocol (PCEP),2017-10-01,pce,RFC8253
+360,106042,US,Cisco,draft-ietf-pce-pce-initiated-lsp-11,Path Computation Element Communication Protocol (PCEP) Extensions for PCE-Initiated LSP Setup in a Stateful PCE Model,2017-12-01,pce,RFC8281
+361,106540,US,"Google, Inc.",draft-ietf-pce-pce-initiated-lsp-11,Path Computation Element Communication Protocol (PCEP) Extensions for PCE-Initiated LSP Setup in a Stateful PCE Model,2017-12-01,pce,RFC8281
+362,104147,,Individual Contributor,draft-ietf-pce-pce-initiated-lsp-11,Path Computation Element Communication Protocol (PCEP) Extensions for PCE-Initiated LSP Setup in a Stateful PCE Model,2017-12-01,pce,RFC8281
+363,112907,Slovakia,Pantheon Technologies SRO,draft-ietf-pce-pce-initiated-lsp-11,Path Computation Element Communication Protocol (PCEP) Extensions for PCE-Initiated LSP Setup in a Stateful PCE Model,2017-12-01,pce,RFC8281
+364,105715,Japan,University of Electro-Communications,draft-ietf-pce-inter-layer-ext-12,Extensions to the Path Computation Element Communication Protocol (PCEP) for Inter-Layer MPLS and GMPLS Traffic Engineering,2017-12-01,pce,RFC8282
+365,108894,P. R. China,"Huawei Technologies Co., Ltd.",draft-ietf-pce-inter-layer-ext-12,Extensions to the Path Computation Element Communication Protocol (PCEP) for Inter-Layer MPLS and GMPLS Traffic Engineering,2017-12-01,pce,RFC8282
+366,104198,,Juniper Networks,draft-ietf-pce-inter-layer-ext-12,Extensions to the Path Computation Element Communication Protocol (PCEP) for Inter-Layer MPLS and GMPLS Traffic Engineering,2017-12-01,pce,RFC8282
+367,106581,Japan,NTT,draft-ietf-pce-inter-layer-ext-12,Extensions to the Path Computation Element Communication Protocol (PCEP) for Inter-Layer MPLS and GMPLS Traffic Engineering,2017-12-01,pce,RFC8282
+368,108881,US,Huawei Technology,draft-ietf-pce-rfc6006bis-04,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2017-11-01,pce,RFC8306
+369,111477,India,Huawei Technology,draft-ietf-pce-rfc6006bis-04,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2017-11-01,pce,RFC8306
+370,122546,India,Huawei Technology,draft-ietf-pce-rfc6006bis-04,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2017-11-01,pce,RFC8306
+371,109558,UK,Old Dog Consulting,draft-ietf-pce-rfc6006bis-04,Extensions to the Path Computation Element Communication Protocol (PCEP) for Point-to-Multipoint Traffic Engineering Label Switched Paths,2017-11-01,pce,RFC8306
+372,111477,India,Huawei Technologies,draft-ietf-pce-pcep-exp-codepoints-05,Experimental Codepoint Allocation for the Path Computation Element Communication Protocol (PCEP),2018-03-01,pce,RFC8356
+373,109558,UK,Lancaster University,draft-ietf-pce-pcep-exp-codepoints-05,Experimental Codepoint Allocation for the Path Computation Element Communication Protocol (PCEP),2018-03-01,pce,RFC8356
+374,104198,UK,Juniper Networks,draft-ietf-pce-pcep-exp-codepoints-05,Experimental Codepoint Allocation for the Path Computation Element Communication Protocol (PCEP),2018-03-01,pce,RFC8356
+375,106042,Canada,Cisco,draft-ietf-pce-lsp-setup-type-10,Conveying Path Setup Type in PCE Communication Protocol (PCEP) Messages,2018-07-01,pce,RFC8408
+376,106540,USA,"Google, Inc.",draft-ietf-pce-lsp-setup-type-10,Conveying Path Setup Type in PCE Communication Protocol (PCEP) Messages,2018-07-01,pce,RFC8408
+377,113543,UK,Metaswitch Networks,draft-ietf-pce-lsp-setup-type-10,Conveying Path Setup Type in PCE Communication Protocol (PCEP) Messages,2018-07-01,pce,RFC8408
+378,112907,Slovakia,Pantheon Technologies SRO,draft-ietf-pce-lsp-setup-type-10,Conveying Path Setup Type in PCE Communication Protocol (PCEP) Messages,2018-07-01,pce,RFC8408
+379,112405,USA,Nuage Networks,draft-ietf-pce-lsp-setup-type-10,Conveying Path Setup Type in PCE Communication Protocol (PCEP) Messages,2018-07-01,pce,RFC8408
+380,111477,India,Huawei Technologies,draft-ietf-pce-stateful-pce-p2mp-13,Stateful Path Computation Element (PCE) Protocol Extensions for Usage with Point-to-Multipoint TE Label Switched Paths (LSPs),2019-06-01,pce,RFC8623
+381,114997,Japan,NTT Communications Corporation,draft-ietf-pce-stateful-pce-p2mp-13,Stateful Path Computation Element (PCE) Protocol Extensions for Usage with Point-to-Multipoint TE Label Switched Paths (LSPs),2019-06-01,pce,RFC8623
+382,114351,,Juniper Networks,draft-ietf-pce-stateful-pce-p2mp-13,Stateful Path Computation Element (PCE) Protocol Extensions for Usage with Point-to-Multipoint TE Label Switched Paths (LSPs),2019-06-01,pce,RFC8623
+383,111478,,Huawei Technologies,draft-ietf-pce-stateful-pce-p2mp-13,Stateful Path Computation Element (PCE) Protocol Extensions for Usage with Point-to-Multipoint TE Label Switched Paths (LSPs),2019-06-01,pce,RFC8623
+384,111477,India,Huawei Technologies,draft-ietf-pce-applicability-actn-12,Applicability of the Path Computation Element (PCE) to the Abstraction and Control of TE Networks (ACTN),2019-07-01,pce,RFC8637
+385,118347,USA,Huawei Technologies,draft-ietf-pce-applicability-actn-12,Applicability of the Path Computation Element (PCE) to the Abstraction and Control of TE Networks (ACTN),2019-07-01,pce,RFC8637
+386,109703,Sweden,Ericsson,draft-ietf-pce-applicability-actn-12,Applicability of the Path Computation Element (PCE) to the Abstraction and Control of TE Networks (ACTN),2019-07-01,pce,RFC8637
+387,106042,Canada,Cisco,draft-ietf-pce-segment-routing-16,Path Computation Element Communication Protocol (PCEP) Extensions for Segment Routing,2019-12-01,pce,RFC8664
+388,105186,BELGIUM,Cisco,draft-ietf-pce-segment-routing-16,Path Computation Element Communication Protocol (PCEP) Extensions for Segment Routing,2019-12-01,pce,RFC8664
+389,109738,BELGIUM,Nokia Corporation,draft-ietf-pce-segment-routing-16,Path Computation Element Communication Protocol (PCEP) Extensions for Segment Routing,2019-12-01,pce,RFC8664
+390,113543,UK,Metaswitch Networks,draft-ietf-pce-segment-routing-16,Path Computation Element Communication Protocol (PCEP) Extensions for Segment Routing,2019-12-01,pce,RFC8664
+391,112405,USA,"Apstra, Inc.",draft-ietf-pce-segment-routing-16,Path Computation Element Communication Protocol (PCEP) Extensions for Segment Routing,2019-12-01,pce,RFC8664
+392,108894,China,Huawei,draft-ietf-pce-hierarchy-extensions-11,Path Computation Element Communication Protocol (PCEP) Extensions for the Hierarchical Path Computation Element (H-PCE) Architecture,2019-12-01,pce,RFC8685
+393,108881,USA,Huawei,draft-ietf-pce-hierarchy-extensions-11,Path Computation Element Communication Protocol (PCEP) Extensions for the Hierarchical Path Computation Element (H-PCE) Architecture,2019-12-01,pce,RFC8685
+394,110932,Spain,Oscar Gonzalez de Dios,draft-ietf-pce-hierarchy-extensions-11,Path Computation Element Communication Protocol (PCEP) Extensions for the Hierarchical Path Computation Element (H-PCE) Architecture,2019-12-01,pce,RFC8685
+395,109558,UK,Old Dog Consulting,draft-ietf-pce-hierarchy-extensions-11,Path Computation Element Communication Protocol (PCEP) Extensions for the Hierarchical Path Computation Element (H-PCE) Architecture,2019-12-01,pce,RFC8685
+396,125236,"2011, Los Angeles (USA).",CTTC,draft-ietf-pce-hierarchy-extensions-11,Path Computation Element Communication Protocol (PCEP) Extensions for the Hierarchical Path Computation Element (H-PCE) Architecture,2019-12-01,pce,RFC8685
+397,109558,UK,Old Dog Consulting,draft-ietf-pce-inter-area-as-applicability-08,Applicability of the Path Computation Element to Inter-area and Inter-AS MPLS and GMPLS Traffic Engineering,2019-12-01,pce,RFC8694
+398,115934,P.R.China,Huawei Technologies,draft-ietf-pce-inter-area-as-applicability-08,Applicability of the Path Computation Element to Inter-area and Inter-AS MPLS and GMPLS Traffic Engineering,2019-12-01,pce,RFC8694
+399,106540,US,"Google, Inc.",draft-ietf-pce-association-group-10,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths (LSPs),2020-01-01,pce,RFC8697
+400,104147,,Individual Contributor,draft-ietf-pce-association-group-10,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths (LSPs),2020-01-01,pce,RFC8697
+401,106042,US,Cisco,draft-ietf-pce-association-group-10,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths (LSPs),2020-01-01,pce,RFC8697
+402,115798,,Netflix,draft-ietf-pce-association-group-10,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths (LSPs),2020-01-01,pce,RFC8697
+403,114997,Japan,NTT Communications Corporation,draft-ietf-pce-association-group-10,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths (LSPs),2020-01-01,pce,RFC8697
+404,111477,India,Huawei,draft-ietf-pce-association-group-10,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths (LSPs),2020-01-01,pce,RFC8697
+405,111477,India,Huawei Technologies,draft-ietf-pce-stateful-pce-auto-bandwidth-12,Path Computation Element Communication Protocol (PCEP) Extensions for MPLS-TE Label Switched Path (LSP) Auto-Bandwidth Adjustment with Stateful PCE,2020-02-01,pce,RFC8733
+406,115009,,Individual Contributor,draft-ietf-pce-stateful-pce-auto-bandwidth-12,Path Computation Element Communication Protocol (PCEP) Extensions for MPLS-TE Label Switched Path (LSP) Auto-Bandwidth Adjustment with Stateful PCE,2020-02-01,pce,RFC8733
+407,105399,USA,"Expedia, Inc.",draft-ietf-pce-stateful-pce-auto-bandwidth-12,Path Computation Element Communication Protocol (PCEP) Extensions for MPLS-TE Label Switched Path (LSP) Auto-Bandwidth Adjustment with Stateful PCE,2020-02-01,pce,RFC8733
+408,121347,Canada,Cisco,draft-ietf-pce-stateful-pce-auto-bandwidth-12,Path Computation Element Communication Protocol (PCEP) Extensions for MPLS-TE Label Switched Path (LSP) Auto-Bandwidth Adjustment with Stateful PCE,2020-02-01,pce,RFC8733
+409,111478,,Individual Contributor,draft-ietf-pce-stateful-pce-auto-bandwidth-12,Path Computation Element Communication Protocol (PCEP) Extensions for MPLS-TE Label Switched Path (LSP) Auto-Bandwidth Adjustment with Stateful PCE,2020-02-01,pce,RFC8733
+410,122036,USA,AT&T,draft-ietf-pce-lsp-control-request-11,Ability for a Stateful Path Computation Element (PCE) to Request and Obtain Control of a Label Switched Path (LSP),2020-03-01,pce,RFC8741
+411,123341,USA,AT&T,draft-ietf-pce-lsp-control-request-11,Ability for a Stateful Path Computation Element (PCE) to Request and Obtain Control of a Label Switched Path (LSP),2020-03-01,pce,RFC8741
+412,107874,USA,Cisco,draft-ietf-pce-lsp-control-request-11,Ability for a Stateful Path Computation Element (PCE) to Request and Obtain Control of a Label Switched Path (LSP),2020-03-01,pce,RFC8741
+413,106042,Canada,Cisco,draft-ietf-pce-lsp-control-request-11,Ability for a Stateful Path Computation Element (PCE) to Request and Obtain Control of a Label Switched Path (LSP),2020-03-01,pce,RFC8741
+414,120592,India,Huawei Technologies,draft-ietf-pce-lsp-control-request-11,Ability for a Stateful Path Computation Element (PCE) to Request and Obtain Control of a Label Switched Path (LSP),2020-03-01,pce,RFC8741
+415,115798,USA,Netflix,draft-ietf-pce-stateful-path-protection-11,Path Computation Element Communication Protocol (PCEP) Extensions for Associating Working and Protection Label Switched Paths (LSPs) with Stateful PCE,2020-03-01,pce,RFC8745
+416,106042,Canada,Cisco,draft-ietf-pce-stateful-path-protection-11,Path Computation Element Communication Protocol (PCEP) Extensions for Associating Working and Protection Label Switched Paths (LSPs) with Stateful PCE,2020-03-01,pce,RFC8745
+417,128137,USA,Juniper Networks,draft-ietf-pce-stateful-path-protection-11,Path Computation Element Communication Protocol (PCEP) Extensions for Associating Working and Protection Label Switched Paths (LSPs) with Stateful PCE,2020-03-01,pce,RFC8745
+418,106540,USA,"Google, Inc",draft-ietf-pce-stateful-path-protection-11,Path Computation Element Communication Protocol (PCEP) Extensions for Associating Working and Protection Label Switched Paths (LSPs) with Stateful PCE,2020-03-01,pce,RFC8745
+419,120592,India,Huawei Technologies,draft-ietf-pce-stateful-path-protection-11,Path Computation Element Communication Protocol (PCEP) Extensions for Associating Working and Protection Label Switched Paths (LSPs) with Stateful PCE,2020-03-01,pce,RFC8745
+420,111477,India,Huawei Technologies,draft-ietf-pce-stateful-hpce-15,Hierarchical Stateful Path Computation Element (PCE),2020-03-01,pce,RFC8751
+421,118347,,SKKU,draft-ietf-pce-stateful-hpce-15,Hierarchical Stateful Path Computation Element (PCE),2020-03-01,pce,RFC8751
+422,109703,Sweden,Ericsson,draft-ietf-pce-stateful-hpce-15,Hierarchical Stateful Path Computation Element (PCE),2020-03-01,pce,RFC8751
+423,117668,Republic of Korea,SK Telecom,draft-ietf-pce-stateful-hpce-15,Hierarchical Stateful Path Computation Element (PCE),2020-03-01,pce,RFC8751
+424,109558,UK,Lancaster University,draft-ietf-pce-stateful-hpce-15,Hierarchical Stateful Path Computation Element (PCE),2020-03-01,pce,RFC8751
+425,108894,P.R.China,Huawei Technologies,draft-ietf-pce-gmpls-pcep-extensions-16,Path Computation Element Communication Protocol (PCEP) Extensions for GMPLS,2020-07-01,pce,RFC8779
+426,110932,Spain,Telefonica Investigacion y Desarrollo,draft-ietf-pce-gmpls-pcep-extensions-16,Path Computation Element Communication Protocol (PCEP) Extensions for GMPLS,2020-07-01,pce,RFC8779
+427,110920,,Juniper,draft-ietf-pce-gmpls-pcep-extensions-16,Path Computation Element Communication Protocol (PCEP) Extensions for GMPLS,2020-07-01,pce,RFC8779
+428,118347,"Plano, TX 75024, USA",Huawei Technologies,draft-ietf-pce-wson-rwa-ext-17,The Path Computation Element Communication Protocol (PCEP) Extension for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment (RWA),2020-07-01,pce,RFC8780
+429,111837,Spain,CTTC,draft-ietf-pce-wson-rwa-ext-17,The Path Computation Element Communication Protocol (PCEP) Extension for Wavelength Switched Optical Network (WSON) Routing and Wavelength Assignment (RWA),2020-07-01,pce,RFC8780
+430,104198,,Old Dog Consulting,draft-ietf-pce-stateful-flags-01,Updated Rules for Processing Stateful PCE Request Parameters Flags,2020-05-01,pce,RFC8786
+431,113838,,Cisco,draft-ietf-pce-association-diversity-15,Path Computation Element Communication Protocol (PCEP) Extension for Label Switched Path (LSP) Diversity Constraint Signaling,2020-07-01,pce,RFC8800
+432,106042,Canada,Cisco,draft-ietf-pce-association-diversity-15,Path Computation Element Communication Protocol (PCEP) Extension for Label Switched Path (LSP) Diversity Constraint Signaling,2020-07-01,pce,RFC8800
+433,128137,,Juniper Networks,draft-ietf-pce-association-diversity-15,Path Computation Element Communication Protocol (PCEP) Extension for Label Switched Path (LSP) Diversity Constraint Signaling,2020-07-01,pce,RFC8800
+434,120592,India,RtBrick India,draft-ietf-pce-association-diversity-15,Path Computation Element Communication Protocol (PCEP) Extension for Label Switched Path (LSP) Diversity Constraint Signaling,2020-07-01,pce,RFC8800
+435,110750,USA,Huawei Device Co. Ltd,draft-ietf-pce-stateful-pce-lsp-scheduling-27,PCE Communication Protocol (PCEP) Extensions for Label Switched Path (LSP) Scheduling with Stateful PCE,2020-10-01,pce,RFC8934
+436,119701,China,Huawei,draft-ietf-pce-stateful-pce-lsp-scheduling-27,PCE Communication Protocol (PCEP) Extensions for Label Switched Path (LSP) Scheduling with Stateful PCE,2020-10-01,pce,RFC8934
+437,112751,China,Huawei,draft-ietf-pce-stateful-pce-lsp-scheduling-27,PCE Communication Protocol (PCEP) Extensions for Label Switched Path (LSP) Scheduling with Stateful PCE,2020-10-01,pce,RFC8934
+438,109703,Italy,Ericsson,draft-ietf-pce-stateful-pce-lsp-scheduling-27,PCE Communication Protocol (PCEP) Extensions for Label Switched Path (LSP) Scheduling with Stateful PCE,2020-10-01,pce,RFC8934
+439,106042,Canada,Ciena,draft-ietf-pce-association-policy-16,Path Computation Element Communication Protocol (PCEP) Extension for Associating Policies and Label Switched Paths (LSPs),2021-03-01,pce,RFC9005
+440,113838,France,Cisco,draft-ietf-pce-association-policy-16,Path Computation Element Communication Protocol (PCEP) Extension for Associating Policies and Label Switched Paths (LSPs),2021-03-01,pce,RFC9005
+441,112405,,"Apstra, Inc.",draft-ietf-pce-association-policy-16,Path Computation Element Communication Protocol (PCEP) Extension for Associating Policies and Label Switched Paths (LSPs),2021-03-01,pce,RFC9005
+442,113543,UK,Metaswitch Networks,draft-ietf-pce-association-policy-16,Path Computation Element Communication Protocol (PCEP) Extension for Associating Policies and Label Switched Paths (LSPs),2021-03-01,pce,RFC9005
+443,124329,China,Huawei Technologies,draft-ietf-pce-association-policy-16,Path Computation Element Communication Protocol (PCEP) Extension for Associating Policies and Label Switched Paths (LSPs),2021-03-01,pce,RFC9005
+444,108881,USA,Etheric Networks,draft-ietf-pce-pcep-extension-for-pce-controller-14,Path Computation Element Communication Protocol (PCEP) Procedures and Extensions for Using the PCE as a Central Controller (PCECC) of LSPs,2021-07-01,pce,RFC9050
+445,113589,China,Huawei Technologies,draft-ietf-pce-pcep-extension-for-pce-controller-14,Path Computation Element Communication Protocol (PCEP) Procedures and Extensions for Using the PCE as a Central Controller (PCECC) of LSPs,2021-07-01,pce,RFC9050
+446,110751,,HPE,draft-ietf-pce-pcep-extension-for-pce-controller-14,Path Computation Element Communication Protocol (PCEP) Procedures and Extensions for Using the PCE as a Central Controller (PCECC) of LSPs,2021-07-01,pce,RFC9050
+447,120592,India,RtBrick Inc,draft-ietf-pce-pcep-extension-for-pce-controller-14,Path Computation Element Communication Protocol (PCEP) Procedures and Extensions for Using the PCE as a Central Controller (PCECC) of LSPs,2021-07-01,pce,RFC9050
+448,122637,China,Huawei Technologies,draft-ietf-pce-pcep-extension-for-pce-controller-14,Path Computation Element Communication Protocol (PCEP) Procedures and Extensions for Using the PCE as a Central Controller (PCECC) of LSPs,2021-07-01,pce,RFC9050
+449,128137,,Juniper Networks,draft-ietf-pce-association-bidir-14,Path Computation Element Communication Protocol (PCEP) Extensions for Associated Bidirectional Label Switched Paths (LSPs),2021-06-01,pce,RFC9059
+450,121347,,Cisco,draft-ietf-pce-association-bidir-14,Path Computation Element Communication Protocol (PCEP) Extensions for Associated Bidirectional Label Switched Paths (LSPs),2021-06-01,pce,RFC9059
+451,116322,,Comcast,draft-ietf-pce-association-bidir-14,Path Computation Element Communication Protocol (PCEP) Extensions for Associated Bidirectional Label Switched Paths (LSPs),2021-06-01,pce,RFC9059
+452,111477,India,Huawei Technologies,draft-ietf-pce-pcep-flowspec-13,Path Computation Element Communication Protocol (PCEP) Extension for Flow Specification,2022-01-01,pce,RFC9168
+453,104198,,Old Dog Consulting,draft-ietf-pce-pcep-flowspec-13,Path Computation Element Communication Protocol (PCEP) Extension for Flow Specification,2022-01-01,pce,RFC9168
+454,113589,China,Huawei Technologies,draft-ietf-pce-pcep-flowspec-13,Path Computation Element Communication Protocol (PCEP) Extension for Flow Specification,2022-01-01,pce,RFC9168
+455,122651,China,ZTE,draft-ietf-pce-lsp-extended-flags-09,Label Switched Path (LSP) Object Flag Extension for Stateful PCE,2023-02-01,pce,RFC9357
+456,118347,South Korea,Samsung,draft-ietf-pce-vn-association-11,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths and Virtual Networks,2023-02-01,pce,RFC9358
+457,109703,Sweden,Ericsson,draft-ietf-pce-vn-association-11,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths and Virtual Networks,2023-02-01,pce,RFC9358
+458,115934,China,Huawei Technologies,draft-ietf-pce-vn-association-11,Path Computation Element Communication Protocol (PCEP) Extensions for Establishing Relationships between Sets of Label Switched Paths and Virtual Networks,2023-02-01,pce,RFC9358
+459,125031,Canada,Nokia Corporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
+460,106301,Canada,Nokia Corporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
+461,126686,Slovakia,Cisco,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
+462,106042,Canada,Ciena Coroporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
+463,118347,,Samsung,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
+464,110932,,Telefonica,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
+465,106206,,Cisco,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
+466,115934,,Huawei Technologies,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
+467,117907,,Nokia Corporation,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
+468,124329,China,Huawei Technologies,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
+469,115740,P.R. China,China Telecom,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
+470,124838,Canada,Cisco,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
+471,106042,,Ciena Corporation,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
+472,123964,India,RtBrick Inc,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
+473,106042,,Ciena Corporation,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
+474,105186,BELGIUM,Cisco,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
+475,112405,,Nvidia,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
+476,103392,,Huawei Technologies,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
+477,124329,China,Huawei Technologies,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604

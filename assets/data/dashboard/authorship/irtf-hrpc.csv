@@ -1,1 +1,5 @@
-""
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,116736,,ARTICLE 19,draft-irtf-hrpc-research-14,Research into Human Rights Protocol Considerations,2017-10-01,,RFC8280
+1,119890,,Oxford Internet Institute,draft-irtf-hrpc-research-14,Research into Human Rights Protocol Considerations,2017-10-01,,RFC8280
+2,116736,,University of Amsterdam,draft-irtf-hrpc-guidelines-21,Guidelines for Human Rights Protocol and Architecture Considerations,2024-09-01,,RFC9620
+3,125317,,Gurshabad Grover,draft-irtf-hrpc-guidelines-21,Guidelines for Human Rights Protocol and Architecture Considerations,2024-09-01,,RFC9620
