@@ -45,6 +45,7 @@ loadLeadershipData(WG, false, is_small_screen, false);
 selectElement.addEventListener("change", (event) => {
     WG = event.target.value;
     if(typeof(WG) !== "undefined") {
+        removeErrors();
         loadAuthorshipOverviewData(WG, true, is_small_screen);
         loadInfluenceData(WG, true, is_small_screen, false);
         loadLeadershipData(WG, true, is_small_screen, false);
