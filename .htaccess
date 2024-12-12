@@ -24,3 +24,7 @@ RewriteRule ^irtf-decentralized-internet-infrastructure.html$ /group/irtf-dinrg.
 RewriteRule ^irtf-human-rights-protocol-considerations.html$ /group/irtf-hrpc.html [R=301,L]
 RewriteRule ^irtf-path-aware-networking.html$ /group/irtf-panrg.html [R=301,L]
 RewriteRule ^irtf-privacy-enhancements-assessments.html /group/irtf-pearg.html [R=301,L]
+RewriteRule ^w3c-decentralized-identifier.html /group/w3c-wg-did.html [R=301,L]
+RewriteRule ^w3c-privacy-community.html /group/w3c-cg-privacycg.html [R=301,L]
+RewriteRule ^w3c-privacy-interest.html /group/w3c-privacy-ig.html [R=301,L]
+RewriteRule ^w3c-private-advertising-technology-community.html /group/w3c-bg-web-adv.html [R=301,L]
