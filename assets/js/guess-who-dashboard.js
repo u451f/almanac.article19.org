@@ -17,19 +17,22 @@ const selectElement = document.querySelector("#wg");
  */
 
 var WG, WGtext;
-var lastSelectedWG = sessionStorage.getItem("WG");
-console.log(lastSelectedWG);
+let params = new URLSearchParams(document.location.search);
+let paramwg = params.get("wg");
+let lastSelectedWG = sessionStorage.getItem("WG");
 
-if (lastSelectedWG) {
+if (paramwg) { // $_GET
+    WG = params.get("wg");
+    selectElement.value = WG;
+} else if (lastSelectedWG) {
     // if person is reloading the page or using the back button, restore the view
     WG = lastSelectedWG;
     selectElement.value = WG;
-    WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 } else {
     // on first load, use the first element in the list
     WG = selectElement.selectedOptions[0].value;
-    WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 }
+WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 updateInterfaceElements(WG, WGtext);
 loadAuthorshipData(WG, false, is_small_screen);
 loadInfluenceData(WG, false, is_small_screen);
