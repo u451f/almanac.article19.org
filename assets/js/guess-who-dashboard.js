@@ -17,7 +17,7 @@ const selectElement = document.querySelector("#wg");
  */
 
 var WG, WGtext;
-let lastSelectedWG = sessionStorage.getItem("wg");
+var lastSelectedWG = sessionStorage.getItem("WG");
 console.log(lastSelectedWG);
 
 if (lastSelectedWG) {
