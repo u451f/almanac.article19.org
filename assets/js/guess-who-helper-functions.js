@@ -118,6 +118,8 @@ function getColorCode(affiliation) {
             hexcolor = "#B90748ab"; // ART19 raspberry
         break;
         case affiliation.startsWith("Google"):
+        case affiliation.startsWith("W3C"):
+        case affiliation.startsWith("World Wide Web Consortium"):
             hexcolor = "#d62d26ab"; // ART19 red
         break;
         case affiliation.startsWith("CDT"):
