@@ -13,12 +13,15 @@
         {% include navigation-guess-who.html %}
     {% else %}
         {% include navigation.html %}
+        {% if page.guess-whoexists %}
+            <!-- var needed when switching to guess who dashboard -->
+            <script>sessionStorage.setItem("WG", "{{ page.guess-whoexists}}" )</script>
+        {% else %}
+            <!-- when switching to guess who dashboard, don't try to show a WG we saw previously but that isn't the current one -->
+            <script>sessionStorage.removeItem("WG")</script>
+        {% endif %}
     {% endif %}
     <script src="{{ site.url }}/assets/js/lib/jquery-3.4.1.min.js"></script>
     <script src="{{ site.url }}/assets/js/init.js"></script>
-    {% if page.guess-whoexists %}
-        <!-- var needed when switching to guess who dashboard -->
-        <script>sessionStorage.setItem("WG", "{{ page.guess-whoexists}}" )</script>
-    {% endif %}
   </body>
 </html>
