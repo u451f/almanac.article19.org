@@ -122,6 +122,8 @@ function getColorCode(affiliation) {
         break;
         case affiliation.startsWith("CDT"):
         case affiliation.startsWith("Mozilla"):
+        case affiliation.startsWith("W3C"):
+        case affiliation.startsWith("World Wide Web Consortium"):
             hexcolor = "#009470ab"; // ART19 green
         break;
         default:
