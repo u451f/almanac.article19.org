@@ -17,14 +17,9 @@ const selectElement = document.querySelector("#wg");
  */
 
 var WG, WGtext;
-let params = new URLSearchParams(document.location.search);
-let paramwg = params.get("wg");
 let lastSelectedWG = sessionStorage.getItem("WG");
 
-if (paramwg) { // $_GET
-    WG = params.get("wg");
-    selectElement.value = WG;
-} else if (lastSelectedWG) {
+if (lastSelectedWG) {
     // if person is reloading the page or using the back button, restore the view
     WG = lastSelectedWG;
     selectElement.value = WG;
