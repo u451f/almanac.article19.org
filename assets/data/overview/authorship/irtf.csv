@@ -1,0 +1,13 @@
+,Unnamed: 0,id,country,affiliation,draft,title,submission_date,wg,docid
+1,1,109354.0,Switzerland,Google Switzerland GmbH,draft-irtf-panrg-questions-12,Current Open Questions in Path-Aware Networking,2022-03-01,,RFC9217
+3,3,125186.0,,ETH Zürich,draft-irtf-panrg-path-properties-08,A Vocabulary of Path Properties,2023-09-01,,RFC9473
+0,0,147130.0,Argentina,SI6 Networks,draft-irtf-pearg-numeric-ids-history-11,Unfortunate History of Transient Numeric Identifiers,2023-07-01,,RFC9414
+1,1,121333.0,Argentina,Quarkslab,draft-irtf-pearg-numeric-ids-history-11,Unfortunate History of Transient Numeric Identifiers,2023-07-01,,RFC9414
+2,2,147130.0,Argentina,SI6 Networks,draft-irtf-pearg-numeric-ids-generation-12,On the Generation of Transient Numeric Identifiers,2023-07-01,,RFC9415
+3,3,121333.0,Argentina,Quarkslab,draft-irtf-pearg-numeric-ids-generation-12,On the Generation of Transient Numeric Identifiers,2023-07-01,,RFC9415
+5,5,118398.0,,CU Boulder,draft-irtf-pearg-censorship-10,A Survey of Worldwide Censorship Techniques,2023-11-01,,RFC9505
+6,6,119373.0,,Ben Jones,draft-irtf-pearg-censorship-10,A Survey of Worldwide Censorship Techniques,2023-11-01,,RFC9505
+8,8,123969.0,,Amelia Andersdotter,draft-irtf-pearg-censorship-10,A Survey of Worldwide Censorship Techniques,2023-11-01,,RFC9505
+9,9,124328.0,,Center for Democracy & Technology,draft-irtf-pearg-censorship-10,A Survey of Worldwide Censorship Techniques,2023-11-01,,RFC9505
+0,0,116736.0,,ARTICLE 19,draft-irtf-hrpc-research-14,Research into Human Rights Protocol Considerations,2017-10-01,,RFC8280
+3,3,125317.0,,Gurshabad Grover,draft-irtf-hrpc-guidelines-21,Guidelines for Human Rights Protocol and Architecture Considerations,2024-09-01,,RFC9620
