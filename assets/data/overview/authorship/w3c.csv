@@ -1,30 +1,5 @@
-,Unnamed: 0,affiliation,name,submission_date,shortlink,title,rec-track,latest_version_status,working_group
-0,0,Legendary Requirements,Joe Andrieu,2021-03-17,https://www.w3.org/TR/did-use-cases/,Use Cases and Requirements for Decentralized Identifiers,False,Note,wg/did
-1,1,GS1,Phil Archer,2021-03-17,https://www.w3.org/TR/did-use-cases/,Use Cases and Requirements for Decentralized Identifiers,False,Note,wg/did
-2,2,W3C Invited Experts,Kim Duffy,2021-03-17,https://www.w3.org/TR/did-use-cases/,Use Cases and Requirements for Decentralized Identifiers,False,Note,wg/did
-3,3,W3C Invited Experts,Adrian Gropper,2021-03-17,https://www.w3.org/TR/did-use-cases/,Use Cases and Requirements for Decentralized Identifiers,False,Note,wg/did
-4,4,Gen,Drummond Reed,2021-06-29,https://www.w3.org/TR/did-cbor-representation/,The Plain CBOR Representation v1.0,False,Note,wg/did
-5,5,W3C Invited Experts,Drummond Reed,2021-06-29,https://www.w3.org/TR/did-cbor-representation/,The Plain CBOR Representation v1.0,False,Note,wg/did
-6,6,Digital Bazaar,Manu Sporny,2021-06-29,https://www.w3.org/TR/did-cbor-representation/,The Plain CBOR Representation v1.0,False,Note,wg/did
-9,9,Danube Tech GmbH,Markus Sabadello,2021-10-12,https://www.w3.org/TR/did-imp-guide/,DID Implementation Guide v1.0,False,Note,wg/did
-10,10,Legendary Requirements,Joe Andrieu,2021-11-19,https://www.w3.org/TR/did-rubric/,DID Method Rubric v1.0,False,Note,wg/did
-11,11,W3C Invited Experts,Daniel Hardman,2021-11-19,https://www.w3.org/TR/did-rubric/,DID Method Rubric v1.0,False,Note,wg/did
-12,12,Digital Bazaar,Manu Sporny,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
-13,13,Digital Bazaar,Amy Guy,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
-14,14,Danube Tech GmbH,Markus Sabadello,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
-15,15,Gen,Drummond Reed,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
-16,16,W3C Invited Experts,Drummond Reed,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
-17,17,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-methods/,DID Methods,False,Note,wg/did
-18,18,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-methods/,DID Methods,False,Note,wg/did
-19,19,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-properties/,DID Document Property Extensions,False,Note,wg/did
-20,20,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-properties/,DID Document Property Extensions,False,Note,wg/did
-21,21,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-resolution/,DID Resolution Extensions,False,Note,wg/did
-22,22,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-resolution/,DID Resolution Extensions,False,Note,wg/did
-23,23,Digital Bazaar,Manu Sporny,2024-12-03,https://www.w3.org/TR/did-extensions/,Decentralized Identifier Extensions,False,Note,wg/did
-24,24,Danube Tech GmbH,Markus Sabadello,2024-12-03,https://www.w3.org/TR/did-extensions/,Decentralized Identifier Extensions,False,Note,wg/did
-25,25,Danube Tech GmbH,Markus Sabadello,2024-12-03,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
-26,26,Massachusetts Institute of Technology (MIT),Dmitri Zagidulin,2024-12-03,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
-27,27,W3C Invited Experts,Dmitri Zagidulin,2024-12-03,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
-0,0,Center for Democracy and Technology,Nick Doty,2019-03-28,https://www.w3.org/TR/fingerprinting-guidance/,Mitigating Browser Fingerprinting in Web Specifications,False,Note,ig/privacy
-1,1,Apple Inc.,Theresa O'Connor,2021-12-16,https://www.w3.org/TR/security-privacy-questionnaire/,Self-Review Questionnaire: Security and Privacy,False,Note,ig/privacy
-2,2,Brave Software Inc.,Peter Snyder,2021-12-16,https://www.w3.org/TR/security-privacy-questionnaire/,Self-Review Questionnaire: Security and Privacy,False,Note,ig/privacy
+year,Apple Inc.,Brave Software Inc.,Center for Democracy and Technology,Danube Tech GmbH,Digital Bazaar,GS1,Gen,Legendary Requirements,Massachusetts Institute of Technology (MIT),W3C Invited Experts
+2019,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2021,1.0,1.0,0.0,1.0,1.0,1.0,1.0,2.0,0.0,4.0
+2022,0.0,0.0,0.0,1.0,2.0,0.0,1.0,0.0,0.0,1.0
+2024,0.0,0.0,0.0,5.0,4.0,0.0,0.0,0.0,1.0,1.0
