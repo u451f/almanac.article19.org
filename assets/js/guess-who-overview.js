@@ -1,6 +1,6 @@
 import { loadAuthorshipOverviewData } from "./modules/plotly-authorship-overview.js";
 import { loadInfluenceData } from "./modules/plotly-influence.js";
-import { loadLeadershipData } from "./modules/plotly-leadership.js";
+import { loadLeadershipData } from "./modules/plotly-leadership-overview.js";
 
 // Setup
 if (isScreenSmall()) {
