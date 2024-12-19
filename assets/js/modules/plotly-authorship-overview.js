@@ -37,18 +37,17 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
                 type: "scatter",
                 mode: "markers",
                 marker: {
-                    //size: 10,
-                    size: unpack(rows, affiliation),
+                    size: unpack_exag_size(rows, affiliation),
                     color: getColorCode(affiliation)
                 },
                 name: affiliation,
-                x: unpack(rows, "date"),
+                x: unpack(rows, "year"),
                 y: unpack(rows, affiliation),
                 hoveron: "points+fills",
                 fillcolor: getColorCode(affiliation)
             })
         );
-        //console.log(traces);
+        console.log(traces);
 
         var data = traces;
         var layout = {

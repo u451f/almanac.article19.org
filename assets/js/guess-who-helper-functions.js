@@ -62,6 +62,12 @@ function unpack(rows, key) {
      });
 }
 
+function unpack_exag_size(rows, key) {
+    return rows.map(function(row) {
+        return parseInt(row[key] * 3);
+     });
+}
+
 /*
  * Return int in range
  * needed for color code generation
