@@ -17,13 +17,20 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
 
     d3.csv(file, function(error, rows){
         // if the file cannot be loaded
-        if (error) {
+        if (error or rows.length < 1) {
             Plotly.purge("plotlyDAuthorship");
             displayError("plotlyDAuthorship");
             return console.warn(error);
         }
 
         //console.log("Rows", rows);
+
+        // files can be empty, when there is no available data
+        if(rows.length < 1) {
+            Plotly.purge("plotlyDAuthorship");
+            displayError("plotlyDAuthorship");
+            return console.warn("File is empty");
+        }
 
         var headerNames = d3.keys(rows[0]);
         // remove Date as a header

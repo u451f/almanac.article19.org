@@ -26,6 +26,13 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
             return console.warn(error);
         }
 
+        // files can be empty, when there is no available data
+        if(rows.length < 1) {
+            Plotly.purge("plotlyDAuthorship");
+            displayError("plotlyDAuthorship");
+            return console.warn("File is empty");
+        }
+
         rows.sort(orderByAffiliation);
         //console.log("Rows", rows);
 
