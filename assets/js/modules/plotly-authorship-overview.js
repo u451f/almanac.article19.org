@@ -37,7 +37,7 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
                 type: "scatter",
                 mode: "markers",
                 marker: {
-                    size: unpack_exag_size(rows, affiliation),
+                    size: unpack_exag_size(rows, affiliation, WG),
                     color: getColorCode(affiliation)
                 },
                 name: affiliation,

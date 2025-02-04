@@ -62,9 +62,15 @@ function unpack(rows, key) {
      });
 }
 
-function unpack_exag_size(rows, key) {
+function unpack_exag_size(rows, key, WG) {
     return rows.map(function(row) {
-        return parseInt(row[key] * 3);
+        var factor;
+        if(WG == "irtf" || WG == "w3c") {
+            factor = 15;
+        } else {
+             factor = 4;
+        }
+        return parseInt(row[key] * factor);
      });
 }
 
