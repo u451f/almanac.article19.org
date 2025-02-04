@@ -110,36 +110,36 @@ function getColorCode(affiliation) {
     var hexcolor;
     //console.log("affiliation", affiliation);
     switch (true) {
-        case affiliation.startsWith("Akamai"):
-        case affiliation.startsWith("Cisco"):
+        case affiliation.startsWith("Futurewei"):
+        case affiliation.startsWith("Huawei"):
             hexcolor = "#702375ab"; // ART19 purple
         break;
+        case affiliation.startsWith("Akamai"):
         case affiliation.startsWith("Cloudflare"):
-            hexcolor = "#eb8a23ab"; // ART19 orange
+        case affiliation.startsWith("Fastly"):
+            hexcolor = "#eb8a2399"; // ART19 orange
         break;
         case affiliation.startsWith("Facebook"):
         case affiliation.startsWith("Meta"):
-            hexcolor = "#691B3266"; // ART19 earth
-        break;
-        case affiliation.startsWith("Fastly"):
-        case affiliation.startsWith("ICANN"):
-            hexcolor = "#f1a827ab"; // ART19 yellow
-        break;
-        case affiliation.startsWith("Futurewei"):
-        case affiliation.startsWith("Huawei"):
-            hexcolor = "#B90748ab"; // ART19 raspberry
-        break;
-        case affiliation.startsWith("Google"):
-            hexcolor = "#d62d26ab"; // ART19 red
+            hexcolor = "#691B3299"; // ART19 earth
         break;
         case affiliation.startsWith("CDT"):
-        case affiliation.startsWith("Mozilla"):
+        case affiliation.startsWith("ICANN"):
         case affiliation.startsWith("W3C"):
         case affiliation.startsWith("World Wide Web Consortium"):
-            hexcolor = "#009470ab"; // ART19 green
+            hexcolor = "#f1a82799"; // ART19 yellow
+        break;
+        case affiliation.startsWith("Google"):
+            hexcolor = "#d62d2699"; // ART19 red
+        break;
+        case affiliation.startsWith("Cisco"):
+        case affiliation.startsWith("Microsoft"):
+        //case affiliation.startsWith("Mozilla"):
+        case affiliation.startsWith("Orange"):
+            hexcolor = "#b9074899"; // ART19 raspberry
         break;
         default:
-            const colors = ["142864", "00acd8", "c8c8c8"]; // blue, lightblue, grey
+            const colors = ["142864", "00acd8", "c8c8c8", "009470"]; // blue, lightblue, grey, green
             const randomSelColor = Math.floor(Math.random() * colors.length);
             const transparency = getRandomArbitrary(16, 256).toString(16);
             hexcolor = "#" + colors[randomSelColor] + transparency;
