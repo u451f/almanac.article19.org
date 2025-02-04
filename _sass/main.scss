@@ -288,14 +288,13 @@ body:not(.guess-who) .post #intro {
     background-position: left top;
     background-repeat: repeat-x;
     background-size: contain;
-    padding: 2em var(--hspace) 1em;
+    padding: 2em var(--hspace) 3em;
     overflow: hidden;
 }
 
 .guess-who #footer {
     background-image: url(backgrounds/layer-upsidedown.svg);
     background-position: left bottom;
-    padding: 4em var(--hspace) 4em;
 }
 
 #footer p {
@@ -937,39 +936,47 @@ Post/Group & Org page
 
 #site-area-menu {
     z-index: 20;
-    padding-top: 0;
-    padding-left: var(--hspace);
     position: fixed;
-    top: 0;
-    right: var(--hspace);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: var(--hspace);
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-variation-settings: "wght" 300;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: url(backgrounds/layer-siteareamenu.svg) left bottom repeat-x;
+    padding-top: 2em;
 }
 
 #site-area-menu ul {
-    margin: 0;
-}
-
-#site-area-menu li a {
-    color: var(--colour1);
-    background-color: #fff;
-    opacity: 0.8;
-    padding: 0.1em 0.4em;
-    width: 30px;
-    display: flex;
-    box-sizing: border-box;
-    font-weight: bold;
-    border-bottom: 1px solid #fff;
-}
-
-.guess-who #site-area-menu li a {
-    color: var(--colour2);
-}
-
-#site-area-menu li a:hover {
-    opacity: 1;
+    margin: 0 0 0 -0.75em;
+    list-style: none;
 }
 
 #site-area-menu li {
-    display: inline;
+    display: inline-flex;
+}
+
+#site-area-menu li a {
+    background-color: #fff;
+    color: var(--colour2);
+    padding: 0.2em 0.75em;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#site-area-menu li:last-child a,
+.guess-who #site-area-menu li:first-child a {
+    color: #fff;
+    background-color: var(--colour2);
+}
+
+.guess-who #site-area-menu li:last-child a,
+#site-area-menu li a:hover {
+    background-color: #fff !important;
+    color: var(--colour2) !important;
 }
 
 body.guess-who .site-title a {
@@ -1044,7 +1051,6 @@ body.guess-who .site-title a {
     width: 100%;
 }
 
-
 .spacer {
     display: block;
     border-bottom: 1px dashed var(--colour2);
@@ -1077,25 +1083,6 @@ select#wg {
     padding: 1em 0.5em;
 }
 
-select#wg:hover {
-}
-
-.button {
-    font-family: "Roboto", sans-serif;
-    font-variation-settings: "wght" 600;
-    font-size: 0.9em;
-    padding: 0.55em;
-    text-align: center;
-    border: 1px solid;
-}
-
-.button:hover {
-    background: #fff;
-    color: var(--colour2);
-    border-color: var(--colour2);
-}
-
-//.scrolled select#wg {
 .scrolled #guess-who-actions {
     position: fixed;
     top: 0;
@@ -1111,14 +1098,6 @@ select#wg:hover {
 .scrolled select#wg {
     grid-column-start: 1;
     padding-left: var(--hspace);
-}
-
-.scrolled #almanaclink {
-    position: fixed;
-    right: var(--hspace);
-    top: 1px;
-    border-bottom: 0;
-    border-top: 0;
 }
 
 .guess-who-bottom-links p {
@@ -1409,8 +1388,6 @@ a.modebar-btn {
         grid-column-start: 2;
         grid-column-end: 4;
     }
-
-
 }
 
 @media all and (min-width: 1600px) {
