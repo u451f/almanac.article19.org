@@ -73,7 +73,8 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
             },
             legend: {
                 orientation: "v"
-            }
+            },
+            barmode: 'stack'
         };
 
         if(is_small_screen) {
