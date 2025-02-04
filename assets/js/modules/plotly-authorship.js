@@ -27,6 +27,13 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
 
         //console.log("Rows", rows);
 
+        // files can be empty, when there is no available data
+        if(rows.length < 1) {
+            Plotly.purge("plotlyDAuthorship");
+            displayError("plotlyDAuthorship");
+            return console.warn("File is empty");
+        }
+
         var traces = [];
         var hexcolor;
         var arrByAffiliation = Object.groupBy(rows, ({ affiliation }) => affiliation);
