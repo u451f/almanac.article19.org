@@ -1074,9 +1074,29 @@ select#wg {
     font-weight: bold;
     grid-column-start: 1;
     grid-column-end: 4;
+    padding: 1em 0.5em;
 }
 
-.scrolled select#wg {
+select#wg:hover {
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-variation-settings: "wght" 600;
+    font-size: 0.9em;
+    padding: 0.55em;
+    text-align: center;
+    border: 1px solid;
+}
+
+.button:hover {
+    background: #fff;
+    color: var(--colour2);
+    border-color: var(--colour2);
+}
+
+//.scrolled select#wg {
+.scrolled #guess-who-actions {
     position: fixed;
     top: 0;
     left: 0;
@@ -1084,7 +1104,21 @@ select#wg {
     z-index: 10;
     border: none;
     outline: none;
+    padding-left: 0;
+    display: block;
+}
+
+.scrolled select#wg {
+    grid-column-start: 1;
     padding-left: var(--hspace);
+}
+
+.scrolled #almanaclink {
+    position: fixed;
+    right: var(--hspace);
+    top: 1px;
+    border-bottom: 0;
+    border-top: 0;
 }
 
 .guess-who-bottom-links p {
