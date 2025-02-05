@@ -1210,6 +1210,18 @@ a.modebar-btn {
  Media queries
   ***********************************/
 
+@media all and (max-width: 840px) {
+    .guess-who .catnip-icon {
+        max-height: 100px;
+        float: left;
+    }
+
+    .guess-who .catnip-icon + p {
+        overflow: hidden;
+        line-height: 125%;
+    }
+}
+
 @media all and (min-width: 841px) {
     #primary-menu .main-menu {
         height: 90vh;
