@@ -83,4 +83,15 @@ $(function($){
         }
     });
     $(window).scroll();
+
+    // read more on landing pages
+    $('.read-more').parent().next('div').hide();
+    $('.read-more').click(function(){
+        $(this).parent().next('div').toggle();
+        if ($(this).text() == "Hide…") {
+            $(this).text("Read more");
+        } else {
+            $(this).text("Hide…");
+        }
+    });
 });
