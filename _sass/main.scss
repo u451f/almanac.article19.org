@@ -364,13 +364,23 @@ body:not(.guess-who) .post #intro {
     background: var(--colour2);
 }
 
+#breadcrumbs .switcher {
+    padding-left: 0;
+}
+
 #breadcrumbs .switcher a {
     padding: 0 0.25em;
-    background: var(--colour2);
+    color: var(--colour2);
+    background: var(--bg);
+    background-image: url("images/arrow-switch-g.svg");
+    background-position: right 7px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
 }
 
 .guess-who #breadcrumbs .switcher:not(.gw) a {
-    background: var(--colour1);
+    color: var(--colour1);
+    background-image: url("images/arrow-switch-r.svg");
 }
 
 /*************************************
