@@ -2,14 +2,16 @@
 <main class="section" id="content">
     <div class="section-content grid" id="intro">
         {% include site-header.html %}
-        {% include breadcrumbs.html %}
-
-        {{ content }}
-
+        <div id="main-text">
+            {% include breadcrumbs.html %}
+            {{ content }}
+        </div>
+        <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-overview.png" alt="Catnip in front of data plots" />
     </div>
 
     <div class="section-content grid" id="guess-who-actions">
         <select id="wg" class="select" aria-label="Upon selecting a different working group, visualisations below will change.">
+            <option disabled>Select an SDO</option>
         {% assign items = site.data.guess_who_overview_sdo %}
             {% for item in items %}
             <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">

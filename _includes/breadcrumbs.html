@@ -31,5 +31,23 @@
             {% endcase %}
         <span class="crumb"><a rel="nofollow" href="{{ site.url }}/orgs/{{ link }}.html">{{ page.org-full-name }}</a></span>
         {% endif %}
+    {% if page.guess-whoexists %}
+        <span class="switcher"><a href="{{ site.url }}/guess-who-dashboard.html" title="Look up who leads, speaks, and publishes in this group">Look up in dashboard</a></span>
+    {% endif %}
+    </div>
+{% endif %}
+
+{% if page.sitearea == "guess-who" %}
+    <div id="breadcrumbs">
+        <span class="crumb {% if page.loadjsoverview %}active{% endif %}"><a href="{{ site.url }}/guess-who.html" title="Switch to Guess who! landing page">Guess who!</a></span>
+    {% if page.loadjsdashboard %}
+        <span class="crumb{% if page.loadjsdashboard %} active{% endif %}"><a href="{{ site.url }}/guess-who-dashboard.html" title="Look up who leads, speaks, and publishes in this group">Dashboard</a></span>
+    {% endif %}
+    {% if page.loadjsoverview %}
+        <span class="switcher gw"><a href="{{ site.url }}/guess-who-dashboard.html" title="Look up who leads, speaks, and publishes in this SDO's working groups">Investigate dashboard</a></span>
+    {% endif %}
+    {% if page.loadjsdashboard %}
+        <span class="switcher"><a href="{{ site.url }}/group/" class="button" id="almanaclink" title="Look up this working group in the almanac">Look up in Almanac</a></span>
+    {% endif %}
     </div>
 {% endif %}

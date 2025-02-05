@@ -2,8 +2,11 @@
 <main class="section" id="content">
     <div class="section-content grid" id="intro">
         {% include site-header.html %}
-        {% include breadcrumbs.html %}
-        {% include guess-who-about.html %}
+        <div id="main-text">
+            {% include breadcrumbs.html %}
+            {% include guess-who-about.html %}
+        </div>
+        <img src="{{ site.url }}/assets/images/catnip-mallory/catnip-about.png" alt="Catnip illuminated by BigBang" />
     </div>
     {{ content }}
 </main>
