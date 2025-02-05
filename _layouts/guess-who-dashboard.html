@@ -6,6 +6,7 @@
             {% include breadcrumbs.html %}
             <h2 class="title"><span id="wgname"><!-- WG Name --></span></h2>
             {{ content }}
+            <p class="screen-reader-text">The following data visualisations depict 1. the chairing periods of a given actor, 2. the amount of emails sent by different actors, 3. the amount of published standards related to different actors in a working group. The raw data is available <a href="https://github.com/u451f/almanac.article19.org/tree/master/assets/data/dashboard/">here</a>.</p>
         </div>
         <div class="post"><!-- guess-who-dashboard.js fills in -->
             <img id="wglogo" class="img-wg" src="{{ site.url }}/assets/images/groups/" title="" alt="" />
@@ -35,7 +36,6 @@
     </div>
 
     <div id="guess-who-display">
-
         <div class="section-content">
             <h3 class="title">Who leads? Chairing periods</h3>
             <div id="plotlyDLeadership" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
