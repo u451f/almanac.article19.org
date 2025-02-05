@@ -1,6 +1,6 @@
 <nav id="site-area-menu" {% if page.sitearea == "guess-who" %}class="current-area-guess-who"{% endif %} aria-label="Switch between the almanac and the data visualizations of SDOs and working groups">
     <ul>
         <li {% if page.sitearea != "guess-who" %}class="active"{% endif %}><a href="{{ site.url }}" title="Switch to almanac">Almanac</a></li>
-        <li {% if page.loadjsoverview %}class="active"{% endif %}><a href="{{ site.url }}/guess-who.html" title="Switch to Guess who! landing page">Guess who!</a></li>
+        <li {% if page.sitearea == "guess-who" %}class="active"{% endif %}><a href="{{ site.url }}/guess-who.html" title="Switch to Guess who! landing page">Guess who!</a></li>
     </ul>
 </nav>
