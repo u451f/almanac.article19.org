@@ -60,7 +60,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         var data = traces;
         var layout = {
             title: {
-                text: "Cumulated chairing periods in "+WG,
+                text: "Number of chaired working groups in "+WG,
                 xref: "container",
                 x: 0
             },
@@ -71,7 +71,8 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
                 title: "per year"
             },
             yaxis: {
-                title: "Cumulated chairing periods"
+                title: "Number of chaired WGs",
+                dtick: 1,
             },
             font: {
                 family: "Roboto, sans-serif",
