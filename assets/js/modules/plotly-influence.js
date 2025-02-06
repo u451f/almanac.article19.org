@@ -35,8 +35,8 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
 
         // files can be empty, when there is no available data
         if(rows.length < 1) {
-            Plotly.purge("plotlyDAuthorship");
-            displayError("plotlyDAuthorship");
+            Plotly.purge("plotlyDInfluence");
+            displayError("plotlyDInfluence");
             return console.warn("File is empty");
         }
 

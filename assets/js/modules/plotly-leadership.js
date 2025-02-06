@@ -28,8 +28,8 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
 
         // files can be empty, when there is no available data
         if(rows.length < 1) {
-            Plotly.purge("plotlyDAuthorship");
-            displayError("plotlyDAuthorship");
+            Plotly.purge("plotlyDLeadership");
+            displayError("plotlyDLeadership");
             return console.warn("File is empty");
         }
 
