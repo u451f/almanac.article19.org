@@ -395,7 +395,7 @@ body:not(.guess-who) .post #intro {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding-top: calc(var(--hspace) + 52px);
+    padding-top: calc(var(--hspace) + 25px);
     box-sizing: border-box;
     z-index: 24;
     overflow: hidden;
@@ -476,9 +476,9 @@ body:not(.guess-who) .post #intro {
     -webkit-user-select: none;
     user-select: none;
     position: fixed;
-    top: calc(2*var(--hspace));
+    top: calc(var(--hspace) + 25px);
     right: var(--hspace);
-    z-index: 11;
+    z-index: 25;
 }
 
 .toggler {
