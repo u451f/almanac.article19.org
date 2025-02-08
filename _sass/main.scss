@@ -395,7 +395,7 @@ body:not(.guess-who) .post #intro {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding-top: var(--hspace);
+    padding-top: calc(var(--hspace) + 52px);
     box-sizing: border-box;
     z-index: 24;
     overflow: hidden;
@@ -516,7 +516,6 @@ body:not(.guess-who) .post #intro {
 }
 
 #primary-menu .site-title {
-    padding-top: 52px;
     padding-bottom: 25px;
 }
 
