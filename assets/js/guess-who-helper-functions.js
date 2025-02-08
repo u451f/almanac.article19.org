@@ -66,9 +66,9 @@ function unpack_exag_size(rows, key, WG) {
     return rows.map(function(row) {
         var factor;
         if(WG == "irtf" || WG == "w3c") {
-            factor = 15;
+            factor = 10;
         } else {
-             factor = 4;
+             factor = 2;
         }
         return parseInt(row[key] * factor);
      });
