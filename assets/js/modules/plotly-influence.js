@@ -55,7 +55,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
                 name: affiliation,
                 x: unpack(rows, "Date"),
                 y: unpack(rows, affiliation),
-                hoveron: "points+fills",
+                hoveron: "points",
                 fillcolor: getColorCode(affiliation)
             })
         );
@@ -64,7 +64,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
         var data = traces;
         var layout = {
             title: {
-                text: "Amount of communication in "+WG,
+                text: "Amount of communication in "+WG.toUpperCase(),
                 xref: "container",
                 x: 0
             },
@@ -72,7 +72,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
                 t: 35, r: 40, b: 45, l: 40
             },
             xaxis: {
-                title: "per year"
+                title: "year"
             },
             yaxis: {
                 title: "Emails sent"

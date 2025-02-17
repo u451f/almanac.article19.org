@@ -1,10 +1,4 @@
-/*
- * Leadership
- * - Who wrote emails most to mailing lists associated with this WG?
- * - Ordered by year and affiliation (alphabetical)
- */
-
-function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=true) {
+function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
     // Data CSV
     var file = "/assets/data/overview/leadership/"+WG+".csv";
 
@@ -46,13 +40,12 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         var hexcolor;
         headerNames.forEach((affiliation) => traces.push({
                 type: "bar",
-                mode: "none",
-                fill: "tozeroy",
                 name: affiliation,
                 x: unpack(rows, "Date"),
                 y: unpack(rows, affiliation),
-                hoveron: "fills",
-                fillcolor: getColorCode(affiliation)
+                marker: {
+                    color: getColorCode(affiliation),
+                },
             })
         );
         //console.log(traces);
@@ -60,15 +53,18 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         var data = traces;
         var layout = {
             title: {
-                text: "Number of chaired working groups in "+WG,
+                text: "Number of working groups chaired in "+WG.toUpperCase(),
                 xref: "container",
                 x: 0
+            },
+            titlefont: {
+                weight: "bold",
             },
             margin: {
                 t: 35, r: 40, b: 45, l: 40
             },
             xaxis: {
-                title: "per year"
+                title: "year"
             },
             yaxis: {
                 title: "Number of chaired WGs",
@@ -82,7 +78,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
             legend: {
                 orientation: "v"
             },
-            barmode: 'stack'
+            barmode: "stack"
         };
 
         if(is_small_screen) {

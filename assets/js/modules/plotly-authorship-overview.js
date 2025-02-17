@@ -59,7 +59,7 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
         var data = traces;
         var layout = {
             title: {
-                text: "Amount of published standards in "+WG,
+                text: "Number of standards published in "+WG.toUpperCase(),
                 xref: "container",
                 x: 0
             },
@@ -67,10 +67,12 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
                 t: 35, r: 40, b: 45, l: 40
             },
             xaxis: {
-                title: "per year"
+                title: "year",
+                dtick: 1
             },
             yaxis: {
-                title: "RFCs"
+                title: "RFCs",
+                dtick: 1
             },
             font: {
                 family: "Roboto, sans-serif",

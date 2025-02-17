@@ -27,6 +27,7 @@ function removeErrors() {
  * Dashboard interface: headline
  * */
 function cleanOptionText(WGtext) {
+    return WGtext;
     return WGtext.replace('-- ','');
 }
 
