@@ -64,7 +64,8 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 t: 35, r: 40, b: 45, l: 40
             },
             xaxis: {
-                title: "year"
+                title: "year",
+                tickformat: "%Y"
             },
             yaxis: {
                 title: "Number of chaired WGs",
