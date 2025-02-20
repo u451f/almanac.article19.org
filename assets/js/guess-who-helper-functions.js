@@ -62,6 +62,17 @@ function unpack(rows, key) {
      });
 }
 
+/*
+ * Unpack data and return
+ * */
+function unpack_del0(rows, key) {
+    return rows.map(function(row) {
+        if (row[key] > 0) {
+            return row[key];
+        }
+     });
+}
+
 function unpack_exag_size(rows, key, WG) {
     return rows.map(function(row) {
         var factor;

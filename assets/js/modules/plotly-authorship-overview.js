@@ -49,7 +49,7 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
                 },
                 name: affiliation,
                 x: unpack(rows, "year"),
-                y: unpack(rows, affiliation),
+                y: unpack_del0(rows, affiliation),
                 hoveron: "points+fills",
                 fillcolor: getColorCode(affiliation)
             })
