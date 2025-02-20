@@ -66,6 +66,8 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
             margin: {
                 t: 35, r: 40, b: 45, l: 40
             },
+            scattermode: "group",
+            scattergap: 10,
             xaxis: {
                 title: "year",
                 dtick: 1
