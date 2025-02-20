@@ -82,7 +82,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
             scattergap: 10,
             xaxis: {
                 title: "Submission date",
-                tickformat: "%b %Y"
+                tickformat: "%b %Y",
             },
             yaxis: {
                 title: "RFCs",
