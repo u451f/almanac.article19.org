@@ -70,11 +70,21 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
             scattergap: 10,
             xaxis: {
                 title: "year",
-                dtick: 1
+                //dtick: 2,
+                tickformat: ".0f",
+                ticks: 'outside',
+                ticklen: 2,
+                tickwidth: 1,
+                tickcolor: '#fff'
             },
             yaxis: {
                 title: "RFCs",
-                dtick: 1
+                zerolinecolor: '#eee',
+                dtick: 1,
+                ticks: 'outside',
+                ticklen: 1,
+                tickwidth: 1,
+                tickcolor: '#fff'
             },
             font: {
                 family: "Roboto, sans-serif",
