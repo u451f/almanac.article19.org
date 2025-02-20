@@ -78,6 +78,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
             },
             xaxis: {
                 title: "Chairing period",
+                tickformat: "%Y"
             },
             yaxis: {
                 automargin: true,
