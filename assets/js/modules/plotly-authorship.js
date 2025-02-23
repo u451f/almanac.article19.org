@@ -85,7 +85,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
                 tickformat: "%b %Y",
             },
             yaxis: {
-                title: "RFCs",
+                title: "Request for Comments",
                 automargin: true,
                 showticklabels: false,
                 showgrid: false
