@@ -80,7 +80,7 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
             yaxis: {
                 title: "Request for Comments",
                 zerolinecolor: '#eee',
-                dtick: 1,
+                tickformat: '.0f',
                 ticks: 'outside',
                 ticklen: 1,
                 tickwidth: 1,
