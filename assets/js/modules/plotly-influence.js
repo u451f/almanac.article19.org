@@ -82,6 +82,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
             yaxis: {
                 title: "Emails sent",
                 zerolinecolor: "#eee",
+                tickformat: ".0f",
                 ticks: 'outside',
                 ticklen: 1,
                 tickwidth: 1,
