@@ -78,7 +78,7 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
                 tickcolor: '#fff'
             },
             yaxis: {
-                title: "RFCs",
+                title: "Request for Comments",
                 zerolinecolor: '#eee',
                 dtick: 1,
                 ticks: 'outside',
