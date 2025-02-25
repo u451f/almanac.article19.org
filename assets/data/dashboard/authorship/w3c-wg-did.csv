@@ -16,14 +16,17 @@
 14,Danube Tech GmbH,Markus Sabadello,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
 15,Gen,Drummond Reed,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
 16,W3C Invited Experts,Drummond Reed,2022-07-19,https://www.w3.org/TR/did-core/,Decentralized Identifiers (DIDs) v1.0,True,Recommendation,wg/did
-17,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-methods/,DID Methods,False,Note,wg/did
-18,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-methods/,DID Methods,False,Note,wg/did
-19,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-properties/,DID Document Property Extensions,False,Note,wg/did
-20,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-properties/,DID Document Property Extensions,False,Note,wg/did
-21,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-resolution/,DID Resolution Extensions,False,Note,wg/did
-22,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-resolution/,DID Resolution Extensions,False,Note,wg/did
-23,Digital Bazaar,Manu Sporny,2024-12-03,https://www.w3.org/TR/did-extensions/,Decentralized Identifier Extensions,False,Note,wg/did
-24,Danube Tech GmbH,Markus Sabadello,2024-12-03,https://www.w3.org/TR/did-extensions/,Decentralized Identifier Extensions,False,Note,wg/did
-25,Danube Tech GmbH,Markus Sabadello,2024-12-03,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
-26,Massachusetts Institute of Technology (MIT),Dmitri Zagidulin,2024-12-03,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
-27,W3C Invited Experts,Dmitri Zagidulin,2024-12-03,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
+17,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-properties/,DID Document Property Extensions,False,Note,wg/did
+18,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-properties/,DID Document Property Extensions,False,Note,wg/did
+19,Digital Bazaar,Manu Sporny,2024-11-19,https://www.w3.org/TR/did-extensions-resolution/,DID Resolution Extensions,False,Note,wg/did
+20,Danube Tech GmbH,Markus Sabadello,2024-11-19,https://www.w3.org/TR/did-extensions-resolution/,DID Resolution Extensions,False,Note,wg/did
+21,Digital Bazaar,Manu Sporny,2025-01-20,https://www.w3.org/TR/did-extensions/,Decentralized Identifier Extensions,False,Note,wg/did
+22,Danube Tech GmbH,Markus Sabadello,2025-01-20,https://www.w3.org/TR/did-extensions/,Decentralized Identifier Extensions,False,Note,wg/did
+23,Digital Bazaar,Manu Sporny,2025-01-20,https://www.w3.org/TR/did-extensions-methods/,DID Methods,False,Note,wg/did
+24,Danube Tech GmbH,Markus Sabadello,2025-01-20,https://www.w3.org/TR/did-extensions-methods/,DID Methods,False,Note,wg/did
+25,Danube Tech GmbH,Markus Sabadello,2025-01-22,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
+26,Massachusetts Institute of Technology (MIT),Dmitri Zagidulin,2025-01-22,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
+27,W3C Invited Experts,Dmitri Zagidulin,2025-01-22,https://www.w3.org/TR/did-resolution/,Decentralized Identifier Resolution (DID Resolution) v0.3,True,Working Draft,wg/did
+28,Digital Bazaar,Manu Sporny,2025-01-28,https://www.w3.org/TR/did-1.1/,Decentralized Identifiers (DIDs) v1.1,True,First Public Working Draft,wg/did
+29,Massachusetts Institute of Technology (MIT),Dmitri Zagidulin,2025-01-28,https://www.w3.org/TR/did-1.1/,Decentralized Identifiers (DIDs) v1.1,True,First Public Working Draft,wg/did
+30,W3C Invited Experts,Dmitri Zagidulin,2025-01-28,https://www.w3.org/TR/did-1.1/,Decentralized Identifiers (DIDs) v1.1,True,First Public Working Draft,wg/did

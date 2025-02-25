@@ -108,7 +108,7 @@
 106,122403,,Google LLC,draft-ietf-tls-grease-04,Applying Generate Random Extensions And Sustain Extensibility (GREASE) to TLS Extensibility,2020-01-01,tls,RFC8701
 107,3147,U.S.A,Private Octopus Inc.,draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
 108,12695,U.S.A,"RTFM, Inc.",draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
-109,5376,USA,Vigil Security,draft-ietf-tls-tls13-cert-with-extern-psk-07,TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key,2020-03-01,tls,RFC8773
+109,5376,USA,Vigil Security LLC,draft-ietf-tls-tls13-cert-with-extern-psk-07,TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key,2020-03-01,tls,RFC8773
 110,122854,,"Cloudflare, Inc.",draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
 111,122855,,Google,draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
 112,104851,United States,Dell EMC,draft-ietf-tls-oldversions-deprecate-12,Deprecating TLS 1.0 and TLS 1.1,2021-03-01,tls,RFC8996
@@ -126,7 +126,7 @@
 124,122416,MU,cyberstorm.mu,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
 125,104851,United States of America,Center for Internet Security,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
 126,122854,,Cloudflare,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
-127,5376,,Vigil Security,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+127,5376,,Vigil Security LLC,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 128,124591,,Cloudflare Ltd.,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 129,113142,,Ericsson,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 130,121595,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
@@ -246,7 +246,7 @@
 244,122403,,Google LLC,draft-ietf-tls-grease-04,Applying Generate Random Extensions And Sustain Extensibility (GREASE) to TLS Extensibility,2020-01-01,tls,RFC8701
 245,3147,U.S.A,Private Octopus Inc.,draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
 246,12695,U.S.A,"RTFM, Inc.",draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
-247,5376,USA,Vigil Security,draft-ietf-tls-tls13-cert-with-extern-psk-07,TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key,2020-03-01,tls,RFC8773
+247,5376,USA,Vigil Security LLC,draft-ietf-tls-tls13-cert-with-extern-psk-07,TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key,2020-03-01,tls,RFC8773
 248,122854,,"Cloudflare, Inc.",draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
 249,122855,,Google,draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
 250,104851,United States,Dell EMC,draft-ietf-tls-oldversions-deprecate-12,Deprecating TLS 1.0 and TLS 1.1,2021-03-01,tls,RFC8996
@@ -264,7 +264,7 @@
 262,122416,MU,cyberstorm.mu,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
 263,104851,United States of America,Center for Internet Security,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
 264,122854,,Cloudflare,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
-265,5376,,Vigil Security,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+265,5376,,Vigil Security LLC,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 266,124591,,Cloudflare Ltd.,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 267,113142,,Ericsson,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 268,121595,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257

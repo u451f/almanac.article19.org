@@ -42,7 +42,7 @@
 40,116285,India,VMware,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 41,112405,United States of America,Nvidia,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 42,112237,United States of America,Google,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
-43,108236,USA,Ciena Corporation,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
+43,108236,USA,Ciena,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
 44,102391,USA,Huawei Device Co. Ltd,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
 45,7262,United States,IBM,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
 46,105399,United States,Microsoft,draft-ietf-nvo3-overlay-problem-statement-04,Problem Statement: Overlays for Network Virtualization,2014-10-01,nvo3,RFC7364
@@ -87,5 +87,5 @@
 85,116285,India,VMware,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 86,112405,United States of America,Nvidia,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
 87,112237,United States of America,Google,draft-ietf-nvo3-bfd-geneve-13,Bidirectional Forwarding Detection (BFD) for  Generic Network Virtualization Encapsulation (Geneve),2024-01-01,nvo3,RFC9521
-88,108236,USA,Ciena Corporation,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
+88,108236,USA,Ciena,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638
 89,102391,USA,Huawei Device Co. Ltd,draft-ietf-nvo3-encap-12,Network Virtualization over Layer 3 (NVO3) Encapsulation Considerations,2024-09-01,nvo3,RFC9638

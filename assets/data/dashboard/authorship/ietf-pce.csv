@@ -222,7 +222,7 @@
 220,125031,Canada,Nokia Corporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
 221,106301,Canada,Nokia Corporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
 222,126686,Slovakia,Cisco,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
-223,106042,Canada,Ciena Coroporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
+223,106042,Canada,Ciena,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
 224,118347,,Samsung,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
 225,110932,,Telefonica,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
 226,106206,,Cisco,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
@@ -231,9 +231,9 @@
 229,124329,China,Huawei Technologies,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
 230,115740,P.R. China,China Telecom,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
 231,124838,Canada,Cisco,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
-232,106042,,Ciena Corporation,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
+232,106042,,Ciena,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
 233,123964,India,RtBrick Inc,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
-234,106042,,Ciena Corporation,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
+234,106042,,Ciena,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 235,105186,BELGIUM,Cisco,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 236,112405,,Nvidia,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 237,103392,,Huawei Technologies,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
@@ -461,7 +461,7 @@
 459,125031,Canada,Nokia Corporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
 460,106301,Canada,Nokia Corporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
 461,126686,Slovakia,Cisco,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
-462,106042,Canada,Ciena Coroporation,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
+462,106042,Canada,Ciena,draft-ietf-pce-local-protection-enforcement-11,Local Protection Enforcement in the Path Computation Element Communication Protocol (PCEP),2023-10-01,pce,RFC9488
 463,118347,,Samsung,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
 464,110932,,Telefonica,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
 465,106206,,Cisco,draft-ietf-pce-pcep-stateful-pce-gmpls-23,Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE Usage in GMPLS-Controlled Networks,2023-12-01,pce,RFC9504
@@ -470,9 +470,9 @@
 468,124329,China,Huawei Technologies,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
 469,115740,P.R. China,China Telecom,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
 470,124838,Canada,Cisco,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
-471,106042,,Ciena Corporation,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
+471,106042,,Ciena,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
 472,123964,India,RtBrick Inc,draft-ietf-pce-segment-routing-ipv6-25,Path Computation Element Communication Protocol (PCEP) Extensions for IPv6 Segment Routing,2024-07-01,pce,RFC9603
-473,106042,,Ciena Corporation,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
+473,106042,,Ciena,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 474,105186,BELGIUM,Cisco,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 475,112405,,Nvidia,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
 476,103392,,Huawei Technologies,draft-ietf-pce-binding-label-sid-16,Carrying Binding Label/SID in PCE-Based Networks,2024-08-01,pce,RFC9604
