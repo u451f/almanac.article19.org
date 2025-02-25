@@ -48,7 +48,7 @@ Running this script, in the bigbang environment, will pull all the IETF/IRTF and
 `python collect_almanac_data.py`
 
 
-### Influence - TODO 
+### Influence
 
 `python influence-mbox-affilations.py`
 

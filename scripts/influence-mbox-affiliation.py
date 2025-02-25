@@ -22,8 +22,7 @@ import os
 import subprocess
 
 wgs = {}
-#wgs.update(config.working_groups)
-## TODO FIX THIS!
+wgs.update(config.working_groups)
 
 wgs['w3c'] = []
 wgs['w3c'].extend(config.w3c_working_groups )
@@ -31,16 +30,6 @@ wgs['w3c'].extend(config.w3c_working_groups )
 
 config.working_group_mailing_list_fixes 
 ## TODO FIX THIS!
-
-#wgs = {
-#    'public-patcg',
-#    'public-privacycg',
-#    'public-web-adv',   
-#    'public-did-wg',
-#    'public-privacy',
-#}
-
-#import pdb; pdb.set_trace()
 
 for sdo in wgs:
     for wg in wgs[sdo]:
@@ -81,7 +70,7 @@ for sdo in wgs:
 
         arx = Archive(data)
     
-        influence = affiliated_influence(arx, a_df)
+        influence = affiliated_influence(arx, a_df, corrections = config.corrections)
 
         if isinstance(wg, tuple):
             wgp = f"{wg[0]}-{wg[1]}"

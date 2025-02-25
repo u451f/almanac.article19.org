@@ -19,6 +19,10 @@ for sdo in wgs:
         except Exception as e:
             print(e)
 
+        if "affiliation" in df:
+            print(f"correcting affiliations of {sdo} {wg}")
+            df["affiliation"] = df["affiliation"].map(lambda x: config.corrections.get(x, x))
+
         path = os.path.join(config.almanac_path, config.authorship_data_path, f"{sdo}-{wg}.csv")
         print(path)
         df.to_csv(path_or_buf=path)
