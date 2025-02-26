@@ -69,5 +69,5 @@ for sdo in wgs:
             )
     
         leaders = affiliate_leadership(l_agg_df, a_df)
-        path = os.path.join(config.almanac_path, config.leadership_data_path, f"{sdo}-{wg}.csv")
+        path = os.path.join(config.leadership_data_path, f"{sdo}-{wg}.csv")
         leaders.to_csv(path) # problem -- ietf/irtf

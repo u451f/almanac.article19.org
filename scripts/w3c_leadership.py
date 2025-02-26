@@ -56,5 +56,5 @@ for g in working_groups:
     df = pd.DataFrame(rows)
     print(df)
     if df.size > 0:
-        path = os.path.join(config.almanac_path, config.leadership_data_path, f"w3c-{g[0]}-{g[1]}.csv")
+        path = os.path.join(config.leadership_data_path, f"w3c-{g[0]}-{g[1]}.csv")
         df.to_csv(path)

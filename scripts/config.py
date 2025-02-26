@@ -1,4 +1,4 @@
-
+import os
 
 working_groups = {
     'ietf' : [
@@ -60,10 +60,19 @@ affil_time_start_column = 'Time start (mm/yyyy)'
 affil_time_end_column = 'Time end (mm/yyyy)'
 
 almanac_path = ".."
-leadership_data_path = "assets/data/dashboard/leadership/"
-authorship_data_path = "assets/data/dashboard/authorship/"
-influence_data_path = "assets/data/dashboard/influence/"
+data_dir = os.path.join(almanac_path, "assets/data")
 
+a_dir = "authorship"
+l_dir = "leadership"
+i_dir = "influence"
+
+dash_dir = "dashboard/"
+landing_dir = "overview/"
+
+#dashboard paths
+leadership_data_path = os.path.join(data_dir, dash_dir, l_dir)
+authorship_data_path = os.path.join(data_dir, dash_dir, a_dir)
+influence_data_path = os.path.join(data_dir, dash_dir, i_dir)
 
 mail_archives_path = "../../archives/"
 
@@ -92,7 +101,9 @@ corrections = {
     "Verisign Labs" : "Verisign",
     "John Levine" : "John R. Levine",
     "Dyn, Inc." : "Dyn",
-    "Google LLC" : "Google"
+    "Google LLC" : "Google",
+    "Google Inc" : "Google",
+    "Google Inc." : "Google"
 }
 
 """

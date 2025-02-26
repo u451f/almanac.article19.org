@@ -76,7 +76,7 @@ for sdo in wgs:
             wgp = f"{wg[0]}-{wg[1]}"
         else:
             wgp = wg
-        path = os.path.join(config.almanac_path, config.influence_data_path, f"{sdo}-{wgp}.csv")
+        path = os.path.join(config.influence_data_path, f"{sdo}-{wgp}.csv")
         print(path)
         influence.to_csv(path)
 
