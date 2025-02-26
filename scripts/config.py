@@ -85,12 +85,17 @@ corrections = {
     "CDT" : "Center for Democracy and Technology",
     "Digicert Inc." : "Digicert",
     "SiemensAG" : "Siemens",
-    "Vigil Security" : "Vigil Security LLC",
+    "Siemens AG" : "Siemens",
+    "Vigil Security LLC" : "Vigil Security",
+    "Vigil Security, LLC" : "Vigil Security",
     "Ciena Coroporation" : "Ciena",
     "Ciena Corporation" : "Ciena",
     "Akami" : "Akamai Technologies",
     "Akami Technologies" : "Akamai Technologies",
     "Nokia CA/Ottowa" : "Nokia",
+    "Nokia - CA/Ottowa" : "Nokia",
+    "Nokia - FR/Paris-Saclay" : "Nokia",
+    "Nokia - DE/Stuttgart" : "Nokia",
     "Internet-Drafts@ietf.org" : "internet-drafts@ietf.org",
     "The New Yor Times" : "The New York Times",
     "Sinodun IT" : "Sinodun",
@@ -99,30 +104,50 @@ corrections = {
     "deSEC, Secure Systems Engineering" : "deSEC",
     "deSEC, SSE - Secure Systems Engineering" : "deSEC",
     "Verisign Labs" : "Verisign",
-    "John Levine" : "John R. Levine",
+    "John R Levine" : "John Levine",
     "Dyn, Inc." : "Dyn",
     "Google LLC" : "Google",
     "Google Inc" : "Google",
-    "Google Inc." : "Google"
+    "Google, Inc" : "Google",
+    "Google, Inc." : "Google",
+    "Google Inc." : "Google",
+    "Google Switzerland GmbH" : "Google",
+    "Huawei Technologies" : "Huawei",
+    "Huawei Technology" : "Huawei",
+    "Huawei Device Co. Ltd": "Huawei",
+    "Huawei Device Co. Ltd.": "Huawei",
+    "Huawei Technologies Co., Ltd.": "Huawei",
+    "Huawei Technologies Co. Ltd.": "Huawei",
+    "Internet Systems Consortium, Inc." : "Internet Systems Consortium",
+    "Cisco Systems" : "Cisco",
+    "Brocade Communications" : "Brocade",
+    "RtBrick India" : "RtBrick Inc",
+    "Telefonica I+D" : "Telefonica",
+    "Telefonica Investigacion y Desarrollo" : "Telefonica",
+    "University of Electro-Communications" : "University of Electro Communications",
+    "Cloudflare Ltd." : "Cloudflare",
+    "Cloudflare, Inc." : "Cloudflare",
+    "ETH Zürich" : "ETH Zurich",
+    "NTT Communications Corporation" : "Nippon Telegraph and Telephone Corporation (NTT)",
+    "NTT Corporation" : "Nippon Telegraph and Telephone Corporation (NTT)",
+    "NTT" : "Nippon Telegraph and Telephone Corporation (NTT)",
+    "KDDI Corporation" : "KDDI",
+    "KDDI R&D Labs" : "KDDI",
+    "KDDI R&D Laboratories, Inc." : "KDDI",
+    "Juniper" : "Juniper Networks"
 }
 
 """
     3 different versions of Cloudflare (see ietf-tls)
     Nominum and Noiminum, Inc.
     Digicert and Digicert Inc.
-    6 different versions of Google + Google Switzerland GmbH (see ietf-tls)
     Dell and Dell EMC and EMC
-    Juniper and Juniper Networks
-    Huawei in many forms
+
     KDDI in 4 different forms (ietf-pce has all of them)
-    Rtbrick Inc. and Rtbrick India
-    Telefonica in 3 different versions
-    University of Electro Communications and University of Electro-Communications
-    2 versions of NTT (see ietf-tls)
+
     "W3C Invited Expert" and "Invited Expert", I suspect they should be merged
     "Center for Democracy" - 
       I do suspect that should be "Center for Democracy and Technology (CDT)", 
       which shows up elsewhere under the acronym "CDT" and as "Center for Democracy and Technology"
-    Google and "Google Switzerland" are still separate entities.
     "Parsons" and "Parsons Inc."
 """
