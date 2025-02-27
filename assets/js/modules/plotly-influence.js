@@ -61,10 +61,17 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
         );
         //console.log(traces);
 
+        let displayTitle;
+        if(dashboard === true) {
+            displayTitle = WG;
+        } else {
+            displayTitle = WG.toUpperCase();
+        }
+
         var data = traces;
         var layout = {
             title: {
-                text: "Amount of communication in "+WG.toUpperCase(),
+                text: "Amount of communication in "+displayTitle,
                 xref: "container",
                 x: 0
             },
