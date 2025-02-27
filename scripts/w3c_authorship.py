@@ -95,7 +95,6 @@ def authorship(specifications_data):
     return rows
 
 
-
 dfs = []
 for g in working_groups:
     rows = []

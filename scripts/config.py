@@ -118,6 +118,8 @@ corrections = {
     "Huawei Device Co. Ltd.": "Huawei",
     "Huawei Technologies Co., Ltd.": "Huawei",
     "Huawei Technologies Co. Ltd.": "Huawei",
+    "Huawei Technologies Co. Ltd": "Huawei",
+    "Huawei Network.IO Innovation Lab" : "Huawei",
     "Internet Systems Consortium, Inc." : "Internet Systems Consortium",
     "Cisco Systems" : "Cisco",
     "Brocade Communications" : "Brocade",
@@ -134,20 +136,17 @@ corrections = {
     "KDDI Corporation" : "KDDI",
     "KDDI R&D Labs" : "KDDI",
     "KDDI R&D Laboratories, Inc." : "KDDI",
-    "Juniper" : "Juniper Networks"
+    "Juniper" : "Juniper Networks",
+    "Meta " : "Meta",
+    '"IETF Secretariat "" agenda@ietf.org' : "IETF Secretariat",
+    '"IETF Secretariat" agenda@ietf.org' : 'IETF Secretariat',
+    '"IETF Secretariat "" <agenda@ietf.org>' : 'IETF Secretariat',
+    "The IESG" : "IESG",
+    "internetdrafts@ietf.org" : "IETF",
+    "ZTE Corporation" : "ZTE",
+    "Futurewei Technologies" : "Futurewei",
+    "Futurewei Technologies (Huawei)" : "Futurewei",
+    "Comcast NBC Universal" : "NBCUniversal",
+    "brent.zundel@evernym.com" : "Zundel, Brent",
+    "=Drummond Reed" : "Drummond Reed",
 }
-
-"""
-    3 different versions of Cloudflare (see ietf-tls)
-    Nominum and Noiminum, Inc.
-    Digicert and Digicert Inc.
-    Dell and Dell EMC and EMC
-
-    KDDI in 4 different forms (ietf-pce has all of them)
-
-    "W3C Invited Expert" and "Invited Expert", I suspect they should be merged
-    "Center for Democracy" - 
-      I do suspect that should be "Center for Democracy and Technology (CDT)", 
-      which shows up elsewhere under the acronym "CDT" and as "Center for Democracy and Technology"
-    "Parsons" and "Parsons Inc."
-"""

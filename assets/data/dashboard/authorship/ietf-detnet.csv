@@ -1,6 +1,6 @@
 ,id,country,affiliation,draft,title,submission_date,wg,docid
 0,115824,FRANCE,Cisco,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
-1,105922,US,Huawei Technologies Co. Ltd,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
+1,105922,US,Huawei,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
 2,124759,USA,"Dolby Laboratories, Inc.",draft-ietf-detnet-use-cases-20,Deterministic Networking Use Cases,2019-05-01,detnet,RFC8578
 3,115824,FRANCE,Cisco,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
 4,105922,US,Huawei,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
@@ -45,7 +45,7 @@
 43,118295,Hungary,Ericsson,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
 44,3844,,Malis Consulting,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
 45,2329,,Huawei,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
-46,110614,,Huawei Network.IO Innovation Lab,draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
+46,110614,,Huawei,draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 47,124759,USA,"Dolby Laboratories, Inc.",draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 48,122934,USA,"MistIQ Technologies, Inc",draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 49,110053,Hungary,Ericsson,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
@@ -53,10 +53,10 @@
 51,2329,,Huawei,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 52,109800,,Jouni Korhonen,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 53,120813,,"LabN Consulting, L.L.C.",draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
-54,105922,US,Huawei Technologies Co. Ltd,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
+54,105922,US,Huawei,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 55,8673,Switzerland,EPFL,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 56,124891,Switzerland,EPFL,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
-57,125209,China,Huawei Technologies Co. Ltd,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
+57,125209,China,Huawei,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 58,110053,Hungary,Ericsson,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 59,113047,,Ericsson,draft-ietf-detnet-mpls-oam-15,"Operations, Administration, and Maintenance (OAM) for Deterministic Networking (DetNet) with the MPLS Data Plane",2024-02-01,detnet,RFC9546
 60,107762,,Huawei,draft-ietf-detnet-mpls-oam-15,"Operations, Administration, and Maintenance (OAM) for Deterministic Networking (DetNet) with the MPLS Data Plane",2024-02-01,detnet,RFC9546
@@ -83,7 +83,7 @@
 81,107762,,Huawei,draft-ietf-detnet-ip-oam-13,"Operations, Administration, and Maintenance (OAM) for Deterministic Networking (DetNet) with the IP Data Plane",2024-10-01,detnet,RFC9634
 82,103156,United States of America,Dell EMC,draft-ietf-detnet-ip-oam-13,"Operations, Administration, and Maintenance (OAM) for Deterministic Networking (DetNet) with the IP Data Plane",2024-10-01,detnet,RFC9634
 83,115824,FRANCE,Cisco,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
-84,105922,US,Huawei Technologies Co. Ltd,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
+84,105922,US,Huawei,draft-ietf-detnet-problem-statement-09,Deterministic Networking Problem Statement,2019-05-01,detnet,RFC8557
 85,124759,USA,"Dolby Laboratories, Inc.",draft-ietf-detnet-use-cases-20,Deterministic Networking Use Cases,2019-05-01,detnet,RFC8578
 86,115824,FRANCE,Cisco,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
 87,105922,US,Huawei,draft-ietf-detnet-architecture-13,Deterministic Networking Architecture,2019-10-01,detnet,RFC8655
@@ -128,7 +128,7 @@
 126,118295,Hungary,Ericsson,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
 127,3844,,Malis Consulting,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
 128,2329,,Huawei,draft-ietf-detnet-mpls-over-tsn-07,Deterministic Networking (DetNet) Data Plane: MPLS over IEEE 802.1 Time-Sensitive Networking (TSN),2021-06-01,detnet,RFC9037
-129,110614,,Huawei Network.IO Innovation Lab,draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
+129,110614,,Huawei,draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 130,124759,USA,"Dolby Laboratories, Inc.",draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 131,122934,USA,"MistIQ Technologies, Inc",draft-ietf-detnet-security-16,Deterministic Networking (DetNet) Security Considerations,2021-06-01,detnet,RFC9055
 132,110053,Hungary,Ericsson,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
@@ -136,10 +136,10 @@
 134,2329,,Huawei,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 135,109800,,Jouni Korhonen,draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
 136,120813,,"LabN Consulting, L.L.C.",draft-ietf-detnet-ip-over-mpls-09,Deterministic Networking (DetNet) Data Plane: IP over MPLS,2021-10-01,detnet,RFC9056
-137,105922,US,Huawei Technologies Co. Ltd,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
+137,105922,US,Huawei,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 138,8673,Switzerland,EPFL,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 139,124891,Switzerland,EPFL,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
-140,125209,China,Huawei Technologies Co. Ltd,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
+140,125209,China,Huawei,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 141,110053,Hungary,Ericsson,draft-ietf-detnet-bounded-latency-10,Deterministic Networking (DetNet) Bounded Latency,2022-11-01,detnet,RFC9320
 142,113047,,Ericsson,draft-ietf-detnet-mpls-oam-15,"Operations, Administration, and Maintenance (OAM) for Deterministic Networking (DetNet) with the MPLS Data Plane",2024-02-01,detnet,RFC9546
 143,107762,,Huawei,draft-ietf-detnet-mpls-oam-15,"Operations, Administration, and Maintenance (OAM) for Deterministic Networking (DetNet) with the MPLS Data Plane",2024-02-01,detnet,RFC9546
