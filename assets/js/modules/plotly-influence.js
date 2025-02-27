@@ -69,7 +69,7 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
                 x: 0
             },
             margin: {
-                t: 35, r: 40, b: 45, l: 60
+                t: 35, r: 40, b: 45, l: 0
             },
             xaxis: {
                 title: "year",
@@ -80,13 +80,14 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
                 tickcolor: '#fff'
             },
             yaxis: {
+                automargin: true,
                 title: "Emails sent",
                 zerolinecolor: "#eee",
                 tickformat: ".0f",
                 ticks: 'outside',
-                ticklen: 1,
+                ticklen: 5,
                 tickwidth: 1,
-                tickcolor: '#fff'
+                tickcolor: '#eee'
             },
             font: {
                 family: "Roboto, sans-serif",

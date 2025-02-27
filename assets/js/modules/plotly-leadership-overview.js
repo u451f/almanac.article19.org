@@ -1,5 +1,4 @@
 function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
-    // Data CSV
     var file = "/assets/data/overview/leadership/"+WG+".csv";
 
     // Config for Leadership plot
@@ -45,6 +44,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 y: unpack(rows, affiliation),
                 marker: {
                     color: getColorCode(affiliation),
+                    //opacity: 0.5
                 },
             })
         );
@@ -52,6 +52,9 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
 
         var data = traces;
         var layout = {
+            //barmode: "overlay",
+            barmode: "group",
+            scattergap: 1,
             title: {
                 text: "Number of working groups chaired in "+WG.toUpperCase(),
                 xref: "container",
@@ -61,15 +64,25 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 weight: "bold",
             },
             margin: {
-                t: 35, r: 40, b: 45, l: 40
+                t: 35, r: 40, b: 45, l: 15
             },
             xaxis: {
                 title: "year",
-                tickformat: "%Y"
+                tickformat: "%Y",
+                ticks: 'outside',
+                ticklen: 2,
+                tickwidth: 1,
+                tickcolor: '#fff'
             },
             yaxis: {
                 title: "Number of chaired WGs",
-                dtick: 1,
+                tickformat: ".0f",
+                dtick: "1",
+                ticks: 'outside',
+                ticklen: 1,
+                tickwidth: 1,
+                tickcolor: '#fff',
+                zerolinecolor: "#eee",
             },
             font: {
                 family: "Roboto, sans-serif",
@@ -78,8 +91,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
             },
             legend: {
                 orientation: "v"
-            },
-            barmode: "stack"
+            }
         };
 
         if(is_small_screen) {

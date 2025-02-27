@@ -74,7 +74,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
                 x: 0
             },
             margin: {
-                t: 35, r: 0, b: 50, l: 40
+                t: 35, r: 0, b: 50, l: 15
             },
             xaxis: {
                 title: "Chairing period",
@@ -84,6 +84,9 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
                 automargin: true,
                 autorange: "reversed",
                 showgrid: false,
+                ticklen: 10,
+                tickwidth: 1,
+                tickcolor: '#fff'
             },
             font: {
                 family: "Roboto, sans-serif",

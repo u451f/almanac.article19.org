@@ -1,4 +1,3 @@
-
 function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
     // Data CSV
     var file = "/assets/data/overview/authorship/"+WG+".csv";
@@ -64,13 +63,12 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
                 x: 0
             },
             margin: {
-                t: 35, r: 40, b: 45, l: 40
+                t: 35, r: 40, b: 45, l: 0
             },
             scattermode: "group",
             scattergap: 10,
             xaxis: {
                 title: "year",
-                //dtick: 2,
                 tickformat: ".0f",
                 ticks: 'outside',
                 ticklen: 2,
@@ -78,11 +76,12 @@ function loadAuthorshipOverviewData(WG, redraw=false, is_small_screen=false) {
                 tickcolor: '#fff'
             },
             yaxis: {
+                automargin: true,
                 title: "Request for Comments",
                 zerolinecolor: '#eee',
                 tickformat: '.0f',
                 ticks: 'outside',
-                ticklen: 1,
+                ticklen: 5,
                 tickwidth: 1,
                 tickcolor: '#fff'
             },

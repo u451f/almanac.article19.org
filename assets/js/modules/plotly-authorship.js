@@ -1,8 +1,4 @@
-/*
- * Load authorship CSV file, treat data and call plotly
- * */
 function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
-    // Data CSV
     var file = "/assets/data/dashboard/authorship/"+WG+".csv";
 
     // Config → authorship plot
@@ -76,7 +72,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
                 x: 0
             },
             margin: {
-                t: 35, r: 10, b: 45, l: 40
+                t: 35, r: 10, b: 45, l: 15
             },
             scattermode: "group",
             scattergap: 10,
