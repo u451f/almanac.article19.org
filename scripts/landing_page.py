@@ -1,21 +1,23 @@
+import config
+import math
 import pandas as pd
 import os
 
-data_dir = "../almanac.article19.org/assets/data/"
+## data_dir = "../almanac.article19.org/assets/data/"
 
-dash_dir = "dashboard/"
-landing_dir = "overview/"
+## dash_dir = "dashboard/"
+## landing_dir = "overview/"
 
-a_dir = "authorship"
-l_dir = "leadership"
-i_dir = "influence"
+## a_dir = "authorship"
+## l_dir = "leadership"
+## i_dir = "influence"
 
-dashboard_data_dir_path = os.path.join(data_dir, dash_dir)
+#dashboard_data_dir_path = os.path.join(data_dir, dash_dir)
 
 
 ## authorship
 
-authorship_files = os.listdir(os.path.join(data_dir, dash_dir, a_dir))
+authorship_files = os.listdir(config.authorship_data_path)
 
 adata = {
     'ietf' : [],
@@ -25,7 +27,7 @@ adata = {
 
 for filename in authorship_files:
     wg = filename.split('-')[0]
-    df = pd.read_csv(os.path.join(data_dir, dash_dir, a_dir, filename), index_col=0)
+    df = pd.read_csv(os.path.join(config.authorship_data_path, filename), index_col=0)
     
     adata[wg].append(df)
 
@@ -53,13 +55,13 @@ for wg in adata:
                 .pivot(index='year', columns='affiliation', values='title') \
                 .fillna(0)
     
-    big_adfs[wg].to_csv(os.path.join(data_dir, landing_dir, a_dir, f"{wg}.csv"))
+    big_adfs[wg].to_csv(os.path.join(config.data_dir, config.landing_dir, config.a_dir, f"{wg}.csv"))
 
 
 
 # influence
 
-influence_files = os.listdir(os.path.join(data_dir, dash_dir, i_dir))
+influence_files = os.listdir(os.path.join(config.influence_data_path))
 
 idata = {
     'ietf' : [],
@@ -69,7 +71,7 @@ idata = {
 
 for filename in influence_files:
     wg = filename.split('-')[0]
-    df = pd.read_csv(os.path.join(dashboard_data_dir_path, i_dir, filename),  index_col = 'Date')
+    df = pd.read_csv(os.path.join(config.influence_data_path, filename), index_col = 'Date')
     
     idata[wg].append(df)
 
@@ -91,12 +93,12 @@ for wg in idata:
     # filter by top 10 most active
     big_dfs[wg] = big_dfs[wg][big_dfs[wg].sum().sort_values(ascending=False)[:10].index]
     
-    big_dfs[wg].to_csv(os.path.join(data_dir, landing_dir, i_dir, f"{wg}.csv"))
+    big_dfs[wg].to_csv(os.path.join(config.data_dir, config.landing_dir, config.i_dir, f"{wg}.csv"))
 
 
 # leadership
 
-leadership_files = os.listdir(os.path.join(data_dir, dash_dir,l_dir))
+leadership_files = os.listdir(config.leadership_data_path)
 
 ldata = {
     'ietf' : [],
@@ -106,14 +108,14 @@ ldata = {
 
 for filename in leadership_files:
     wg = filename.split('-')[0]
-    df = pd.read_csv(os.path.join(data_dir, dash_dir, l_dir, filename))
+    df = pd.read_csv(os.path.join(config.leadership_data_path, filename))
     
     ldata[wg].append(df)
 
 big_ldfs = {}
 
 for wg in ldata:
-    idf = pd.read_csv(os.path.join(data_dir, landing_dir, i_dir, f"{wg}.csv"))
+    idf = pd.read_csv(os.path.join(config.data_dir, config.landing_dir, config.i_dir, f"{wg}.csv"))
     
     dates = idf['Date']
     
@@ -137,8 +139,11 @@ for wg in ldata:
         add = lambda s1, s2: s1 + s2
     
         big_ldfs[wg] = big_ldfs[wg].combine(other=cdf,func= add, fill_value=0)
-        
-    big_ldfs[wg] = big_ldfs[wg][big_ldfs[wg].sum().sort_values(ascending=False)[:10].index]
+
+    descending_wgs = big_ldfs[wg].sum().sort_values(ascending=False)
+    number_to_use = min(int((big_ldfs[wg].sum() > 0).sum()), 10)
+
+    big_ldfs[wg] = big_ldfs[wg][descending_wgs[:number_to_use].index]
     
-    big_ldfs[wg].to_csv(os.path.join(data_dir, landing_dir, l_dir, f"{wg}.csv"))
+    big_ldfs[wg].to_csv(os.path.join(config.data_dir, config.landing_dir, config.l_dir, f"{wg}.csv"))
 

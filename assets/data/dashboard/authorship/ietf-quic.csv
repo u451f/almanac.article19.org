@@ -12,15 +12,15 @@
 10,124381,,Meta USA,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
 11,119325,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 12,124846,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
-13,119562,United States of America,Google LLC,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
+13,119562,United States of America,Google,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 14,107131,,Mozilla,draft-ietf-quic-bit-grease-04,Greasing the QUIC Bit,2022-08-01,quic,RFC9287
 15,112330,,Ericsson,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
 16,109354,Switzerland,Google,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
 17,112330,,Ericsson,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
-18,109354,Switzerland,Google Switzerland GmbH,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
-19,119562,United States of America,Google LLC,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
+18,109354,Switzerland,Google,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
+19,119562,United States of America,Google,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
 20,12695,,Mozilla,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
-21,106541,,Google LLC,draft-ietf-quic-v2-10,QUIC Version 2,2023-05-01,quic,RFC9369
+21,106541,,Google,draft-ietf-quic-v2-10,QUIC Version 2,2023-05-01,quic,RFC9369
 22,107131,,Mozilla,draft-ietf-quic-invariants-13,Version-Independent Properties of QUIC,2021-05-01,quic,RFC8999
 23,105721,,Fastly,draft-ietf-quic-transport-34,QUIC: A UDP-Based Multiplexed and Secure Transport,2021-05-01,quic,RFC9000
 24,107131,,Mozilla,draft-ietf-quic-transport-34,QUIC: A UDP-Based Multiplexed and Secure Transport,2021-05-01,quic,RFC9000
@@ -34,12 +34,12 @@
 32,124381,,Meta USA,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
 33,119325,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 34,124846,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
-35,119562,United States of America,Google LLC,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
+35,119562,United States of America,Google,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 36,107131,,Mozilla,draft-ietf-quic-bit-grease-04,Greasing the QUIC Bit,2022-08-01,quic,RFC9287
 37,112330,,Ericsson,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
 38,109354,Switzerland,Google,draft-ietf-quic-applicability-18,Applicability of the QUIC Transport Protocol,2022-09-01,quic,RFC9308
 39,112330,,Ericsson,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
-40,109354,Switzerland,Google Switzerland GmbH,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
-41,119562,United States of America,Google LLC,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
+40,109354,Switzerland,Google,draft-ietf-quic-manageability-18,Manageability of the QUIC Transport Protocol,2022-09-01,quic,RFC9312
+41,119562,United States of America,Google,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
 42,12695,,Mozilla,draft-ietf-quic-version-negotiation-14,Compatible Version Negotiation for QUIC,2023-05-01,quic,RFC9368
-43,106541,,Google LLC,draft-ietf-quic-v2-10,QUIC Version 2,2023-05-01,quic,RFC9369
+43,106541,,Google,draft-ietf-quic-v2-10,QUIC Version 2,2023-05-01,quic,RFC9369

@@ -99,7 +99,7 @@
 97,119014,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
 98,3760,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
 99,109888,USA,ISC,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
-100,109059,USA,"Internet Systems Consortium, Inc.",draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+100,109059,USA,Internet Systems Consortium,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
 101,109533,USA,Apple,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
 102,111213,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
 103,112423,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
@@ -143,7 +143,7 @@
 141,106670,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 142,109661,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 143,4092,United States of America,Farsight,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
-144,102391,United States of America,Huawei Device Co. Ltd,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+144,102391,United States of America,Huawei,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 145,3760,United States of America,Cloudflare,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 146,21689,United States of America,Akamai Technologies,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 147,20778,,Verisign,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
@@ -153,7 +153,7 @@
 151,117099,,USC/ISI,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
 152,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
 153,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
-154,102391,USA,Huawei Device Co. Ltd,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+154,102391,USA,Huawei,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
 155,18149,USA,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
 156,122981,Netherlands,PowerDNS,draft-ietf-dnsop-nsec-ttl-05,NSEC and NSEC3: TTLs and Aggressive Use,2021-07-01,dnsop,RFC9077
 157,107983,Czech Republic,CZ.NIC,draft-ietf-dnsop-iana-class-type-yang-05,YANG Types for DNS Classes and Resource Record Types,2021-09-01,dnsop,RFC9108
@@ -171,7 +171,7 @@
 169,126585,CZ,CZ.NIC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 170,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 171,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
-172,127983,Germany,"deSEC, SSE - Secure Systems Engineering",draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+172,127983,Germany,deSEC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 173,130071,Netherlands,Kees Monshouwer,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 174,131914,,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 175,117988,,Google,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
@@ -195,7 +195,7 @@
 193,10083,,ICANN,draft-ietf-dnsop-rfc8109bis-07,Initializing a DNS Resolver with Priming Queries,2025-02-01,dnsop,RFC9609
 194,127983,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
 195,128828,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
-196,109059,US,"Internet Systems Consortium, Inc.",draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
+196,109059,US,Internet Systems Consortium,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
 197,105113,NL,Cloudflare,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
 198,113690,CL,NIC Chile,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
 199,125942,US,DigitalOcean,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
@@ -306,7 +306,7 @@
 304,119014,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
 305,3760,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
 306,109888,USA,ISC,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
-307,109059,USA,"Internet Systems Consortium, Inc.",draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+307,109059,USA,Internet Systems Consortium,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
 308,109533,USA,Apple,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
 309,111213,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
 310,112423,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
@@ -350,7 +350,7 @@
 348,106670,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 349,109661,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 350,4092,United States of America,Farsight,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
-351,102391,United States of America,Huawei Device Co. Ltd,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+351,102391,United States of America,Huawei,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 352,3760,United States of America,Cloudflare,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 353,21689,United States of America,Akamai Technologies,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 354,20778,,Verisign,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
@@ -360,7 +360,7 @@
 358,117099,,USC/ISI,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
 359,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
 360,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
-361,102391,USA,Huawei Device Co. Ltd,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+361,102391,USA,Huawei,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
 362,18149,USA,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
 363,122981,Netherlands,PowerDNS,draft-ietf-dnsop-nsec-ttl-05,NSEC and NSEC3: TTLs and Aggressive Use,2021-07-01,dnsop,RFC9077
 364,107983,Czech Republic,CZ.NIC,draft-ietf-dnsop-iana-class-type-yang-05,YANG Types for DNS Classes and Resource Record Types,2021-09-01,dnsop,RFC9108
@@ -378,7 +378,7 @@
 376,126585,CZ,CZ.NIC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 377,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 378,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
-379,127983,Germany,"deSEC, SSE - Secure Systems Engineering",draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+379,127983,Germany,deSEC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 380,130071,Netherlands,Kees Monshouwer,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 381,131914,,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
 382,117988,,Google,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
@@ -399,7 +399,7 @@
 397,119102,,ICANN,draft-ietf-dnsop-dns-error-reporting-08,DNS Error Reporting,2024-04-01,dnsop,RFC9567
 398,127983,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
 399,128828,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
-400,109059,US,"Internet Systems Consortium, Inc.",draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
+400,109059,US,Internet Systems Consortium,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
 401,105113,NL,Cloudflare,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
 402,113690,CL,NIC Chile,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
 403,125942,US,DigitalOcean,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660

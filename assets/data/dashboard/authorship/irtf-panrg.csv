@@ -1,5 +1,5 @@
 ,id,country,affiliation,draft,title,submission_date,wg,docid
 0,107190,United States of America,Tencent America,draft-irtf-panrg-what-not-to-do-19,Path Aware Networking: Obstacles to Deployment (A Bestiary of Roads Not Taken),2021-06-01,,RFC9049
-1,109354,Switzerland,Google Switzerland GmbH,draft-irtf-panrg-questions-12,Current Open Questions in Path-Aware Networking,2022-03-01,,RFC9217
+1,109354,Switzerland,Google,draft-irtf-panrg-questions-12,Current Open Questions in Path-Aware Networking,2022-03-01,,RFC9217
 2,123344,,Netflix,draft-irtf-panrg-path-properties-08,A Vocabulary of Path Properties,2023-09-01,,RFC9473
-3,125186,,ETH Zürich,draft-irtf-panrg-path-properties-08,A Vocabulary of Path Properties,2023-09-01,,RFC9473
+3,125186,,ETH Zurich,draft-irtf-panrg-path-properties-08,A Vocabulary of Path Properties,2023-09-01,,RFC9473

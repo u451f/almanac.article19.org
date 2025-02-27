@@ -95,7 +95,6 @@ def authorship(specifications_data):
     return rows
 
 
-
 dfs = []
 for g in working_groups:
     rows = []
@@ -110,7 +109,7 @@ for g in working_groups:
     dfs.append(df)
     
     if df.size > 0:
-        path = os.path.join(config.almanac_path, config.authorship_data_path, f"w3c-{g[0]}-{g[1]}.csv")
+        path = os.path.join(config.authorship_data_path, f"w3c-{g[0]}-{g[1]}.csv")
         df.to_csv(path)
 
 
