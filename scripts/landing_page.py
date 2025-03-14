@@ -3,18 +3,6 @@ import math
 import pandas as pd
 import os
 
-## data_dir = "../almanac.article19.org/assets/data/"
-
-## dash_dir = "dashboard/"
-## landing_dir = "overview/"
-
-## a_dir = "authorship"
-## l_dir = "leadership"
-## i_dir = "influence"
-
-#dashboard_data_dir_path = os.path.join(data_dir, dash_dir)
-
-
 ## authorship
 
 authorship_files = os.listdir(config.authorship_data_path)
