@@ -149,4 +149,5 @@ corrections = {
     "Comcast NBC Universal" : "NBCUniversal",
     "brent.zundel@evernym.com" : "Zundel, Brent",
     "=Drummond Reed" : "Drummond Reed",
+    "=?utf-8?B?4ZCv4Zep4ZGOIFThkYzhl6nhkY7hkY4g76O/?=\n <vantuan632000@icloud.com>" : "<vantuan632000@icloud.com>"
 }
