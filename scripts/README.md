@@ -50,7 +50,7 @@ Running this script, in the bigbang environment, will pull all the IETF/IRTF and
 
 ### Influence
 
-`python influence-mbox-affilations.py`
+`python influence-mbox-affilation.py`
 
 
 ## IETF / IRTF:
@@ -68,11 +68,11 @@ Running this script, in the bigbang environment, will pull all the IETF/IRTF and
 
 ### Authorship
 
-`python w3c_authorship.ipynb`
+`python w3c_authorship.py`
 
 ### Leadership
 
-`python w3c_leadership.pynb`
+`python w3c_leadership.py`
 
 ## Landing page
 
