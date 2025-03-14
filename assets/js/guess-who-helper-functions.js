@@ -121,7 +121,7 @@ function getColorCode(affiliation) {
     var hexcolor;
     //console.log("affiliation", affiliation);
     switch (true) {
-        case affiliation.startsWith("Futurewei"):
+        case affiliation.startsWith("Salesforce"):
         case affiliation.startsWith("Huawei"):
             hexcolor = "#702375ab"; // ART19 purple
         break;
@@ -145,7 +145,6 @@ function getColorCode(affiliation) {
         break;
         case affiliation.startsWith("Cisco"):
         case affiliation.startsWith("Microsoft"):
-        //case affiliation.startsWith("Mozilla"):
         case affiliation.startsWith("Orange"):
             hexcolor = "#b9074899"; // ART19 raspberry
         break;
