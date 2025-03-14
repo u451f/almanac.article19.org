@@ -112,6 +112,7 @@ corrections = {
     "Google, Inc." : "Google",
     "Google Inc." : "Google",
     "Google Switzerland GmbH" : "Google",
+    "Google Switzerland" : "Google",
     "Huawei Technologies" : "Huawei",
     "Huawei Technology" : "Huawei",
     "Huawei Device Co. Ltd": "Huawei",

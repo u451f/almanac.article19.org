@@ -76,6 +76,4 @@ Running this script, in the bigbang environment, will pull all the IETF/IRTF and
 
 ## Landing page
 
-TODO: some config stuff at the top, not in config
-
 `python landing_page.py`

@@ -33,6 +33,8 @@ def affiliate_leadership(agg_leadership, affiliation):
     
         for arow in a_matches.iterrows():
             affiliation = arow[1]['Affiliation'].strip()
+
+            affiliation = config.corrections.get(affiliation, affiliation)
         
             affil_start = arow[1][config.affil_time_start_column]
             affil_end = arow[1][config.affil_time_end_column]
