@@ -1110,6 +1110,13 @@ select#wg {
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 1em 0.5em;
+    width: 100%;
+    display: block;
+}
+
+#guess-who-actions div {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 /*
