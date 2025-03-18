@@ -107,6 +107,7 @@ corrections = {
     "John R Levine" : "John Levine",
     "Dyn, Inc." : "Dyn",
     "Google LLC" : "Google",
+    "Google, LLC." : "Google",
     "Google Inc" : "Google",
     "Google, Inc" : "Google",
     "Google, Inc." : "Google",
