@@ -827,7 +827,7 @@ span.bubble:after {
 }
 
 #main-text p,
-.guess-who-default .section-content .descriptive-txt p {
+.guess-who-about .section-content .descriptive-txt p {
     margin-bottom: 1em;
 }
 
@@ -1358,7 +1358,7 @@ a.modebar-btn {
         grid-row-gap: 35px;
     }
 
-    .guess-who-default .section-content .descriptive-txt {
+    .guess-who-about .section-content .descriptive-txt {
         grid-column-start: 2;
         grid-column-end: 4;
     }
