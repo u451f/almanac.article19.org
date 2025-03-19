@@ -63,10 +63,16 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
 
         let displayTitle;
         if(dashboard === true) {
-            displayTitle = WG;
+            // Show long names in the plot title
+            let wglongname = document.getElementById("wgname").textContent;
+            if(wglongname === undefined) {
+                wglongname = WG;
+            }
+            displayTitle = wglongname;
         } else {
             displayTitle = WG.toUpperCase();
         }
+
 
         var data = traces;
         var layout = {

@@ -64,10 +64,16 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         }
         //console.log("traces", traces);
 
+        // Show long names in the plot title
+        let wglongname = document.getElementById("wgname").textContent;
+        if(wglongname === undefined) {
+            wglongname = WG;
+        }
+
         var data = traces;
         var layout = {
             title: {
-                text: "Number of standards published in "+WG,
+                text: "Number of standards published in "+wglongname,
                 xref: "container",
                 x: 0,
                 font:

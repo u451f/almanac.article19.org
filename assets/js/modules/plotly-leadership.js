@@ -64,12 +64,18 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         }
         //console.log("traces", traces);
 
+        // Show long names in the plot title
+        let wglongname = document.getElementById("wgname").textContent;
+        if(wglongname === undefined) {
+            wglongname = WG;
+        }
+
         var data = traces;
 
         var layout = {
             scattermode: "group",
             title: {
-                text: "Chairing periods: "+WG,
+                text: "Chairing periods: "+wglongname,
                 xref: "container",
                 x: 0,
                 font:
