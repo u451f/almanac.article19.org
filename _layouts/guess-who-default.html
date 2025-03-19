@@ -4,11 +4,10 @@
         {% include site-header.html %}
         <div id="main-text">
             {% include breadcrumbs.html %}
-            {% include guess-who-about.html %}
+            {{ content }}
         </div>
         <img src="{{ site.url }}/assets/images/catnip-mallory/catnip-about.png" alt="Catnip illuminated by BigBang" />
     </div>
-    {{ content }}
 </main>
 {% include footer.html %}
 
