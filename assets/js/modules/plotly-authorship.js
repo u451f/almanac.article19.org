@@ -67,7 +67,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
         var data = traces;
         var layout = {
             title: {
-                text: "Number of standards published in "+WG.toUpperCase(),
+                text: "Number of standards published in "+WG,
                 xref: "container",
                 x: 0,
                 font:
