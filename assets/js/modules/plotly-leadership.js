@@ -75,7 +75,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         var layout = {
             scattermode: "group",
             title: {
-                text: "Chairing periods: "+wglongname,
+                text: "Chairing periods in "+wglongname,
                 xref: "container",
                 x: 0,
                 font:
