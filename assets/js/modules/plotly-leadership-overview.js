@@ -38,13 +38,22 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
         var traces = [];
         var hexcolor;
         headerNames.forEach((affiliation) => traces.push({
-                type: "bar",
+                //type: "bar",
+                type: "scatter",
+                mode: "none",
+                fill: "tozeroy",
+            /*
+                fillpattern: {
+                    shape: "x"
+//                    ( "" | "/" | "\" | "x" | "-" | "|" | "+" | "." )
+                },
+                */
                 name: affiliation,
                 x: unpack(rows, "Date"),
                 y: unpack(rows, affiliation),
                 marker: {
                     color: getColorCode(affiliation),
-                    //opacity: 0.5
+                    width: 20
                 },
             })
         );
@@ -53,8 +62,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
         var data = traces;
         var layout = {
             //barmode: "overlay",
-            //barmode: "group",
-            //scattergap: 1,
+            scattermode: "overlay",
             title: {
                 text: "Number of working groups chaired in "+WG.toUpperCase(),
                 xref: "container",
@@ -70,7 +78,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
             },
             xaxis: {
                 title: "year",
-                tickformat: "%Y",
+                tickformat: "%b %Y",
                 ticks: 'outside',
                 ticklen: 2,
                 tickwidth: 1,
