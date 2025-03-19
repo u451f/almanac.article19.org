@@ -69,7 +69,12 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
             title: {
                 text: "Number of standards published in "+WG.toUpperCase(),
                 xref: "container",
-                x: 0
+                x: 0,
+                font:
+                {
+                    family: "Arial",
+                    weight: "800",
+                }
             },
             margin: {
                 t: 35, r: 10, b: 45, l: 15

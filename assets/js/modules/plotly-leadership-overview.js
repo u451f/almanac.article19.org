@@ -48,20 +48,22 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 },
             })
         );
-        //console.log(traces);
+        console.log(traces);
 
         var data = traces;
         var layout = {
             //barmode: "overlay",
-            barmode: "group",
-            scattergap: 1,
+            //barmode: "group",
+            //scattergap: 1,
             title: {
                 text: "Number of working groups chaired in "+WG.toUpperCase(),
                 xref: "container",
-                x: 0
-            },
-            titlefont: {
-                weight: "bold",
+                x: 0,
+                font:
+                {
+                    family: "Arial",
+                    weight: "800",
+                }
             },
             margin: {
                 t: 35, r: 40, b: 45, l: 15

@@ -71,7 +71,12 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
             title: {
                 text: "Chairing periods: "+WG,
                 xref: "container",
-                x: 0
+                x: 0,
+                font:
+                {
+                    family: "Arial",
+                    weight: "800",
+                }
             },
             margin: {
                 t: 35, r: 0, b: 50, l: 15

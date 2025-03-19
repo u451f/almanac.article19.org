@@ -73,7 +73,12 @@ function loadInfluenceData(WG, redraw=false, is_small_screen=false, dashboard=tr
             title: {
                 text: "Amount of communication in "+displayTitle,
                 xref: "container",
-                x: 0
+                x: 0,
+                font:
+                {
+                    family: "Arial",
+                    weight: "800",
+                }
             },
             margin: {
                 t: 35, r: 40, b: 45, l: 0
