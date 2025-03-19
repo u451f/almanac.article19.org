@@ -73,6 +73,10 @@ function unpack_del0(rows, key) {
      });
 }
 
+/*
+ * Instead of justreturning the actual value, here, we exagerrate the value by
+ * a certain factor, this is purely visual for the landing page plots.
+ * */
 function unpack_exag_size(rows, key, WG) {
     return rows.map(function(row) {
         var factor;
