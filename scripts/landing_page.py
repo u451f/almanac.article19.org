@@ -132,6 +132,8 @@ for wg in ldata:
     number_to_use = min(int((big_ldfs[wg].sum() > 0).sum()), 10)
 
     big_ldfs[wg] = big_ldfs[wg][descending_wgs[:number_to_use].index]
+
+    big_ldfs[wg] = big_ldfs[wg].loc[(big_ldfs[wg]!=0).any(axis=1)]
     
     big_ldfs[wg].to_csv(os.path.join(config.data_dir, config.landing_dir, config.l_dir, f"{wg}.csv"))
 
