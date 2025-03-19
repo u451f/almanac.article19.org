@@ -1086,6 +1086,13 @@ body.guess-who .site-title a {
     margin-bottom: 3em;
 }
 
+label, select, input {
+    font-family: "Roboto", sans-serif;
+}
+label {
+    font-size: 0.9em;
+    font-variation-settings: "wght" 600;
+}
 select {
     background-color: var(--colour2);
     padding: .5em;
