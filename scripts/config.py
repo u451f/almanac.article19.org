@@ -83,6 +83,8 @@ corrections = {
     "Brave" : "Brave Software",
     "Apple Inc." : "Apple",
     "CDT" : "Center for Democracy and Technology",
+    "Center for Democracy & Technology" : "Center for Democracy and Technology",
+    "Center for Democracy" : "Center for Democracy and Technology",
     "Digicert Inc." : "Digicert",
     "SiemensAG" : "Siemens",
     "Siemens AG" : "Siemens",
@@ -92,6 +94,7 @@ corrections = {
     "Ciena Corporation" : "Ciena",
     "Akami" : "Akamai Technologies",
     "Akami Technologies" : "Akamai Technologies",
+    "Mark Nottingham via Datatracker" : "Mark Nottingham",
     "Nokia CA/Ottowa" : "Nokia",
     "Nokia - CA/Ottowa" : "Nokia",
     "Nokia - FR/Paris-Saclay" : "Nokia",
@@ -151,5 +154,6 @@ corrections = {
     "Comcast NBC Universal" : "NBCUniversal",
     "brent.zundel@evernym.com" : "Zundel, Brent",
     "=Drummond Reed" : "Drummond Reed",
-    "=?utf-8?B?4ZCv4Zep4ZGOIFThkYzhl6nhkY7hkY4g76O/?=\n <vantuan632000@icloud.com>" : "<vantuan632000@icloud.com>"
+    "=?utf-8?B?4ZCv4Zep4ZGOIFThkYzhl6nhkY7hkY4g76O/?=\n <vantuan632000@icloud.com>" : "<vantuan632000@icloud.com>",
+    "Orange " : "Orange"
 }
