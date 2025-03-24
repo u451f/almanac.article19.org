@@ -4,5 +4,7 @@
   link: /guess-who-dashboard.html
 - name: "… About"
   link: /guess-who-about.html
+- name: "… How to use"
+  link: /guess-who-howto.html
 - name: "→ Almanac"
   link: /index.html

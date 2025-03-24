@@ -4,10 +4,13 @@
         {% include site-header.html %}
         <div id="main-text">
             {% include breadcrumbs.html %}
-            {{ content }}
+            {% if page.title == "About our research" %}
+                {% include guess-who-about.html %}
+            {% endif %}
         </div>
         <img src="{{ site.url }}/assets/images/catnip-mallory/catnip-about.png" alt="Catnip illuminated by BigBang" />
     </div>
+    {{ content }}
 </main>
 {% include footer.html %}
 

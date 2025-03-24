@@ -827,7 +827,7 @@ span.bubble:after {
 }
 
 #main-text p,
-.guess-who-default .section-content .descriptive-txt p {
+.guess-who-about .section-content .descriptive-txt p {
     margin-bottom: 1em;
 }
 
@@ -1086,6 +1086,13 @@ body.guess-who .site-title a {
     margin-bottom: 3em;
 }
 
+label, select, input {
+    font-family: "Roboto", sans-serif;
+}
+label {
+    font-size: 0.9em;
+    font-variation-settings: "wght" 600;
+}
 select {
     background-color: var(--colour2);
     padding: .5em;
@@ -1110,6 +1117,13 @@ select#wg {
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 1em 0.5em;
+    width: 100%;
+    display: block;
+}
+
+#guess-who-actions div {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 /*
@@ -1344,7 +1358,7 @@ a.modebar-btn {
         grid-row-gap: 35px;
     }
 
-    .guess-who-default .section-content .descriptive-txt {
+    .guess-who-about .section-content .descriptive-txt {
         grid-column-start: 2;
         grid-column-end: 4;
     }
