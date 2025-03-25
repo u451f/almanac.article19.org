@@ -32,7 +32,11 @@ def specifications_data(gtype, shortname):
 
     ### Paging here
 
-    specifications = group_specs_resp.json()['_links']['specifications']
+    if 'specifications' in group_specs_resp.json()['_links']:
+        specifications = group_specs_resp.json()['_links']['specifications']
+    else:
+        print("No specifications for this WG")
+        return []
     
     print(len(specifications))
     
@@ -106,8 +110,10 @@ for g in working_groups:
     rows.extend(ag)
     
     df = pd.DataFrame(rows)
+    #print(df)
+    #df["affiliation"] = df["affiliation"].map(lambda x: config.corrections.get(x, x))
     dfs.append(df)
-    
+
     if df.size > 0:
         path = os.path.join(config.authorship_data_path, f"w3c-{g[0]}-{g[1]}.csv")
         df.to_csv(path)

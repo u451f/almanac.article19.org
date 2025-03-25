@@ -130,7 +130,7 @@
 128,124591,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 129,113142,,Ericsson,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 130,121595,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
-131,122403,,"Google, LLC.",draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
+131,122403,,Google,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
 132,121595,,Cloudflare,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
 133,122298,,Cloudflare,draft-ietf-tls-exported-authenticator-15,Exported Authenticators in TLS,2022-07-01,tls,RFC9261
 134,108049,,Cisco,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
@@ -268,7 +268,7 @@
 266,124591,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 267,113142,,Ericsson,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
 268,121595,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
-269,122403,,"Google, LLC.",draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
+269,122403,,Google,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
 270,121595,,Cloudflare,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
 271,122298,,Cloudflare,draft-ietf-tls-exported-authenticator-15,Exported Authenticators in TLS,2022-07-01,tls,RFC9261
 272,108049,,Cisco,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345

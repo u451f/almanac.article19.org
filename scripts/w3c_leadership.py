@@ -45,7 +45,12 @@ for g in working_groups:
                 groups = m.groups()
                 dd = d.copy()
                 dd['name'] = groups[0]
-                dd['affiliation'] = groups[2]
+
+                affil = groups[2]
+                affil = affil.strip()
+                affil = config.corrections.get(affil, affil)
+                dd['affiliation'] = affil
+
                 dd['time_start'] = charter_resp.json()['start']
                 dd['time_end'] = charter_resp.json()['end']
             
