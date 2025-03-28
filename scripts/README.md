@@ -21,7 +21,7 @@ It has been created and maintained by Article 19.
 To get it, you need to request access from Article 19.
 https://drive.google.com/drive/folders/1PUX8ScmtlrJGZFORlT9DCioo2ErnVyES?usp=sharing
 
-Individual files will need to be named `affilations-{working group acronym}.csv`
+Individual files will need to be named `affilations-{working group mailing list name}.csv`
 in a directory indicated by `affiliations_path` in `config.py`.
 
 This `{working group acronym}` should match the identifier of the working group _mailing list_.
