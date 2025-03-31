@@ -44,9 +44,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 name: affiliation,
                 x: unpack(rows, "Date"),
                 y: unpack(rows, affiliation),
-                marker: {
-                    color: getColorCode(affiliation),
-                },
+                fillcolor: getColorCode(affiliation)
             })
         );
         console.log(traces);
