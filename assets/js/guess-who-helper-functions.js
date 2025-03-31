@@ -151,7 +151,7 @@ function getColorCode(affiliation) {
             hexcolor = "#cd93649a"; // chocoloate
         break;
         case affiliation.startsWith("Cisco"):
-            hexcolor = "##9b00389"; // brownish
+            hexcolor = "#9b00389"; // brownish
         break;
         case affiliation.startsWith("Microsoft"):
             hexcolor = "#b9074899"; // ART19 raspberry
