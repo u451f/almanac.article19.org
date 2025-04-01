@@ -33,7 +33,7 @@ html {
 
 body {
     font-size: var(--basefontsize);
-    line-height: 150%;
+    line-height: 138%;
     font-family: "RobotoSlab", serif;
     font-variation-settings: "wght" 360;
     -webkit-font-smoothing: antialiased;
@@ -574,7 +574,7 @@ body:not(.guess-who) .post #intro {
     color: var(--colour3);
     letter-spacing: 0.03em;
     font-size: calc(var(--basefontsize) * 1.6);
-    line-height: 130%;
+    line-height: 120%;
     margin-bottom: 1em;
 }
 
