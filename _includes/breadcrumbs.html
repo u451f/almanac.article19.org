@@ -32,7 +32,11 @@
         <span class="crumb"><a rel="nofollow" href="{{ site.url }}/orgs/{{ link }}.html">{{ page.org-full-name }}</a></span>
         {% endif %}
     {% if page.guess-whoexists %}
+        {% if page.layout == "org" %}
+        <span class="switcher"><a href="{{ site.url }}/guess-who.html" title="Look up who leads, speaks, and publishes most in this SDO">Who dominates this SDO?</a></span>
+        {% else %}
         <span class="switcher"><a href="{{ site.url }}/guess-who-dashboard.html" title="Look up who leads, speaks, and publishes most in this group">Who dominates this group?</a></span>
+        {% endif %}
     {% endif %}
     </div>
 {% endif %}

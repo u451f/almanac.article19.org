@@ -15,9 +15,7 @@
             <select id="wg" class="select" aria-label="Upon selecting a different working group, visualisations below will change.">
                 {% assign items = site.data.guess_who_overview_sdo %}
                 {% for item in items %}
-                <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
-                    {{ item.name }}
-                </option>
+                <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">{{ item.name }}</option>
                 {% endfor %}
             </select>
         </div>
