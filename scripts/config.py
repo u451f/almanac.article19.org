@@ -96,6 +96,7 @@ corrections = {
     "Akami Technologies" : "Akamai Technologies",
     "Mark Nottingham via Datatracker" : "Mark Nottingham",
     "Nokia CA/Ottowa" : "Nokia",
+    "Nokia - CA/Ottawa" : "Nokia",
     "Nokia - CA/Ottowa" : "Nokia",
     "Nokia - CA\/Ottawa" : "Nokia",
     "Nokia - FR/Paris-Saclay" : "Nokia",
