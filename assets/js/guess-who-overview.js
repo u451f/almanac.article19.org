@@ -24,17 +24,15 @@ sessionStorage.clear();
 */
 var WG, WGtext;
 let lastSelectedWG = sessionStorage.getItem("overview");
-//console.log(lastSelectedWG);
+console.log("lastSelectedWG", lastSelectedWG);
 
 if (lastSelectedWG) {
     // if person is reloading the page or using the back button, restore the view
     WG = lastSelectedWG;
     selectElement.value = WG;
-    WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 } else {
     // on first load, use the first element in the list
     WG = selectElement.selectedOptions[0].value;
-    WGtext = cleanOptionText(selectElement.selectedOptions[0].text);
 }
 loadAuthorshipOverviewData(WG, false, is_small_screen);
 loadInfluenceData(WG, false, is_small_screen, false);

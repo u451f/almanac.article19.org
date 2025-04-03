@@ -129,8 +129,10 @@ function getColorCode(affiliation) {
             hexcolor = "#702375ab"; // ART19 purple
         break;
         case affiliation.startsWith("Cloudflare"):
+            hexcolor = "#3a186bab"; // purpledark
+        break;
         case affiliation.startsWith("Fastly"):
-            hexcolor = "#FC5ADBab"; // purple
+            hexcolor = "#d62d2699"; // ART19 red
         break;
         case affiliation.startsWith("Akamai"):
             hexcolor = "#C200DB99"; // Electric purple
@@ -143,41 +145,49 @@ function getColorCode(affiliation) {
             hexcolor = "#691B3299"; // ART19 earth
         break;
         case affiliation.startsWith("Google"):
-            hexcolor = "#d62d2699"; // ART19 red
+            hexcolor = "#ff2727ab"; // tomato
         break;
         case affiliation.startsWith("Brave"):
+            hexcolor = "#cd93649a"; // chocoloate
+        break;
         case affiliation.startsWith("Cisco"):
+            hexcolor = "#c5a000aa"; // brownish
+        break;
         case affiliation.startsWith("Microsoft"):
-            hexcolor = "#b9074899"; // ART19 raspberry
+            hexcolor = "#f5ff0e99"; // brightyellow
         break;
         case affiliation.startsWith("Salesforce"):
-            hexcolor = "#DC000099"; // red
+            hexcolor = "#a8ffb7aa"; // bright mint
         break;
         case affiliation.startsWith("Orange"):
-            hexcolor = "#eb8a2399"; // ART19 orange
+            hexcolor = "#ff8433aa"; // bright orange
         break;
         case affiliation.startsWith("Mozilla"):
             hexcolor = "#F6A8B899"; // cherry blossom pink
         break;
         case affiliation.startsWith("Ericsson"):
         case affiliation.startsWith("Nokia"):
-            hexcolor = "#00947099"; // ART19 green
+            hexcolor = "#b9074899"; // ART19 raspberry
         break;
         case affiliation.startsWith("CDT"):
         case affiliation.startsWith("Center for Democracy"):
-            hexcolor = "#FFCB6289"; // sunglow
+            hexcolor = "#78811d99"; // mustard
+        break;
+        case affiliation.startsWith("IETF"):
+            hexcolor = "#28775899"; // ART19 dark green
         break;
         case affiliation.startsWith("ICANN"):
-        case affiliation.startsWith("IETF"):
+            hexcolor = "#00947099"; // ART19 green
+        break;
         case affiliation.startsWith("Internet Society"):
-            hexcolor = "#f1a82799"; // ART19 yellow
+            hexcolor = "#26dd0099"; // apple green
         break;
         case affiliation.startsWith("World Wide Web Consortium"):
         case affiliation.startsWith("W3C"):
-            hexcolor = "#FFE04699"; // mustard
+            hexcolor = "#f1a82799"; // ART19 yellow
         break;
         default:
-            const colors = ["142864", "00acd8", "4F3FE0", "DCB800", "1cece8", "5BAAF8", "4EC279", "55A773"]; // ART 19 blue, ART 19 lightblue, palatinate blue, resolution blue,  fluo cyan, argentinia blue, emerald, jade
+            const colors = ["142864", "00acd8", "4F3FE0", "8cb9cd", "5BAAF8", "4EC279", "55A773"]; // ART 19 blue, ART 19 lightblue, palatinate blue, not fluo cyan, argentinia blue, emerald, jade
             const randomSelColor = Math.floor(Math.random() * colors.length);
             const transparency = getRandomArbitrary(16, 256).toString(16);
             hexcolor = "#" + colors[randomSelColor] + transparency;
