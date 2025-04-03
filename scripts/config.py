@@ -162,5 +162,11 @@ corrections = {
     "BROADCOM CORPORATION" : "Broadcom Corporation",
     "Sam Weiler" : "Samuel Weiler",
     "Eggert, Lars" : "Lars Eggert",
-    "World Wide Web Consortium" : "W3C"
+    "World Wide Web Consortium" : "W3C",
+    "Blumenthal, Uri - 0553 - MITLL" : "Uri Blumenthal",
+    "Nominum, Inc." : "Nominum",
+    "Oracle+Dyn" : "Oracle",
+    "Oracle + Dyn" : "Oracle",
+    "Parsons, Inc." : "Parsons",
+    "VeriSign, Inc." : "Verisign"
 }

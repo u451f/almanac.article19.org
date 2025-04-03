@@ -12,7 +12,7 @@
 10,102968,,RSA Security,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
 11,113293,,Independent Consultant,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
 12,113294,,Vodafone,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
-13,110104,US,"VeriSign, Inc.",draft-ietf-tls-compression-07,Transport Layer Security Protocol Compression Methods,2004-05-01,tls,RFC3749
+13,110104,US,Verisign,draft-ietf-tls-compression-07,Transport Layer Security Protocol Compression Methods,2004-05-01,tls,RFC3749
 14,4999,,NTT Software Corporation,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
 15,112691,,Sony Computer Entertainment Inc.,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
 16,108433,,Nippon Telegraph and Telephone Corporation (NTT),draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
@@ -150,7 +150,7 @@
 148,102968,,RSA Security,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
 149,113293,,Independent Consultant,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
 150,113294,,Vodafone,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
-151,110104,US,"VeriSign, Inc.",draft-ietf-tls-compression-07,Transport Layer Security Protocol Compression Methods,2004-05-01,tls,RFC3749
+151,110104,US,Verisign,draft-ietf-tls-compression-07,Transport Layer Security Protocol Compression Methods,2004-05-01,tls,RFC3749
 152,4999,,NTT Software Corporation,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
 153,112691,,Sony Computer Entertainment Inc.,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
 154,108433,,Nippon Telegraph and Telephone Corporation (NTT),draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
