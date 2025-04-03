@@ -160,9 +160,7 @@ corrections = {
     "=?utf-8?B?4ZCv4Zep4ZGOIFThkYzhl6nhkY7hkY4g76O/?=\n <vantuan632000@icloud.com>" : "<vantuan632000@icloud.com>",
     "Orange " : "Orange",
     "BROADCOM CORPORATION" : "Broadcom Corporation",
-    "Joseph Salowey via Datatracker" : "Joseph Salowey",
-    "Murray Kucherawy via Datatracker" : "Murray Kucherawy",
-    "Roman Danyliw via Datatracker" : "Roman Danyliw",
     "Sam Weiler" : "Samuel Weiler",
     "Eggert, Lars" : "Lars Eggert",
+    "World Wide Web Consortium" : "W3C"
 }
