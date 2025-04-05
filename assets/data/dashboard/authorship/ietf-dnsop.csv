@@ -3,7 +3,7 @@
 1,10054,"Herndon, VA 22070-5100",Network Solutions,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
 2,113210,"McLean, Virginia 22102",SAIC,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
 3,5234,"Bainbridge Island, WA US-98110",Verio,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
-4,110721,"Redwood City, CA 94063","Nominum, Inc.",draft-ietf-dnsop-hardie-shared-root-server-07,Distributing Authoritative Name Servers via Shared Unicast Addresses,2002-04-01,dnsop,RFC3258
+4,110721,"Redwood City, CA 94063",Nominum,draft-ietf-dnsop-hardie-shared-root-server-07,Distributing Authoritative Name Servers via Shared Unicast Addresses,2002-04-01,dnsop,RFC3258
 5,105347,Sweden,Autonomica,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
 6,105328,USA,SUN Microsystems,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
 7,9181,Japan,JPRS,draft-ietf-dnsop-misbehavior-against-aaaa-02,Common Misbehavior Against DNS Queries for IPv6 Addresses,2005-05-01,dnsop,RFC4074
@@ -14,8 +14,8 @@
 12,105452,Finland,CSC/FUNET,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
 13,117929,The Netherlands,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
 14,114831,,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
-15,105539,USA,"VeriSign, Inc.",draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
-16,119102,USA,"VeriSign, Inc.",draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+15,105539,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+16,119102,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
 17,9004,US,ICANN,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
 18,18009,US,Internet Systems Consortium,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
 19,107479,BR,Registro.br,draft-ietf-dnsop-reflectors-are-evil-06,Preventing Use of Recursive Nameservers in Reflector Attacks,2008-10-01,dnsop,RFC5358
@@ -35,7 +35,7 @@
 33,111656,US,Google,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
 34,3760,US,OGUD Consulting,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
 35,109517,United Kingdom,George Barwood,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
-36,117099,US,"Parsons, Inc.",draft-ietf-dnsop-child-syncronization-07,Child-to-Parent Synchronization in DNS,2015-03-01,dnsop,RFC7477
+36,117099,US,Parsons,draft-ietf-dnsop-child-syncronization-07,Child-to-Parent Synchronization in DNS,2015-03-01,dnsop,RFC7477
 37,105113,Canada,Dyn,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
 38,107646,,William F. Maton,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
 39,105113,Canada,Dyn,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
@@ -92,7 +92,7 @@
 90,9036,Japan,JPRS,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
 91,108587,Japan,Keio/WIDE,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
 92,111656,US,Google,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
-93,20356,United States of America,"Nominum, Inc.",draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+93,20356,United States of America,Nominum,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
 94,2348,,Ralph Droms,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
 95,111656,US,Google,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
 96,105113,Canada,Afilias,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
@@ -138,7 +138,7 @@
 136,111656,US,Google,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 137,109888,US,ISC,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 138,105278,,ICANN,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
-139,120845,US,Oracle + Dyn,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+139,120845,US,Oracle,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 140,117099,US,USC/ISI,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 141,106670,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 142,109661,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
@@ -210,7 +210,7 @@
 208,10054,"Herndon, VA 22070-5100",Network Solutions,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
 209,113210,"McLean, Virginia 22102",SAIC,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
 210,5234,"Bainbridge Island, WA US-98110",Verio,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
-211,110721,"Redwood City, CA 94063","Nominum, Inc.",draft-ietf-dnsop-hardie-shared-root-server-07,Distributing Authoritative Name Servers via Shared Unicast Addresses,2002-04-01,dnsop,RFC3258
+211,110721,"Redwood City, CA 94063",Nominum,draft-ietf-dnsop-hardie-shared-root-server-07,Distributing Authoritative Name Servers via Shared Unicast Addresses,2002-04-01,dnsop,RFC3258
 212,105347,Sweden,Autonomica,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
 213,105328,USA,SUN Microsystems,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
 214,9181,Japan,JPRS,draft-ietf-dnsop-misbehavior-against-aaaa-02,Common Misbehavior Against DNS Queries for IPv6 Addresses,2005-05-01,dnsop,RFC4074
@@ -221,8 +221,8 @@
 219,105452,Finland,CSC/FUNET,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
 220,117929,The Netherlands,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
 221,114831,,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
-222,105539,USA,"VeriSign, Inc.",draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
-223,119102,USA,"VeriSign, Inc.",draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+222,105539,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+223,119102,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
 224,9004,US,ICANN,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
 225,18009,US,Internet Systems Consortium,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
 226,107479,BR,Registro.br,draft-ietf-dnsop-reflectors-are-evil-06,Preventing Use of Recursive Nameservers in Reflector Attacks,2008-10-01,dnsop,RFC5358
@@ -242,7 +242,7 @@
 240,111656,US,Google,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
 241,3760,US,OGUD Consulting,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
 242,109517,United Kingdom,George Barwood,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
-243,117099,US,"Parsons, Inc.",draft-ietf-dnsop-child-syncronization-07,Child-to-Parent Synchronization in DNS,2015-03-01,dnsop,RFC7477
+243,117099,US,Parsons,draft-ietf-dnsop-child-syncronization-07,Child-to-Parent Synchronization in DNS,2015-03-01,dnsop,RFC7477
 244,105113,Canada,Dyn,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
 245,107646,,William F. Maton,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
 246,105113,Canada,Dyn,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
@@ -299,7 +299,7 @@
 297,9036,Japan,JPRS,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
 298,108587,Japan,Keio/WIDE,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
 299,111656,US,Google,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
-300,20356,United States of America,"Nominum, Inc.",draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+300,20356,United States of America,Nominum,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
 301,2348,,Ralph Droms,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
 302,111656,US,Google,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
 303,105113,Canada,Afilias,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
@@ -345,7 +345,7 @@
 343,111656,US,Google,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 344,109888,US,ISC,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 345,105278,,ICANN,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
-346,120845,US,Oracle + Dyn,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+346,120845,US,Oracle,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 347,117099,US,USC/ISI,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
 348,106670,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
 349,109661,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
