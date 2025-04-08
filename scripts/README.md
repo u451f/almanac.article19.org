@@ -27,9 +27,6 @@ in a directory indicated by `affiliations_path` in `config.py`.
 This `{working group acronym}` should match the identifier of the working group _mailing list_.
 (In some cases, that is different from the identifier of the working group.)
 
-TODO - rename the files in the directory Drive
-TODO - rename the files in the raw_data directory
-
 ## configuring the data processing scripts
 
 `config.py` contains:
