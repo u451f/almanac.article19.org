@@ -63,7 +63,7 @@ for sdo in wgs:
 
         try:
             arx_path = os.path.join(config.mail_archives_path, arx_wg)
-            print(f"{arx_path}")
+            print(f"archive path: {arx_path}")
             data = open_list_archives(arx_wg, archive_dir = config.mail_archives_path)
         except Exception as e:
             print(e)

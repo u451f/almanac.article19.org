@@ -169,5 +169,13 @@ corrections = {
     "Oracle+Dyn" : "Oracle",
     "Oracle + Dyn" : "Oracle",
     "Parsons, Inc." : "Parsons",
-    "VeriSign, Inc." : "Verisign"
+    "VeriSign, Inc." : "Verisign",
+    "dimitri papadimitriou" : "Dimitri Papadimitriou",
+    "Mahend Negi" : "Mahendra Singh Negi",
+    "Théophile Wallez" : "Theophile Wallez",
+    "Sofía Celi" : "Sofia Celi",
+    "Christopher Wood" : "Christopher A. Wood",
+    "Ben Schwartz" : "Benjamin Schwartz",
+    "Mankin, Allison" : "Allison Mankin",
+    "Wessels, Duane" : "Duance Wessels"
 }
