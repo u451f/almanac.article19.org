@@ -50,6 +50,7 @@ for sdo in wgs:
                 parse_dates = [config.affil_time_start_column, config.affil_time_end_column]
             )
         else:
+            print(f"Using dummy affiliations because could not find {affilation_path}")
             dummy_wg = 'dnsop' ## hack...
             a_df = pd.read_csv(
                 os.path.join(config.affiliations_path, f"affiliations-{dummy_wg}.csv"), # hack for the W3C case
