@@ -1127,7 +1127,7 @@ select#wg {
 }
 
 #guess-who-actions div {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 4;
 }
 
@@ -1390,7 +1390,7 @@ a.modebar-btn {
         right: 0;
     }
     #breadcrumbs .switcher2nd {
-        top: 26px;
+        top: 20px;
     }
     .all-groups {
         grid-column-start: 2;
@@ -1438,6 +1438,9 @@ a.modebar-btn {
     }
     .plotlyRender {
         margin-top: 0;
+    }
+    #guess-who-actions div {
+        grid-column-start: 2;
     }
 }
 
