@@ -37,6 +37,7 @@ if (lastSelectedWG) {
 loadAuthorshipOverviewData(WG, false, is_small_screen);
 loadInfluenceData(WG, false, is_small_screen, false);
 loadLeadershipData(WG, false, is_small_screen, false);
+updateInterfaceElementsOverview(WG);
 
 /*
  * Main overview page logic

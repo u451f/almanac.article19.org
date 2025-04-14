@@ -31,7 +31,7 @@ function cleanOptionText(WGtext) {
 }
 
 /*
- * Dashboard interface: load image, link, title
+ * Dashboard/Graphs interface: load image, link, title
  */
 function updateInterfaceElements(WG, WGtext) {
     // load corresponding image
@@ -50,6 +50,24 @@ function updateInterfaceElements(WG, WGtext) {
     let wgname = document.getElementById("wgname");
     if(wgname) {
         wgname.textContent = WGtext;
+    }
+}
+
+/*
+ * Landing page interface: load SDO link
+ */
+function updateInterfaceElementsOverview(WG) {
+    // load corresponding link into top menu
+    let almanaclink = document.getElementById("almanaclink");
+    if(almanaclink) {
+        if(WG == "ietf") {
+            link = "3_ietf";
+        } else if (WG == "irtf") {
+            link = "2_irtf";
+        } else if (WG == "w3c") {
+            link = "1_w3c";
+        }
+        almanaclink.href = "/orgs/" + link + ".html";
     }
 }
 
