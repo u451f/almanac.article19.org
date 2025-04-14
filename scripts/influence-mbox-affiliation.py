@@ -50,6 +50,7 @@ for sdo in wgs:
                 parse_dates = [config.affil_time_start_column, config.affil_time_end_column]
             )
         else:
+            print(f"Using dummy affiliations because could not find {affilation_path}")
             dummy_wg = 'dnsop' ## hack...
             a_df = pd.read_csv(
                 os.path.join(config.affiliations_path, f"affiliations-{dummy_wg}.csv"), # hack for the W3C case
@@ -63,7 +64,7 @@ for sdo in wgs:
 
         try:
             arx_path = os.path.join(config.mail_archives_path, arx_wg)
-            print(f"{arx_path}")
+            print(f"archive path: {arx_path}")
             data = open_list_archives(arx_wg, archive_dir = config.mail_archives_path)
         except Exception as e:
             print(e)

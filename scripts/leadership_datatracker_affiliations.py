@@ -3,6 +3,7 @@ import bigbang.analysis.utils as utils
 import config
 from datetime import datetime, date, timezone
 import pandas as pd
+from pathlib import Path
 import pytz
 import os
 
@@ -58,9 +59,17 @@ for sdo in wgs:
         print(wg)
     
         l_df, l_agg_df = leadership_ranges(wg)
+
+        if wg in config.working_group_mailing_list_fixes:
+            arx_wg = config.working_group_mailing_list_fixes[wg]
+        else:
+            arx_wg = wg
+
+        # prepare the affiliation
+        affilation_path = Path(os.path.join(config.affiliations_path, f"affiliations-{arx_wg}.csv"))
     
         a_df = pd.read_csv(
-            os.path.join(config.affiliations_path, f"affiliations-{wg}.csv"),
+            affilation_path,
             parse_dates = [config.affil_time_start_column, config.affil_time_end_column]
         )
     

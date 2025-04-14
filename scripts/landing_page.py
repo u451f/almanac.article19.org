@@ -112,6 +112,10 @@ for wg in ldata:
     big_ldfs[wg] = pd.DataFrame({},{})
     
     for ldf in df_list:
+
+        if ldf.shape[0] == 0:
+            continue
+
         cdf = pd.DataFrame(
             index = dates,
             columns = [x.strip() for x in ldf['affiliation'].unique()]
@@ -122,7 +126,7 @@ for wg in ldata:
     
             for date in dates:
                 if date > row[1]['time_start'] and date < row[1]['time_end']:
-                    cdf[aff][date] = cdf[aff][date] + 1
+                    cdf.loc[date, aff] = cdf[aff][date] + 1
                     
         add = lambda s1, s2: s1 + s2
     
