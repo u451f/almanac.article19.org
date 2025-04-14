@@ -172,13 +172,17 @@ function getColorCode(affiliation) {
             hexcolor = "#c5a000aa"; // brownish
         break;
         case affiliation.startsWith("Microsoft"):
-            hexcolor = "#f5ff0e99"; // brightyellow
+            hexcolor = "#00ffa299"; // brightgreen
         break;
         case affiliation.startsWith("Salesforce"):
-            hexcolor = "#a8ffb7aa"; // bright mint
+            hexcolor = "#fcba03aa"; // goldyellow
+        break;
+        case affiliation.startsWith("Sinodun"):
+        case affiliation.startsWith("sn3rd"):
+            hexcolor = "#15d199aa"; // greenish
         break;
         case affiliation.startsWith("Orange"):
-            hexcolor = "#ff8433aa"; // bright orange
+            hexcolor = "#ff910066"; // bright orange
         break;
         case affiliation.startsWith("Mozilla"):
             hexcolor = "#F6A8B899"; // cherry blossom pink
@@ -186,6 +190,9 @@ function getColorCode(affiliation) {
         case affiliation.startsWith("Ericsson"):
         case affiliation.startsWith("Nokia"):
             hexcolor = "#b9074899"; // ART19 raspberry
+        break;
+        case affiliation.startsWith("ARTICLE 19"):
+            hexcolor = "#d400ffab"; // violet
         break;
         case affiliation.startsWith("CDT"):
         case affiliation.startsWith("Center for Democracy"):
@@ -198,14 +205,14 @@ function getColorCode(affiliation) {
             hexcolor = "#00947099"; // ART19 green
         break;
         case affiliation.startsWith("Internet Society"):
-            hexcolor = "#26dd0099"; // apple green
+            hexcolor = "#00947099"; // ART19 green
         break;
         case affiliation.startsWith("World Wide Web Consortium"):
         case affiliation.startsWith("W3C"):
             hexcolor = "#f1a82799"; // ART19 yellow
         break;
         default:
-            const colors = ["142864", "00acd8", "4F3FE0", "8cb9cd", "5BAAF8", "4EC279", "55A773"]; // ART 19 blue, ART 19 lightblue, palatinate blue, not fluo cyan, argentinia blue, emerald, jade
+            const colors = ["142864", "00acd8", "4F3FE0", "8cb9cd", "5BAAF8"]; // ART 19 blue, ART 19 lightblue, palatinate blue, not fluo cyan, argentinia blue
             const randomSelColor = Math.floor(Math.random() * colors.length);
             const transparency = getRandomArbitrary(16, 256).toString(16);
             hexcolor = "#" + colors[randomSelColor] + transparency;
