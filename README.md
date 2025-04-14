@@ -24,7 +24,7 @@
 
 ## Guess who! part of the site
 
-### Adding new data to the dashboard
+### Adding new data to the working group data graphs (formerly: dashboard)
 
 - Add CSV files to *assets/data/dashboard/* either to the *authorship*,
   *leadership* or *influence* folder. The file should be named after
@@ -32,9 +32,9 @@
 - Add the working group concerned by this data to *_data/guess_who_dashboard_working_groups.yaml*
 - Don't add files for SDOs here.
 
-### Adding new data for the overview page
+### Adding new data for the overview page (landing page)
 
-- Add CSV files to *assets/data/dashboard/* either to the *authorship*,
+- Add CSV files to *assets/data/overview/* either to the *authorship*,
   *leadership* or *influence* folder. The file should be named after
   this scheme: *$sdo*, e.g. *ietf.csv*
 - Only add files for SDOs here.
