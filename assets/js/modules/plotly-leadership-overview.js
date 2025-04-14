@@ -47,7 +47,6 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 fillcolor: getColorCode(affiliation)
             })
         );
-        //console.log(traces);
 
         var data = traces;
         var layout = {
