@@ -50,5 +50,6 @@ selectElement.addEventListener("change", (event) => {
         loadInfluenceData(WG, true, is_small_screen, false);
         loadLeadershipData(WG, true, is_small_screen, false);
         sessionStorage.setItem("overview", event.target.value);
+        updateInterfaceElementsOverview(WG);
     }
 });
