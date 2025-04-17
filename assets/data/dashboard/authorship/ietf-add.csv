@@ -1,0 +1,35 @@
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,117988,,Meta,draft-ietf-add-svcb-dns-09,Service Binding Mapping for DNS Servers,2023-11-01,add,RFC9461
+1,119325,United States of America,Apple,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+2,124846,United States of America,Apple,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+3,121595,United States of America,Cloudflare,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+4,116593,,Fastly,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+5,126651,,Microsoft,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+6,112869,France,Orange,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+7,112901,India,Nokia Corporation,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+8,100038,USA,"Citrix Systems, Inc.",draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+9,107591,UK,Open-Xchange,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+10,126651,USA,Microsoft,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+11,112901,India,Nokia Corporation,draft-ietf-add-resolver-info-13,DNS Resolver Information,2024-06-01,add,RFC9606
+12,112869,France,Orange,draft-ietf-add-resolver-info-13,DNS Resolver Information,2024-06-01,add,RFC9606
+13,112901,India,Nokia Corporation,draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704
+14,100038,USA,"Citrix Systems, Inc.",draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704
+15,19416,UK,Vodafone Group,draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704
+16,117988,,Meta,draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704
+17,117988,,Meta,draft-ietf-add-svcb-dns-09,Service Binding Mapping for DNS Servers,2023-11-01,add,RFC9461
+18,119325,United States of America,Apple,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+19,124846,United States of America,Apple,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+20,121595,United States of America,Cloudflare,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+21,116593,,Fastly,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+22,126651,,Microsoft,draft-ietf-add-ddr-10,Discovery of Designated Resolvers,2023-11-01,add,RFC9462
+23,112869,France,Orange,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+24,112901,India,Nokia Corporation,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+25,100038,USA,"Citrix Systems, Inc.",draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+26,107591,UK,Open-Xchange,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+27,126651,USA,Microsoft,draft-ietf-add-dnr-16,DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR),2023-11-01,add,RFC9463
+28,112901,India,Nokia Corporation,draft-ietf-add-resolver-info-13,DNS Resolver Information,2024-06-01,add,RFC9606
+29,112869,France,Orange,draft-ietf-add-resolver-info-13,DNS Resolver Information,2024-06-01,add,RFC9606
+30,112901,India,Nokia Corporation,draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704
+31,100038,USA,"Citrix Systems, Inc.",draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704
+32,19416,UK,Vodafone Group,draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704
+33,117988,,Meta,draft-ietf-add-split-horizon-authority-14,Establishing Local DNS Authority in Validated Split-Horizon Environments,2025-01-01,add,RFC9704

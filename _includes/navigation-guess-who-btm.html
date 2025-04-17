@@ -1,0 +1,23 @@
+    <span class="spacer"></span>
+
+    <div class="section-content grid guess-who-bottom-links" role="navigation" aria-label="Secondary navigation in this part of the website">
+        <h2 class="title">Curious to explore more?</h2>
+        <p>
+        <a href="{{ site.url }}/guess-who.html"{% if page.url == "/guess-who.html" %} class="current-item"{% endif %}>
+                <span class="button">Guess who!</span>
+                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-overview.jpg" alt="" />
+            </a>
+        </p>
+        <p>
+            <a href="{{ site.url }}/guess-who-graphs.html"{% if page.url == "/guess-who-graphs.html" %} class="current-item"{% endif %}>
+                <span class="button">Look into the graphs</span>
+                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-dashboard.jpg" alt="" />
+            </a>
+        </p>
+        <p>
+            <a href="{{ site.url }}/guess-who-about.html"{% if page.url == "/guess-who-about.html" %} class="current-item"{% endif %}>
+                <span class="button">How we developed the graphs</span>
+                <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-about.jpg" alt="" />
+            </a>
+        </p>
+    </div>

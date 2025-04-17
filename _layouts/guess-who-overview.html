@@ -1,0 +1,60 @@
+{% include header.html %}
+<main class="section" id="content">
+    <div class="section-content grid" id="intro">
+        {% include site-header.html %}
+        <div id="main-text">
+            {% include breadcrumbs.html %}
+            {{ content }}
+        </div>
+        <img src="{{ site.url}}/assets/images/catnip-mallory/catnip-overview.png" alt="Catnip in front of data plots" />
+    </div>
+
+    <div class="section-content grid" id="guess-who-actions">
+        <div>
+            <label for="wg">Select an SDO:</label>
+            <select id="wg" class="select" aria-label="Upon selecting a different working group, visualisations below will change.">
+                {% assign items = site.data.guess_who_overview_sdo %}
+                {% for item in items %}
+                <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">{{ item.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+
+    <div class="section-content grid">
+        <div>
+            <h2 class="title">Who leads? Chairing working groups</h2>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-chair.jpg" alt="Catnip sitting on a chair" />
+            <p>The leadership graph shows the 10 actors who have held the highest number of positions of power, for the longest periods.</p>
+        </div>
+        <div class="guess-who-display">
+            <div id="plotlyOLeadership" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+    </div>
+    <span class="spacer"></span>
+
+    <div class="section-content grid">
+        <div>
+            <h2 class="title">Who speaks? Amount of communication</h2>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-influencer.jpg" alt="Catnip writing an email" />
+            <p>The influence graph shows the 10 actors who dominate discussions and send the greatest volume of emails per year to working groups.
+</p>
+        </div>
+        <div class="guess-who-display">
+            <div id="plotlyDInfluence" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+    </div>
+    <span class="spacer"></span>
+
+    <div class="section-content grid">
+        <div>
+            <h2 class="title">Who publishes? Number of published standards</h2>
+            <img class="catnip-icon" src="{{ site.url}}/assets/images/catnip-mallory/catnip-author.jpg" alt="Catnip authoring an RFC" />
+            <p>The authorship graph shows the 10 actors who had the highest number of successfully published technical standards per year.</p>
+        </div>
+        <div class="guess-who-display">
+            <div id="plotlyDAuthorship" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+    </div>
+</main>
+{% include footer.html %}

@@ -1,0 +1,9 @@
+- name: "IETF"
+  slug: ietf
+  logo: "assets/images/logo/ietf.svg"
+- name: "IRTF"
+  slug: irtf
+  logo: "assets/images/logo/irtf.svg"
+- name: "W3C"
+  slug: w3c
+  logo: "assets/images/logo/w3c.svg"

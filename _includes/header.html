@@ -2,28 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes, shrink-to-fit=no">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes, shrink-to-fit=no">
     {% feed_meta %}
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon.png">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
     {% seo %}
-    <!-- Twitter cards -->
-    <meta name="twitter:site"    content="@{{ site.twitter_username }}">
-    <meta name="twitter:creator" content="@{{ site.author }}">
-    <meta name="twitter:title"   content="{{ page.title }}">
-{% if page.project_excerpt %}
-    <meta name="twitter:description" content="{{ page.project_excerpt }}">
-{% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
+{% if page.loadjsplotly %}
+    <!-- Guess who! -->
+    <script src="{{ site.url }}/assets/js/lib/d3-3.5.17.min.js"></script>
+    {% comment %}
+    <script src="{{ site.url }}/assets/js/lib/plotly-3.0.1.min.js"></script>
+    {% endcomment %}
+    <script src="{{ site.url }}/assets/js/lib/plotly-almanac-bundle.min.js"></script>
+    <script src="{{ site.url }}/assets/js/lib/core-js-bundle@3.35.1.min.js"></script><!-- for groupBy -->
+    <script src="{{ site.url }}/assets/js/guess-who-helper-functions.js"></script>
 {% endif %}
-
-{% if page.featured-img %}
-    <meta name="twitter:card"  content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.url }}/{{ page.featured-img }}">
-{% else %}
-    <meta name="twitter:card"  content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/{{ site.title_image }}">
+{% if page.loadjsdashboard %}
+    <script src="{{ site.url }}/assets/js/guess-who-dashboard.js" type="module"></script>
 {% endif %}
-<!-- end of Twitter cards -->
+{% if page.loadjsoverview %}
+    <script src="{{ site.url }}/assets/js/guess-who-overview.js" type="module"></script>
+{% endif %}
 </head>
-<body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }}">
+<body class="desktop {{ page.layout }} {{ page.title | downcase | truncate: 15, '' | url_encode }} {% if page.sitearea == 'guess-who' %} guess-who{% endif %}">
+    <a href="#content" class="screen-reader-text">Skip to main content</a>
+    {% include navigation-main.html %}

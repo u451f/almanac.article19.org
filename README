@@ -1,5 +1,0 @@
-# build _site
-bundle exec jekyll build
-
-# build _site and test all links
-rake test

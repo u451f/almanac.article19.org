@@ -19,14 +19,6 @@ Copyright (C) 2022-2023 Ulrike Uhlig
 */
 
 $(function($){
-    // helper function for mobile layout
-    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $('body').addClass('mobile').removeClass('desktop');
-    }
-    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-        $('body').addClass('safari');
-    }
-
     // Open external links in new tab
     $('a[href^=http]').click(function () {
         var a = new RegExp('/' + window.location.host + '/');
@@ -83,6 +75,23 @@ $(function($){
                 $('body').removeClass("darkbg");
             }
         }
+        let distance = 1;
+        if($(window).scrollTop() > distance) {
+            $('body').addClass("scrolled");
+        } else {
+            $('body').removeClass("scrolled");
+        }
     });
     $(window).scroll();
+
+    // read more on landing pages
+    $('.read-more').parent().next('div').hide();
+    $('.read-more').click(function(){
+        $(this).parent().next('div').toggle();
+        if ($(this).text() == "Hide…") {
+            $(this).text("Read more");
+        } else {
+            $(this).text("Hide…");
+        }
+    });
 });

@@ -1,56 +1,58 @@
-- name: All organisations
+- name: "All organisations"
   link: /
-- name: By Organisation
+- name: "… By Organisation"
   subfolderitems:
-  - name: 3GPP
+  - name: "3GPP"
     link: /orgs/8_3gpp.html
-  - name: ATIS
+  - name: "ATIS"
     link: /orgs/8_atis.html
-  - name: CEN/CENELEC
+  - name: "CEN/CENELEC"
     link: /orgs/9_cen-cenelec.html
-  - name: ETSI
+  - name: "ETSI"
     link: /orgs/90_etsi.html
-  - name: IEEE
+  - name: "IEEE"
     link: /orgs/4_ieee.html
-  - name: IETF
+  - name: "IETF"
     link: /orgs/3_ietf.html
-  - name: IRTF
+  - name: "IRTF"
     link: /orgs/2_irtf.html
-  - name: ISO/IEC
+  - name: "ISO/IEC"
     link: /orgs/5_iso.html
-  - name: ITU-R
+  - name: "ITU-R"
     link: /orgs/7_itu-r.html
-  - name: ITU-T
+  - name: "ITU-T"
     link: /orgs/6_itu-t.html
-  - name: W3C
+  - name: "W3C"
     link: /orgs/1_w3c.html
-- name: By tag
+- name: "… By tag"
   subfolderitems:
-  - name: Artificial Intelligence
+  - name: "Artificial Intelligence"
     link: /by-issue-AI.html
-  - name: Biometrics
+  - name: "Biometrics"
     link: /by-issue-biometrics.html
-  - name: Cryptography
+  - name: "Cryptography"
     link: /by-issue-cryptography.html
-  - name: Cybersecurity
+  - name: "Cybersecurity"
     link: /by-issue-cybersecurity.html
-  - name: Digital Identity
+  - name: "Digital Identity"
     link: /by-issue-digital-identity.html
-  - name: Encrypted DNS
+  - name: "Encrypted DNS"
     link: /by-issue-encrypted-DNS.html
-  - name: Messaging and Communications
+  - name: "Messaging and Communications"
     link: /by-issue-messaging.html
-  - name: Networking
+  - name: "Networking"
     link: /by-issue-networking.html
-  - name: Privacy-Enhancing Technologies
+  - name: "Privacy-Enhancing Technologies"
     link: /by-issue-PET.html
-  - name: Rights and Ethics
+  - name: "Rights and Ethics"
     link: /by-issue-rights-ethics.html
-  - name: Smart Cities
+  - name: "Smart Cities"
     link: /by-issue-smart-cities.html
-  - name: Telecommunications
+  - name: "Telecommunications"
     link: /by-issue-telecommunications.html
-- name: How this came about
+- name: "… How this came about"
   link: /how-it-came-about.html
-- name: Acknowledgements
+- name: "… Acknowledgements"
   link: /acknowledgements.html
+- name: "→ Guess who!"
+  link: /guess-who.html

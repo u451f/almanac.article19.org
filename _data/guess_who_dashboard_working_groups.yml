@@ -1,0 +1,54 @@
+- name: "IETF"
+  wg:
+  - name: "Adaptive DNS Discovery"
+    slug: ietf-add
+  - name: "Deterministic networking"
+    slug: ietf-detnet
+  - name: "Domain Name Systems Operations"
+    slug: ietf-dnsop
+  - name: "DNS PRIVate Exchange"
+    slug: ietf-dprive
+  - name: "Limited Additional Mechanisms for PKIX and SMIME"
+    slug: ietf-lamps
+  - name: "Multiplexed Application Substrate over QUIC Encryption"
+    slug: ietf-masque
+  - name: "Messaging Layer Security"
+    slug: ietf-mls
+  - name: "Network Virtualization Overlays"
+    slug: ietf-nvo3
+  - name: "Oblivious HTTP Application Intermediation"
+    slug: ietf-ohai
+  - name: "Path Computation Element"
+    slug: ietf-pce
+  - name: "Privacy Pass"
+    slug: ietf-privacypass
+  - name: "Privacy Preserving Measurement"
+    slug: ietf-ppm
+  - name: "QUIC"
+    slug: ietf-quic
+  - name: "Real-Time Communication in WEB-browsers"
+    slug: ietf-rtcweb
+  - name: "Transport Layer Security"
+    slug: ietf-tls
+- name: "IRTF"
+  wg:
+  - name: "Decentralization of the Internet Research Group"
+    slug: irtf-dinrg
+  - name: "Human Rights Protocol Considerations"
+    slug: irtf-hrpc
+  - name: "Path Aware Networking RG"
+    slug: irtf-panrg
+  - name: "Privacy Enhancements and Assessments Research Group"
+    slug: irtf-pearg
+- name: "W3C"
+  wg:
+  - name: "Privacy Community Group"
+    slug: w3c-cg-privacycg
+  - name: "Privacy Interest Group"
+    slug: w3c-ig-privacy
+  - name: "Improving Web Advertising Business Group"
+    slug: w3c-bg-web-adv
+  - name: "Private Advertising Technology Community Group"
+    slug: w3c-cg-patcg
+  - name: "Decentralized Identifier Working Group"
+    slug: w3c-wg-did

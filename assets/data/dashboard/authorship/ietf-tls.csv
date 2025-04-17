@@ -1,0 +1,277 @@
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,20051,,Christopher Allen,,The TLS Protocol Version 1.0,1999-01-01,tls,RFC2246
+1,20050,,Certicom,,The TLS Protocol Version 1.0,1999-01-01,tls,RFC2246
+2,20881,"Redwood City, CA 94063",Excite,draft-ietf-tls-kerb-cipher-suites-04,Addition of Kerberos Cipher Suites to Transport Layer Security (TLS),1999-10-01,tls,RFC2712
+3,20739,Issaquah WA 98027-5378,CyberSafe Corporation,draft-ietf-tls-kerb-cipher-suites-04,Addition of Kerberos Cipher Suites to Transport Layer Security (TLS),1999-10-01,tls,RFC2712
+4,19084,US,Rohit Khare,draft-ietf-tls-http-upgrade-05,Upgrading to TLS Within HTTP/1.1,2000-05-01,tls,RFC2817
+5,109569,US,Agranat Systems,draft-ietf-tls-http-upgrade-05,Upgrading to TLS Within HTTP/1.1,2000-05-01,tls,RFC2817
+6,12695,"East Palo Alto, CA 94303","RTFM, Inc.",draft-ietf-tls-https-04,HTTP Over TLS,2000-05-01,tls,RFC2818
+7,104729,United Kingdom,Skygate Technology,draft-ietf-tls-ciphersuite-06,Advanced Encryption Standard (AES) Ciphersuites for Transport Layer Security (TLS),2002-06-01,tls,RFC3268
+8,104696,,BCI,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+9,113292,,Transactionware,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+10,102968,,RSA Security,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+11,113293,,Independent Consultant,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+12,113294,,Vodafone,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+13,110104,US,Verisign,draft-ietf-tls-compression-07,Transport Layer Security Protocol Compression Methods,2004-05-01,tls,RFC3749
+14,4999,,NTT Software Corporation,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
+15,112691,,Sony Computer Entertainment Inc.,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
+16,108433,,Nippon Telegraph and Telephone Corporation (NTT),draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
+17,105857,Germany,Siemens,draft-ietf-tls-psk-09,Pre-Shared Key Ciphersuites for Transport Layer Security (TLS),2005-12-01,tls,RFC4279
+18,106164,Finland,Nokia Corporation,draft-ietf-tls-psk-09,Pre-Shared Key Ciphersuites for Transport Layer Security (TLS),2005-12-01,tls,RFC4279
+19,12695,,"RTFM, Inc.",draft-ietf-tls-rfc2246-bis-13,The Transport Layer Security (TLS) Protocol Version 1.1,2006-04-01,tls,RFC4346
+20,20050,,Independent,draft-ietf-tls-rfc2246-bis-13,The Transport Layer Security (TLS) Protocol Version 1.1,2006-04-01,tls,RFC4346
+21,113294,,Vodafone,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+22,104696,,BCI,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+23,113292,,Transactionware,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+24,102968,,RSA Security,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+25,113293,,Independent Consultant,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+26,111398,DE,Ruhr-Uni Bochum,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+27,113205,US,Sun Microsystems,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+28,20529,US,Sun Labs,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+29,104696,NL,SafeNet,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+30,113206,US,Corriente,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+31,126593,USA,Intel Corporation,draft-ietf-tls-psk-null-03,Pre-Shared Key (PSK) Ciphersuites with NULL Encryption for Transport Layer Security (TLS),2007-01-01,tls,RFC4785
+32,107681,USA,Intel Corporation,draft-ietf-tls-psk-null-03,Pre-Shared Key (PSK) Ciphersuites with NULL Encryption for Transport Layer Security (TLS),2007-01-01,tls,RFC4785
+33,113280,,Independent,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+34,113281,,Independent,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+35,23231,,Thomas Wu,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+36,111612,,Independent,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+37,111612,Greece,Independent,draft-ietf-tls-openpgp-keys-11,Using OpenPGP Keys for Transport Layer Security (TLS) Authentication,2007-11-01,tls,RFC5081
+38,20050,,Independent,draft-ietf-tls-rfc4346-bis-10,The Transport Layer Security (TLS) Protocol Version 1.2,2008-08-01,tls,RFC5246
+39,12695,,"RTFM, Inc.",draft-ietf-tls-rfc4346-bis-10,The Transport Layer Security (TLS) Protocol Version 1.2,2008-08-01,tls,RFC5246
+40,101208,USA,Cisco,draft-ietf-tls-rsa-aes-gcm-03,AES Galois Counter Mode (GCM) Cipher Suites for TLS,2008-08-01,tls,RFC5288
+41,103303,USA,Cisco,draft-ietf-tls-rsa-aes-gcm-03,AES Galois Counter Mode (GCM) Cipher Suites for TLS,2008-08-01,tls,RFC5288
+42,108706,USA,Cisco,draft-ietf-tls-rsa-aes-gcm-03,AES Galois Counter Mode (GCM) Cipher Suites for TLS,2008-08-01,tls,RFC5288
+43,12695,USA,"RTFM, Inc.",draft-ietf-tls-ecc-new-mac-07,TLS Elliptic Curve Cipher Suites with SHA-256/384 and AES Galois Counter Mode (GCM),2008-08-01,tls,RFC5289
+44,106164,Finland,Nokia Corporation,draft-ietf-tls-des-idea-02,DES and IDEA Cipher Suites for Transport Layer Security (TLS),2009-02-01,tls,RFC5469
+45,106750,France,CNRS/LIMOS Laboratory,draft-ietf-tls-psk-new-mac-aes-gcm-05,Pre-Shared Key Cipher Suites for TLS with SHA-256/384 and AES Galois Counter Mode,2009-03-01,tls,RFC5487
+46,106750,France,CNRS/LIMOS Laboratory,draft-ietf-tls-ecdhe-psk-05,ECDHE_PSK Cipher Suites for Transport Layer Security (TLS),2009-03-01,tls,RFC5489
+47,108646,France,INEOVATION,draft-ietf-tls-ecdhe-psk-05,ECDHE_PSK Cipher Suites for Transport Layer Security (TLS),2009-03-01,tls,RFC5489
+48,12695,USA,"RTFM, Inc.",draft-ietf-tls-extractor-07,Keying Material Exporters for Transport Layer Security (TLS),2010-03-01,tls,RFC5705
+49,110812,USA,Microsoft,draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+50,110810,USA,PhoneFactor,draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+51,110811,USA,PhoneFactor,draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+52,12695,USA,"RTFM, Inc.",draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+53,102391,"Milford, MA 01757 USA",Huawei,draft-ietf-tls-rfc4366-bis-12,Transport Layer Security (TLS) Extensions: Extension Definitions,2011-01-01,tls,RFC6066
+54,19483,USA,IECA,draft-ietf-tls-ssl2-must-not-04,Prohibiting Secure Sockets Layer (SSL) Version 2.0,2011-03-01,tls,RFC6176
+55,19790,USA,NIST,draft-ietf-tls-ssl2-must-not-04,Prohibiting Secure Sockets Layer (SSL) Version 2.0,2011-03-01,tls,RFC6176
+56,12695,"Palo Alto, CA 94303","RTFM, Inc.",draft-ietf-tls-rfc4347-bis-06,Datagram Transport Layer Security Version 1.2,2012-01-01,tls,RFC6347
+57,106986,,Google,draft-ietf-tls-rfc4347-bis-06,Datagram Transport Layer Security Version 1.2,2012-01-01,tls,RFC6347
+58,110350,USA,Michael Williams,draft-ietf-tls-dtls-heartbeat-04,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,2012-02-01,tls,RFC6520
+59,104695,DE,Muenster Univ. of Appl. Sciences,draft-ietf-tls-dtls-heartbeat-04,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,2012-02-01,tls,RFC6520
+60,109344,DE,Muenster Univ. of Appl. Sciences,draft-ietf-tls-dtls-heartbeat-04,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,2012-02-01,tls,RFC6520
+61,114782,,Yngve N. Pettersen,draft-ietf-tls-multiple-cert-status-extension-08,The Transport Layer Security (TLS) Multiple Certificate Status Request Extension,2013-06-01,tls,RFC6961
+62,105857,Austria,ARM Ltd.,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+63,129084,USA,Electronic Frontier Foundation,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+64,112723,,Red Hat,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+65,20106,US,Parsons,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+66,110121,FI,INSIDE Secure,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+67,114375,USA,Cisco,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+68,114871,USA,Microsoft Corp.,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+69,109250,USA,Google,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+70,112866,France,Orange,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+71,23200,New Zealand,University of Auckland,draft-ietf-tls-encrypt-then-mac-03,Encrypt-then-MAC for Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-09-01,tls,RFC7366
+72,114871,USA,Microsoft Corp.,draft-ietf-tls-prohibiting-rc4-01,Prohibiting RC4 Cipher Suites,2015-02-01,tls,RFC7465
+73,111398,Switzerland,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
+74,109250,United States,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
+75,108049,,Mozilla,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+76,107131,,Mozilla,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+77,114911,,INRIA,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+78,109250,,Google,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+79,117244,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+80,117245,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+81,114911,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+82,109250,United States,Google,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+83,110810,United States,Microsoft Corp.,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+84,109250,,Google,draft-ietf-tls-padding-04,A Transport Layer Security (TLS) ClientHello Padding Extension,2015-10-01,tls,RFC7685
+85,109250,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+86,116442,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+87,111612,,Red Hat,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+88,106441,,Secworks Sweden AB,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+89,104569,,SJD AB,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+90,109250,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
+91,106986,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
+92,111398,Switzerland,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
+93,111614,United States of America,ACLU,draft-ietf-tls-negotiated-ff-dhe-10,Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS),2016-08-01,tls,RFC7919
+94,106863,Sweden,Stefan Santesson,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
+95,105857,Austria,ARM Ltd.,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
+96,106745,Israel,Check Point,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
+97,104569,,SJD AB,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
+98,116691,,Manuel Pégourié-Gonnard,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
+99,109330,Sweden,Ericsson,draft-ietf-tls-ecdhe-psk-aead-05,ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for TLS 1.2 and DTLS 1.2,2018-09-01,tls,RFC8442
+100,109969,Canada,Ericsson,draft-ietf-tls-ecdhe-psk-aead-05,ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for TLS 1.2 and DTLS 1.2,2018-09-01,tls,RFC8442
+101,12695,,"RTFM, Inc.",draft-ietf-tls-tls13-28,The Transport Layer Security (TLS) Protocol Version 1.3,2018-08-01,tls,RFC8446
+102,101208,,Tableau Software,draft-ietf-tls-iana-registry-updates-05,IANA Registry Updates for TLS and DTLS,2018-08-01,tls,RFC8447
+103,19483,,sn3rd,draft-ietf-tls-iana-registry-updates-05,IANA Registry Updates for TLS and DTLS,2018-08-01,tls,RFC8447
+104,107131,,Mozilla,draft-ietf-tls-tls13-vectors-07,Example Handshake Traces for TLS 1.3,2019-01-01,tls,RFC8448
+105,107131,,Mozilla,draft-ietf-tls-record-limit-03,Record Size Limit Extension for TLS,2018-08-01,tls,RFC8449
+106,122403,,Google,draft-ietf-tls-grease-04,Applying Generate Random Extensions And Sustain Extensibility (GREASE) to TLS Extensibility,2020-01-01,tls,RFC8701
+107,3147,U.S.A,Private Octopus Inc.,draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
+108,12695,U.S.A,"RTFM, Inc.",draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
+109,5376,USA,Vigil Security,draft-ietf-tls-tls13-cert-with-extern-psk-07,TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key,2020-03-01,tls,RFC8773
+110,122854,,Cloudflare,draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
+111,122855,,Google,draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
+112,104851,United States,Dell EMC,draft-ietf-tls-oldversions-deprecate-12,Deprecating TLS 1.0 and TLS 1.1,2021-03-01,tls,RFC8996
+113,19177,Ireland,Trinity College Dublin,draft-ietf-tls-oldversions-deprecate-12,Deprecating TLS 1.0 and TLS 1.1,2021-03-01,tls,RFC8996
+114,12695,,"RTFM, Inc.",draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+115,105857,,Arm Limited,draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+116,112245,,Arm Limited,draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+117,122547,,Bosch.IO GmbH,draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+118,12695,,"RTFM, Inc.",draft-ietf-tls-dtls13-43,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,2022-04-01,tls,RFC9147
+119,105857,,Arm Limited,draft-ietf-tls-dtls13-43,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,2022-04-01,tls,RFC9147
+120,106986,,Google,draft-ietf-tls-dtls13-43,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,2022-04-01,tls,RFC9147
+121,119325,United States of America,Apple,draft-ietf-tls-ticketrequests-07,TLS Ticket Requests,2022-04-01,tls,RFC9149
+122,119562,United States of America,Google,draft-ietf-tls-ticketrequests-07,TLS Ticket Requests,2022-04-01,tls,RFC9149
+123,121595,United States of America,Cloudflare,draft-ietf-tls-ticketrequests-07,TLS Ticket Requests,2022-04-01,tls,RFC9149
+124,122416,MU,cyberstorm.mu,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
+125,104851,United States of America,Center for Internet Security,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
+126,122854,,Cloudflare,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
+127,5376,,Vigil Security,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+128,124591,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+129,113142,,Ericsson,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+130,121595,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+131,122403,,Google,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
+132,121595,,Cloudflare,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
+133,122298,,Cloudflare,draft-ietf-tls-exported-authenticator-15,Exported Authenticators in TLS,2022-07-01,tls,RFC9261
+134,108049,,Cisco,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+135,122299,,Meta USA,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+136,122298,,Cloudflare,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+137,12695,,Mozilla,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+138,20051,,Christopher Allen,,The TLS Protocol Version 1.0,1999-01-01,tls,RFC2246
+139,20050,,Certicom,,The TLS Protocol Version 1.0,1999-01-01,tls,RFC2246
+140,20881,"Redwood City, CA 94063",Excite,draft-ietf-tls-kerb-cipher-suites-04,Addition of Kerberos Cipher Suites to Transport Layer Security (TLS),1999-10-01,tls,RFC2712
+141,20739,Issaquah WA 98027-5378,CyberSafe Corporation,draft-ietf-tls-kerb-cipher-suites-04,Addition of Kerberos Cipher Suites to Transport Layer Security (TLS),1999-10-01,tls,RFC2712
+142,19084,US,Rohit Khare,draft-ietf-tls-http-upgrade-05,Upgrading to TLS Within HTTP/1.1,2000-05-01,tls,RFC2817
+143,109569,US,Agranat Systems,draft-ietf-tls-http-upgrade-05,Upgrading to TLS Within HTTP/1.1,2000-05-01,tls,RFC2817
+144,12695,"East Palo Alto, CA 94303","RTFM, Inc.",draft-ietf-tls-https-04,HTTP Over TLS,2000-05-01,tls,RFC2818
+145,104729,United Kingdom,Skygate Technology,draft-ietf-tls-ciphersuite-06,Advanced Encryption Standard (AES) Ciphersuites for Transport Layer Security (TLS),2002-06-01,tls,RFC3268
+146,104696,,BCI,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+147,113292,,Transactionware,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+148,102968,,RSA Security,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+149,113293,,Independent Consultant,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+150,113294,,Vodafone,draft-ietf-tls-extensions-06,Transport Layer Security (TLS) Extensions,2003-06-01,tls,RFC3546
+151,110104,US,Verisign,draft-ietf-tls-compression-07,Transport Layer Security Protocol Compression Methods,2004-05-01,tls,RFC3749
+152,4999,,NTT Software Corporation,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
+153,112691,,Sony Computer Entertainment Inc.,draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
+154,108433,,Nippon Telegraph and Telephone Corporation (NTT),draft-ietf-tls-camellia-06,Addition of Camellia Cipher Suites to Transport Layer Security (TLS),2005-07-01,tls,RFC4132
+155,105857,Germany,Siemens,draft-ietf-tls-psk-09,Pre-Shared Key Ciphersuites for Transport Layer Security (TLS),2005-12-01,tls,RFC4279
+156,106164,Finland,Nokia Corporation,draft-ietf-tls-psk-09,Pre-Shared Key Ciphersuites for Transport Layer Security (TLS),2005-12-01,tls,RFC4279
+157,12695,,"RTFM, Inc.",draft-ietf-tls-rfc2246-bis-13,The Transport Layer Security (TLS) Protocol Version 1.1,2006-04-01,tls,RFC4346
+158,20050,,Independent,draft-ietf-tls-rfc2246-bis-13,The Transport Layer Security (TLS) Protocol Version 1.1,2006-04-01,tls,RFC4346
+159,113294,,Vodafone,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+160,104696,,BCI,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+161,113292,,Transactionware,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+162,102968,,RSA Security,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+163,113293,,Independent Consultant,draft-ietf-tls-rfc3546bis-02,Transport Layer Security (TLS) Extensions,2006-04-01,tls,RFC4366
+164,111398,DE,Ruhr-Uni Bochum,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+165,113205,US,Sun Microsystems,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+166,20529,US,Sun Labs,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+167,104696,NL,SafeNet,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+168,113206,US,Corriente,draft-ietf-tls-ecc-12,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS),2006-05-01,tls,RFC4492
+169,126593,USA,Intel Corporation,draft-ietf-tls-psk-null-03,Pre-Shared Key (PSK) Ciphersuites with NULL Encryption for Transport Layer Security (TLS),2007-01-01,tls,RFC4785
+170,107681,USA,Intel Corporation,draft-ietf-tls-psk-null-03,Pre-Shared Key (PSK) Ciphersuites with NULL Encryption for Transport Layer Security (TLS),2007-01-01,tls,RFC4785
+171,113280,,Independent,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+172,113281,,Independent,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+173,23231,,Thomas Wu,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+174,111612,,Independent,draft-ietf-tls-srp-14,Using the Secure Remote Password (SRP) Protocol for TLS Authentication,2007-11-01,tls,RFC5054
+175,111612,Greece,Independent,draft-ietf-tls-openpgp-keys-11,Using OpenPGP Keys for Transport Layer Security (TLS) Authentication,2007-11-01,tls,RFC5081
+176,20050,,Independent,draft-ietf-tls-rfc4346-bis-10,The Transport Layer Security (TLS) Protocol Version 1.2,2008-08-01,tls,RFC5246
+177,12695,,"RTFM, Inc.",draft-ietf-tls-rfc4346-bis-10,The Transport Layer Security (TLS) Protocol Version 1.2,2008-08-01,tls,RFC5246
+178,101208,USA,Cisco,draft-ietf-tls-rsa-aes-gcm-03,AES Galois Counter Mode (GCM) Cipher Suites for TLS,2008-08-01,tls,RFC5288
+179,103303,USA,Cisco,draft-ietf-tls-rsa-aes-gcm-03,AES Galois Counter Mode (GCM) Cipher Suites for TLS,2008-08-01,tls,RFC5288
+180,108706,USA,Cisco,draft-ietf-tls-rsa-aes-gcm-03,AES Galois Counter Mode (GCM) Cipher Suites for TLS,2008-08-01,tls,RFC5288
+181,12695,USA,"RTFM, Inc.",draft-ietf-tls-ecc-new-mac-07,TLS Elliptic Curve Cipher Suites with SHA-256/384 and AES Galois Counter Mode (GCM),2008-08-01,tls,RFC5289
+182,106164,Finland,Nokia Corporation,draft-ietf-tls-des-idea-02,DES and IDEA Cipher Suites for Transport Layer Security (TLS),2009-02-01,tls,RFC5469
+183,106750,France,CNRS/LIMOS Laboratory,draft-ietf-tls-psk-new-mac-aes-gcm-05,Pre-Shared Key Cipher Suites for TLS with SHA-256/384 and AES Galois Counter Mode,2009-03-01,tls,RFC5487
+184,106750,France,CNRS/LIMOS Laboratory,draft-ietf-tls-ecdhe-psk-05,ECDHE_PSK Cipher Suites for Transport Layer Security (TLS),2009-03-01,tls,RFC5489
+185,108646,France,INEOVATION,draft-ietf-tls-ecdhe-psk-05,ECDHE_PSK Cipher Suites for Transport Layer Security (TLS),2009-03-01,tls,RFC5489
+186,12695,USA,"RTFM, Inc.",draft-ietf-tls-extractor-07,Keying Material Exporters for Transport Layer Security (TLS),2010-03-01,tls,RFC5705
+187,110812,USA,Microsoft,draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+188,110810,USA,PhoneFactor,draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+189,110811,USA,PhoneFactor,draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+190,12695,USA,"RTFM, Inc.",draft-ietf-tls-renegotiation-03,Transport Layer Security (TLS) Renegotiation Indication Extension,2010-02-01,tls,RFC5746
+191,102391,"Milford, MA 01757 USA",Huawei,draft-ietf-tls-rfc4366-bis-12,Transport Layer Security (TLS) Extensions: Extension Definitions,2011-01-01,tls,RFC6066
+192,19483,USA,IECA,draft-ietf-tls-ssl2-must-not-04,Prohibiting Secure Sockets Layer (SSL) Version 2.0,2011-03-01,tls,RFC6176
+193,19790,USA,NIST,draft-ietf-tls-ssl2-must-not-04,Prohibiting Secure Sockets Layer (SSL) Version 2.0,2011-03-01,tls,RFC6176
+194,12695,"Palo Alto, CA 94303","RTFM, Inc.",draft-ietf-tls-rfc4347-bis-06,Datagram Transport Layer Security Version 1.2,2012-01-01,tls,RFC6347
+195,106986,,Google,draft-ietf-tls-rfc4347-bis-06,Datagram Transport Layer Security Version 1.2,2012-01-01,tls,RFC6347
+196,110350,USA,Michael Williams,draft-ietf-tls-dtls-heartbeat-04,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,2012-02-01,tls,RFC6520
+197,104695,DE,Muenster Univ. of Appl. Sciences,draft-ietf-tls-dtls-heartbeat-04,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,2012-02-01,tls,RFC6520
+198,109344,DE,Muenster Univ. of Appl. Sciences,draft-ietf-tls-dtls-heartbeat-04,Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) Heartbeat Extension,2012-02-01,tls,RFC6520
+199,114782,,Yngve N. Pettersen,draft-ietf-tls-multiple-cert-status-extension-08,The Transport Layer Security (TLS) Multiple Certificate Status Request Extension,2013-06-01,tls,RFC6961
+200,105857,Austria,ARM Ltd.,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+201,129084,USA,Electronic Frontier Foundation,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+202,112723,,Red Hat,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+203,20106,US,Parsons,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+204,110121,FI,INSIDE Secure,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
+205,114375,USA,Cisco,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+206,114871,USA,Microsoft Corp.,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+207,109250,USA,Google,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+208,112866,France,Orange,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+209,23200,New Zealand,University of Auckland,draft-ietf-tls-encrypt-then-mac-03,Encrypt-then-MAC for Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-09-01,tls,RFC7366
+210,114871,USA,Microsoft Corp.,draft-ietf-tls-prohibiting-rc4-01,Prohibiting RC4 Cipher Suites,2015-02-01,tls,RFC7465
+211,111398,Switzerland,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
+212,109250,United States,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
+213,108049,,Mozilla,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+214,107131,,Mozilla,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+215,114911,,INRIA,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+216,109250,,Google,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
+217,117244,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+218,117245,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+219,114911,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+220,109250,United States,Google,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+221,110810,United States,Microsoft Corp.,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+222,109250,,Google,draft-ietf-tls-padding-04,A Transport Layer Security (TLS) ClientHello Padding Extension,2015-10-01,tls,RFC7685
+223,109250,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+224,116442,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+225,111612,,Red Hat,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+226,106441,,Secworks Sweden AB,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+227,104569,,SJD AB,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
+228,109250,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
+229,106986,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
+230,111398,Switzerland,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
+231,111614,United States of America,ACLU,draft-ietf-tls-negotiated-ff-dhe-10,Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS),2016-08-01,tls,RFC7919
+232,106863,Sweden,Stefan Santesson,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
+233,105857,Austria,ARM Ltd.,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
+234,106745,Israel,Check Point,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
+235,104569,,SJD AB,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
+236,116691,,Manuel Pégourié-Gonnard,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
+237,109330,Sweden,Ericsson,draft-ietf-tls-ecdhe-psk-aead-05,ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for TLS 1.2 and DTLS 1.2,2018-09-01,tls,RFC8442
+238,109969,Canada,Ericsson,draft-ietf-tls-ecdhe-psk-aead-05,ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for TLS 1.2 and DTLS 1.2,2018-09-01,tls,RFC8442
+239,12695,,"RTFM, Inc.",draft-ietf-tls-tls13-28,The Transport Layer Security (TLS) Protocol Version 1.3,2018-08-01,tls,RFC8446
+240,101208,,Tableau Software,draft-ietf-tls-iana-registry-updates-05,IANA Registry Updates for TLS and DTLS,2018-08-01,tls,RFC8447
+241,19483,,sn3rd,draft-ietf-tls-iana-registry-updates-05,IANA Registry Updates for TLS and DTLS,2018-08-01,tls,RFC8447
+242,107131,,Mozilla,draft-ietf-tls-tls13-vectors-07,Example Handshake Traces for TLS 1.3,2019-01-01,tls,RFC8448
+243,107131,,Mozilla,draft-ietf-tls-record-limit-03,Record Size Limit Extension for TLS,2018-08-01,tls,RFC8449
+244,122403,,Google,draft-ietf-tls-grease-04,Applying Generate Random Extensions And Sustain Extensibility (GREASE) to TLS Extensibility,2020-01-01,tls,RFC8701
+245,3147,U.S.A,Private Octopus Inc.,draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
+246,12695,U.S.A,"RTFM, Inc.",draft-ietf-tls-sni-encryption-09,Issues and Requirements for Server Name Identification (SNI) Encryption in TLS,2020-07-01,tls,RFC8744
+247,5376,USA,Vigil Security,draft-ietf-tls-tls13-cert-with-extern-psk-07,TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key,2020-03-01,tls,RFC8773
+248,122854,,Cloudflare,draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
+249,122855,,Google,draft-ietf-tls-certificate-compression-10,TLS Certificate Compression,2020-12-01,tls,RFC8879
+250,104851,United States,Dell EMC,draft-ietf-tls-oldversions-deprecate-12,Deprecating TLS 1.0 and TLS 1.1,2021-03-01,tls,RFC8996
+251,19177,Ireland,Trinity College Dublin,draft-ietf-tls-oldversions-deprecate-12,Deprecating TLS 1.0 and TLS 1.1,2021-03-01,tls,RFC8996
+252,12695,,"RTFM, Inc.",draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+253,105857,,Arm Limited,draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+254,112245,,Arm Limited,draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+255,122547,,Bosch.IO GmbH,draft-ietf-tls-dtls-connection-id-13,Connection Identifier for DTLS 1.2,2022-03-01,tls,RFC9146
+256,12695,,"RTFM, Inc.",draft-ietf-tls-dtls13-43,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,2022-04-01,tls,RFC9147
+257,105857,,Arm Limited,draft-ietf-tls-dtls13-43,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,2022-04-01,tls,RFC9147
+258,106986,,Google,draft-ietf-tls-dtls13-43,The Datagram Transport Layer Security (DTLS) Protocol Version 1.3,2022-04-01,tls,RFC9147
+259,119325,United States of America,Apple,draft-ietf-tls-ticketrequests-07,TLS Ticket Requests,2022-04-01,tls,RFC9149
+260,119562,United States of America,Google,draft-ietf-tls-ticketrequests-07,TLS Ticket Requests,2022-04-01,tls,RFC9149
+261,121595,United States of America,Cloudflare,draft-ietf-tls-ticketrequests-07,TLS Ticket Requests,2022-04-01,tls,RFC9149
+262,122416,MU,cyberstorm.mu,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
+263,104851,United States of America,Center for Internet Security,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
+264,122854,,Cloudflare,draft-ietf-tls-md5-sha1-deprecate-09,Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2,2021-12-01,tls,RFC9155
+265,5376,,Vigil Security,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+266,124591,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+267,113142,,Ericsson,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+268,121595,,Cloudflare,draft-ietf-tls-external-psk-guidance-06,Guidance for External Pre-Shared Key (PSK) Usage in TLS,2022-07-01,tls,RFC9257
+269,122403,,Google,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
+270,121595,,Cloudflare,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
+271,122298,,Cloudflare,draft-ietf-tls-exported-authenticator-15,Exported Authenticators in TLS,2022-07-01,tls,RFC9261
+272,108049,,Cisco,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+273,122299,,Meta USA,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+274,122298,,Cloudflare,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+275,12695,,Mozilla,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345

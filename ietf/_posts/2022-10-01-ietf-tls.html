@@ -1,0 +1,31 @@
+---
+layout: post
+org: ietf
+org-full-name: Internet Engineering Task Force
+tags: encrypted-DNS
+title: "Transport Layer Security"
+excerpt: "This group aims to improve the applicability and suitability of the TLS family of protocols for use in emerging protocols and use cases."
+featured-img: assets/images/groups/ietf-tls.svg
+guess-whoexists: "ietf-tls"
+---
+<div class="wg-info">
+    <h1 class="title">Transport Layer Security |&nbsp;TLS</h1>
+    <div class="wg-description">
+        <p>TLS aims to improve the applicability and suitability of the TLS
+        family of protocols for use in other emerging protocols and use cases.
+        TLS and its relatives are widely relied on to implement cryptography on
+        the web and provide secure communication over a network, including in
+        the QUIC protocol. This group is currently working to encrypt the
+        ClientHello <a
+        href="https://www.cloudflare.com/en-gb/learning/ssl/what-is-sni/"
+        class="glossary">Server Name Indication (SNI)</a> , which the client
+        uses at the beginning of the TLS handshake to declare what service
+        (such as a website) the user is requesting. This declaration is
+        necessary for the server to decide which certificate to present. SNI,
+        however, makes it possible for censors or filters to block users from
+        accessing sensitive websites.</p>
+    </div>
+    <ul class="links">
+        <li><b>Standard under development:</b> <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-esni/">TLS Encrypted Client Hello</a> sets out a mechanism in TLS to encrypt a ClientHello message to potentially prevent malicious actors from reading the SNI and leaking information about which websites a user is trying to access.</li>
+    </ul>
+</div>

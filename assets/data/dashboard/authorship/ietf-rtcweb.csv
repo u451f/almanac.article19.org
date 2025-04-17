@@ -1,0 +1,69 @@
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,107923,Finland,Ericsson,draft-ietf-rtcweb-use-cases-and-requirements-16,Web Real-Time Communication Use Cases and Requirements,2015-03-01,rtcweb,RFC7478
+1,112329,Sweden,Ericsson,draft-ietf-rtcweb-use-cases-and-requirements-16,Web Real-Time Communication Use Cases and Requirements,2015-03-01,rtcweb,RFC7478
+2,112328,Sweden,Ericsson,draft-ietf-rtcweb-use-cases-and-requirements-16,Web Real-Time Communication Use Cases and Requirements,2015-03-01,rtcweb,RFC7478
+3,100038,United States,Cisco,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+4,111655,India,Cisco,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+5,112901,India,Cisco,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+6,107131,United States,Mozilla,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+7,117740,India,Ericsson,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+8,103769,United States,Mozilla,draft-ietf-rtcweb-video-06,WebRTC Video Processing and Codec Requirements,2016-03-01,rtcweb,RFC7742
+9,108744,United States,Mozilla,draft-ietf-rtcweb-audio-11,WebRTC Audio Codec and Processing Requirements,2016-05-01,rtcweb,RFC7874
+10,112593,United States,Plantronics,draft-ietf-rtcweb-audio-11,WebRTC Audio Codec and Processing Requirements,2016-05-01,rtcweb,RFC7874
+11,115002,France,Orange,draft-ietf-rtcweb-audio-codecs-for-interop-06,Additional WebRTC Audio Codecs for Interoperability,2016-05-01,rtcweb,RFC7875
+12,5778,Sweden,Google,draft-ietf-rtcweb-overview-19,Overview: Real-Time Protocols for Browser-Based Applications,2021-01-01,rtcweb,RFC8825
+13,12695,USA,"RTFM, Inc.",draft-ietf-rtcweb-security-12,Security Considerations for WebRTC,2021-01-01,rtcweb,RFC8826
+14,12695,USA,"RTFM, Inc.",draft-ietf-rtcweb-security-arch-20,WebRTC Security Architecture,2021-01-01,rtcweb,RFC8827
+15,112760,USA,Google,draft-ietf-rtcweb-ip-handling-12,WebRTC IP Address Handling Requirements,2021-01-01,rtcweb,RFC8828
+16,112760,USA,Google,draft-ietf-rtcweb-jsep-26,JavaScript Session Establishment Protocol (JSEP),2021-01-01,rtcweb,RFC8829
+17,105791,Canada,Cisco,draft-ietf-rtcweb-jsep-26,JavaScript Session Establishment Protocol (JSEP),2021-01-01,rtcweb,RFC8829
+18,12695,USA,Mozilla,draft-ietf-rtcweb-jsep-26,JavaScript Session Establishment Protocol (JSEP),2021-01-01,rtcweb,RFC8829
+19,110575,US,Mozilla,draft-ietf-rtcweb-data-channel-13,WebRTC Data Channels,2021-01-01,rtcweb,RFC8831
+20,107491,FI,Ericsson,draft-ietf-rtcweb-data-channel-13,WebRTC Data Channels,2021-01-01,rtcweb,RFC8831
+21,104695,DE,Muenster Univ. of Appl. Sciences,draft-ietf-rtcweb-data-channel-13,WebRTC Data Channels,2021-01-01,rtcweb,RFC8831
+22,110575,US,Mozilla,draft-ietf-rtcweb-data-protocol-09,WebRTC Data Channel Establishment Protocol,2021-01-01,rtcweb,RFC8832
+23,107491,FI,Ericsson,draft-ietf-rtcweb-data-protocol-09,WebRTC Data Channel Establishment Protocol,2021-01-01,rtcweb,RFC8832
+24,104695,DE,Muenster Univ. of Appl. Sciences,draft-ietf-rtcweb-data-protocol-09,WebRTC Data Channel Establishment Protocol,2021-01-01,rtcweb,RFC8832
+25,107131,US,Mozilla,draft-ietf-rtcweb-alpn-04,Application-Layer Protocol Negotiation (ALPN) for WebRTC,2021-01-01,rtcweb,RFC8833
+26,20209,United Kingdom,University of Glasgow,draft-ietf-rtcweb-rtp-usage-26,Media Transport and Use of RTP in WebRTC,2021-01-01,rtcweb,RFC8834
+27,11842,Finland,Aalto University,draft-ietf-rtcweb-rtp-usage-26,Media Transport and Use of RTP in WebRTC,2021-01-01,rtcweb,RFC8834
+28,104294,Sweden,Ericsson,draft-ietf-rtcweb-rtp-usage-26,Media Transport and Use of RTP in WebRTC,2021-01-01,rtcweb,RFC8834
+29,5778,,Google,draft-ietf-rtcweb-transports-17,Transports for WebRTC,2021-01-01,rtcweb,RFC8835
+30,112760,USA,Google,draft-ietf-rtcweb-fec-10,WebRTC Forward Error Correction Requirements,2021-01-01,rtcweb,RFC8854
+31,112760,,Justin Uberti,draft-uberti-rtcweb-rfc8829bis-05,JavaScript Session Establishment Protocol (JSEP),2024-04-01,rtcweb,RFC9429
+32,105791,Canada,Cisco,draft-uberti-rtcweb-rfc8829bis-05,JavaScript Session Establishment Protocol (JSEP),2024-04-01,rtcweb,RFC9429
+33,12695,,Mozilla,draft-uberti-rtcweb-rfc8829bis-05,JavaScript Session Establishment Protocol (JSEP),2024-04-01,rtcweb,RFC9429
+34,107923,Finland,Ericsson,draft-ietf-rtcweb-use-cases-and-requirements-16,Web Real-Time Communication Use Cases and Requirements,2015-03-01,rtcweb,RFC7478
+35,112329,Sweden,Ericsson,draft-ietf-rtcweb-use-cases-and-requirements-16,Web Real-Time Communication Use Cases and Requirements,2015-03-01,rtcweb,RFC7478
+36,112328,Sweden,Ericsson,draft-ietf-rtcweb-use-cases-and-requirements-16,Web Real-Time Communication Use Cases and Requirements,2015-03-01,rtcweb,RFC7478
+37,100038,United States,Cisco,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+38,111655,India,Cisco,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+39,112901,India,Cisco,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+40,107131,United States,Mozilla,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+41,117740,India,Ericsson,draft-ietf-rtcweb-stun-consent-freshness-16,Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness,2015-10-01,rtcweb,RFC7675
+42,103769,United States,Mozilla,draft-ietf-rtcweb-video-06,WebRTC Video Processing and Codec Requirements,2016-03-01,rtcweb,RFC7742
+43,108744,United States,Mozilla,draft-ietf-rtcweb-audio-11,WebRTC Audio Codec and Processing Requirements,2016-05-01,rtcweb,RFC7874
+44,112593,United States,Plantronics,draft-ietf-rtcweb-audio-11,WebRTC Audio Codec and Processing Requirements,2016-05-01,rtcweb,RFC7874
+45,115002,France,Orange,draft-ietf-rtcweb-audio-codecs-for-interop-06,Additional WebRTC Audio Codecs for Interoperability,2016-05-01,rtcweb,RFC7875
+46,5778,Sweden,Google,draft-ietf-rtcweb-overview-19,Overview: Real-Time Protocols for Browser-Based Applications,2021-01-01,rtcweb,RFC8825
+47,12695,USA,"RTFM, Inc.",draft-ietf-rtcweb-security-12,Security Considerations for WebRTC,2021-01-01,rtcweb,RFC8826
+48,12695,USA,"RTFM, Inc.",draft-ietf-rtcweb-security-arch-20,WebRTC Security Architecture,2021-01-01,rtcweb,RFC8827
+49,112760,USA,Google,draft-ietf-rtcweb-ip-handling-12,WebRTC IP Address Handling Requirements,2021-01-01,rtcweb,RFC8828
+50,112760,USA,Google,draft-ietf-rtcweb-jsep-26,JavaScript Session Establishment Protocol (JSEP),2021-01-01,rtcweb,RFC8829
+51,105791,Canada,Cisco,draft-ietf-rtcweb-jsep-26,JavaScript Session Establishment Protocol (JSEP),2021-01-01,rtcweb,RFC8829
+52,12695,USA,Mozilla,draft-ietf-rtcweb-jsep-26,JavaScript Session Establishment Protocol (JSEP),2021-01-01,rtcweb,RFC8829
+53,110575,US,Mozilla,draft-ietf-rtcweb-data-channel-13,WebRTC Data Channels,2021-01-01,rtcweb,RFC8831
+54,107491,FI,Ericsson,draft-ietf-rtcweb-data-channel-13,WebRTC Data Channels,2021-01-01,rtcweb,RFC8831
+55,104695,DE,Muenster Univ. of Appl. Sciences,draft-ietf-rtcweb-data-channel-13,WebRTC Data Channels,2021-01-01,rtcweb,RFC8831
+56,110575,US,Mozilla,draft-ietf-rtcweb-data-protocol-09,WebRTC Data Channel Establishment Protocol,2021-01-01,rtcweb,RFC8832
+57,107491,FI,Ericsson,draft-ietf-rtcweb-data-protocol-09,WebRTC Data Channel Establishment Protocol,2021-01-01,rtcweb,RFC8832
+58,104695,DE,Muenster Univ. of Appl. Sciences,draft-ietf-rtcweb-data-protocol-09,WebRTC Data Channel Establishment Protocol,2021-01-01,rtcweb,RFC8832
+59,107131,US,Mozilla,draft-ietf-rtcweb-alpn-04,Application-Layer Protocol Negotiation (ALPN) for WebRTC,2021-01-01,rtcweb,RFC8833
+60,20209,United Kingdom,University of Glasgow,draft-ietf-rtcweb-rtp-usage-26,Media Transport and Use of RTP in WebRTC,2021-01-01,rtcweb,RFC8834
+61,11842,Finland,Aalto University,draft-ietf-rtcweb-rtp-usage-26,Media Transport and Use of RTP in WebRTC,2021-01-01,rtcweb,RFC8834
+62,104294,Sweden,Ericsson,draft-ietf-rtcweb-rtp-usage-26,Media Transport and Use of RTP in WebRTC,2021-01-01,rtcweb,RFC8834
+63,5778,,Google,draft-ietf-rtcweb-transports-17,Transports for WebRTC,2021-01-01,rtcweb,RFC8835
+64,112760,USA,Google,draft-ietf-rtcweb-fec-10,WebRTC Forward Error Correction Requirements,2021-01-01,rtcweb,RFC8854
+65,112760,,Justin Uberti,draft-uberti-rtcweb-rfc8829bis-05,JavaScript Session Establishment Protocol (JSEP),2024-04-01,rtcweb,RFC9429
+66,105791,Canada,Cisco,draft-uberti-rtcweb-rfc8829bis-05,JavaScript Session Establishment Protocol (JSEP),2024-04-01,rtcweb,RFC9429
+67,12695,,Mozilla,draft-uberti-rtcweb-rfc8829bis-05,JavaScript Session Establishment Protocol (JSEP),2024-04-01,rtcweb,RFC9429

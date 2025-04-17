@@ -1,0 +1,60 @@
+{% include header.html %}
+<main class="section" id="content">
+    <div class="section-content grid" id="intro">
+        {% include site-header.html %}
+        <div id="main-text">
+            {% include breadcrumbs.html %}
+            <h2 class="title"><span id="wgname"><!-- WG Name --></span></h2>
+            {{ content }}
+            <p class="screen-reader-text">The following data visualisations depict 1. the chairing periods of a given actor, 2. the amount of emails sent by different actors, 3. the amount of published standards related to different actors in a working group. The raw data is available <a href="https://github.com/u451f/almanac.article19.org/tree/master/assets/data/dashboard/">here</a>.</p>
+        </div>
+        <div class="post"><!-- guess-who-dashboard.js fills in -->
+            <img id="wglogo" class="img-wg" src="{{ site.url }}/assets/images/groups/" title="" alt="" />
+        </div>
+    </div>
+
+    <div class="section-content grid" id="guess-who-actions">
+        <div>
+            <label for="wg">Select a working group:</label>
+            <select id="wg" class="select" aria-label="Upon selecting a different working group, visualisations below will change.">
+            {% assign items = site.data.guess_who_dashboard_working_groups %}
+                {% for item in items %}
+                    {% if item.slug %}
+                    <option {% if page.url == item.slug %} selected{% endif %} value="{{ item.slug }}">
+                    {% else %}
+                    <option disabled>
+                    {% endif %}
+                        {{ item.name }}
+                    </option>
+                    {% if item.wg %}
+                        {% for entry in item.wg %}
+                        <option {% if page.url == entry.slug %} selected{% endif %} value="{{ entry.slug }}">
+                            -- {{ item.name }}: {{ entry.name }}
+                        </option>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+
+    <div id="guess-who-display">
+        <div class="section-content">
+            <h3 class="title">Who leads? Chairing periods</h3>
+            <div id="plotlyDLeadership" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <span class="spacer"></span>
+
+        <div class="section-content">
+            <h3 class="title">Who speaks? Amount of communication</h3>
+            <div id="plotlyDInfluence" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <span class="spacer"></span>
+
+        <div class="section-content">
+            <h3 class="title">Who publishes? Number of published standards</h3>
+            <div id="plotlyDAuthorship" class="plotlyRender" aria-label="Data visualisation"><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+    </div>
+</main>
+{% include footer.html %}

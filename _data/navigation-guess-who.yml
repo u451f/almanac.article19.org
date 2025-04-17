@@ -1,0 +1,10 @@
+- name: "Guess who!"
+  link: /guess-who.html
+- name: "… Graphs"
+  link: /guess-who-graphs.html
+- name: "… About"
+  link: /guess-who-about.html
+- name: "… How to use"
+  link: /guess-who-howto.html
+- name: "→ Almanac"
+  link: /index.html

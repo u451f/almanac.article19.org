@@ -1,0 +1,415 @@
+,id,country,affiliation,draft,title,submission_date,wg,docid
+0,6291,Netherlands,RIPE NCC,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+1,10054,"Herndon, VA 22070-5100",Network Solutions,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+2,113210,"McLean, Virginia 22102",SAIC,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+3,5234,"Bainbridge Island, WA US-98110",Verio,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+4,110721,"Redwood City, CA 94063",Nominum,draft-ietf-dnsop-hardie-shared-root-server-07,Distributing Authoritative Name Servers via Shared Unicast Addresses,2002-04-01,dnsop,RFC3258
+5,105347,Sweden,Autonomica,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
+6,105328,USA,SUN Microsystems,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
+7,9181,Japan,JPRS,draft-ietf-dnsop-misbehavior-against-aaaa-02,Common Misbehavior Against DNS Queries for IPv6 Addresses,2005-05-01,dnsop,RFC4074
+8,21639,Japan,Toshiba,draft-ietf-dnsop-misbehavior-against-aaaa-02,Common Misbehavior Against DNS Queries for IPv6 Addresses,2005-05-01,dnsop,RFC4074
+9,111292,US,ETRI/University of Minnesota,draft-ietf-dnsop-ipv6-dns-configuration-06,IPv6 Host Configuration of DNS Server Information Approaches,2006-02-01,dnsop,RFC4339
+10,105328,USA,Comcast,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
+11,105347,Sweden,Autonomica,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
+12,105452,Finland,CSC/FUNET,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
+13,117929,The Netherlands,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
+14,114831,,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
+15,105539,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+16,119102,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+17,9004,US,ICANN,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
+18,18009,US,Internet Systems Consortium,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
+19,107479,BR,Registro.br,draft-ietf-dnsop-reflectors-are-evil-06,Preventing Use of Recursive Nameservers in Reflector Attacks,2008-10-01,dnsop,RFC5358
+20,123932,US,ISC,draft-ietf-dnsop-reflectors-are-evil-06,Preventing Use of Recursive Nameservers in Reflector Attacks,2008-10-01,dnsop,RFC5358
+21,117099,US,"Sparta, Inc.",draft-ietf-dnsop-name-server-management-reqs-05,Requirements for Management of Name Servers for the DNS,2011-05-01,dnsop,RFC6168
+22,18149,US,ISC,draft-ietf-dnsop-default-local-zones-15,Locally Served DNS Zones,2011-07-01,dnsop,RFC6303
+23,107646,Canada,NRC-CNRC,draft-ietf-dnsop-as112-ops-09,AS112 Nameserver Operations,2011-07-01,dnsop,RFC6304
+24,105113,US,ICANN,draft-ietf-dnsop-as112-ops-09,AS112 Nameserver Operations,2011-07-01,dnsop,RFC6304
+25,107646,Canada,NRC-CNRC,draft-ietf-dnsop-as112-under-attack-help-help-06,I'm Being Attacked by PRISONER.IANA.ORG!,2011-07-01,dnsop,RFC6305
+26,105113,US,ICANN,draft-ietf-dnsop-as112-under-attack-help-help-06,I'm Being Attacked by PRISONER.IANA.ORG!,2011-07-01,dnsop,RFC6305
+27,117929,The Netherlands,NLnet Labs,draft-ietf-dnsop-rfc4641bis-13,"DNSSEC Operational Practices, Version 2",2012-12-01,dnsop,RFC6781
+28,118743,The Netherlands,NLnet Labs,draft-ietf-dnsop-rfc4641bis-13,"DNSSEC Operational Practices, Version 2",2012-12-01,dnsop,RFC6781
+29,113085,The Netherlands,SIDN Labs,draft-ietf-dnsop-rfc4641bis-13,"DNSSEC Operational Practices, Version 2",2012-12-01,dnsop,RFC6781
+30,110332,Sweden,Kirei AB,draft-ietf-dnsop-dnssec-dps-framework-11,A Framework for DNSSEC Policies and DNSSEC Practice Statements,2013-01-01,dnsop,RFC6841
+31,110753,USA,ICANN,draft-ietf-dnsop-dnssec-dps-framework-11,A Framework for DNSSEC Policies and DNSSEC Practice Statements,2013-01-01,dnsop,RFC6841
+32,110333,Sweden,Anne-Marie Eklund-Lowinder,draft-ietf-dnsop-dnssec-dps-framework-11,A Framework for DNSSEC Policies and DNSSEC Practice Statements,2013-01-01,dnsop,RFC6841
+33,111656,US,Google,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
+34,3760,US,OGUD Consulting,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
+35,109517,United Kingdom,George Barwood,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
+36,117099,US,Parsons,draft-ietf-dnsop-child-syncronization-07,Child-to-Parent Synchronization in DNS,2015-03-01,dnsop,RFC7477
+37,105113,Canada,Dyn,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
+38,107646,,William F. Maton,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
+39,105113,Canada,Dyn,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+40,111656,United States,Google,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+41,17141,,APNIC,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+42,108176,,"Twitter, Inc.",draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+43,109661,United States,ISC,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+44,111213,United Kingdom,Sinodun,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+45,105347,Sweden,Netnod,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+46,118743,United States,Dyn,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+47,116459,United States,Comcast,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+48,111656,United States,Google,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+49,107154,United States,Comcast,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+50,110404,,Nominum,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+51,109685,United Kingdom,Nominet,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+52,116464,,The Tor Project,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
+53,119023,,Meta USA,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
+54,111656,,Google,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
+55,10083,,ICANN,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
+56,109178,United States,Dyn,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719
+57,9036,Japan,JPRS,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719
+58,10083,,ICANN,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719
+59,111213,United Kingdom,Sinodun,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+60,114505,United States,Verisign,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+61,20778,United States,Verisign,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+62,112423,United Kingdom,Sinodun,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+63,109059,United States,ISC,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+64,18149,United States,ISC,draft-ietf-dnsop-rfc6598-rfc6303-05,Adding 100.64.0.0/10 Prefixes to the IPv4 Locally-Served DNS Zones Registry,2016-05-01,dnsop,RFC7793
+65,107725,France,AFNIC,draft-ietf-dnsop-qname-minimisation-09,DNS Query Name Minimisation to Improve Privacy,2016-03-01,dnsop,RFC7816
+66,112723,,Red Hat,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+67,105113,Canada,Dyn,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+68,112423,United Kingdom,Sinodun,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+69,109059,United States,ISC,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+70,111019,United States,Google,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+71,111013,United Kingdom,Google,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+72,120845,United States,Akamai Technologies,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+73,111656,United States,Google,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+74,102391,United States,Huawei,draft-ietf-dnsop-cookies-10,Domain Name System (DNS) Cookies,2016-05-01,dnsop,RFC7873
+75,18149,United States,ISC,draft-ietf-dnsop-cookies-10,Domain Name System (DNS) Cookies,2016-05-01,dnsop,RFC7873
+76,112723,,Red Hat,draft-ietf-dnsop-edns-chain-query-07,CHAIN Query Requests in DNS,2016-06-01,dnsop,RFC7901
+77,107725,France,AFNIC,draft-ietf-dnsop-nxdomain-cut-05,NXDOMAIN: There Really Is Nothing Underneath,2016-11-01,dnsop,RFC8020
+78,113696,United States of America,Verisign,draft-ietf-dnsop-nxdomain-cut-05,NXDOMAIN: There Really Is Nothing Underneath,2016-11-01,dnsop,RFC8020
+79,117099,United States of America,USC/ISI,draft-ietf-dnsop-dnssec-roadblock-avoidance-05,DNSSEC Roadblock Avoidance,2016-11-01,dnsop,RFC8027
+80,106997,United States of America,Parsons,draft-ietf-dnsop-dnssec-roadblock-avoidance-05,DNSSEC Roadblock Avoidance,2016-11-01,dnsop,RFC8027
+81,3760,United States of America,Cloudflare,draft-ietf-dnsop-dnssec-roadblock-avoidance-05,DNSSEC Roadblock Avoidance,2016-11-01,dnsop,RFC8027
+82,3760,,Cloudflare,draft-ietf-dnsop-maintain-ds-06,Managing DS Records from the Parent via CDS/CDNSKEY,2017-03-01,dnsop,RFC8078
+83,112723,,Red Hat,draft-ietf-dnsop-maintain-ds-06,Managing DS Records from the Parent via CDS/CDNSKEY,2017-03-01,dnsop,RFC8078
+84,107363,Germany,DENIC eG,draft-ietf-dnsop-resolver-priming-11,Initializing a DNS Resolver with Priming Queries,2017-03-01,dnsop,RFC8109
+85,10083,,ICANN,draft-ietf-dnsop-resolver-priming-11,Initializing a DNS Resolver with Priming Queries,2017-03-01,dnsop,RFC8109
+86,119102,,ICANN,draft-ietf-dnsop-resolver-priming-11,Initializing a DNS Resolver with Priming Queries,2017-03-01,dnsop,RFC8109
+87,20778,United States of America,Verisign,draft-ietf-dnsop-edns-key-tag-05,Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC),2017-04-01,dnsop,RFC8145
+88,111656,United States of America,Google,draft-ietf-dnsop-edns-key-tag-05,Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC),2017-04-01,dnsop,RFC8145
+89,10083,,ICANN,draft-ietf-dnsop-edns-key-tag-05,Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC),2017-04-01,dnsop,RFC8145
+90,9036,Japan,JPRS,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
+91,108587,Japan,Keio/WIDE,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
+92,111656,US,Google,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
+93,20356,United States of America,Nominum,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+94,2348,,Ralph Droms,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+95,111656,US,Google,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+96,105113,Canada,Afilias,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+97,119014,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+98,3760,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+99,109888,USA,ISC,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+100,109059,USA,Internet Systems Consortium,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+101,109533,USA,Apple,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+102,111213,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+103,112423,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+104,5981,USA,Unaffiliated,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+105,20356,USA,Nibbhaya Consulting,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+106,10083,,ICANN,draft-ietf-dnsop-terminology-bis-14,DNS Terminology,2019-01-01,dnsop,RFC8499
+107,109178,,Andrew Sullivan,draft-ietf-dnsop-terminology-bis-14,DNS Terminology,2019-01-01,dnsop,RFC8499
+108,9036,Japan,"Japan Registry Services Co., Ltd.",draft-ietf-dnsop-terminology-bis-14,DNS Terminology,2019-01-01,dnsop,RFC8499
+109,110307,USA,Retevia,draft-ietf-dnsop-isp-ip6rdns-07,Reverse DNS in IPv6 for Internet Service Providers,2018-11-01,dnsop,RFC8501
+110,106925,,APNIC,draft-ietf-dnsop-kskroll-sentinel-17,A Root Key Trust Anchor Sentinel for DNSSEC,2018-12-01,dnsop,RFC8509
+111,123932,,APNIC,draft-ietf-dnsop-kskroll-sentinel-17,A Root Key Trust Anchor Sentinel for DNSSEC,2018-12-01,dnsop,RFC8509
+112,111656,,Google,draft-ietf-dnsop-kskroll-sentinel-17,A Root Key Trust Anchor Sentinel for DNSSEC,2018-12-01,dnsop,RFC8509
+113,100927,USA,Brandenburg InternetWorking,draft-ietf-dnsop-attrleaf-16,"Scoped Interpretation of DNS Resource Records through ""Underscored"" Naming of Attribute Leaves",2019-03-01,dnsop,RFC8552
+114,100927,USA,Brandenburg InternetWorking,draft-ietf-dnsop-attrleaf-fix-07,DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node Names,2019-03-01,dnsop,RFC8553
+115,111213,United Kingdom,Sinodun,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+116,122598,United Kingdom,Sinodun,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+117,112423,United Kingdom,Sinodun,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+118,108822,Los Angeles  CA 90094-2536,ICANN,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+119,122599,Los Angeles  CA 90094-2536,ICANN,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+120,112723,CA,Red Hat,draft-ietf-dnsop-algorithm-update-10,Algorithm Implementation Requirements and Usage Guidance for DNSSEC,2019-06-01,dnsop,RFC8624
+121,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-algorithm-update-10,Algorithm Implementation Requirements and Usage Guidance for DNSSEC,2019-06-01,dnsop,RFC8624
+122,118743,Netherlands,ISC,draft-ietf-dnsop-obsolete-dlv-02,Moving DNSSEC Lookaside Validation (DLV) to Historic Status,2020-03-01,dnsop,RFC8749
+123,117461,USA,ISC,draft-ietf-dnsop-obsolete-dlv-02,Moving DNSSEC Lookaside Validation (DLV) to Historic Status,2020-03-01,dnsop,RFC8749
+124,120845,,Oracle,draft-ietf-dnsop-serve-stale-10,Serving Stale Data to Improve DNS Resiliency,2020-03-01,dnsop,RFC8767
+125,111656,USA,Google,draft-ietf-dnsop-serve-stale-10,Serving Stale Data to Improve DNS Resiliency,2020-03-01,dnsop,RFC8767
+126,124587,,Google,draft-ietf-dnsop-serve-stale-10,Serving Stale Data to Improve DNS Resiliency,2020-03-01,dnsop,RFC8767
+127,111656,,Google,draft-ietf-dnsop-7706bis-12,Running a Root Server Local to a Resolver,2020-06-01,dnsop,RFC8806
+128,10083,,ICANN,draft-ietf-dnsop-7706bis-12,Running a Root Server Local to a Resolver,2020-06-01,dnsop,RFC8806
+129,113696,,Salesforce,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+130,124423,,Salesforce,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+131,111213,,Sinodun,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+132,119150,,NS1,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+133,106193,,Verisign,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+134,18149,US,Internet Systems Consortium,draft-ietf-dnsop-no-response-issue-23,A Common Operational Problem in DNS Servers: Failure to Communicate,2020-09-01,dnsop,RFC8906
+135,109059,US,Internet Systems Consortium,draft-ietf-dnsop-no-response-issue-23,A Common Operational Problem in DNS Servers: Failure to Communicate,2020-09-01,dnsop,RFC8906
+136,111656,US,Google,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+137,109888,US,ISC,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+138,105278,,ICANN,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+139,120845,US,Oracle,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+140,117099,US,USC/ISI,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+141,106670,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+142,109661,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+143,4092,United States of America,Farsight,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+144,102391,United States of America,Huawei,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+145,3760,United States of America,Cloudflare,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+146,21689,United States of America,Akamai Technologies,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+147,20778,,Verisign,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+148,105539,,Verisign,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+149,124094,,Amazon,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+150,111656,,Google,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+151,117099,,USC/ISI,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+152,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+153,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+154,102391,USA,Huawei,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+155,18149,USA,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+156,122981,Netherlands,PowerDNS,draft-ietf-dnsop-nsec-ttl-05,NSEC and NSEC3: TTLs and Aggressive Use,2021-07-01,dnsop,RFC9077
+157,107983,Czech Republic,CZ.NIC,draft-ietf-dnsop-iana-class-type-yang-05,YANG Types for DNS Classes and Resource Record Types,2021-09-01,dnsop,RFC9108
+158,127881,Czech Republic,Internet Systems Consortium,draft-ietf-dnsop-iana-class-type-yang-05,YANG Types for DNS Classes and Resource Record Types,2021-09-01,dnsop,RFC9108
+159,107725,France,AFNIC,draft-ietf-dnsop-rfc7816bis-11,DNS Query Name Minimisation to Improve Privacy,2021-11-01,dnsop,RFC9156
+160,10083,,ICANN,draft-ietf-dnsop-rfc7816bis-11,DNS Query Name Minimisation to Improve Privacy,2021-11-01,dnsop,RFC9156
+161,123651,,NLnet Labs,draft-ietf-dnsop-rfc7816bis-11,DNS Query Name Minimisation to Improve Privacy,2021-11-01,dnsop,RFC9156
+162,10083,,ICANN,draft-ietf-dnsop-dnssec-iana-cons-05,Revised IANA Considerations for DNSSEC,2021-12-01,dnsop,RFC9157
+163,111176,US,DataPlane.org,draft-ietf-dnsop-dns-tcp-requirements-15,DNS Transport over TCP - Operational Requirements,2022-03-01,dnsop,RFC9210
+164,20778,US,Verisign,draft-ietf-dnsop-dns-tcp-requirements-15,DNS Transport over TCP - Operational Requirements,2022-03-01,dnsop,RFC9210
+165,117099,,USC/ISI,draft-ietf-dnsop-nsec3-guidance-10,Guidance for NSEC3 Parameter Settings,2022-08-01,dnsop,RFC9276
+166,115440,,"Bloomberg, L.P.",draft-ietf-dnsop-nsec3-guidance-10,Guidance for NSEC3 Parameter Settings,2022-08-01,dnsop,RFC9276
+167,10083,,ICANN,draft-ietf-dnsop-dnssec-bcp-06,DNS Security Extensions (DNSSEC),2023-02-01,dnsop,RFC9364
+168,122981,Netherlands,PowerDNS,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+169,126585,CZ,CZ.NIC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+170,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+171,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+172,127983,Germany,deSEC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+173,130071,Netherlands,Kees Monshouwer,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+174,131914,,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+175,117988,,Google,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
+176,116439,,Akamai Technologies,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
+177,113616,,Akamai Technologies,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
+178,18149,,ISC,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+179,113696,,Salesforce,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+180,112723,,Aiven,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+181,20778,,Verisign,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+182,111656,US,Google,draft-ietf-dnsop-alt-tld-25,The .alt Special-Use Top-Level Domain,2023-09-01,dnsop,RFC9476
+183,10083,,ICANN,draft-ietf-dnsop-alt-tld-25,The .alt Special-Use Top-Level Domain,2023-09-01,dnsop,RFC9476
+184,10083,,ICANN,draft-ietf-dnsop-rfc8499bis-10,DNS Terminology,2024-03-01,dnsop,RFC9499
+185,9036,,"Japan Registry Services Co., Ltd.",draft-ietf-dnsop-rfc8499bis-10,DNS Terminology,2024-03-01,dnsop,RFC9499
+186,20778,US,Verisign,draft-ietf-dnsop-caching-resolution-failures-08,Negative Caching of DNS Resolution Failures,2023-12-01,dnsop,RFC9520
+187,129218,US,Verisign,draft-ietf-dnsop-caching-resolution-failures-08,Negative Caching of DNS Resolution Failures,2023-12-01,dnsop,RFC9520
+188,108109,US,Verisign,draft-ietf-dnsop-caching-resolution-failures-08,Negative Caching of DNS Resolution Failures,2023-12-01,dnsop,RFC9520
+189,105278,,ICANN,draft-ietf-dnsop-dns-error-reporting-08,DNS Error Reporting,2024-04-01,dnsop,RFC9567
+190,119102,,ICANN,draft-ietf-dnsop-dns-error-reporting-08,DNS Error Reporting,2024-04-01,dnsop,RFC9567
+191,107363,Germany,DENIC eG,draft-ietf-dnsop-rfc8109bis-07,Initializing a DNS Resolver with Priming Queries,2025-02-01,dnsop,RFC9609
+192,119102,,ICANN,draft-ietf-dnsop-rfc8109bis-07,Initializing a DNS Resolver with Priming Queries,2025-02-01,dnsop,RFC9609
+193,10083,,ICANN,draft-ietf-dnsop-rfc8109bis-07,Initializing a DNS Resolver with Priming Queries,2025-02-01,dnsop,RFC9609
+194,127983,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
+195,128828,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
+196,109059,US,Internet Systems Consortium,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
+197,105113,NL,Cloudflare,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
+198,113690,CL,NIC Chile,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
+199,125942,US,DigitalOcean,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
+200,20778,US,Verisign,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
+201,9036,Japan,"Japan Registry Services Co., Ltd.",draft-ietf-dnsop-avoid-fragmentation-20,IP Fragmentation Avoidance in DNS over UDP,2025-01-01,dnsop,RFC9715
+202,4092,United States of America,AWS Security,draft-ietf-dnsop-avoid-fragmentation-20,IP Fragmentation Avoidance in DNS over UDP,2025-01-01,dnsop,RFC9715
+203,105113,Netherlands,Cloudflare,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+204,108401,,Kirei AB,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+205,113514,,Independent,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+206,10083,,ICANN,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+207,6291,Netherlands,RIPE NCC,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+208,10054,"Herndon, VA 22070-5100",Network Solutions,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+209,113210,"McLean, Virginia 22102",SAIC,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+210,5234,"Bainbridge Island, WA US-98110",Verio,draft-ietf-dnsop-root-opreq-05,Root Name Server Operational Requirements,2000-06-01,dnsop,RFC2870
+211,110721,"Redwood City, CA 94063",Nominum,draft-ietf-dnsop-hardie-shared-root-server-07,Distributing Authoritative Name Servers via Shared Unicast Addresses,2002-04-01,dnsop,RFC3258
+212,105347,Sweden,Autonomica,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
+213,105328,USA,SUN Microsystems,draft-ietf-dnsop-ipv6-transport-guidelines-02,DNS IPv6 Transport Operational Guidelines,2004-09-01,dnsop,RFC3901
+214,9181,Japan,JPRS,draft-ietf-dnsop-misbehavior-against-aaaa-02,Common Misbehavior Against DNS Queries for IPv6 Addresses,2005-05-01,dnsop,RFC4074
+215,21639,Japan,Toshiba,draft-ietf-dnsop-misbehavior-against-aaaa-02,Common Misbehavior Against DNS Queries for IPv6 Addresses,2005-05-01,dnsop,RFC4074
+216,111292,US,ETRI/University of Minnesota,draft-ietf-dnsop-ipv6-dns-configuration-06,IPv6 Host Configuration of DNS Server Information Approaches,2006-02-01,dnsop,RFC4339
+217,105328,USA,Comcast,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
+218,105347,Sweden,Autonomica,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
+219,105452,Finland,CSC/FUNET,draft-ietf-dnsop-ipv6-dns-issues-12,Operational Considerations and Issues with IPv6 DNS,2006-04-01,dnsop,RFC4472
+220,117929,The Netherlands,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
+221,114831,,NLnet Labs,draft-ietf-dnsop-dnssec-operational-practices-08,DNSSEC Operational Practices,2006-09-01,dnsop,RFC4641
+222,105539,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+223,119102,USA,Verisign,draft-ietf-dnsop-bad-dns-res-06,Observed DNS Resolution Misbehavior,2006-10-01,dnsop,RFC4697
+224,9004,US,ICANN,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
+225,18009,US,Internet Systems Consortium,draft-ietf-dnsop-serverid-08,Requirements for a Mechanism Identifying a Name Server Instance,2007-06-01,dnsop,RFC4892
+226,107479,BR,Registro.br,draft-ietf-dnsop-reflectors-are-evil-06,Preventing Use of Recursive Nameservers in Reflector Attacks,2008-10-01,dnsop,RFC5358
+227,123932,US,ISC,draft-ietf-dnsop-reflectors-are-evil-06,Preventing Use of Recursive Nameservers in Reflector Attacks,2008-10-01,dnsop,RFC5358
+228,117099,US,"Sparta, Inc.",draft-ietf-dnsop-name-server-management-reqs-05,Requirements for Management of Name Servers for the DNS,2011-05-01,dnsop,RFC6168
+229,18149,US,ISC,draft-ietf-dnsop-default-local-zones-15,Locally Served DNS Zones,2011-07-01,dnsop,RFC6303
+230,107646,Canada,NRC-CNRC,draft-ietf-dnsop-as112-ops-09,AS112 Nameserver Operations,2011-07-01,dnsop,RFC6304
+231,105113,US,ICANN,draft-ietf-dnsop-as112-ops-09,AS112 Nameserver Operations,2011-07-01,dnsop,RFC6304
+232,107646,Canada,NRC-CNRC,draft-ietf-dnsop-as112-under-attack-help-help-06,I'm Being Attacked by PRISONER.IANA.ORG!,2011-07-01,dnsop,RFC6305
+233,105113,US,ICANN,draft-ietf-dnsop-as112-under-attack-help-help-06,I'm Being Attacked by PRISONER.IANA.ORG!,2011-07-01,dnsop,RFC6305
+234,117929,The Netherlands,NLnet Labs,draft-ietf-dnsop-rfc4641bis-13,"DNSSEC Operational Practices, Version 2",2012-12-01,dnsop,RFC6781
+235,118743,The Netherlands,NLnet Labs,draft-ietf-dnsop-rfc4641bis-13,"DNSSEC Operational Practices, Version 2",2012-12-01,dnsop,RFC6781
+236,113085,The Netherlands,SIDN Labs,draft-ietf-dnsop-rfc4641bis-13,"DNSSEC Operational Practices, Version 2",2012-12-01,dnsop,RFC6781
+237,110332,Sweden,Kirei AB,draft-ietf-dnsop-dnssec-dps-framework-11,A Framework for DNSSEC Policies and DNSSEC Practice Statements,2013-01-01,dnsop,RFC6841
+238,110753,USA,ICANN,draft-ietf-dnsop-dnssec-dps-framework-11,A Framework for DNSSEC Policies and DNSSEC Practice Statements,2013-01-01,dnsop,RFC6841
+239,110333,Sweden,Anne-Marie Eklund-Lowinder,draft-ietf-dnsop-dnssec-dps-framework-11,A Framework for DNSSEC Policies and DNSSEC Practice Statements,2013-01-01,dnsop,RFC6841
+240,111656,US,Google,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
+241,3760,US,OGUD Consulting,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
+242,109517,United Kingdom,George Barwood,draft-ietf-dnsop-delegation-trust-maintainance-14,Automating DNSSEC Delegation Trust Maintenance,2014-09-01,dnsop,RFC7344
+243,117099,US,Parsons,draft-ietf-dnsop-child-syncronization-07,Child-to-Parent Synchronization in DNS,2015-03-01,dnsop,RFC7477
+244,105113,Canada,Dyn,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
+245,107646,,William F. Maton,draft-ietf-dnsop-rfc6304bis-06,AS112 Nameserver Operations,2015-05-01,dnsop,RFC7534
+246,105113,Canada,Dyn,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+247,111656,United States,Google,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+248,17141,,APNIC,draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+249,108176,,"Twitter, Inc.",draft-ietf-dnsop-as112-dname-06,AS112 Redirection Using DNAME,2015-05-01,dnsop,RFC7535
+250,109661,United States,ISC,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+251,111213,United Kingdom,Sinodun,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+252,105347,Sweden,Netnod,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+253,118743,United States,Dyn,draft-ietf-dnsop-dnssec-key-timing-06,DNSSEC Key Rollover Timing Considerations,2015-10-01,dnsop,RFC7583
+254,116459,United States,Comcast,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+255,111656,United States,Google,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+256,107154,United States,Comcast,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+257,110404,,Nominum,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+258,109685,United Kingdom,Nominet,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
+259,116464,,The Tor Project,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
+260,119023,,Meta USA,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
+261,111656,,Google,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
+262,10083,,ICANN,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
+263,109178,United States,Dyn,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719
+264,9036,Japan,JPRS,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719
+265,10083,,ICANN,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719
+266,111213,United Kingdom,Sinodun,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+267,114505,United States,Verisign,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+268,20778,United States,Verisign,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+269,112423,United Kingdom,Sinodun,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+270,109059,United States,ISC,draft-ietf-dnsop-5966bis-06,DNS Transport over TCP - Implementation Requirements,2016-03-01,dnsop,RFC7766
+271,18149,United States,ISC,draft-ietf-dnsop-rfc6598-rfc6303-05,Adding 100.64.0.0/10 Prefixes to the IPv4 Locally-Served DNS Zones Registry,2016-05-01,dnsop,RFC7793
+272,107725,France,AFNIC,draft-ietf-dnsop-qname-minimisation-09,DNS Query Name Minimisation to Improve Privacy,2016-03-01,dnsop,RFC7816
+273,112723,,Red Hat,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+274,105113,Canada,Dyn,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+275,112423,United Kingdom,Sinodun,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+276,109059,United States,ISC,draft-ietf-dnsop-edns-tcp-keepalive-06,The edns-tcp-keepalive EDNS0 Option,2016-04-01,dnsop,RFC7828
+277,111019,United States,Google,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+278,111013,United Kingdom,Google,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+279,120845,United States,Akamai Technologies,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+280,111656,United States,Google,draft-ietf-dnsop-edns-client-subnet-08,Client Subnet in DNS Queries,2016-05-01,dnsop,RFC7871
+281,102391,United States,Huawei,draft-ietf-dnsop-cookies-10,Domain Name System (DNS) Cookies,2016-05-01,dnsop,RFC7873
+282,18149,United States,ISC,draft-ietf-dnsop-cookies-10,Domain Name System (DNS) Cookies,2016-05-01,dnsop,RFC7873
+283,112723,,Red Hat,draft-ietf-dnsop-edns-chain-query-07,CHAIN Query Requests in DNS,2016-06-01,dnsop,RFC7901
+284,107725,France,AFNIC,draft-ietf-dnsop-nxdomain-cut-05,NXDOMAIN: There Really Is Nothing Underneath,2016-11-01,dnsop,RFC8020
+285,113696,United States of America,Verisign,draft-ietf-dnsop-nxdomain-cut-05,NXDOMAIN: There Really Is Nothing Underneath,2016-11-01,dnsop,RFC8020
+286,117099,United States of America,USC/ISI,draft-ietf-dnsop-dnssec-roadblock-avoidance-05,DNSSEC Roadblock Avoidance,2016-11-01,dnsop,RFC8027
+287,106997,United States of America,Parsons,draft-ietf-dnsop-dnssec-roadblock-avoidance-05,DNSSEC Roadblock Avoidance,2016-11-01,dnsop,RFC8027
+288,3760,United States of America,Cloudflare,draft-ietf-dnsop-dnssec-roadblock-avoidance-05,DNSSEC Roadblock Avoidance,2016-11-01,dnsop,RFC8027
+289,3760,,Cloudflare,draft-ietf-dnsop-maintain-ds-06,Managing DS Records from the Parent via CDS/CDNSKEY,2017-03-01,dnsop,RFC8078
+290,112723,,Red Hat,draft-ietf-dnsop-maintain-ds-06,Managing DS Records from the Parent via CDS/CDNSKEY,2017-03-01,dnsop,RFC8078
+291,107363,Germany,DENIC eG,draft-ietf-dnsop-resolver-priming-11,Initializing a DNS Resolver with Priming Queries,2017-03-01,dnsop,RFC8109
+292,10083,,ICANN,draft-ietf-dnsop-resolver-priming-11,Initializing a DNS Resolver with Priming Queries,2017-03-01,dnsop,RFC8109
+293,119102,,ICANN,draft-ietf-dnsop-resolver-priming-11,Initializing a DNS Resolver with Priming Queries,2017-03-01,dnsop,RFC8109
+294,20778,United States of America,Verisign,draft-ietf-dnsop-edns-key-tag-05,Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC),2017-04-01,dnsop,RFC8145
+295,111656,United States of America,Google,draft-ietf-dnsop-edns-key-tag-05,Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC),2017-04-01,dnsop,RFC8145
+296,10083,,ICANN,draft-ietf-dnsop-edns-key-tag-05,Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC),2017-04-01,dnsop,RFC8145
+297,9036,Japan,JPRS,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
+298,108587,Japan,Keio/WIDE,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
+299,111656,US,Google,draft-ietf-dnsop-nsec-aggressiveuse-10,Aggressive Use of DNSSEC-Validated Cache,2017-07-01,dnsop,RFC8198
+300,20356,United States of America,Nominum,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+301,2348,,Ralph Droms,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+302,111656,US,Google,draft-ietf-dnsop-sutld-ps-08,Special-Use Domain Names Problem Statement,2017-10-01,dnsop,RFC8244
+303,105113,Canada,Afilias,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+304,119014,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+305,3760,,Cloudflare,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+306,109888,USA,ISC,draft-ietf-dnsop-refuse-any-07,Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY,2019-01-01,dnsop,RFC8482
+307,109059,USA,Internet Systems Consortium,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+308,109533,USA,Apple,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+309,111213,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+310,112423,United Kingdom,Sinodun,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+311,5981,USA,Unaffiliated,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+312,20356,USA,Nibbhaya Consulting,draft-ietf-dnsop-session-signal-20,DNS Stateful Operations,2019-03-01,dnsop,RFC8490
+313,10083,,ICANN,draft-ietf-dnsop-terminology-bis-14,DNS Terminology,2019-01-01,dnsop,RFC8499
+314,109178,,Andrew Sullivan,draft-ietf-dnsop-terminology-bis-14,DNS Terminology,2019-01-01,dnsop,RFC8499
+315,9036,Japan,"Japan Registry Services Co., Ltd.",draft-ietf-dnsop-terminology-bis-14,DNS Terminology,2019-01-01,dnsop,RFC8499
+316,110307,USA,Retevia,draft-ietf-dnsop-isp-ip6rdns-07,Reverse DNS in IPv6 for Internet Service Providers,2018-11-01,dnsop,RFC8501
+317,106925,,APNIC,draft-ietf-dnsop-kskroll-sentinel-17,A Root Key Trust Anchor Sentinel for DNSSEC,2018-12-01,dnsop,RFC8509
+318,123932,,APNIC,draft-ietf-dnsop-kskroll-sentinel-17,A Root Key Trust Anchor Sentinel for DNSSEC,2018-12-01,dnsop,RFC8509
+319,111656,,Google,draft-ietf-dnsop-kskroll-sentinel-17,A Root Key Trust Anchor Sentinel for DNSSEC,2018-12-01,dnsop,RFC8509
+320,100927,USA,Brandenburg InternetWorking,draft-ietf-dnsop-attrleaf-16,"Scoped Interpretation of DNS Resource Records through ""Underscored"" Naming of Attribute Leaves",2019-03-01,dnsop,RFC8552
+321,100927,USA,Brandenburg InternetWorking,draft-ietf-dnsop-attrleaf-fix-07,DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node Names,2019-03-01,dnsop,RFC8553
+322,111213,United Kingdom,Sinodun,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+323,122598,United Kingdom,Sinodun,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+324,112423,United Kingdom,Sinodun,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+325,108822,Los Angeles  CA 90094-2536,ICANN,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+326,122599,Los Angeles  CA 90094-2536,ICANN,draft-ietf-dnsop-dns-capture-format-10,Compacted-DNS (C-DNS): A Format for DNS Packet Capture,2019-09-01,dnsop,RFC8618
+327,112723,CA,Red Hat,draft-ietf-dnsop-algorithm-update-10,Algorithm Implementation Requirements and Usage Guidance for DNSSEC,2019-06-01,dnsop,RFC8624
+328,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-algorithm-update-10,Algorithm Implementation Requirements and Usage Guidance for DNSSEC,2019-06-01,dnsop,RFC8624
+329,118743,Netherlands,ISC,draft-ietf-dnsop-obsolete-dlv-02,Moving DNSSEC Lookaside Validation (DLV) to Historic Status,2020-03-01,dnsop,RFC8749
+330,117461,USA,ISC,draft-ietf-dnsop-obsolete-dlv-02,Moving DNSSEC Lookaside Validation (DLV) to Historic Status,2020-03-01,dnsop,RFC8749
+331,120845,,Oracle,draft-ietf-dnsop-serve-stale-10,Serving Stale Data to Improve DNS Resiliency,2020-03-01,dnsop,RFC8767
+332,111656,USA,Google,draft-ietf-dnsop-serve-stale-10,Serving Stale Data to Improve DNS Resiliency,2020-03-01,dnsop,RFC8767
+333,124587,,Google,draft-ietf-dnsop-serve-stale-10,Serving Stale Data to Improve DNS Resiliency,2020-03-01,dnsop,RFC8767
+334,111656,,Google,draft-ietf-dnsop-7706bis-12,Running a Root Server Local to a Resolver,2020-06-01,dnsop,RFC8806
+335,10083,,ICANN,draft-ietf-dnsop-7706bis-12,Running a Root Server Local to a Resolver,2020-06-01,dnsop,RFC8806
+336,113696,,Salesforce,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+337,124423,,Salesforce,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+338,111213,,Sinodun,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+339,119150,,NS1,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+340,106193,,Verisign,draft-ietf-dnsop-multi-provider-dnssec-05,Multi-Signer DNSSEC Models,2020-09-01,dnsop,RFC8901
+341,18149,US,Internet Systems Consortium,draft-ietf-dnsop-no-response-issue-23,A Common Operational Problem in DNS Servers: Failure to Communicate,2020-09-01,dnsop,RFC8906
+342,109059,US,Internet Systems Consortium,draft-ietf-dnsop-no-response-issue-23,A Common Operational Problem in DNS Servers: Failure to Communicate,2020-09-01,dnsop,RFC8906
+343,111656,US,Google,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+344,109888,US,ISC,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+345,105278,,ICANN,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+346,120845,US,Oracle,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+347,117099,US,USC/ISI,draft-ietf-dnsop-extended-error-16,Extended DNS Errors,2020-10-01,dnsop,RFC8914
+348,106670,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+349,109661,United States of America,ISC,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+350,4092,United States of America,Farsight,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+351,102391,United States of America,Huawei,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+352,3760,United States of America,Cloudflare,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+353,21689,United States of America,Akamai Technologies,draft-ietf-dnsop-rfc2845bis-09,Secret Key Transaction Authentication for DNS (TSIG),2020-11-01,dnsop,RFC8945
+354,20778,,Verisign,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+355,105539,,Verisign,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+356,124094,,Amazon,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+357,111656,,Google,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+358,117099,,USC/ISI,draft-ietf-dnsop-dns-zone-digest-14,Message Digest for DNS Zones,2021-02-01,dnsop,RFC8976
+359,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+360,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+361,102391,USA,Huawei,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+362,18149,USA,Internet Systems Consortium,draft-ietf-dnsop-server-cookies-05,Interoperable Domain Name System (DNS) Server Cookies,2021-04-01,dnsop,RFC9018
+363,122981,Netherlands,PowerDNS,draft-ietf-dnsop-nsec-ttl-05,NSEC and NSEC3: TTLs and Aggressive Use,2021-07-01,dnsop,RFC9077
+364,107983,Czech Republic,CZ.NIC,draft-ietf-dnsop-iana-class-type-yang-05,YANG Types for DNS Classes and Resource Record Types,2021-09-01,dnsop,RFC9108
+365,127881,Czech Republic,Internet Systems Consortium,draft-ietf-dnsop-iana-class-type-yang-05,YANG Types for DNS Classes and Resource Record Types,2021-09-01,dnsop,RFC9108
+366,107725,France,AFNIC,draft-ietf-dnsop-rfc7816bis-11,DNS Query Name Minimisation to Improve Privacy,2021-11-01,dnsop,RFC9156
+367,10083,,ICANN,draft-ietf-dnsop-rfc7816bis-11,DNS Query Name Minimisation to Improve Privacy,2021-11-01,dnsop,RFC9156
+368,123651,,NLnet Labs,draft-ietf-dnsop-rfc7816bis-11,DNS Query Name Minimisation to Improve Privacy,2021-11-01,dnsop,RFC9156
+369,10083,,ICANN,draft-ietf-dnsop-dnssec-iana-cons-05,Revised IANA Considerations for DNSSEC,2021-12-01,dnsop,RFC9157
+370,111176,US,DataPlane.org,draft-ietf-dnsop-dns-tcp-requirements-15,DNS Transport over TCP - Operational Requirements,2022-03-01,dnsop,RFC9210
+371,20778,US,Verisign,draft-ietf-dnsop-dns-tcp-requirements-15,DNS Transport over TCP - Operational Requirements,2022-03-01,dnsop,RFC9210
+372,117099,,USC/ISI,draft-ietf-dnsop-nsec3-guidance-10,Guidance for NSEC3 Parameter Settings,2022-08-01,dnsop,RFC9276
+373,115440,,"Bloomberg, L.P.",draft-ietf-dnsop-nsec3-guidance-10,Guidance for NSEC3 Parameter Settings,2022-08-01,dnsop,RFC9276
+374,10083,,ICANN,draft-ietf-dnsop-dnssec-bcp-06,DNS Security Extensions (DNSSEC),2023-02-01,dnsop,RFC9364
+375,122981,Netherlands,PowerDNS,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+376,126585,CZ,CZ.NIC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+377,110414,CZ,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+378,119936,Netherlands,NLnet Labs,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+379,127983,Germany,deSEC,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+380,130071,Netherlands,Kees Monshouwer,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+381,131914,,Internet Systems Consortium,draft-ietf-dnsop-dns-catalog-zones-09,DNS Catalog Zones,2023-07-01,dnsop,RFC9432
+382,117988,,Google,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
+383,116439,,Akamai Technologies,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
+384,113616,,Akamai Technologies,draft-ietf-dnsop-svcb-https-12,Service Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records),2023-11-01,dnsop,RFC9460
+385,18149,,ISC,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+386,113696,,Salesforce,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+387,112723,,Aiven,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+388,20778,,Verisign,draft-ietf-dnsop-glue-is-not-optional-09,DNS Glue Requirements in Referral Responses,2023-09-01,dnsop,RFC9471
+389,111656,US,Google,draft-ietf-dnsop-alt-tld-25,The .alt Special-Use Top-Level Domain,2023-09-01,dnsop,RFC9476
+390,10083,,ICANN,draft-ietf-dnsop-alt-tld-25,The .alt Special-Use Top-Level Domain,2023-09-01,dnsop,RFC9476
+391,20778,US,Verisign,draft-ietf-dnsop-caching-resolution-failures-08,Negative Caching of DNS Resolution Failures,2023-12-01,dnsop,RFC9520
+392,129218,US,Verisign,draft-ietf-dnsop-caching-resolution-failures-08,Negative Caching of DNS Resolution Failures,2023-12-01,dnsop,RFC9520
+393,108109,US,Verisign,draft-ietf-dnsop-caching-resolution-failures-08,Negative Caching of DNS Resolution Failures,2023-12-01,dnsop,RFC9520
+394,10083,,ICANN,draft-ietf-dnsop-rfc8499bis-10,DNS Terminology,2024-03-01,dnsop,RFC9499
+395,9036,,"Japan Registry Services Co., Ltd.",draft-ietf-dnsop-rfc8499bis-10,DNS Terminology,2024-03-01,dnsop,RFC9499
+396,105278,,ICANN,draft-ietf-dnsop-dns-error-reporting-08,DNS Error Reporting,2024-04-01,dnsop,RFC9567
+397,119102,,ICANN,draft-ietf-dnsop-dns-error-reporting-08,DNS Error Reporting,2024-04-01,dnsop,RFC9567
+398,127983,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
+399,128828,Germany,deSEC,draft-ietf-dnsop-dnssec-bootstrapping-11,Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator,2024-07-01,dnsop,RFC9615
+400,109059,US,Internet Systems Consortium,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
+401,105113,NL,Cloudflare,draft-ietf-dnsop-qdcount-is-one-04,"In the DNS, QDCOUNT Is (Usually) One",2024-07-01,dnsop,RFC9619
+402,113690,CL,NIC Chile,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
+403,125942,US,DigitalOcean,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
+404,20778,US,Verisign,draft-ietf-dnsop-zoneversion-11,The DNS Zone Version (ZONEVERSION) Option,2024-10-01,dnsop,RFC9660
+405,105113,Netherlands,Cloudflare,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+406,108401,,Kirei AB,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+407,113514,,Independent,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+408,10083,,ICANN,draft-ietf-dnsop-rfc7958bis-06,DNSSEC Trust Anchor Publication for the Root Zone,2025-01-01,dnsop,RFC9718
+409,9036,Japan,"Japan Registry Services Co., Ltd.",draft-ietf-dnsop-avoid-fragmentation-20,IP Fragmentation Avoidance in DNS over UDP,2025-01-01,dnsop,RFC9715
+410,4092,United States of America,AWS Security,draft-ietf-dnsop-avoid-fragmentation-20,IP Fragmentation Avoidance in DNS over UDP,2025-01-01,dnsop,RFC9715
+411,107363,Germany,DENIC eG,draft-ietf-dnsop-rfc8109bis-07,Initializing a DNS Resolver with Priming Queries,2025-02-01,dnsop,RFC9609
+412,119102,,ICANN,draft-ietf-dnsop-rfc8109bis-07,Initializing a DNS Resolver with Priming Queries,2025-02-01,dnsop,RFC9609
+413,10083,,ICANN,draft-ietf-dnsop-rfc8109bis-07,Initializing a DNS Resolver with Priming Queries,2025-02-01,dnsop,RFC9609
