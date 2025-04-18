@@ -35,7 +35,7 @@
         {% if page.layout == "org" %}
         <span class="switcher"><a href="{{ site.url }}/guess-who.html" title="Look up who leads, speaks, and publishes most in this SDO">Who dominates this SDO?</a></span>
         {% else %}
-        <span class="switcher"><a href="{{ site.url }}/guess-who-dashboard.html" title="Look up who leads, speaks, and publishes most in this group">Who dominates this group?</a></span>
+        <span class="switcher"><a href="{{ site.url }}/guess-who-graphs.html" title="Look up who leads, speaks, and publishes most in this group">Who dominates this group?</a></span>
         {% endif %}
     {% endif %}
     </div>
@@ -52,7 +52,8 @@
         {% endif %}
     {% endif %}
     {% if page.loadjsoverview %}
-        <span class="switcher gw"><a href="{{ site.url }}/guess-who-dashboard.html" title="Look up who leads, speaks, and publishes in this SDO's working groups">Investigate dashboard</a></span>
+        <span class="switcher gw"><a href="{{ site.url }}/orgs/" id="almanaclink" title="Look up this SDO in the Almanac">Look up in Almanac</a></span>
+        <span class="switcher switcher2nd gw"><a href="{{ site.url }}/guess-who-graphs.html" title="Look up who leads, speaks, and publishes in this SDO's working groups">Look into these graphs</a></span>
     {% endif %}
     {% if page.loadjsdashboard %}
         <span class="switcher"><a href="{{ site.url }}/group/" class="button" id="almanaclink" title="Look up this working group in the almanac">Look up in Almanac</a></span>

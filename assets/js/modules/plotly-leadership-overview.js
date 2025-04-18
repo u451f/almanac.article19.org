@@ -47,7 +47,6 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 fillcolor: getColorCode(affiliation)
             })
         );
-        //console.log(traces);
 
         var data = traces;
         var layout = {
@@ -83,6 +82,8 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false) {
                 tickwidth: 1,
                 tickcolor: '#fff',
                 zerolinecolor: "#eee",
+                autorange: false,
+                range:[0, 4]
             },
             font: {
                 family: "Roboto, sans-serif",
