@@ -9,7 +9,7 @@
 7,116439,,Akamai Technologies,draft-ietf-quic-http-34,HTTP/3,2022-06-01,quic,RFC9114
 8,122958,,Netflix,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
 9,116439,,Akamai Technologies,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
-10,124381,,Meta USA,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
+10,124381,,Meta,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
 11,119325,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 12,124846,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 13,119562,United States of America,Google,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
@@ -31,7 +31,7 @@
 29,116439,,Akamai Technologies,draft-ietf-quic-http-34,HTTP/3,2022-06-01,quic,RFC9114
 30,122958,,Netflix,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
 31,116439,,Akamai Technologies,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
-32,124381,,Meta USA,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
+32,124381,,Meta,draft-ietf-quic-qpack-21,QPACK: Field Compression for HTTP/3,2022-06-01,quic,RFC9204
 33,119325,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 34,124846,United States of America,Apple,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
 35,119562,United States of America,Google,draft-ietf-quic-datagram-10,An Unreliable Datagram Extension to QUIC,2022-03-01,quic,RFC9221
