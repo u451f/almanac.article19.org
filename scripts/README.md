@@ -27,11 +27,18 @@ in a directory indicated by `affiliations_path` in `config.py`.
 This `{working group acronym}` should match the identifier of the working group _mailing list_.
 (In some cases, that is different from the identifier of the working group.)
 
+### corrections data
+
+For the 'corrections' data -- key/value pairs for which the key is to be swapped to the
+value, as a last pass on data cleaning -- should be provided in a .csv file.
+
+This is indicated in `config.py`.
+
 ## configuring the data processing scripts
 
 `config.py` contains:
  - lists of working groups to pull data from
- - paths to local raw data
+ - paths to local raw data and corrections data
  - paths to populate the almanac
 
 ## Influence
@@ -44,11 +51,9 @@ Running this script, in the bigbang environment, will pull all the IETF/IRTF and
 
 `python collect_almanac_data.py`
 
-
 ### Influence
 
-`influence-mbox-affiliation.py`
-
+`python influence-mbox-affiliation.py`
 
 ## IETF / IRTF:
 
@@ -59,7 +64,6 @@ Running this script, in the bigbang environment, will pull all the IETF/IRTF and
 ### Leadership - TODO 
 
 `python leadership_datatracker_affiliations.py`
-
 
 ## W3C:
 
