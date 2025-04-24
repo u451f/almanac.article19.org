@@ -79,6 +79,7 @@ mail_archives_path = "../../archives/"
 
 # a general dictionary of corrections for names and affilations.
 
-corrections_df = pd.read_csv("catnip-corrections-data.csv", index_col="to-replace")
+corrections_file_name = "catnip-corrections-data.csv"
+corrections_df = pd.read_csv(corrections_file_name, index_col="to-replace")
 corrections = corrections_df['replace-with'].to_dict()
 

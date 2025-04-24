@@ -110,8 +110,11 @@ for g in working_groups:
     rows.extend(ag)
     
     df = pd.DataFrame(rows)
-    #print(df)
-    #df["affiliation"] = df["affiliation"].map(lambda x: config.corrections.get(x, x))
+    
+    if "affiliation" in df:
+        print(f"correcting affiliations of {g}")
+        df["affiliation"] = df["affiliation"].map(lambda x: config.corrections.get(x, x))
+    
     dfs.append(df)
 
     if df.size > 0:

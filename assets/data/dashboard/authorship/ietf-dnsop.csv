@@ -52,7 +52,7 @@
 50,110404,,Nominum,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
 51,109685,United Kingdom,Nominet,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
 52,116464,,The Tor Project,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
-53,119023,,Meta USA,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
+53,119023,,Meta,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
 54,111656,,Google,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
 55,10083,,ICANN,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
 56,109178,United States,Dyn,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719
@@ -259,7 +259,7 @@
 257,110404,,Nominum,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
 258,109685,United Kingdom,Nominet,draft-ietf-dnsop-negative-trust-anchors-13,Definition and Use of DNSSEC Negative Trust Anchors,2015-09-01,dnsop,RFC7646
 259,116464,,The Tor Project,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
-260,119023,,Meta USA,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
+260,119023,,Meta,draft-ietf-dnsop-onion-tld-01,"The "".onion"" Special-Use Domain Name",2015-10-01,dnsop,RFC7686
 261,111656,,Google,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
 262,10083,,ICANN,draft-ietf-dnsop-root-loopback-05,Decreasing Access Time to Root Servers by Running One on Loopback,2015-11-01,dnsop,RFC7706
 263,109178,United States,Dyn,draft-ietf-dnsop-dns-terminology-05,DNS Terminology,2015-12-01,dnsop,RFC7719

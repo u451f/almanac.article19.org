@@ -67,11 +67,11 @@
 65,20106,US,Parsons,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
 66,110121,FI,INSIDE Secure,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
 67,114375,USA,Cisco,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
-68,114871,USA,Microsoft Corp.,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+68,114871,USA,Microsoft,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
 69,109250,USA,Google,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
 70,112866,France,Orange,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
 71,23200,New Zealand,University of Auckland,draft-ietf-tls-encrypt-then-mac-03,Encrypt-then-MAC for Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-09-01,tls,RFC7366
-72,114871,USA,Microsoft Corp.,draft-ietf-tls-prohibiting-rc4-01,Prohibiting RC4 Cipher Suites,2015-02-01,tls,RFC7465
+72,114871,USA,Microsoft,draft-ietf-tls-prohibiting-rc4-01,Prohibiting RC4 Cipher Suites,2015-02-01,tls,RFC7465
 73,111398,Switzerland,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
 74,109250,United States,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
 75,108049,,Mozilla,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
@@ -82,7 +82,7 @@
 80,117245,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
 81,114911,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
 82,109250,United States,Google,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
-83,110810,United States,Microsoft Corp.,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+83,110810,United States,Microsoft,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
 84,109250,,Google,draft-ietf-tls-padding-04,A Transport Layer Security (TLS) ClientHello Padding Extension,2015-10-01,tls,RFC7685
 85,109250,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
 86,116442,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
@@ -92,7 +92,7 @@
 90,109250,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
 91,106986,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
 92,111398,Switzerland,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
-93,111614,United States of America,ACLU,draft-ietf-tls-negotiated-ff-dhe-10,Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS),2016-08-01,tls,RFC7919
+93,111614,United States of America,American Civil Liberties Union,draft-ietf-tls-negotiated-ff-dhe-10,Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS),2016-08-01,tls,RFC7919
 94,106863,Sweden,Stefan Santesson,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
 95,105857,Austria,ARM Ltd.,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
 96,106745,Israel,Check Point,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
@@ -134,7 +134,7 @@
 132,121595,,Cloudflare,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
 133,122298,,Cloudflare,draft-ietf-tls-exported-authenticator-15,Exported Authenticators in TLS,2022-07-01,tls,RFC9261
 134,108049,,Cisco,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
-135,122299,,Meta USA,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+135,122299,,Meta,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
 136,122298,,Cloudflare,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
 137,12695,,Mozilla,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
 138,20051,,Christopher Allen,,The TLS Protocol Version 1.0,1999-01-01,tls,RFC2246
@@ -205,11 +205,11 @@
 203,20106,US,Parsons,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
 204,110121,FI,INSIDE Secure,draft-ietf-tls-oob-pubkey-11,Using Raw Public Keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-06-01,tls,RFC7250
 205,114375,USA,Cisco,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
-206,114871,USA,Microsoft Corp.,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
+206,114871,USA,Microsoft,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
 207,109250,USA,Google,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
 208,112866,France,Orange,draft-ietf-tls-applayerprotoneg-05,Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension,2014-07-01,tls,RFC7301
 209,23200,New Zealand,University of Auckland,draft-ietf-tls-encrypt-then-mac-03,Encrypt-then-MAC for Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS),2014-09-01,tls,RFC7366
-210,114871,USA,Microsoft Corp.,draft-ietf-tls-prohibiting-rc4-01,Prohibiting RC4 Cipher Suites,2015-02-01,tls,RFC7465
+210,114871,USA,Microsoft,draft-ietf-tls-prohibiting-rc4-01,Prohibiting RC4 Cipher Suites,2015-02-01,tls,RFC7465
 211,111398,Switzerland,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
 212,109250,United States,Google,draft-ietf-tls-downgrade-scsv-05,TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol Downgrade Attacks,2015-04-01,tls,RFC7507
 213,108049,,Mozilla,draft-ietf-tls-sslv3-diediedie-03,Deprecating Secure Sockets Layer Version 3.0,2015-06-01,tls,RFC7568
@@ -220,7 +220,7 @@
 218,117245,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
 219,114911,France,Inria Paris-Rocquencourt,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
 220,109250,United States,Google,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
-221,110810,United States,Microsoft Corp.,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
+221,110810,United States,Microsoft,draft-ietf-tls-session-hash-06,Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension,2015-09-01,tls,RFC7627
 222,109250,,Google,draft-ietf-tls-padding-04,A Transport Layer Security (TLS) ClientHello Padding Extension,2015-10-01,tls,RFC7685
 223,109250,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
 224,116442,,Google,draft-ietf-tls-chacha20-poly1305-04,ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS),2016-06-01,tls,RFC7905
@@ -230,7 +230,7 @@
 228,109250,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
 229,106986,United States of America,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
 230,111398,Switzerland,Google,draft-ietf-tls-falsestart-02,Transport Layer Security (TLS) False Start,2016-08-01,tls,RFC7918
-231,111614,United States of America,ACLU,draft-ietf-tls-negotiated-ff-dhe-10,Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS),2016-08-01,tls,RFC7919
+231,111614,United States of America,American Civil Liberties Union,draft-ietf-tls-negotiated-ff-dhe-10,Negotiated Finite Field Diffie-Hellman Ephemeral Parameters for Transport Layer Security (TLS),2016-08-01,tls,RFC7919
 232,106863,Sweden,Stefan Santesson,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
 233,105857,Austria,ARM Ltd.,draft-ietf-tls-cached-info-23,Transport Layer Security (TLS) Cached Information Extension,2016-07-01,tls,RFC7924
 234,106745,Israel,Check Point,draft-ietf-tls-rfc4492bis-17,Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier,2018-08-01,tls,RFC8422
@@ -272,6 +272,6 @@
 270,121595,,Cloudflare,draft-ietf-tls-external-psk-importer-08,Importing External Pre-Shared Keys (PSKs) for TLS 1.3,2022-07-01,tls,RFC9258
 271,122298,,Cloudflare,draft-ietf-tls-exported-authenticator-15,Exported Authenticators in TLS,2022-07-01,tls,RFC9261
 272,108049,,Cisco,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
-273,122299,,Meta USA,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
+273,122299,,Meta,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
 274,122298,,Cloudflare,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345
 275,12695,,Mozilla,draft-ietf-tls-subcerts-15,Delegated Credentials for TLS and DTLS,2023-07-01,tls,RFC9345

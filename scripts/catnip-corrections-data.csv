@@ -1,4 +1,5 @@
 to-replace,replace-with
+ACLU,American Civil Liberties Union
 Adobe Systems,Adobe
 Akamai,Akamai Technologies
 Brave,Brave Software
@@ -15,6 +16,7 @@ Ciena Coroporation,Ciena
 Ciena Corporation,Ciena
 Akami,Akamai Technologies
 Akami Technologies,Akamai Technologies
+Akamai Technologies ,Akamai Technologies
 Mark Nottingham via Datatracker,Mark Nottingham
 Nokia CA/Ottowa,Nokia
 Nokia - CA/Ottawa,Nokia
@@ -50,7 +52,6 @@ Huawei Technologies Co. Ltd,Huawei
 Huawei Network.IO Innovation Lab,Huawei
 "Internet Systems Consortium, Inc.",Internet Systems Consortium
 Cisco Systems,Cisco
-Cisco ,Cisco
 Brocade Communications,Brocade
 RtBrick India,RtBrick Inc
 Telefonica I+D,Telefonica
@@ -66,7 +67,7 @@ KDDI Corporation,KDDI
 KDDI R&D Labs,KDDI
 "KDDI R&D Laboratories, Inc.",KDDI
 Juniper,Juniper Networks
-Meta,Meta
+Meta ,Meta
 "Meta Platforms, Inc.",Meta
 Meta Platforms,Meta
 """IETF Secretariat """" agenda@ietf.org",IETF Secretariat
@@ -141,5 +142,22 @@ michael.oneill@baycloud.com,Michael O'Neill
 "Zucker-Scharff, Aram",Aram Zucker-Scharff
 "John, Anil",Anil John
 "Siegman, Tzviya",Tzviya Siegman
-"=?utf-8?B?4ZCv4Zep4ZGOIFThkYzhl6nhkY7hkY4g76O/?=
- <vantuan632000@icloud.com>", vantuan632000
+"Black, David",David Black
+"NAPIERALA, MARIA H",Maria Napierala
+"BRUNGARD, DEBORAH A",Deborah Brungard
+LE ROUX Jean-Louis RD-CORE-LAN,Jean-Louis Le Roux
+ACLU,American Civil Liberties Union
+Nokia - GB,Nokia
+<mark@internetpolicyadvisors.com>,Internet Policy Advisors
+<nadalin@prodigy.net>,Prodigy
+chris - <chrispatton@gmail.com>,Chris Patton
+Parthasarathi R,Parthasarathi Ravindran
+Microsoft Corp.,Microsoft
+Meta USA,Meta
+"""IETF Meeting Session Request Tool """" <session_request_developers@ietf.org>",IETF Meeting Session Request Tool
+FUJITSU CONNECTED TECHNOLOGIES LIMITED,Fujitsu
+"""=Jay""",Jay
+Meta ,Meta
+ Aalto University,Aalto University
+Akamai Technologies ,Akamai Technologies
+Cisco ,Cisco
