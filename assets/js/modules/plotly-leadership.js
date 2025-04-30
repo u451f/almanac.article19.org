@@ -56,7 +56,7 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
                         width: 25
                     },
                     name: affiliation,
-                    text: wgname + "/" + person,
+                    hovertext: person,
                     x: [ time_start, time_end ],
                     y: [ affiliation, affiliation ],
                 });
@@ -73,13 +73,12 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
         var data = traces;
 
         var layout = {
-            scattermode: "group",
+            //scattermode: "group",
             title: {
                 text: "Chairing periods in "+wglongname,
                 xref: "container",
                 x: 0,
-                font:
-                {
+                font: {
                     family: "Arial",
                     weight: "800",
                 }
@@ -94,10 +93,11 @@ function loadLeadershipData(WG, redraw=false, is_small_screen=false, dashboard=t
             yaxis: {
                 automargin: true,
                 autorange: "reversed",
-                showgrid: false,
+                //showgrid: false,
                 ticklen: 10,
                 tickwidth: 1,
-                tickcolor: '#fff'
+                tickcolor: '#fff',
+                //showticklabels: false
             },
             font: {
                 family: "Roboto, sans-serif",
