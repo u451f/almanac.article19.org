@@ -15,6 +15,7 @@ url: https://almanac.article19.org
 author: "ARTICLE 19"
 title_image: "/assets/images/screenshot.jpg"
 lang: "en"
+exclude: ["README.md", "Rakefile", "Gemfile", "scripts/"]
 sass:
       style: compressed
 responsive_image:
@@ -29,7 +30,7 @@ responsive_image:
   # at Google PageSpeed.
   strip: true
   base_path: assets
-  save_to_source: true
+  save_to_source: true,
 plugins:
     - jekyll-feed
 feed:
