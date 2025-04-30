@@ -370,9 +370,11 @@ body:not(.guess-who) .post #intro {
 
 #breadcrumbs .switcher {
     padding-left: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
+}
+.guess-who #breadcrumbs .switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #breadcrumbs .switcher a {
@@ -394,7 +396,7 @@ body:not(.guess-who) .post #intro {
 #breadcrumbs .switcher2nd {
     display: block;
     margin-top: 8px;
-    top: 20px;
+    top: 20px !important;
 }
 
 /*************************************
@@ -1261,6 +1263,10 @@ a.modebar-btn {
     .guess-who #guess-who-actions.section-content {
         padding-bottom: 2em;
     }
+    .guess-who-about #intro img,
+    .guess-who-default #intro img {
+        display: none;
+    }
 }
 
 @media all and (min-width: 841px) {
@@ -1396,8 +1402,9 @@ a.modebar-btn {
         top: 0;
         right: 0;
     }
+
     #breadcrumbs .switcher2nd {
-        top: 20px;
+        top: 20px !important;
     }
     .all-groups {
         grid-column-start: 2;
