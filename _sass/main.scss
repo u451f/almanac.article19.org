@@ -1261,6 +1261,10 @@ a.modebar-btn {
     .guess-who #guess-who-actions.section-content {
         padding-bottom: 2em;
     }
+    .guess-who-about #intro img,
+    .guess-who-default #intro img {
+        display: none;
+    }
 }
 
 @media all and (min-width: 841px) {
