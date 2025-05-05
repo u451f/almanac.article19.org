@@ -8,7 +8,7 @@ Python 3.12 virtual environment:
 
 `source .venv/bin/activate`
 
-`python -m pip install git+https://github.com/datactive/bigbang.git`
+`python -m pip install bigbang-py`
 
 ## getting raw data
 
