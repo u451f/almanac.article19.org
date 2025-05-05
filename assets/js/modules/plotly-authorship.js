@@ -79,7 +79,7 @@ function loadAuthorshipData(WG, redraw=false, is_small_screen=false) {
                 font:
                 {
                     family: "Arial",
-                    weight: "800",
+                    weight: "800"
                 }
             },
             margin: {

@@ -11,10 +11,11 @@ defaults:
       layout: "default"
 title: "Internet Standards Almanac"
 description: "The Internet Standards Almanac is a guide for engaging in the standardisation of internet infrastructure. Which groups and committees are developing standards that have human rights implications? How do these standards impact human rights?"
-url: https://almanac.curlybracket.net
+url: https://almanac.article19.org
 author: "ARTICLE 19"
 title_image: "/assets/images/screenshot.jpg"
 lang: "en"
+exclude: ["README.md", "Rakefile", "Gemfile", "scripts/"]
 sass:
       style: compressed
 responsive_image:
@@ -29,7 +30,7 @@ responsive_image:
   # at Google PageSpeed.
   strip: true
   base_path: assets
-  save_to_source: true
+  save_to_source: true,
 plugins:
     - jekyll-feed
 feed:

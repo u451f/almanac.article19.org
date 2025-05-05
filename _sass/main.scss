@@ -337,6 +337,10 @@ body:not(.guess-who) .post #intro {
     margin-bottom: 1.5em;
 }
 
+.guess-who #breadcrumbs {
+    margin-bottom: 2.5em;
+}
+
 #breadcrumbs .crumb {
     display: block;
     background-image: url("images/arrow-up.svg");
@@ -367,6 +371,11 @@ body:not(.guess-who) .post #intro {
 #breadcrumbs .switcher {
     padding-left: 0;
 }
+.guess-who #breadcrumbs .switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 #breadcrumbs .switcher a {
     padding: 0 0.25em;
@@ -387,6 +396,7 @@ body:not(.guess-who) .post #intro {
 #breadcrumbs .switcher2nd {
     display: block;
     margin-top: 8px;
+    top: 20px !important;
 }
 
 /*************************************
@@ -1250,6 +1260,12 @@ a.modebar-btn {
         overflow: hidden;
         line-height: 125%;
     }
+    .guess-who #guess-who-actions.section-content {
+        padding-bottom: 2em;
+    }
+    .guess-who #intro img {
+        display: none;
+    }
 }
 
 @media all and (min-width: 841px) {
@@ -1376,10 +1392,6 @@ a.modebar-btn {
         margin-top: 0;
     }
 
-    .guess-who #breadcrumbs {
-        margin-bottom: 2.5em;
-    }
-
     #breadcrumbs .crumb {
         margin-left: -1em;
     }
@@ -1389,8 +1401,9 @@ a.modebar-btn {
         top: 0;
         right: 0;
     }
+
     #breadcrumbs .switcher2nd {
-        top: 20px;
+        top: 20px !important;
     }
     .all-groups {
         grid-column-start: 2;
