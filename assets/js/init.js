@@ -48,7 +48,7 @@ $(function($){
         }
     });
 
-    // animate scroll to all groups in org
+    // animate scroll
     $('a[href^="#"]').on('click',function(e) {
         e.preventDefault();
         var target = this.hash;
@@ -82,7 +82,6 @@ $(function($){
             $('body').removeClass("scrolled");
         }
     });
-    $(window).scroll();
 
     // read more on landing pages
     $('.read-more').parent().next('div').hide();
@@ -92,6 +91,41 @@ $(function($){
             $(this).text("Read more");
         } else {
             $(this).text("Hide…");
+        }
+    });
+    /*
+    // Generate toc
+    $('.guide h2.title').each(
+        function(i,el) {
+            var $that = $(el),
+                text = $that.text(),
+                id = text.toLowerCase().replace(/\s+/,'-');
+            el.id = id;
+            var a = $('<a />', {
+                'href' : '#' + id,
+                'text' : text
+            }),
+            li = $('<li />').append(a).appendTo('.toc ul');
+        }
+    );
+    */
+
+    // Activate toc items on scroll
+    const anchors = $('.guide').find('h2.title');
+    $(window).scroll(function(){
+        var scrollTop = $(document).scrollTop();
+
+        // highlight the last scrolled-to: set everything inactive first
+        for (var i = 0; i < anchors.length; i++){
+            $('.toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('active');
+        }
+
+        // then iterate backwards, on the first match highlight it and break
+        for (var i = anchors.length-1; i >= 0; i--){
+            if (scrollTop > $(anchors[i]).offset().top - 75) {
+                $('.toc ul li a[href="#' + $(anchors[i]).attr('id') + '"]').addClass('active');
+                break;
+            }
         }
     });
 });
