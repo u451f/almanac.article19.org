@@ -1,0 +1,17 @@
+{% include header.html %}
+<main class="section" id="content">
+    <div class="section-content grid no-btm-padding">
+        {% include site-header.html %}
+        <div id="h">
+            <div id="breadcrumbs">
+                <span class="crumb"><a rel="nofollow" href="{{ site.url }}">All organisations</a></span>
+                <span class="crumb"><a rel="nofollow" href="{{ site.url }}/orgs/9_cen-cenelec.html">CEN/CENELEC</a></span>
+            </div>
+            <h1 class="title">{{ page. title }}</h1>
+        </div>
+    </div>
+    <div class="section-content grid guide">
+        {{ content }}
+    </div>
+</main>
+{% include footer.html %}
