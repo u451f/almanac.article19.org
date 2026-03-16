@@ -1196,12 +1196,51 @@ a.modebar-btn {
   Guide
 ***********************************/
 
-body.guide #content {
-    background: #fff;
+body.guide .mobile-menu-toggle {
+    display: none;
 }
 
-body.guide #site-area-menu {
-    border-bottom: 1px solid #eee;
+.toc-toggle .toggler {
+    position: fixed;
+    right: var(--hspace);
+    top: 48px;
+}
+
+.toc-toggle input {
+    position: fixed;
+    right: 0;
+    z-index: 26;
+    width: 80px;
+    height: 23px;
+    display: block;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.toc-toggle input:checked ~ .toc {
+    top: 30px;
+}
+
+.toc-toggle input:checked ~ .toggler.menu-action {
+    background-image: url(images/menu-close.svg);
+    background-color: red;
+}
+
+.toc-toggle input:checked ~ .toggler.menu-action span {
+    display: none;
+}
+
+.toc {
+    transition: right .5s ease-in-out;
+    background: #fff;
+    border-bottom: 2px solid var(--colour3);
+    width: 100vw;
+    padding: 1em var(--hspace) 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 24;
 }
 
 .toc ul {
@@ -1221,6 +1260,19 @@ body.guide #site-area-menu {
 
 .toc li a.active {
     color: var(--colour1);
+}
+
+body.guide #content {
+    background: #fff;
+}
+
+body.guide #footer {
+    background: transparent;
+    border-top: 1px solid #00946e59;
+}
+
+body.guide #site-area-menu {
+    border-bottom: 1px solid #00946e59;
 }
 
 .no-btm-padding {
@@ -1275,11 +1327,8 @@ body.guide p {
     background: var(--colour1);
 }
 
-.section-content.guide {
-}
-
 .slider {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .slide {
@@ -1308,6 +1357,7 @@ body.guide p {
 
     .guide-content.grid {
         grid-template-columns: 1fr 1fr;
+        grid-row-gap: 2em;
     }
     .guide-content .elm-center,
     .guide-content .slider {
@@ -1325,16 +1375,17 @@ body.guide p {
     }
     .guide-content .elm-center .guide-img {
         text-align: center;
-        background: #eee;
+        background: #00946e59;
     }
-    .toc {
-        display: none;
-        position: sticky;
-        right: var(--hspace);
-        top: 60px;
-        /*grid-row-start: 1;*/
-        /*grid-column-start: 4;*/
-        /*grid-column-end: 5;*/
+    .guide-content .slider-img {
+        float: left;
+        width: 20vw;
+        max-height: 90%;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+    .guide-content .slide p {
+        overflow: hidden;
     }
 }
 
@@ -1691,7 +1742,7 @@ https://flickity.metafizzy.co
   position: absolute;
   background: hsla(0, 0%, 100%, 0.75);
   border: none;
-  color: #333;
+  color: var(--colour2);
 }
 
 .flickity-button:hover {
@@ -1765,7 +1816,7 @@ https://flickity.metafizzy.co
   width: 10px;
   height: 10px;
   margin: 0 8px;
-  background: #333;
+  background: var(--colour2);
   border-radius: 50%;
   opacity: 0.25;
   cursor: pointer;
