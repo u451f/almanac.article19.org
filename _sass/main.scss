@@ -1373,7 +1373,6 @@ body.guide p {
         grid-column-start: 2;
         grid-column-end: 4;
     }
-
     .guide-content.grid {
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 2em;
@@ -1410,6 +1409,23 @@ body.guide p {
 @media all and (min-width: 1025px) {
     .guide-content .guide-img figcaption {
         margin-right: 6em;
+    }
+}
+@media all and (min-width: 1500px) {
+    .guide-content.grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 2em;
+    }
+    .guide-content .elm-center,
+    .guide-content .slider {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    .guide-content .elm-left {
+        grid-column-start: 2;
+    }
+    .guide-content .elm-right {
+        grid-column-start: 3;
     }
 }
 
