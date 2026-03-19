@@ -1394,15 +1394,8 @@ body.guide p {
     }
 }
 @media all and (min-width: 1025px) {
-    .guide-content .elm-right.guide-img figcaption {
+    .guide-content .guide-img figcaption {
         margin-right: 6em;
-    }
-    .guide-content .elm-left.guide-img figcaption {
-        margin-left: 6em;
-    }
-    .guide-content .elm-left.guide-img figcaption {
-        text-align: left;
-        display: inline-block;
     }
 }
 
