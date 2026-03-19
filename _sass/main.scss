@@ -1340,10 +1340,6 @@ body.guide p {
 
 .guide-content .elm-right,
 .guide-content .elm-left, {
-  animation-duration: .2s;
-  animation-name: fadeInUp;
-  animation-timeline: view();
-  animation-range: entry 0% exit 100%;
 }
 
 .btn a {
@@ -1486,17 +1482,6 @@ body.guide p {
     100% {
         background-position: 0 100%;
     }
-}
-
-@keyframes fadeInUp {
-  from {
-    transform: translateY(150px);
-	opacity: 0.8;
-  }
-  to {
-    transform: translateY(0);
-	opacity: 1;
-  }
 }
 
 /*************************************
