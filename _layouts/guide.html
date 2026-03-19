@@ -8,10 +8,18 @@
                 <span class="crumb"><a rel="nofollow" href="{{ site.url }}/orgs/9_cen-cenelec.html">CEN/CENELEC</a></span>
             </div>
             <h1 class="title">{{ page. title }}</h1>
+            <p><b>{{ page.excerpt }}</b></p>
+            <p>Estimated reading time: 20 min</p>
         </div>
     </div>
     <div class="section-content guide-content grid">
         {{ content }}
+    </div>
+    <div id="progress-positioner">
+        <div class="progress-wrapper">
+            <div class="progress-label"></div>
+            <progress></progress>
+        </div>
     </div>
 </main>
 <script src="{{ site.url }}/assets/js/lib/flickity.pkgd.min.js" defer></script>
