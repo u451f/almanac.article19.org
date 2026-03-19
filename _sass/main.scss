@@ -21,6 +21,10 @@
     --hspace: 4vh;
     --vspace: 3vh;
     --basefontsize: 17px;
+    --progress-bar-height: 4px;
+    --progress-bar-color: #eee;
+    --progress-bar-value-color: rgb(0,148,110);
+    --progress-bar-value: 10%;
 }
 
 * {
@@ -1262,6 +1266,7 @@ body.guide .mobile-menu-toggle {
     color: var(--colour1);
 }
 
+
 body.guide #content {
     background: #fff;
     font-family: "Roboto", sans-serif;
@@ -1273,7 +1278,7 @@ body.guide #footer {
 }
 
 body.guide #site-area-menu {
-    border-bottom: 1px solid #00946e59;
+    /*border-bottom: 1px solid #00946e59;*/
 }
 
 .no-btm-padding {
@@ -1399,6 +1404,50 @@ body.guide p {
         text-align: left;
         display: inline-block;
     }
+}
+
+/******************************
+ * Progress bar (Guide)
+**************************** */
+#progress-positioner {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 100vw;
+}
+
+.progress-wrapper {
+  position: relative;
+}
+
+.progress-label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+}
+
+progress {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+  width: 100%;
+  height: var(--progress-bar-height);
+  background-color: var(--progress-bar-color);
+  border: none;
+}
+progress::-moz-progress-bar {
+  background-color: var(--progress-bar-value-color);
+}
+progress::-webkit-progress-bar {
+  background-color: var(--progress-bar-color);
+}
+progress::-webkit-progress-value {
+  background-color: var(--progress-bar-value-color);
+}
+progress::-ms-fill {
+  background-color: var(--progress-bar-value-color);
 }
 
 /*************************************
