@@ -18,12 +18,14 @@
     --colour1: #d62d26; /* ART19 red */
     --colour2: rgb(0,148,110); /* ART19green */
     --colour3: #287758; /* darkergreen */
+    --colour4: #f2a900; /* ART19yellow */
+    --colour2soft: hsl(165 50% 95%);
     --hspace: 4vh;
     --vspace: 3vh;
     --basefontsize: 17px;
     --progress-bar-height: 4px;
-    --progress-bar-color: #eee;
-    --progress-bar-value-color: rgb(0,148,110);
+    --progress-bar-color: #fff7e5;
+    --progress-bar-value-color: #f2a900;
     --progress-bar-value: 10%;
 }
 
@@ -95,7 +97,7 @@ pre {
 
 .error {
     background: var(--colour2);
-    color: #fff;
+    color: var(--bg);
     padding: 0.25em;
 }
 
@@ -996,7 +998,7 @@ Post/Group & Org page
     font-variation-settings: "wght" 300;
     text-transform: uppercase;
     overflow: hidden;
-    background: #fff;
+    background: var(--bg);
     color: var(--colour1);
     position: fixed;
     top: 0;
@@ -1022,7 +1024,7 @@ Post/Group & Org page
     box-sizing: border-box;
     font-weight: bold;
     color: var(--colour1);
-    background: #fff;
+    background: var(--bg);
 }
 
 .guess-who #site-area-menu {
@@ -1035,7 +1037,7 @@ Post/Group & Org page
 
 #site-area-menu .active a,
 #site-area-menu a:hover {
-    color: #fff;
+    color: var(--bg);
     background: var(--colour1);
 }
 .guess-who #site-area-menu .active a,
@@ -1122,7 +1124,7 @@ label {
 select {
     background-color: var(--colour2);
     padding: .5em;
-    color: #fff;
+    color: var(--bg);
     border-bottom: 2px solid var(--colour3);
     margin-bottom: 0;
     cursor: pointer;
@@ -1135,7 +1137,7 @@ select option:checked {
 }
 
 option:disabled {
-    background: #fff;
+    background: var(--bg);
 }
 
 select#wg {
@@ -1189,7 +1191,7 @@ select#wg {
 }
 
 a.modebar-btn {
-    background: #fff;
+    background: var(--bg);
 }
 
 .modebar-container {
@@ -1199,6 +1201,23 @@ a.modebar-btn {
 /*************************************
   Guide
 ***********************************/
+
+body.guide #content {
+    background: linear-gradient(180deg, #f2a9001a 150px, var(--bg) 250px);
+    font-family: "Roboto", sans-serif;
+}
+
+body.guide .site-title a,
+body.guide #site-area-menu li a {
+    color: var(--colour4);
+}
+
+body.guide .btn a,
+body.guide #site-area-menu .active a,
+body.guide #site-area-menu a:hover {
+    background: var(--colour4);
+    color: var(--bg);
+}
 
 body.guide .mobile-menu-toggle {
     display: none;
@@ -1227,7 +1246,7 @@ body.guide .mobile-menu-toggle {
 }
 
 .toc-toggle input:checked ~ .toggler.menu-action {
-    background-image: url(images/toc-close.svg);
+    background-image: url(images/menu-close.svg);
 }
 
 .toc-toggle input:checked ~ .toggler.menu-action span {
@@ -1236,8 +1255,8 @@ body.guide .mobile-menu-toggle {
 
 .toc {
     transition: right .5s ease-in-out;
-    background: #fff;
-    border-bottom: 2px solid var(--colour3);
+    background: var(--colour4);
+    color: var(--bg);
     width: 100vw;
     padding: 1em var(--hspace) 0;
     box-sizing: border-box;
@@ -1259,26 +1278,17 @@ body.guide .mobile-menu-toggle {
 
 .toc a {
     background: none;
-    color: var(--colour3);
+    color: var(--bg);
 }
 
 .toc li a.active {
-    color: var(--colour1);
-}
-
-
-body.guide #content {
-    background: #fff;
-    font-family: "Roboto", sans-serif;
+    color: var(--colour4);
+    background: var(--bg);
 }
 
 body.guide #footer {
     background: transparent;
     border-top: 1px solid #00946e59;
-}
-
-body.guide #site-area-menu {
-    /*border-bottom: 1px solid #00946e59;*/
 }
 
 .no-btm-padding {
@@ -1345,8 +1355,7 @@ body.guide p {
     height: 80vh;
     overflow-y: auto;
     margin-right: 10px;
-    background-color: #00946e59;
-    background-color: #ffcc00;
+    background-color: var(--colour2soft);
 }
 
 @media all and (max-width: 839px) {
@@ -1354,7 +1363,7 @@ body.guide p {
         position: sticky;
         top: 30px;
         padding: 5px 30px 3px 0;
-        background: #fff;
+        background: var(--bg);
     }
 }
 @media all and (min-width: 840px) {
@@ -1380,7 +1389,7 @@ body.guide p {
     }
     .guide-content .elm-center .guide-img {
         text-align: center;
-        background: #00946e59;
+        background-color: var(--colour2soft);
     }
     .guide-content .slider-img {
         float: left;
