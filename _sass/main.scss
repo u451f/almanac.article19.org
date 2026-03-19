@@ -1204,6 +1204,7 @@ body.guide .mobile-menu-toggle {
     position: fixed;
     right: var(--hspace);
     top: 48px;
+    background-image: url(images/toc.svg);
 }
 
 .toc-toggle input {
@@ -1222,8 +1223,7 @@ body.guide .mobile-menu-toggle {
 }
 
 .toc-toggle input:checked ~ .toggler.menu-action {
-    background-image: url(images/menu-close.svg);
-    background-color: red;
+    background-image: url(images/toc-close.svg);
 }
 
 .toc-toggle input:checked ~ .toggler.menu-action span {
@@ -1264,6 +1264,7 @@ body.guide .mobile-menu-toggle {
 
 body.guide #content {
     background: #fff;
+    font-family: "Roboto", sans-serif;
 }
 
 body.guide #footer {
@@ -1286,12 +1287,10 @@ body.guide p {
 
 .guide p {
     margin-bottom: 1em;
-    font-family: "Roboto", sans-serif;
 }
 
 .guide p.emphasis {
-    font-family: "RobotoSlab", serif;
-    font-variation-settings: "wght" 500;
+    font-variation-settings: "wght" 600;
 }
 
 .guide b {
@@ -1300,14 +1299,22 @@ body.guide p {
 
 .guide h2.title {
     scroll-margin-top: 50px;
+    font-family: "RobotoSlab", serif;
 }
 
 .guide h3 {
     font-size: 1.3em;
     line-height: 130%;
     margin-bottom: 1em;
-    font-weight: bold;
-    font-variation-settings: "wght" 500;
+    font-family: "RobotoSlab", serif;
+    font-variation-settings: "wght" 600;
+    color: var(--colour2);
+    text-wrap: pretty;
+}
+
+.guide .slide h3 {
+    color: var(--colourtext);
+    text-wrap: unset;
 }
 
 .guide-img {
@@ -1315,12 +1322,7 @@ body.guide p {
 }
 
 .guide-img img {
-    max-height: 88vh;
-}
-
-.guide-img figcaption {
-    font-style: italic;
-    text-wrap: pretty;
+    max-height: 86vh;
 }
 
 .btn a {
@@ -1339,6 +1341,7 @@ body.guide p {
     overflow-y: auto;
     margin-right: 10px;
     background-color: #00946e59;
+    background-color: #ffcc00;
 }
 
 @media all and (max-width: 839px) {
@@ -1370,9 +1373,6 @@ body.guide p {
     .guide-content .elm-right {
         grid-column-start: 2;
     }
-    .guide-content .elm-left.guide-img {
-        text-align: right;
-    }
     .guide-content .elm-center .guide-img {
         text-align: center;
         background: #00946e59;
@@ -1386,6 +1386,18 @@ body.guide p {
     }
     .guide-content .slide p {
         overflow: hidden;
+    }
+}
+@media all and (min-width: 1025px) {
+    .guide-content .elm-right.guide-img figcaption {
+        margin-right: 6em;
+    }
+    .guide-content .elm-left.guide-img figcaption {
+        margin-left: 6em;
+    }
+    .guide-content .elm-left.guide-img figcaption {
+        text-align: left;
+        display: inline-block;
     }
 }
 
