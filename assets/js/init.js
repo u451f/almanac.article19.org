@@ -131,9 +131,3 @@ $(function($){
     });
 
 });
-
-// enable keyboard for Flickity
-document.addEventListener("DOMContentLoaded", function () {
-    const flkty = new Flickity(".slider");
-    flkty.focus();
-});
