@@ -1253,15 +1253,15 @@ body.guide .mobile-menu-toggle {
 
 .toc {
     transition: right .5s ease-in-out;
-    background: var(--colour4);
-    color: var(--bg);
-    width: 100vw;
     padding: 1em var(--hspace) 0;
     box-sizing: border-box;
     position: fixed;
     top: -100vh;
     left: 0;
     z-index: 24;
+    background: var(--colour4);
+    color: var(--bg);
+    width: 100vw;
 }
 
 .toc ul {
@@ -1362,6 +1362,11 @@ body.guide p {
     overflow-y: auto;
     margin-right: 10px;
     background-color: var(--colour2soft);
+    opacity: .3;
+}
+
+.slide.is-selected {
+    opacity: 1;
 }
 
 .slide ul, .slide ol {
@@ -1814,19 +1819,20 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background: hsla(0, 0%, 100%, 0.75);
+  background: var(--colour2);
+  color: var(--bg);
   border: none;
-  color: var(--colour2);
 }
 
 .flickity-button:hover {
-  background: white;
-  cursor: pointer;
+    colour: var(--bg);
+    background: var(--colour4);
+    cursor: pointer;
 }
 
 .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px var(--colour2);
+  box-shadow: 0 0 0 5px var(--bg);
 }
 
 .flickity-button:active {
