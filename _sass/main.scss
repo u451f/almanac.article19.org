@@ -1818,62 +1818,53 @@ https://flickity.metafizzy.co
 /* ---- flickity-button ---- */
 
 .flickity-button {
-  position: absolute;
-  background: var(--colour2);
-  color: var(--bg);
-  border: none;
+    position: absolute;
+    background: var(--colour2);
+    border: none;
 }
 
 .flickity-button:hover {
     colour: var(--bg);
-    background: var(--colour4);
+    background: var(--colour3);
     cursor: pointer;
 }
 
 .flickity-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 5px var(--bg);
+    outline: none;
+    box-shadow: 0 0 0 5px var(--bg);
 }
 
 .flickity-button:active {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .flickity-button:disabled {
-  opacity: 0.3;
-  cursor: auto;
-  pointer-events: none;
+    opacity: 0.3;
+    cursor: auto;
+    pointer-events: none;
 }
 
 .flickity-button-icon {
-  fill: currentColor;
+    fill: var(--bg);
 }
 
 .flickity-prev-next-button {
-  top: 50%;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  transform: translateY(-50%);
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transform: translateY(-50%);
 }
 
 .flickity-prev-next-button.previous { left: 10px; }
 .flickity-prev-next-button.next { right: 10px; }
-.flickity-rtl .flickity-prev-next-button.previous {
-  left: auto;
-  right: 10px;
-}
-.flickity-rtl .flickity-prev-next-button.next {
-  right: auto;
-  left: 10px;
-}
 
 .flickity-prev-next-button .flickity-button-icon {
-  position: absolute;
-  left: 20%;
-  top: 20%;
-  width: 60%;
-  height: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 60%;
 }
 
 /* ---- page dots ---- */
