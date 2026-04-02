@@ -1293,8 +1293,32 @@ body.guide #footer {
     padding-bottom: 1em;
 }
 
-body.guide p,
-body.guide ul {
+body.guide .guide-text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+body.guide h2.title {
+    font-family: "RobotoSlab", serif;
+    font-size: calc(var(--basefontsize) * 1.8);
+    padding: 5px 30px 3px 0;
+    position: sticky;
+    top: 30px;
+    scroll-margin-top: 50px;
+    background: var(--bg);
+}
+
+body.guide:not(.scrolled) .title#overview {
+    background: transparent;
+}
+
+.guide .slide h3 {
+    color: var(--colourtext);
+    text-wrap: unset;
+}
+
+body.guide #content p,
+body.guide #content ul {
     font-size: 1.1em;
     line-height: 144%;
 }
@@ -1307,28 +1331,14 @@ body.guide ul {
     font-variation-settings: "wght" 600;
 }
 
-.guide b {
-    font-variation-settings: "wght" 600;
-}
-
-.guide h2.title {
-    scroll-margin-top: 50px;
-    font-family: "RobotoSlab", serif;
-}
-
-.guide h3 {
-    font-size: 1.3em;
-    line-height: 130%;
-    margin-bottom: 1em;
-    font-family: "RobotoSlab", serif;
-    font-variation-settings: "wght" 600;
+.guide p.emphasis b {
     color: var(--colour2);
     text-wrap: pretty;
+    font-size: 1.2em;
 }
 
-.guide .slide h3 {
-    color: var(--colourtext);
-    text-wrap: unset;
+.guide b {
+    font-variation-settings: "wght" 600;
 }
 
 .guide-img {
@@ -1343,16 +1353,14 @@ body.guide ul {
     line-height: 1.3em;
 }
 
-.guide-content .elm-right,
-.guide-content .elm-left, {
-}
-
 .btn a {
     background: var(--colour1);
 }
 
 .slider {
     margin-bottom: 2em;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .slide {
@@ -1363,7 +1371,7 @@ body.guide ul {
     overflow-y: auto;
     margin-right: 10px;
     background-color: var(--colour2soft);
-    opacity: .3;
+    /*opacity: .3;*/
 }
 
 .slide.is-selected {
@@ -1376,37 +1384,26 @@ body.guide ul {
     line-height: 1.4em;
 }
 
-@media all and (max-width: 839px) {
-    .grid.guide .title {
-        position: sticky;
-        top: 30px;
-        padding: 5px 30px 3px 0;
-        background: var(--bg);
-    }
-}
 @media all and (min-width: 840px) {
     body.guide #content #h {
         grid-column-start: 2;
         grid-column-end: 4;
     }
     .guide-content.grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
         grid-row-gap: 2em;
+        grid-column-gap: 35px;
     }
-    .guide-content .elm-center,
-    .guide-content .slider {
+    body.guide h2.title {
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 2;
+        /*z-index: 99;*/
+        top: 60px;
     }
-    .guide-content .elm-left {
-        grid-column-start: 1;
-    }
-    .guide-content .elm-right {
-        grid-column-start: 2;
-    }
-    .guide-content .elm-center .guide-img {
-        text-align: center;
-        background-color: var(--colour2soft);
+    body.guide .guide-img {
+        grid-column-start: 3;
+        position: sticky;
+        top: 12vh;
     }
     .guide-content .slider-img {
         float: left;
@@ -1422,15 +1419,10 @@ body.guide ul {
         overflow: hidden;
     }
 }
-@media all and (min-width: 1025px) {
-    .guide-content .guide-img figcaption {
-        margin-right: 6em;
-    }
-}
 @media all and (min-width: 1700px) {
     .guide #h,
     .guide-content.grid {
-        font-size: 1.3em;
+        /*font-size: 1.3em;*/
         max-width: 1920px;
     }
     .guide-content .slider-img {
@@ -1444,29 +1436,29 @@ body.guide ul {
  * Progress bar (Guide)
 **************************** */
 .scroll-watcher {
-  position: fixed;
-  top: 30px;
-  left: 0;
-  height: var(--progress-bar-height);
-  width: 0;
-  z-index: 9999;
-  background-color: var(--progress-bar-color);
-  animation: scroll-watcher linear;
-  animation-timeline: scroll();
-  animation-duration: auto;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    height: var(--progress-bar-height);
+    width: 0;
+    z-index: 9999;
+    background-color: var(--progress-bar-color);
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+    animation-duration: auto;
 }
 
 @keyframes scroll-watcher {
-  to {
-    width: 100%;
-  }
+    to {
+        width: 100%;
+    }
 }
 
 @supports (animation-timeline: scroll()) {
-  .scroll-watcher {
-    animation-timeline: scroll();
-    animation-duration: auto;
-  }
+    .scroll-watcher {
+        animation-timeline: scroll();
+        animation-duration: auto;
+    }
 }
 
 /*************************************
@@ -1896,4 +1888,78 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
+}
+
+/*************************************
+  Lightbox
+  ***********************************/
+
+.openlb {
+    cursor: zoom-in;
+}
+
+.lightbox {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: all .5s ease-in;
+    background: rgba(255,255,255,0.95);
+    z-index: 3;
+}
+
+.lightbox.show {
+    display: flex;
+    align-items: center;
+}
+
+.lightbox img {
+    max-height: 85vh;
+    text-align: center;
+    margin: auto;
+}
+
+.lightbox .title {
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    padding: 0 var(--basefontsize) var(--basefontsize);
+    line-height: 110%;
+    font-size: calc(var(--basefontsize)* 0.8);
+    text-align: center;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.close {
+    position: fixed;
+    z-index: 100;
+    top: 30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin: var(--vspace) var(--hspace) 0 0;
+    cursor: pointer;
+    background: var(--colour2);
+}
+
+.close:after,
+.close:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background: var(--bg);
+}
+
+.close:after {
+   transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.close:before {
+    transform: translate(-50%, -50%) rotate(45deg);
 }
