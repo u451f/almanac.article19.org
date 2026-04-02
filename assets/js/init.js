@@ -131,3 +131,20 @@ $(function($){
     });
 
 });
+
+$(".openlb img").on('click', function() {
+    $(".lightbox").addClass("show");
+    $(".lightbox").append('<img src="' + $(this).attr("src") + '"/>');
+});
+
+$(".close").on('click', function() {
+    $(".lightbox").removeClass("show");
+    $(".lightbox img").remove();
+});
+
+$(document).keyup(function(e) {
+    if (e.keyCode == 27) {
+        $(".lightbox").removeClass("show");
+        $(".lightbox img").remove();
+    }
+});
