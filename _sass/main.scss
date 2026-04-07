@@ -1357,7 +1357,7 @@ body.guide #content ul {
     content: "-";
 }
 
-i.guide .dropdown.open:after,
+.guide .dropdown.open:after,
 .guide .dropdown:hover:after {
     background: var(--colour2);
     color: var(--bg);
