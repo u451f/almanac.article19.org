@@ -1,6 +1,6 @@
 /*
 @licstart
-Copyright (C) 2022-2023 Ulrike Uhlig
+Copyright (C) 2022-2026 Ulrike Uhlig
 
     The JavaScript code in this page is free software: you can
     redistribute it and/or modify it under the terms of the GNU
@@ -92,6 +92,13 @@ $(function($){
         } else {
             $(this).text("Hide…");
         }
+    });
+
+    // Dropdown in guide
+    $('.dropdown').next('p').hide();
+    $('.dropdown').click(function(){
+        $(this).next('p').toggle();
+        $(this).toggleClass("open");
     });
 
     /*
