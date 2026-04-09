@@ -1375,6 +1375,24 @@ body.guide #content ul {
     transform: translateY(-2px);
 }
 
+.cog:before {
+    content: " ";
+    background: url(images/cog.svg) no-repeat left top;
+    box-sizing: border-box;
+    background-size: contain;
+    padding-left: 30px;
+    /*margin-right: 10px;*/
+}
+
+.tip b {
+    background: url(images/lightbulb.svg) no-repeat left top;
+    box-sizing: border-box;
+    background-size: contain;
+    color: var(--colour2);
+    padding-left: 30px;
+    margin-right: 10px;
+}
+
 .guide-img {
     margin-bottom: 2em;
 }
@@ -1391,6 +1409,7 @@ body.guide #content ul {
     background: var(--colour1);
 }
 
+span.btn,
 a.btn {
     display: block;
     text-align: center;
@@ -1398,8 +1417,16 @@ a.btn {
     border-radius: 0.2em;
 }
 
+span.btn:hover,
 a.btn:hover {
+    cursor: pointer;
     background: var(--colour2);
+}
+
+span.btn {
+    margin-top: 0.5em;
+    color: var(--bg);
+    background: var(--colour3);
 }
 
 .card-container {
@@ -1418,7 +1445,7 @@ a.btn:hover {
 .card > .front,
 .card > .back {
     width: 300px;
-    height: 450px;
+    height: 422px;
 }
 
 .back p {
@@ -1454,7 +1481,6 @@ a.btn:hover {
 .card:hover > .back {
     transform: perspective(600px) rotateY(0deg);
 }
-
 
 .slider {
     margin-bottom: 2em;
@@ -2012,7 +2038,7 @@ https://flickity.metafizzy.co
     left: 0;
     display: none;
     transition: all .5s ease-in;
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,0.97);
     z-index: 3;
 }
 
@@ -2027,16 +2053,9 @@ https://flickity.metafizzy.co
     margin: auto;
 }
 
-.lightbox .title {
-    position: absolute;
-    bottom: 0;
-    z-index: 4;
-    padding: 0 var(--basefontsize) var(--basefontsize);
-    line-height: 110%;
-    font-size: calc(var(--basefontsize)* 0.8);
-    text-align: center;
-    width: 100vw;
-    box-sizing: border-box;
+.lightbox p {
+    max-width: 700px;
+    margin: auto;
 }
 
 .close {

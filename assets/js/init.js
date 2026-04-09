@@ -96,9 +96,15 @@ $(function($){
 
     // Dropdown in guide
     $('.dropdown').next('p').hide();
-    $('.dropdown').click(function(){
-        $(this).next('p').toggle();
+    $('.dropdown').on('click', function() {
+        $(this).next('p').slideToggle(200);
         $(this).toggleClass("open");
+    });
+    // popup in guide
+    $('.popup').on('click', function() {
+        console.log($(this).next('p'));
+        $(this).parent().next('p').clone().appendTo(".lightbox");
+        $(".lightbox").addClass("show");
     });
 
     /*
@@ -147,6 +153,7 @@ $(".openlb img").on('click', function() {
 $(".close").on('click', function() {
     $(".lightbox").removeClass("show");
     $(".lightbox img").remove();
+    $(".lightbox p").remove();
 });
 
 $(document).keyup(function(e) {
