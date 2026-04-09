@@ -125,7 +125,7 @@ $(function($){
     */
 
     // Activate toc items on scroll
-    const anchors = $('.guide').find('h2.title');
+    const anchors = $('.guide').find('.toc-anchor');
     $(window).scroll(function(){
         var scrollTop = $(document).scrollTop();
 
