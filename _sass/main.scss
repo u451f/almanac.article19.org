@@ -1439,7 +1439,7 @@ span.btn {
 .card {
     float: left;
     margin-right: 0.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 
 .card,
@@ -1514,16 +1514,13 @@ span.btn {
         position: sticky;
         top: 12vh;
     }
+    .card {
+        margin-bottom: 1.5em;
+    }
     .guide-content .slider-img {
         float: left;
         max-height: 87%;
         margin-right: 1em;
-        overflow: hidden;
-    }
-    .guide-content .slide {
-        width: 100%;
-    }
-    .guide-content .slide p {
         overflow: hidden;
     }
 }
@@ -2107,7 +2104,7 @@ https://flickity.metafizzy.co
 
 .lightbox p {
     max-width: 700px;
-    margin: auto;
+    margin: auto var(--hspace);
 }
 
 .close {
