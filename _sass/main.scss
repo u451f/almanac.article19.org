@@ -1503,7 +1503,7 @@ span.btn {
 
 .slider {
     margin-bottom: 2em;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 5;
 }
 
@@ -2040,7 +2040,7 @@ https://flickity.metafizzy.co
     width: 100px;
     height: 100px;
     cursor: pointer;
-    margin-right: 0.5rem;
+    /*margin-right: 0.5rem;*/
     text-align: center;
     box-sizing: border-box;
     padding: 0.25em;
@@ -2052,9 +2052,54 @@ https://flickity.metafizzy.co
     display: block;
 }
 
+.carousel-nav .carousel-cell:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: -36px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 20px solid var(--bg);
+    transform: rotate(-90deg);
+}
+
+.carousel-nav .carousel-cell.is-nav-selected:before,
+.carousel-nav .carousel-cell:first-child:before {
+    left: -40px;
+}
+
+.carousel-nav .carousel-cell:after {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 20px solid;
+    border-top-color: var(--colour2soft);
+    transform: rotate(-90deg);
+}
+
+.carousel-nav .carousel-cell:first-child:after {
+    border: 0;
+}
+
 .carousel-nav .carousel-cell.is-nav-selected {
     background: var(--colour2);
     color: var(--bg);
+}
+
+.carousel-nav .carousel-cell.is-nav-selected + .carousel-cell:after {
+    border-top-color: var(--colour2);
+}
+
+/* FIXME */
+.carousel-nav .carousel-cell.is-nav-selected:last-child {
+    border-top-color: var(--colour2);
 }
 
 .carousel-nav .flickity-prev-next-button.next {
