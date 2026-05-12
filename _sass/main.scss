@@ -1293,19 +1293,22 @@ body.guide #footer {
     padding-bottom: 1em;
 }
 
-.guide-content.grid {
-    display: block;
+.guide-section {
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid var(--colour2);
+}
+
+.guide-section.nospacer,
+.guide-section:last-child {
+    border: none;
+    padding-bottom: 0;
 }
 
 body.guide h2.title {
     font-family: "RobotoSlab", serif;
     font-size: calc(var(--basefontsize) * 1.7);
     padding: 5px 30px 3px 0;
-    position: sticky;
-    z-index: 15;
-    top: 30px;
-    scroll-margin-top: 50px;
-    background: var(--bg);
 }
 
 body.guide:not(.scrolled) .title#overview {
@@ -1335,6 +1338,19 @@ body.guide #content ul {
     color: var(--colour2);
     text-wrap: pretty;
     font-size: 1.1em;
+}
+
+.guide-text h3 {
+    font-size: 1.1em;
+    font-variation-settings: "wght" 600;
+    text-wrap: pretty;
+    color: var(--colour2);
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+}
+
+.guide-text h3.first {
+    margin-top: 0;
 }
 
 .guide b {
@@ -1381,14 +1397,12 @@ body.guide #content ul {
     box-sizing: border-box;
     background-size: contain;
     padding-left: 30px;
-    /*margin-right: 10px;*/
 }
 
-.tip b {
+.guide-text .tip {
     background: url(images/lightbulb.svg) no-repeat left top;
     box-sizing: border-box;
     background-size: contain;
-    color: var(--colour2);
     padding-left: 30px;
     margin-right: 10px;
 }
@@ -1412,10 +1426,14 @@ body.guide #content ul {
 
 span.btn,
 a.btn {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 5px;
     border-radius: 0.2em;
+}
+
+.btn.popup {
+    display: block;
 }
 
 span.btn:hover,
@@ -1485,8 +1503,8 @@ span.btn {
 
 .slider {
     margin-bottom: 2em;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
 @media all and (min-width: 840px) {
@@ -1494,30 +1512,14 @@ span.btn {
         grid-column-start: 2;
         grid-column-end: 4;
     }
-    .guide-content.grid {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-row-gap: 2em;
-        grid-column-gap: 35px;
-    }
-    body.guide .guide-text {
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-    body.guide h2.title {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        top: 60px;
-    }
-    body.guide .guide-img {
-        grid-column-start: 3;
-        position: sticky;
-        top: 12vh;
-    }
     .card {
         margin-bottom: 1.5em;
     }
-    .guide-content .slider-img {
+    .guide-section .guide-text {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    .guide-section .slider-img {
         float: left;
         max-height: 87%;
         margin-right: 1em;
@@ -2005,8 +2007,9 @@ https://flickity.metafizzy.co
 
 .carousel-main .carousel-cell {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     padding: .75em 1em;
+  /*padding-bottom: 56.25%;*/
     overflow-y: auto;
     box-sizing: border-box;
 }
@@ -2022,47 +2025,64 @@ https://flickity.metafizzy.co
     justify-content: center;
 }
 
+.carousel-nav .carousel-cell:before {
+    transform: rotate(-90deg);
+}
+
 .carousel-nav {
-    width: 100%;
-    height: 90px;
-    margin-top: 10px;
+    width: 80vh;
+    height: 100px;
+    transform: rotate(90deg) translate(0, -100%);
+    transform-origin: left top;
 }
 
 .carousel-nav .carousel-cell {
     width: 100px;
-    height: 80px;
+    height: 100px;
     cursor: pointer;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     text-align: center;
     box-sizing: border-box;
     padding: 0.25em;
     place-content: center;
 }
 
-/* selected cell */
+.carousel-nav .carousel-cell span {
+    transform: rotate(-90deg);
+    display: block;
+}
+
 .carousel-nav .carousel-cell.is-nav-selected {
     background: var(--colour2);
     color: var(--bg);
 }
 
+.carousel-nav .flickity-prev-next-button.next {
+    right: -30px;
+}
+.carousel-nav .flickity-prev-next-button.previous {
+    left: -30px;
+}
+
 .flickity-prev-next-button {
-    width: 40px;
-    height: 40px;
+    /*width: 40px;*/
+    /*height: 40px;*/
     background: transparent;
 }
 
-.flickity-prev-next-button .previous {
-  left: -40px;
-}
-.flickity-prev-next-button .next {
-  right: -40px;
+.slider {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.carousel-nav .flickity-prev-next-button.next {
-  right: -30px;
+.slider .left {
+    max-width: 100px;
+    margin-right: 2%;
+    flex: 1 1 100%;
 }
-.carousel-nav .flickity-prev-next-button.previous {
-  left: -30px;
+
+.slider .right {
+    flex: 1 1 0;
 }
 
 .carousel-cell ul, .carousel-cell ol {
